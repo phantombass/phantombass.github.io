@@ -176,6 +176,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var hasType3Ability = defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
+    var hasTeraShell = defender.hasAbility('Tera Shell') || defender.hasAbility('Teraform Zero (AI)');
     var type3 = '???';
     if (hasType3Ability) {
         if ((defender.hasAbility('Haunted'))) {
@@ -209,6 +210,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
+    }
+    if (attacker.curHP == attacker.maxHP && hasTeraShell && typeEffectiveness != 0) {
+        typeEffectiveness = 0.5;
     }
     if (typeEffectiveness === 0) {
         return result;
@@ -390,6 +394,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.category === 'Physical' &&
         !attacker.hasAbility('Guts') &&
         !move.named('Facade');
+    desc.isBurned = applyBurn;
+    var applyFrostbite = attacker.hasStatus('frz') &&
+        move.category === 'Special';
     desc.isBurned = applyBurn;
     var finalMods = calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness);
     var protect = false;
