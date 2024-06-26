@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Pok&eacute;mon Damage Calculator</title>
-    <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?" />
-    <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="./css/dark-theme.css" id="dark-theme-styles">
+    <title>Pok&eacute;mon Grueling Gold Damage Calculator</title>
+    <link type="text/css" rel="stylesheet" href="./dist/js/vendor/select2/select2.css" />
+    <link type="text/css" rel="stylesheet" href="./dist/css/main.css?" />
+    <link type="text/css" rel="stylesheet" href="./dist/css/vendor/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="./dist/css/dark-theme.css" id="dark-theme-styles">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
     <script>
@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.2</span>
+        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.8</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -820,16 +820,16 @@
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
-					 <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
+                     <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Beads" id="beads" />
-						  <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
+                          <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Tablets" id="tablets" />
-						  <label class="btn btn-xxxwide btn-mid" for="tablets">Tablets of Ruin</label>
+                          <label class="btn btn-xxxwide btn-mid" for="tablets">Tablets of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Sword" id="sword" />
-						  <label class="btn btn-xxxwide btn-right" for="sword">Sword of Ruin</label>
+                          <label class="btn btn-xxxwide btn-right" for="sword">Sword of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Vessel" id="vessel" />
-						  <label class="btn btn-xxxwide btn-mid" for="vessel">Vessel of Ruin</label>
+                          <label class="btn btn-xxxwide btn-mid" for="vessel">Vessel of Ruin</label>
                 </div>
                 <hr class="gen-specific g6 g7 g8 g9" />
                 <div aria-labelledby="selectWeatherInstruction" role="radiogroup">
@@ -1507,7 +1507,7 @@
                             <option value="Burned">Burned</option>
                             <option value="Paralyzed">Paralyzed</option>
                             <option value="Asleep">Asleep</option>
-                            <option value="Frozen">Frozen</option>
+                            <option value="Frozen">Frostbitten</option>
                         </select>
                         <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
                             <option value="1">1/16</option>
@@ -1849,10 +1849,10 @@
     <script type="text/javascript">
         var linkExtension = '.template.html';
     </script>
-    <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
-    <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
-    <script type="text/javascript" src="./js/vendor/interact.min.js"></script>
+    <script type="text/javascript" src="./dist/js/vendor/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./dist/js/vendor/select2/select2.min.js"></script>
+    <script type="text/javascript" src="./dist/js/vendor/url-search-params-0.1.2.min.js"></script>
+    <script type="text/javascript" src="./dist/js/vendor/interact.min.js"></script>
     <script type="text/javascript">
         this.__createBinding = function(o, m, k) {
             o[k] = m[k];
@@ -1860,43 +1860,43 @@
         var calc = exports = {};
         function require() { return exports };
     </script>
-    <script type="text/javascript" src="./calc/util.js?"></script>
-    <script type="text/javascript" src="./calc/stats.js?"></script>
-    <script type="text/javascript" src="./calc/data/species.js?"></script>
-	<script type="text/javascript" src="./js/data/sets/gen9.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen8.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen7.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen6.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen5.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen4.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen3.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen2.js?"></script>
-    <script type="text/javascript" src="./js/data/sets/gen1.js?"></script>
-    <script type="text/javascript" src="./js/data/truck.js"></script>
-    <script type="text/javascript" src="./calc/data/types.js?"></script>
-    <script type="text/javascript" src="./calc/data/natures.js?"></script>
-    <script type="text/javascript" src="./calc/data/abilities.js?"></script>
-    <script type="text/javascript" src="./calc/data/moves.js?"></script>
-    <script type="text/javascript" src="./calc/data/items.js?"></script>
-    <script type="text/javascript" src="./calc/data/index.js?"></script>
-    <script type="text/javascript" src="./calc/move.js?"></script>
-    <script type="text/javascript" src="./calc/pokemon.js?"></script>
-    <script type="text/javascript" src="./calc/field.js?"></script>
-    <script type="text/javascript" src="./calc/items.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/util.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen789.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen56.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen4.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen3.js?"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen12.js?"></script>
-    <script type="text/javascript" src="./calc/calc.js?"></script>
-    <script type="text/javascript" src="./calc/desc.js?"></script>
-    <script type="text/javascript" src="./calc/result.js?"></script>
-    <script type="text/javascript" src="./calc/adaptable.js?"></script>
-    <script type="text/javascript" src="./calc/index.js?"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?"></script>
-    <script type="text/javascript" src="./js/index_randoms_controls.js?"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?"></script>
+    <script type="text/javascript" src="./dist/calc/util.js?"></script>
+    <script type="text/javascript" src="./dist/calc/stats.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/species.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen9.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen8.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen7.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen6.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen5.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen4.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen3.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen2.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/sets/gen1.js?"></script>
+    <script type="text/javascript" src="./dist/js/data/truck.js"></script>
+    <script type="text/javascript" src="./dist/calc/data/types.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/natures.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/abilities.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/moves.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/items.js?"></script>
+    <script type="text/javascript" src="./dist/calc/data/index.js?"></script>
+    <script type="text/javascript" src="./dist/calc/move.js?"></script>
+    <script type="text/javascript" src="./dist/calc/pokemon.js?"></script>
+    <script type="text/javascript" src="./dist/calc/field.js?"></script>
+    <script type="text/javascript" src="./dist/calc/items.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/util.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/gen789.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/gen56.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/gen4.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/gen3.js?"></script>
+    <script type="text/javascript" src="./dist/calc/mechanics/gen12.js?"></script>
+    <script type="text/javascript" src="./dist/calc/calc.js?"></script>
+    <script type="text/javascript" src="./dist/calc/desc.js?"></script>
+    <script type="text/javascript" src="./dist/calc/result.js?"></script>
+    <script type="text/javascript" src="./dist/calc/adaptable.js?"></script>
+    <script type="text/javascript" src="./dist/calc/index.js?"></script>
+    <script type="text/javascript" src="./dist/js/shared_controls.js?"></script>
+    <script type="text/javascript" src="./dist/js/index_randoms_controls.js?"></script>
+    <script type="text/javascript" src="./dist/js/moveset_import.js?"></script>
 </div>
 
 <div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Grueling Gold.
