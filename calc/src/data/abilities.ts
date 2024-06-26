@@ -338,9 +338,6 @@ const SV = SS.concat([
   'Wind Power',
   'Wind Rider',
   'Zero to Hero',
-]);
-
-const GG = SV.concat([
   'Haunted',
   'Splinter',
   'Dimension Shift',
@@ -384,9 +381,9 @@ const GG = SV.concat([
   'Impatient',
   'Slayer',
   'Echo Chamber',
-  ])
+]);
 
-export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV, GG];
+export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 
 export class Abilities implements I.Abilities {
   private readonly gen: I.GenerationNum;

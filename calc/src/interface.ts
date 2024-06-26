@@ -98,6 +98,7 @@ export interface MoveFlags {
   head?: 1|0;
   bone?: 1|0;
   kicking?: 1|0;
+  beam?: 1|0;
 }
 
 export interface SelfOrSecondaryEffect {
