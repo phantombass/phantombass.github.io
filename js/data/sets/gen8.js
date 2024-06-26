@@ -4,7 +4,8 @@ var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","mo
 "Rattata":{"Youngster Joey":{"level": 1,"ability":"Guts","moves":["Protect","Endeavor","Quick Attack"],"nature":"Bashful","item":"Focus Sash","index":3},},
 "Phanpy":{"Youngster Don":{"level": 14,"ability":"Pickup","moves":["Bulldoze","Ice Shard","Rapid Spin"],"nature":"Adamant","item":"Berry Juice","index":4},},
 "Taillow":{"Youngster Don":{"level": 14,"ability":"Scrappy","moves":["Quick Attack","Wing Attack"],"nature":"Adamant","item":"Silk Scarf","index":5},},
-"Roselia":{"Youngster Don":{"level": 15,"ability":"Poison Point","moves":["Mega Drain","Sludge","Hidden Power Rock"],"nature":"Timid","item":"Berry Juice","index":6},},///insert 2 trainers here
+"Roselia":{"Youngster Don":{"level": 15,"ability":"Poison Point","moves":["Mega Drain","Sludge","Hidden Power Rock"],"nature":"Timid","item":"Berry Juice","index":6},},
+///7-11 need to be new trainers from expert mode
 "Dustox":{"Bug Catcher Cale":{"level": 14,"ability":"Fever Pitch","moves":["Toxic Spikes","Venoshock","Roost","Struggle Bug"],"nature":"Timid","item":"Black Sludge","index":7},},
 "Dewpider":{"Bug Catcher Cale":{"level": 14,"ability":"Water Bubble","moves":["Bubble Beam","Struggle Bug","Icy Wind","Bite"],"nature":"Modest","item":"Mystic Water","index":8},},
 "Sizzlipede":{"Bug Catcher Cale":{"level": 15,"ability":"Flash Fire","moves":["Flame Wheel","Bug Bite","Bite"],"nature":"Adamant","item":"Berry Juice","index":9},},
@@ -33,10 +34,10 @@ var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","mo
 "Trumbeak":{"Bird Keeper Frank":{"level": 15,"ability":"Skill Link","moves":["Pluck","Rock Blast","Rock Smash"],"nature":"Adamant","item":"Berry Juice","index":33},},
 "Drifloon":{"Bird Keeper Fred":{"level": 15,"ability":"Flare Boost","moves":["Protect","Ominous Wind","Doldrums"],"nature":"Timid","item":"Flame Orb","index":34},},
 "Archen":{"Bird Keeper Fred":{"level": 15,"ability":"Defeatist","moves":["Rock Tomb","Pluck","Bulldoze"],"nature":"Jolly","item":"Berry Juice","index":35},},
-"Corviquire":{"Bird Keeper Fred":{"level": 15,"ability":"Unnerve","moves":["Fury Attack","Toxic","Roost","Protect"],"nature":"Jolly","item":"Berry Juice","index":36},},
-"Murkrow":{"Bird Keeper Fred":{"level": 15,"ability":"Prankster","moves":["Pursuit","Wing Attack","Toxic"],"nature":"Jolly","item":"Berry Juice","index":37},},
-"Noibat":{"Bird Keeper Fred":{"level": 15,"ability":"Punk Rock","moves":["Dragon Breath","Echoed Voice","Air Cutter"],"nature":"Timid","item":"Yache Berry","index":38},},
-"Squawkabilly":{"Bird Keeper Fred":{"level": 15,"ability":"Technician","moves":["Quick Attack","Pluck","Rock Smash"],"nature":"Jolly","item":"Silk Scarf","index":39},}
+"Corvisquire":{"Bird Keeper Fred":{"level": 15,"ability":"Unnerve","moves":["Fury Attack","Toxic","Roost","Protect"],"nature":"Jolly","item":"Berry Juice","index":36},},
+"Murkrow":{"Bird Keeper Franz":{"level": 15,"ability":"Prankster","moves":["Pursuit","Wing Attack","Toxic"],"nature":"Jolly","item":"Berry Juice","index":37},},
+"Noibat":{"Bird Keeper Franz":{"level": 15,"ability":"Punk Rock","moves":["Dragon Breath","Echoed Voice","Air Cutter"],"nature":"Timid","item":"Yache Berry","index":38},},
+"Squawkabilly":{"Bird Keeper Franz":{"level": 15,"ability":"Technician","moves":["Quick Attack","Pluck","Rock Smash"],"nature":"Jolly","item":"Silk Scarf","index":39},},
 "Staravia":{"Gym Leader Falkner":{"level": 15,"ability":"Intimidate","moves":["Wing Attack","Steel Wing","U-turn","Quick Attack"],"nature":"Adamant","item":"Berry Juice","index":40},},
 "Emolga":{"Gym Leader Falkner":{"level": 15,"ability":"Motor Drive","moves":["Shock Wave","Doldrums","Roost","Hidden Power Grass"],"nature":"Timid","item":"Berry Juice","index":41},},
 "Ducklett":{"Gym Leader Falkner":{"level": 15,"ability":"Adaptability","moves":["Bubble Beam","Doldrums","Hidden Power Ground","Icy Wind"],"nature":"Timid","item":"Wacan Berry","index":42},},
