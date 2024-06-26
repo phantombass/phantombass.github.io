@@ -1,4 +1,4 @@
-var SETDEX_SS = {"Abra":{"Rival Silver":{"level":14,"ability":"Magic Guard","moves":["Confusion","Hidden Power Fighting"],"nature":"Modest","item":"Oran Berry","index":1},},
-"Pawmo":{"Youngster Joey":{"level": 15 , "ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark"],"nature":"Jolly","Item":"Muscle Band","index": 2},},
-"Rattata":{"Youngster Joey":{"level":1,"ability":"Guts","moves":["Protect","Endeavor","Quick Attack"],"nature":"Bashful","item":"Focus Sash","index":3},},
-"Zubat":{"Rival Silver":{"level": 13,"ability":"Vampiric","moves":["Bite","Poison Fang","Wing Attack"],"nature":"Jolly","item":"Oran Berry","index":0},};
+var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","moves":["Confusion","Hidden Power Fighting"],"nature":"Modest","item":"Oran Berry","index":1},},
+"Pawmo":{"Youngster Joey":{"level": 15 , "ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark"],"nature":"Jolly","Item":"Muscle Band","index":2},},
+"Rattata":{"Youngster Joey":{"level": 1,"ability":"Guts","moves":["Protect","Endeavor","Quick Attack"],"nature":"Bashful","item":"Focus Sash","index":3},},
+"Zubat":{"Rival Silver":{"level": 13,"ability":"Vampiric","moves":["Bite","Poison Fang","Wing Attack"],"nature":"Jolly","item":"Oran Berry","index":0},}};
