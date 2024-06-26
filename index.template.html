@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.8</span>
+        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.10</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -58,7 +58,7 @@
             <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" />
             <input class="mode visually-hidden" type="radio" name="mode" id="randoms" />
         </span>
-        <button id="screen-calc">
+        <button id="screen-calc" hidden>
             put this calculation in a grabbable window
         </button>
     </div>
@@ -536,7 +536,7 @@
                     <div class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
                         <label for="itemL1">Item</label>
                         <select class="item terrain-trigger save-trigger calc-trigger" id="itemL1"></select>
-                        <button id="ball-item"><img src="https://raw.githubusercontent.com/msikma/pokesprite/master/items/key-item/berry-pouch.png" alt=""></button>
+                        
                     </div>
                     <div>
                         <label for="statusL1">Status</label>
@@ -1144,10 +1144,10 @@
                 </table>
             </fieldset>
         </div>
-        <div aria-label="Import team" role="region">
-            <fieldset class="note-button">
+        <div aria-label="Import team" role="region" hidden>
+            <fieldset class="note-button" hidden>
                 <legend align="center">Note</legend>
-                <button id="open-note">Open Notes</button>
+                <button id="open-note" hidden>Open Notes</button>
             </fieldset>
         </div>
         <div aria-label="Import team" role="region">
@@ -1730,7 +1730,7 @@
                 </div>
               </div>
         </div>
-        <div class="item-box-body">
+        <div class="item-box-body" hidden>
             <legend>Damage</legend>
             <div class="box-item-list">
                 <img class="ic save-trigger"src="https://raw.githubusercontent.com/msikma/pokesprite/master/items/hold-item/silk-scarf.png" data-id="Silk Scarf">
@@ -1894,9 +1894,9 @@
     <script type="text/javascript" src="./dist/calc/result.js?"></script>
     <script type="text/javascript" src="./dist/calc/adaptable.js?"></script>
     <script type="text/javascript" src="./dist/calc/index.js?"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?"></script>
-    <script type="text/javascript" src="./js/index_randoms_controls.js?"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?"></script>
+    <script type="text/javascript" src="./dist/js/shared_controls.js?"></script>
+    <script type="text/javascript" src="./dist/js/index_randoms_controls.js?"></script>
+    <script type="text/javascript" src="./dist/js/moveset_import.js?"></script>
 </div>
 
 <div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Grueling Gold.
@@ -1909,7 +1909,7 @@
     </ul>
     <div id="sets">
         <button type="button" id="dark-theme-toggle"></button>
-        <script type="text/javascript" src="./js/dark-theme-toggle.js?"></script>
+        <script type="text/javascript" src="./dist/js/dark-theme-toggle.js?"></script>
         <button id="side-arrow-toggle" data-id="true">Show Side Arrows</button>
         <button id="double-legacy-mode">Doubles Modern</button>
     </div>
