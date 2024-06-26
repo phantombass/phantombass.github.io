@@ -9220,8 +9220,6 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Tauros: {otherFormes: ['Tauros-Paldea', 'Tauros-Paldea-Fire', 'Tauros-Paldea-Water']},
   Wooper: {otherFormes: ['Wooper-Paldea']},
   Ursaluna: {otherFormes: ['Ursaluna-Bloodmoon']},
-  Chingling: {otherFormes: ['Chingling-Wartime']},
-  Chimecho: {otherFormes: ['Chimecho-Wartime','Chimecho-Wartime-Mega']},
 //  Zacian: {bs: {at: 120}},
 //  'Zacian-Crowned': {bs: {at: 150}},
 //  Zamazenta: {bs: {at: 120}},
@@ -10181,22 +10179,20 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     types: ['Fairy'],
     bs: {hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45},
     weightkg: 0.6,
-    abilities: {0: 'Levitate'},
-    baseSpecies: 'Chingling',
+    abilities: {0: 'Levitate'}
   },
   'Chimecho-Wartime': {
     types: ['Fairy','Steel'],
     bs: {hp: 95, at: 75, df: 90, sa: 105, sd: 100, sp: 85},
     weightkg: 1,
-    abilities: {0: 'Levitate'},
-    baseSpecies: 'Chimecho',
+    abilities: {0: 'Levitate'}
   },
   'Chimecho-Wartime-Mega': {
     types: ['Fairy','Steel'],
     bs: {hp: 95, at: 95, df: 120, sa: 125, sd: 120, sp: 95},
     weightkg: 1,
     abilities: {0: 'Levitate'},
-    baseSpecies: 'Chimecho',
+    baseSpecies: 'Chimecho-Wartime',
   },
 };
 
