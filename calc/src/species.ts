@@ -10186,6 +10186,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 95, at: 75, df: 90, sa: 105, sd: 100, sp: 85},
     weightkg: 1,
     abilities: {0: 'Levitate'},
+    otherFormes: ['Chimecho-Wartime-Mega'],
   },
   'Chimecho-Wartime-Mega': {
     types: ['Fairy','Steel'],

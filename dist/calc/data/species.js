@@ -10191,22 +10191,21 @@ var SV_PATCH = {
         types: ['Fairy'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
         weightkg: 0.6,
-        abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chingling'
+        abilities: { 0: 'Levitate' }
     },
     'Chimecho-Wartime': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 75, df: 90, sa: 105, sd: 100, sp: 85 },
         weightkg: 1,
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        otherFormes: ['Chimecho-Wartime-Mega']
     },
     'Chimecho-Wartime-Mega': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 95, df: 120, sa: 125, sd: 120, sp: 95 },
         weightkg: 1,
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        baseSpecies: 'Chimecho-Wartime'
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
