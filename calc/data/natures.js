@@ -44,7 +44,7 @@ var __read = (this && this.__read) || function (o, n) {
 };
 exports.__esModule = true;
 
-var util_1 = require("../util");
+var util_1 = require("../src/util");
 exports.NATURES = {
     Adamant: ['atk', 'spa'],
     Bashful: ['spa', 'spa'],

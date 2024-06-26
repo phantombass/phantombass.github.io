@@ -3535,6 +3535,7 @@ const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     zp: 160,
     maxPower: 130,
+    isBeam: true,
   },
   'Scorching Sands': {
     bp: 70,

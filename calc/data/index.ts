@@ -1,11 +1,11 @@
-import * as I from '../src/interface';
+import * as I from './interface';
 
-import {Abilities} from '../src/abilities';
-import {Items} from '../src/data/items';
-import {Moves} from '../src/moves';
-import {Species} from '../src/species';
-import {Types} from '../src/types';
-import {Natures} from '../src/natures';
+import {Abilities} from './abilities';
+import {Items} from './items';
+import {Moves} from './moves';
+import {Species} from './species';
+import {Types} from './types';
+import {Natures} from './natures';
 
 export const Generations: I.Generations = new (class {
   get(gen: I.GenerationNum) {

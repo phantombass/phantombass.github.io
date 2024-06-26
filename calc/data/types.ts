@@ -1,5 +1,5 @@
-import * as I from '../src/interface';
-import {toID, extend} from '../src/util';
+import * as I from './interface';
+import {toID, extend} from '../util';
 
 export type TypeChart = {
   [type in I.TypeName]?: {[type in I.TypeName]?: number};

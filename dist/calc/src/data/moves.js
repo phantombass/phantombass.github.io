@@ -3513,7 +3513,8 @@ var SS_PATCH = {
         type: 'Water',
         category: 'Special',
         zp: 160,
-        maxPower: 130
+        maxPower: 130,
+        isBeam: true
     },
     'Scorching Sands': {
         bp: 70,

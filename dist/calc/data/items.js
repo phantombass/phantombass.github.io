@@ -65,7 +65,7 @@ var __values = (this && this.__values) || function(o) {
 var e_1, _a, e_2, _b;
 exports.__esModule = true;
 
-var util_1 = require("../src/util");
+var util_1 = require("../util");
 var RBY = [];
 var GSC = [
     'Berry Juice',

@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.8</span>
+        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.9</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -58,7 +58,7 @@
             <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" />
             <input class="mode visually-hidden" type="radio" name="mode" id="randoms" />
         </span>
-        <button id="screen-calc">
+        <button id="screen-calc" hidden>
             put this calculation in a grabbable window
         </button>
     </div>
@@ -536,7 +536,7 @@
                     <div class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
                         <label for="itemL1">Item</label>
                         <select class="item terrain-trigger save-trigger calc-trigger" id="itemL1"></select>
-                        <button id="ball-item"><img src="https://raw.githubusercontent.com/msikma/pokesprite/master/items/key-item/berry-pouch.png" alt=""></button>
+                        
                     </div>
                     <div>
                         <label for="statusL1">Status</label>
@@ -820,16 +820,16 @@
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
-					 <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
+                     <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Beads" id="beads" />
-						  <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
+                          <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Tablets" id="tablets" />
-						  <label class="btn btn-xxxwide btn-mid" for="tablets">Tablets of Ruin</label>
+                          <label class="btn btn-xxxwide btn-mid" for="tablets">Tablets of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Sword" id="sword" />
-						  <label class="btn btn-xxxwide btn-right" for="sword">Sword of Ruin</label>
+                          <label class="btn btn-xxxwide btn-right" for="sword">Sword of Ruin</label>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Vessel" id="vessel" />
-						  <label class="btn btn-xxxwide btn-mid" for="vessel">Vessel of Ruin</label>
+                          <label class="btn btn-xxxwide btn-mid" for="vessel">Vessel of Ruin</label>
                 </div>
                 <hr class="gen-specific g6 g7 g8 g9" />
                 <div aria-labelledby="selectWeatherInstruction" role="radiogroup">
@@ -1144,10 +1144,10 @@
                 </table>
             </fieldset>
         </div>
-        <div aria-label="Import team" role="region">
-            <fieldset class="note-button">
+        <div aria-label="Import team" role="region" hidden>
+            <fieldset class="note-button" hidden>
                 <legend align="center">Note</legend>
-                <button id="open-note">Open Notes</button>
+                <button id="open-note" hidden>Open Notes</button>
             </fieldset>
         </div>
         <div aria-label="Import team" role="region">
@@ -1730,7 +1730,7 @@
                 </div>
               </div>
         </div>
-        <div class="item-box-body">
+        <div class="item-box-body" hidden>
             <legend>Damage</legend>
             <div class="box-item-list">
                 <img class="ic save-trigger"src="https://raw.githubusercontent.com/msikma/pokesprite/master/items/hold-item/silk-scarf.png" data-id="Silk Scarf">
@@ -1862,8 +1862,8 @@
     </script>
     <script type="text/javascript" src="./calc/util.js?8fa0c7ff"></script>
     <script type="text/javascript" src="./calc/stats.js?a9e37d1a"></script>
-    <script type="text/javascript" src="./calc/data/species.js?7cf71202"></script>
-	<script type="text/javascript" src="./js/data/sets/gen9.js?3d8cb383"></script>
+    <script type="text/javascript" src="./calc/data/species.js?1c5a17b4"></script>
+    <script type="text/javascript" src="./js/data/sets/gen9.js?3d8cb383"></script>
     <script type="text/javascript" src="./js/data/sets/gen8.js?38bbb728"></script>
     <script type="text/javascript" src="./js/data/sets/gen7.js?5f5ba850"></script>
     <script type="text/javascript" src="./js/data/sets/gen6.js?eaf8dc5f"></script>
@@ -1873,12 +1873,12 @@
     <script type="text/javascript" src="./js/data/sets/gen2.js?8534fa4a"></script>
     <script type="text/javascript" src="./js/data/sets/gen1.js?6b6723b2"></script>
     <script type="text/javascript" src="./js/data/truck.js"></script>
-    <script type="text/javascript" src="./calc/data/types.js?3c6e3a31"></script>
-    <script type="text/javascript" src="./calc/data/natures.js?a23fe358"></script>
-    <script type="text/javascript" src="./calc/data/abilities.js?0a034ddf"></script>
-    <script type="text/javascript" src="./calc/data/moves.js?098ba41b"></script>
-    <script type="text/javascript" src="./calc/data/items.js?72d1cbc0"></script>
-    <script type="text/javascript" src="./calc/data/index.js?4e7bc4bd"></script>
+    <script type="text/javascript" src="./calc/data/types.js?feda570f"></script>
+    <script type="text/javascript" src="./calc/data/natures.js?04f00dc5"></script>
+    <script type="text/javascript" src="./calc/data/abilities.js?5b506c7f"></script>
+    <script type="text/javascript" src="./calc/data/moves.js?c296efbd"></script>
+    <script type="text/javascript" src="./calc/data/items.js?bbe543a6"></script>
+    <script type="text/javascript" src="./calc/data/index.js?083d2bc9"></script>
     <script type="text/javascript" src="./calc/move.js?57ab9f0a"></script>
     <script type="text/javascript" src="./calc/pokemon.js?1cd9f7fb"></script>
     <script type="text/javascript" src="./calc/field.js?bbf04408"></script>

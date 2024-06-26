@@ -1,5 +1,5 @@
-import * as I from '../src/interface';
-import {toID} from '../src/util';
+import * as I from './interface';
+import {toID} from '../util';
 
 export const NATURES: {[name: string]: [I.StatID, I.StatID]} = {
   Adamant: ['atk', 'spa'],

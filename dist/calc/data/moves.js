@@ -40,7 +40,7 @@ var __values = (this && this.__values) || function(o) {
 var e_1, _a;
 exports.__esModule = true;
 
-var util_1 = require("../src/util");
+var util_1 = require("../util");
 var RBY = {
     '(No Move)': { bp: 0, category: 'Status', type: 'Normal' },
     Absorb: { bp: 40, type: 'Grass', drain: [1, 2] },
@@ -3513,7 +3513,8 @@ var SS_PATCH = {
         type: 'Water',
         category: 'Special',
         zp: 160,
-        maxPower: 130
+        maxPower: 130,
+        isBeam: true
     },
     'Scorching Sands': {
         bp: 70,

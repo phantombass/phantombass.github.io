@@ -1,5 +1,5 @@
-import * as I from '../src/interface';
-import {toID, DeepPartial, assignWithout, extend} from '../src/util';
+import * as I from '../data/interface';
+import {toID, DeepPartial, assignWithout, extend} from '../util';
 
 export interface MoveData {
   readonly name?: string;
@@ -3535,6 +3535,7 @@ const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     zp: 160,
     maxPower: 130,
+    isBeam: true,
   },
   'Scorching Sands': {
     bp: 70,
