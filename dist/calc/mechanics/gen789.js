@@ -211,7 +211,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
     }
-    if (attacker.curHP == attacker.maxHP && hasTeraShell && typeEffectiveness != 0) {
+    if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
         typeEffectiveness = 0.5;
     }
     if (typeEffectiveness === 0) {
@@ -397,7 +397,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     desc.isBurned = applyBurn;
     var applyFrostbite = attacker.hasStatus('frz') &&
         move.category === 'Special';
-    desc.isBurned = applyBurn;
+    desc.isFrostbite = applyFrostbite;
     var finalMods = calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness);
     var protect = false;
     if (field.defenderSide.isProtected &&
@@ -431,7 +431,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var damage = [];
     for (var i = 0; i < 16; i++) {
         damage[i] =
-            (0, util_mech_1.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod, protect);
+            (0, util_mech_1.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod, protect);
     }
     if (move.dropsStats && move.timesUsed > 1) {
         var simpleMultiplier = attacker.hasAbility('Simple') ? 2 : 1;
@@ -445,7 +445,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             damage = damage.map(function (affectedAmount) {
                 if (times) {
                     var newBaseDamage = (0, util_mech_1.getBaseDamage)(attacker.level, basePower, newAttack, defense);
-                    var newFinalDamage = (0, util_mech_1.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, stabMod, finalMod, protect);
+                    var newFinalDamage = (0, util_mech_1.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod, protect);
                     damageMultiplier++;
                     return affectedAmount + newFinalDamage;
                 }

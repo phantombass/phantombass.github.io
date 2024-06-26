@@ -256,7 +256,7 @@ export function calculateSMSSSV(
   const hasType3Ability = 
     defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
   const hasTeraShell =
-    defender.hasAbility('Tera Shell') || defender.hasAbility('Teraform Zero (AI)')
+    defender.hasAbility('Tera Shell') || defender.hasAbility('Teraform Zero (AI)');
   const type3 = '???'
   if (hasType3Ability) {
     if ((defender.hasAbility('Haunted'))) {
@@ -323,7 +323,7 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (attacker.curHP == attacker.maxHP && hasTeraShell && typeEffectiveness != 0) {
+  if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
     typeEffectiveness = 0.5;
   }
 
@@ -562,7 +562,7 @@ export function calculateSMSSSV(
   const applyFrostbite =
     attacker.hasStatus('frz') &&
     move.category === 'Special';
-  desc.isBurned = applyBurn;
+  desc.isFrostbite = applyFrostbite;
   const finalMods = calculateFinalModsSMSSSV(
     gen,
     attacker,
@@ -609,7 +609,7 @@ export function calculateSMSSSV(
   let damage = [];
   for (let i = 0; i < 16; i++) {
     damage[i] =
-      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod, protect);
+      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod, protect);
   }
 
   if (move.dropsStats && move.timesUsed! > 1) {
@@ -630,6 +630,7 @@ export function calculateSMSSSV(
             damageMultiplier,
             typeEffectiveness,
             applyBurn,
+            applyFrostbite,
             stabMod,
             finalMod,
             protect

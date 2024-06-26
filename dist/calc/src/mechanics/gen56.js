@@ -669,6 +669,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         !attacker.hasAbility('Guts') &&
         !(move.named('Facade') && gen.num === 6);
     desc.isBurned = applyBurn;
+    var applyFrostbite = attacker.hasStatus('frz') &&
+        move.category === 'Special';
+    desc.isFrostbite = applyFrostbite;
     var finalMods = [];
     if (field.defenderSide.isReflect && move.category === 'Physical' && !isCritical) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
@@ -740,7 +743,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var damage = [];
     for (var i = 0; i < 16; i++) {
         damage[i] =
-            (0, util_2.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod);
+            (0, util_2.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod);
     }
     if (move.dropsStats && (move.timesUsed || 0) > 1) {
         var simpleMultiplier = attacker.hasAbility('Simple') ? 2 : 1;
@@ -754,7 +757,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             damage = damage.map(function (affectedAmount) {
                 if (times) {
                     var newBaseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, newAttack, defense);
-                    var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, stabMod, finalMod);
+                    var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod);
                     damageMultiplier++;
                     return affectedAmount + newFinalDamage;
                 }

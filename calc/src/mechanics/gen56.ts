@@ -789,6 +789,10 @@ export function calculateBWXY(
     !attacker.hasAbility('Guts') &&
     !(move.named('Facade') && gen.num === 6);
   desc.isBurned = applyBurn;
+  const applyFrostbite =
+    attacker.hasStatus('frz') &&
+    move.category === 'Special';
+  desc.isFrostbite = applyFrostbite;
 
   const finalMods = [];
 
@@ -871,7 +875,7 @@ export function calculateBWXY(
   let damage: number[] = [];
   for (let i = 0; i < 16; i++) {
     damage[i] =
-      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod);
+      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod);
   }
 
   if (move.dropsStats && (move.timesUsed || 0) > 1) {
@@ -892,6 +896,7 @@ export function calculateBWXY(
             damageMultiplier,
             typeEffectiveness,
             applyBurn,
+            applyFrostbite,
             stabMod,
             finalMod
           );
