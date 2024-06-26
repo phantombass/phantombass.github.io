@@ -9231,8 +9231,6 @@ var PLA_PATCH = {
     Duraludon: { nfe: true },
     Tauros: { otherFormes: ['Tauros-Paldea', 'Tauros-Paldea-Fire', 'Tauros-Paldea-Water'] },
     Wooper: { otherFormes: ['Wooper-Paldea'] },
-    Chingling: { otherFormes: ['Chingling-Wartime'] },
-    Chimecho: { otherFormes: ['Chimecho-Wartime', 'Chimecho-Wartime-Mega'] },
     Annihilape: {
         types: ['Fighting', 'Ghost'],
         bs: { hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90 },
@@ -10188,22 +10186,20 @@ var PLA_PATCH = {
         types: ['Fairy'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
         weightkg: 0.6,
-        abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chingling'
+        abilities: { 0: 'Levitate' }
     },
     'Chimecho-Wartime': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 75, df: 90, sa: 105, sd: 100, sp: 85 },
         weightkg: 1,
-        abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        abilities: { 0: 'Levitate' }
     },
     'Chimecho-Wartime-Mega': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 95, df: 120, sa: 125, sd: 120, sp: 95 },
         weightkg: 1,
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        baseSpecies: 'Chimecho-Wartime'
     }
 };
 var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH, PLA_PATCH);
@@ -10219,8 +10215,6 @@ var SV_PATCH = {
     Tauros: { otherFormes: ['Tauros-Paldea', 'Tauros-Paldea-Fire', 'Tauros-Paldea-Water'] },
     Wooper: { otherFormes: ['Wooper-Paldea'] },
     Ursaluna: { otherFormes: ['Ursaluna-Bloodmoon'] },
-    Chingling: { otherFormes: ['Chingling-Wartime'] },
-    Chimecho: { otherFormes: ['Chimecho-Wartime', 'Chimecho-Wartime-Mega'] },
     Annihilape: {
         types: ['Fighting', 'Ghost'],
         bs: { hp: 110, at: 115, df: 80, sa: 50, sd: 90, sp: 90 },
@@ -11176,26 +11170,24 @@ var SV_PATCH = {
         types: ['Fairy'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
         weightkg: 0.6,
-        abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chingling'
+        abilities: { 0: 'Levitate' }
     },
     'Chimecho-Wartime': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 75, df: 90, sa: 105, sd: 100, sp: 85 },
         weightkg: 1,
-        abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        abilities: { 0: 'Levitate' }
     },
     'Chimecho-Wartime-Mega': {
         types: ['Fairy', 'Steel'],
         bs: { hp: 95, at: 95, df: 120, sa: 125, sd: 120, sp: 95 },
         weightkg: 1,
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Chimecho'
+        baseSpecies: 'Chimecho-Wartime'
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
-exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Species = (function () {
     function Species(gen) {
         this.gen = gen;
