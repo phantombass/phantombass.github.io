@@ -207,7 +207,7 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 120,
   },
   'Farfetch\u2019d': {
-    types: ['Normal', 'Flying'],
+    types: ['Fighting', 'Flying'],
     bs: {hp: 52, at: 65, df: 55, sp: 60, sl: 58},
     weightkg: 15,
   },

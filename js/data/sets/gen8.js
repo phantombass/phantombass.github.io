@@ -5,6 +5,7 @@ var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","mo
 "Phanpy":{"Youngster Don":{"level": 14,"ability":"Pickup","moves":["Bulldoze","Ice Shard","Rapid Spin"],"nature":"Adamant","item":"Berry Juice","index":4},},
 "Taillow":{"Youngster Don":{"level": 14,"ability":"Scrappy","moves":["Quick Attack","Wing Attack"],"nature":"Adamant","item":"Silk Scarf","index":5},},
 "Roselia":{"Youngster Don":{"level": 15,"ability":"Poison Point","moves":["Mega Drain","Sludge","Hidden Power Rock"],"nature":"Timid","item":"Berry Juice","index":6},},
+///7-11 need to be new trainers from expert mode
 "Dustox":{"Bug Catcher Cale":{"level": 14,"ability":"Fever Pitch","moves":["Toxic Spikes","Venoshock","Roost","Struggle Bug"],"nature":"Timid","item":"Black Sludge","index":12},},
 "Dewpider":{"Bug Catcher Cale":{"level": 14,"ability":"Water Bubble","moves":["Bubble Beam","Struggle Bug","Icy Wind","Bite"],"nature":"Modest","item":"Mystic Water","index":13},},
 "Sizzlipede":{"Bug Catcher Cale":{"level": 15,"ability":"Flash Fire","moves":["Flame Wheel","Bug Bite","Bite"],"nature":"Adamant","item":"Berry Juice","index":14},},
