@@ -386,7 +386,7 @@ const GG = SV.concat([
   'Echo Chamber',
   ])
 
-export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV, GG];
+export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];
 
 export class Abilities implements I.Abilities {
   private readonly gen: I.GenerationNum;

@@ -10208,7 +10208,7 @@ var SV_PATCH = {
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
-exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SV];
 var Species = (function () {
     function Species(gen) {
         this.gen = gen;

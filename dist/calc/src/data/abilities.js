@@ -414,7 +414,7 @@ var SV = SS.concat([
     'Slayer',
     'Echo Chamber',
 ]);
-exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SV];
 var Abilities = (function () {
     function Abilities(gen) {
         this.gen = gen;
