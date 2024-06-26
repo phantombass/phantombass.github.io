@@ -211,6 +211,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
     }
+    if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+        typeEffectiveness = 1;
+    }
     if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
         typeEffectiveness = 0.5;
     }

@@ -10040,7 +10040,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Toxic Chain'},
   },
   Fezandipiti: {
-    types: ['Poison', 'Fighting'],
+    types: ['Poison', 'Fairy'],
     bs: {hp: 88, at: 101, df: 92, sa: 85, sd: 125, sp: 99},
     weightkg: 30.1,
     gender: 'N',

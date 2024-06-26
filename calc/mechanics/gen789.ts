@@ -323,6 +323,10 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
+  if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+    typeEffectiveness = 1;
+  }
+
   if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
     typeEffectiveness = 0.5;
   }
