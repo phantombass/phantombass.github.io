@@ -1,4 +1,4 @@
-import * as I from './data/interface';
+import * as I from './src/data/interface';
 import { State } from './state';
 export declare class Move implements State.Move {
     gen: I.Generation;

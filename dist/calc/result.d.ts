@@ -1,5 +1,5 @@
 import { RawDesc } from './desc';
-import { Generation } from './data/interface';
+import { Generation } from './src/data/interface';
 import { Field } from './field';
 import { Move } from './move';
 import { Pokemon } from './pokemon';

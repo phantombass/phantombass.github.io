@@ -1,4 +1,4 @@
-import * as I from './data/interface';
+import * as I from './src/data/interface';
 export declare namespace State {
     interface Pokemon {
         name: I.SpeciesName;

@@ -1,4 +1,4 @@
-import * as I from '../data/interface';
+import * as I from '../src/data/interface';
 import { Pokemon, Move, Result } from '../index';
 import { State } from '../state';
 import { Field, Side } from '../field';

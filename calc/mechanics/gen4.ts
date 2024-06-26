@@ -1,10 +1,10 @@
-import {Generation, AbilityName} from '../data/interface';
-import {getItemBoostType, getNaturalGift, getFlingPower, getBerryResistType} from '../items';
-import {RawDesc} from '../desc';
-import {Field} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Result} from '../result';
+import {Generation, AbilityName} from '../src/interface';
+import {getItemBoostType, getNaturalGift, getFlingPower, getBerryResistType} from '../src/items';
+import {RawDesc} from '../src/desc';
+import {Field} from '../src/field';
+import {Move} from '../src/move';
+import {Pokemon} from '../src/pokemon';
+import {Result} from '../src/result';
 import {
   getModifiedStat,
   getEVDescriptionText,
@@ -17,7 +17,7 @@ import {
   checkDownload,
   countBoosts,
   handleFixedDamageMoves,
-} from './util';
+} from '../src/util_mech';
 
 export function calculateDPP(
   gen: Generation,

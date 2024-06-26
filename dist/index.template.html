@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Damage Calculator</span>
+        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.2</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -547,7 +547,7 @@
                             <option value="Burned">Burned</option>
                             <option value="Paralyzed">Paralyzed</option>
                             <option value="Asleep">Asleep</option>
-                            <option value="Frozen">Frozen</option>
+                            <option value="Frozen">Frostbitten</option>
                         </select>
                         <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
                             <option value="1">1/16</option>
@@ -568,7 +568,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="info-group gen-specific g9">
+                <div class="info-group gen-specific g8">
                     <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
                         <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with Salt Cure?</div>
                         <input aria-describedby="selectRevealInstruction" class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureL" />
@@ -820,7 +820,7 @@
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
-					 <div aria-labelledby="selectRuinInstruction" class="gen-specific g9 format-specific doubles" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
+					 <div aria-labelledby="selectRuinInstruction" class="gen-specific g8 format-specific doubles" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
                     <input class="visually-hidden calc-trigger" type="checkbox" name="ruin" value="Beads" id="beads" />
 						  <label class="btn btn-xxxwide btn-left" for="beads">Beads of Ruin</label>
@@ -846,7 +846,7 @@
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Hail" id="hail" />
                         <label class="btn btn-small btn-right" for="hail">Hail</label>
                     </div>
-                    <div class="gen-specific g9" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
+                    <div class="gen-specific g8" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="" id="clear" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear">None</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sun" id="sun" />
@@ -1179,7 +1179,7 @@
                         <select aria-label="Type 2" class="type2 terrain-trigger calc-trigger"></select>
                         <small class="right">(<a class="analysis links-lighten" target="_blank" href="">Smogon&nbsp;analysis</a>)</small>
                     </div>
-                    <div class="gen-specific g9">
+                    <div class="gen-specific g8">
                         <label>Tera Type</label>
                         <select class="teraType terrain-trigger calc-trigger"></select>
                         <input type="checkbox" title= "Has this Pok&eacute;mon terastalized?" class="teraToggle terrain-trigger calc-trigger">
@@ -1528,7 +1528,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="info-group gen-specific g9">
+                <div class="info-group gen-specific g8">
                     <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
                         <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with Salt Cure?</div>
                         <input aria-describedby="selectRevealInstruction" class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureR" />
@@ -1699,7 +1699,7 @@
                 <hr>
                 <button type="button" id="previous-trainer"> Previous Trainer</button>
                 <button type="button" id="next-trainer"> Next Trainer</button>
-                <button type="button" id="reset-trainer">Truck</button>
+                <button type="button" id="reset-trainer">Reset</button>
             </fieldset>
         </div>
     </div>
@@ -1899,7 +1899,7 @@
     <script type="text/javascript" src="./js/moveset_import.js?"></script>
 </div>
 
-<div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla
+<div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Grueling Gold.
     <ul>
         <li><a href="https://github.com/ForwardFeed/runbuncalc" class="links-lighten" target="_blank">Modification Repository</a></li>
         <br>
@@ -1912,8 +1912,6 @@
         <script type="text/javascript" src="./js/dark-theme-toggle.js?"></script>
         <button id="side-arrow-toggle" data-id="true">Show Side Arrows</button>
         <button id="double-legacy-mode">Doubles Modern</button>
-        <a href="runandbun_script_imports.lua" download="lua_script_for_export">Download Lua Script</a>
-        <a href="img/AI_flowchart_R&B.png" target="_blank" rel="noopener noreferrer">Flowchart of the AI</a>
     </div>
 </div>
 

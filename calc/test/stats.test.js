@@ -1,8 +1,8 @@
 "use strict";
 exports.__esModule = true;
-var data_1 = require("../data");
-var stats_1 = require("../stats");
-var util_1 = require("../mechanics/util");
+var data_1 = require("../src/data");
+var stats_1 = require("../src/stats");
+var util_1 = require("../src/util_mech");
 describe('Stats', function () {
     test('displayStat', function () {
         expect(stats_1.Stats.displayStat('hp')).toBe('HP');

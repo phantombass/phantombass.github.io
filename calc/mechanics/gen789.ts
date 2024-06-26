@@ -1,5 +1,5 @@
-import {Generation, AbilityName, StatID, Terrain} from '../data/interface';
-import {toID} from '../util';
+import {Generation, AbilityName, StatID, Terrain} from '../src/interface';
+import {toID} from '../src/util';
 import {
   getBerryResistType,
   getFlingPower,
@@ -8,12 +8,12 @@ import {
   getNaturalGift,
   getTechnoBlast,
   SEED_BOOSTED_STAT,
-} from '../items';
-import {RawDesc} from '../desc';
-import {Field} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Result} from '../result';
+} from '../src/items';
+import {RawDesc} from '../src/desc';
+import {Field} from '../src/field';
+import {Move} from '../src/move';
+import {Pokemon} from '../src/pokemon';
+import {Result} from '../src/result';
 import {
   chainMods,
   checkAirLock,
@@ -41,7 +41,7 @@ import {
   isGrounded,
   OF16, OF32,
   pokeRound,
-} from './util';
+} from '../src/util_mech';
 
 export function calculateSMSSSV(
   gen: Generation,
@@ -253,15 +253,16 @@ export function calculateSMSSSV(
     attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
   const isRingTarget =
     defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
-  const hasType3Ability = defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard')
+  const hasType3Ability = 
+    defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
+  const type3 = '???'
   if (hasType3Ability) {
     if ((defender.hasAbility('Haunted'))) {
-      type3 = 'Ghost'
+      const type3 = 'Ghost'
     } else if ((defender.hasAbility('Shadow Guard'))) {
-      type3 = 'Dark'
+      const type3 = 'Dark'
     }
-    }
-  }
+  };
   const type1Effectiveness = getMoveEffectiveness(
     gen,
     move,
@@ -572,7 +573,7 @@ export function calculateSMSSSV(
     child.ability = 'Parental Bond (Child)' as AbilityName;
     checkMultihitBoost(gen, child, defender, move, field, desc);
     childDamage = calculateSMSSSV(gen, child, defender, move, field).damage as number[];
-    desc.attackerAbility = attacker.ability;
+    desc.attackerAbility = child.ability;
   }
   if (attacker.hasAbility('Echo Chamber') && move.flags.sound && move.category != 'Status' && move.hits === 1 && !isSpread) {
     const child = attacker.clone();

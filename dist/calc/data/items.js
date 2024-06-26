@@ -65,7 +65,7 @@ var __values = (this && this.__values) || function(o) {
 var e_1, _a, e_2, _b;
 exports.__esModule = true;
 
-var util_1 = require("../util");
+var util_1 = require("../src/util");
 var RBY = [];
 var GSC = [
     'Berry Juice',
@@ -400,7 +400,37 @@ exports.MEGA_STONES = {
     Steelixite: 'Steelix',
     Swampertite: 'Swampert',
     Tyranitarite: 'Tyranitar',
-    Venusaurite: 'Venusaur'
+    Venusaurite: 'Venusaur',
+    Chimechonite: 'Chimecho',
+    Torterranite: 'Torterra',
+    Infernite: 'Infernape',
+    Empoleonite: 'Empoleon',
+    Chatotite: 'Chatot',
+    Corvite: 'Corviknight',
+    Beheeyemite: 'Beheeyem',
+    Rillaboomite: 'Rillaboom',
+    Cinderite: 'Cinderace',
+    Inteleonite: 'Inteleon',
+    Archaludonite: 'Archaludon',
+    Kinglerite: 'Kingler',
+    Sandacondanite: 'Sandaconda',
+    Coalossalite: 'Coalossal',
+    Centiskorchite: 'Centiskorch',
+    Grimmsnarlite: 'Grimmsnarl',
+    Hatterenite: 'Hatterene',
+    Laprasite: 'Lapras',
+    Butterfrenite: 'Butterfree',
+    Snorlite: 'Snorlax',
+    Machampite: 'Machamp',
+    Drednawite: 'Drednaw',
+    Toxtricitite: 'Toxtricity',
+    Orbeetlite: 'Orbeetle',
+    Garbodorite: 'Garbodor',
+    Copperajite: 'Copperajah',
+    Alcremite: 'Alcremie',
+    Arbokinite: 'Arbok',
+    Unownite: 'Unown',
+    Eternatite: 'Eternatus'
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES)), false), [
     'Assault Vest',
@@ -532,6 +562,15 @@ var SV = SS.concat([
     'Griseous Core',
     'Strange Ball',
 ]);
+var GG = SV.concat([
+    'Mithril Shield',
+    'Focus Policy',
+    'Sheath',
+    'Mjolnir',
+    'Alternate Stone',
+    'Link Stone',
+    'Pixie Dust',
+]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },
     'Apicot Berry': { t: 'Ground', p: 100 },
@@ -611,7 +650,7 @@ var BERRIES = {
     'Wiki Berry': { t: 'Rock', p: 80 },
     'Yache Berry': { t: 'Ice', p: 80 }
 };
-exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV, GG];
 var Items = (function () {
     function Items(gen) {
         this.gen = gen;

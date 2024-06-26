@@ -1,4 +1,4 @@
-import * as I from '../data/interface';
+import * as I from '../src/data/interface';
 import * as D from '@pkmn/dex';
 export declare function toID(s: string): I.ID;
 export declare class Generations implements I.Generations {

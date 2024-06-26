@@ -1,4 +1,4 @@
-import { Generation, TypeName, StatID } from './data/interface';
+import { Generation, TypeName, StatID } from './src/data/interface';
 export declare const SEED_BOOSTED_STAT: {
     [item: string]: StatID;
 };

@@ -1,4 +1,4 @@
-import { Generation, Weather, Terrain, TypeName } from './data/interface';
+import { Generation, Weather, Terrain, TypeName } from './src/data/interface';
 import { Field } from './field';
 import { Move } from './move';
 import { Pokemon } from './pokemon';

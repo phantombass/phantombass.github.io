@@ -37,8 +37,8 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 };
 exports.__esModule = true;
 
-var util_1 = require("../util");
-var stats_1 = require("../stats");
+var util_1 = require("../src/util");
+var stats_1 = require("../src/stats");
 var EV_ITEMS = [
     'Macho Brace',
     'Power Anklet',
@@ -140,7 +140,9 @@ function getFinalSpeed(gen, pokemon, field, side) {
         (pokemon.hasAbility('Sand Rush') && weather === 'Sand') ||
         (pokemon.hasAbility('Swift Swim') && weather.includes('Rain')) ||
         (pokemon.hasAbility('Slush Rush') && ['Hail', 'Snow'].includes(weather)) ||
-        (pokemon.hasAbility('Surge Surfer') && terrain === 'Electric')) {
+        (pokemon.hasAbility('Surge Surfer') && terrain === 'Electric') ||
+        (pokemon.hasAbility('Meadow Rush') && terrain === 'Grassy') ||
+        (pokemon.hasAbility('Brain Blast') && terrain === 'Psychic')) {
         speedMods.push(8192);
     }
     else if (pokemon.hasAbility('Quick Feet') && pokemon.status) {
@@ -181,6 +183,12 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         return 1;
     }
     else if (move.named('Freeze-Dry') && type === 'Water') {
+        return 2;
+    }
+    else if (move.named('Scald') && type === 'Ice') {
+        return 2;
+    }
+    else if (move.named('Polarity Pulse') && type === 'Electric') {
         return 2;
     }
     else if (move.named('Flying Press')) {

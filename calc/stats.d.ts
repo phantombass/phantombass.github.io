@@ -1,4 +1,4 @@
-import { Natures, Generation, TypeName, StatID, StatsTable } from './data/interface';
+import { Natures, Generation, TypeName, StatID, StatsTable } from './src/data/interface';
 export declare const STATS: Array<Array<StatID | 'spc'> | StatID[]>;
 type HPTypeName = Exclude<TypeName, 'Normal' | 'Fairy' | '???'>;
 export declare const Stats: {

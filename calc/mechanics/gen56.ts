@@ -1,17 +1,17 @@
-﻿import {Generation, AbilityName} from '../data/interface';
-import {toID} from '../util';
+﻿import {Generation, AbilityName} from '../src/interface';
+import {toID} from '../src/util';
 import {
   getItemBoostType,
   getNaturalGift,
   getFlingPower,
   getBerryResistType,
   getTechnoBlast,
-} from '../items';
-import {RawDesc} from '../desc';
-import {Field} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Result} from '../result';
+} from '../src/items';
+import {RawDesc} from '../src/desc';
+import {Field} from '../src/field';
+import {Move} from '../src/move';
+import {Pokemon} from '../src/pokemon';
+import {Result} from '../src/result';
 import {
   chainMods,
   checkAirLock,
@@ -35,7 +35,7 @@ import {
   isGrounded,
   OF16, OF32,
   pokeRound,
-} from './util';
+} from '../src/util_mech';
 
 export function calculateBWXY(
   gen: Generation,

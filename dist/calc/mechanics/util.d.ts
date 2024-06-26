@@ -1,8 +1,8 @@
-import { Generation, MoveCategory, NatureName, StatID, StatsTable, TypeName, Weather } from '../data/interface';
-import { Field, Side } from '../field';
-import { Move } from '../move';
-import { Pokemon } from '../pokemon';
-import { RawDesc } from '../desc';
+import { Generation, MoveCategory, NatureName, StatID, StatsTable, TypeName, Weather } from '../src/interface';
+import { Field, Side } from '../src/field';
+import { Move } from '../src/move';
+import { Pokemon } from '../src/pokemon';
+import { RawDesc } from '../src/desc';
 export declare function isGrounded(pokemon: Pokemon, field: Field): boolean;
 export declare function getModifiedStat(stat: number, mod: number, gen?: Generation): number;
 export declare function computeFinalStats(gen: Generation, attacker: Pokemon, defender: Pokemon, field: Field, ...stats: StatID[]): void;

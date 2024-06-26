@@ -9,13 +9,13 @@ import {
   Terrain,
   TypeName,
   Weather,
-} from '../data/interface';
-import {toID} from '../util';
-import {Field, Side} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Stats} from '../stats';
-import {RawDesc} from '../desc';
+} from '../src/interface';
+import {toID} from '../src/util';
+import {Field, Side} from '../src/field';
+import {Move} from '../src/move';
+import {Pokemon} from '../src/pokemon';
+import {Stats} from '../src/stats';
+import {RawDesc} from '../src/desc';
 
 const EV_ITEMS = [
   'Macho Brace',

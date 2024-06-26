@@ -1,11 +1,11 @@
-import {Generation} from '../data/interface';
-import {getItemBoostType} from '../items';
-import {RawDesc} from '../desc';
-import {Field} from '../field';
-import {Move} from '../move';
-import {Pokemon} from '../pokemon';
-import {Result} from '../result';
-import {computeFinalStats, getMoveEffectiveness, handleFixedDamageMoves} from './util';
+import {Generation} from '../src/interface';
+import {getItemBoostType} from '../src/items';
+import {RawDesc} from '../src/desc';
+import {Field} from '../src/field';
+import {Move} from '../src/move';
+import {Pokemon} from '../src/pokemon';
+import {Result} from '../src/result';
+import {computeFinalStats, getMoveEffectiveness, handleFixedDamageMoves} from '../src/util_mech';
 
 export function calculateRBYGSC(
   gen: Generation,

@@ -1,5 +1,5 @@
 import { State } from './state';
-import * as I from './data/interface';
+import * as I from './src/interface';
 import * as A from './adaptable';
 export declare function calculate(gen: I.GenerationNum | I.Generation, attacker: A.Pokemon, defender: A.Pokemon, move: A.Move, field?: A.Field): A.Result;
 export declare class Move extends A.Move {
@@ -29,16 +29,16 @@ export declare class Pokemon extends A.Pokemon {
     static getForme(gen: I.GenerationNum | I.Generation, speciesName: string, item?: string, moveName?: string): string;
 }
 export declare function calcStat(gen: I.GenerationNum | I.Generation, stat: I.StatID | 'spc', base: number, iv: number, ev: number, level: number, nature?: string): number;
-export { Field, Side } from './field';
-export { Result } from './result';
-export { GenerationNum, StatsTable, StatID } from './data/interface';
-export { Generations } from './data/index';
-export { toID } from './util';
-export { State } from './state';
-export { ABILITIES } from './data/abilities';
-export { ITEMS, MEGA_STONES } from './data/items';
-export { MOVES } from './data/moves';
-export { SPECIES } from './data/species';
-export { NATURES } from './data/natures';
-export { TYPE_CHART } from './data/types';
-export { STATS, Stats } from './stats';
+export { Field, Side } from './src/field';
+export { Result } from './src/result';
+export { GenerationNum, StatsTable, StatID } from './src/data/interface';
+export { Generations } from './src/data/index';
+export { toID } from './src/util';
+export { State } from './src/state';
+export { ABILITIES } from './src/data/abilities';
+export { ITEMS, MEGA_STONES } from './src/data/items';
+export { MOVES } from './src/data/moves';
+export { SPECIES } from './src/data/species';
+export { NATURES } from './src/data/natures';
+export { TYPE_CHART } from './src/data/types';
+export { STATS, Stats } from './src/stats';

@@ -1,4 +1,4 @@
-import * as I from './interface';
+import * as I from '../src/interface';
 export declare const NATURES: {
     [name: string]: [I.StatID, I.StatID];
 };

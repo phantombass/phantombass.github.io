@@ -26,18 +26,18 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 };
 exports.__esModule = true;
 
-var items_1 = require("../items");
-var result_1 = require("../result");
-var util_1 = require("./util");
+var items_1 = require("../src/items");
+var result_1 = require("../src/result");
+var util_mech_1 = require("../src/util_mech");
 function calculateADV(gen, attacker, defender, move, field) {
-    (0, util_1.checkAirLock)(attacker, field);
-    (0, util_1.checkAirLock)(defender, field);
-    (0, util_1.checkForecast)(attacker, field.weather);
-    (0, util_1.checkForecast)(defender, field.weather);
-    (0, util_1.checkIntimidate)(gen, attacker, defender);
-    (0, util_1.checkIntimidate)(gen, defender, attacker);
-    attacker.stats.spe = (0, util_1.getFinalSpeed)(gen, attacker, field, field.attackerSide);
-    defender.stats.spe = (0, util_1.getFinalSpeed)(gen, defender, field, field.defenderSide);
+    (0, util_mech_1.checkAirLock)(attacker, field);
+    (0, util_mech_1.checkAirLock)(defender, field);
+    (0, util_mech_1.checkForecast)(attacker, field.weather);
+    (0, util_mech_1.checkForecast)(defender, field.weather);
+    (0, util_mech_1.checkIntimidate)(gen, attacker, defender);
+    (0, util_mech_1.checkIntimidate)(gen, defender, attacker);
+    attacker.stats.spe = (0, util_mech_1.getFinalSpeed)(gen, attacker, field, field.attackerSide);
+    defender.stats.spe = (0, util_mech_1.getFinalSpeed)(gen, defender, field, field.defenderSide);
     var desc = {
         attackerName: attacker.name,
         moveName: move.name,
@@ -63,9 +63,9 @@ function calculateADV(gen, attacker, defender, move, field) {
         desc.moveType = move.type;
         desc.moveBP = move.bp;
     }
-    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, defender.types[0], field.defenderSide.isForesight);
+    var type1Effectiveness = (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[0], field.defenderSide.isForesight);
     var type2Effectiveness = defender.types[1]
-        ? (0, util_1.getMoveEffectiveness)(gen, move, defender.types[1], field.defenderSide.isForesight)
+        ? (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[1], field.defenderSide.isForesight)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
     if (typeEffectiveness === 0) {
@@ -81,7 +81,7 @@ function calculateADV(gen, attacker, defender, move, field) {
         return result;
     }
     desc.HPEVs = "".concat(defender.evs.hp, " HP");
-    var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move, defender);
+    var fixedDamage = (0, util_mech_1.handleFixedDamageMoves)(attacker, move, defender);
     if (fixedDamage) {
         result.damage = fixedDamage;
         return result;
@@ -126,9 +126,9 @@ function calculateADV(gen, attacker, defender, move, field) {
     }
     var isPhysical = move.category === 'Physical';
     var attackStat = isPhysical ? 'atk' : 'spa';
-    desc.attackEVs = (0, util_1.getEVDescriptionText)(gen, attacker, attackStat, attacker.nature);
+    desc.attackEVs = (0, util_mech_1.getEVDescriptionText)(gen, attacker, attackStat, attacker.nature);
     var defenseStat = isPhysical ? 'def' : 'spd';
-    desc.defenseEVs = (0, util_1.getEVDescriptionText)(gen, defender, defenseStat, defender.nature);
+    desc.defenseEVs = (0, util_mech_1.getEVDescriptionText)(gen, defender, defenseStat, defender.nature);
     var at = attacker.rawStats[attackStat];
     var df = defender.rawStats[defenseStat];
     if (isPhysical && attacker.hasAbility('Huge Power', 'Pure Power')) {
@@ -192,11 +192,11 @@ function calculateADV(gen, attacker, defender, move, field) {
     var attackBoost = attacker.boosts[attackStat];
     var defenseBoost = defender.boosts[defenseStat];
     if (attackBoost > 0 || (!isCritical && attackBoost < 0)) {
-        at = (0, util_1.getModifiedStat)(at, attackBoost);
+        at = (0, util_mech_1.getModifiedStat)(at, attackBoost);
         desc.attackBoost = attackBoost;
     }
     if (defenseBoost < 0 || (!isCritical && defenseBoost > 0)) {
-        df = (0, util_1.getModifiedStat)(df, defenseBoost);
+        df = (0, util_mech_1.getModifiedStat)(df, defenseBoost);
         desc.defenseBoost = defenseBoost;
     }
     var lv = attacker.level;

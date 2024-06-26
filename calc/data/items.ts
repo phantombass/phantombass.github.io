@@ -1,5 +1,5 @@
-import * as I from './interface';
-import {toID} from '../util';
+import * as I from '../src/interface';
+import {toID} from '../src/util';
 
 const RBY: string[] = [];
 

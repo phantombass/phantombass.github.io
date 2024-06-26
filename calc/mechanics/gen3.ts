@@ -1,10 +1,10 @@
-import {Generation} from '../data/interface';
-import {getItemBoostType} from '../items';
-import {RawDesc} from '../desc';
-import {Pokemon} from '../pokemon';
-import {Move} from '../move';
-import {Field} from '../field';
-import {Result} from '../result';
+import {Generation} from '../src/interface';
+import {getItemBoostType} from '../src/items';
+import {RawDesc} from '../src/desc';
+import {Pokemon} from '../src/pokemon';
+import {Move} from '../src/move';
+import {Field} from '../src/field';
+import {Result} from '../src/result';
 import {
   getModifiedStat,
   getEVDescriptionText,
@@ -14,7 +14,7 @@ import {
   checkForecast,
   checkIntimidate,
   handleFixedDamageMoves,
-} from './util';
+} from '../src/util_mech';
 
 export function calculateADV(
   gen: Generation,

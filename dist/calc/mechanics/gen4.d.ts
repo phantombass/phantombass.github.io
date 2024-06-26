@@ -1,6 +1,6 @@
-import { Generation } from '../data/interface';
-import { Field } from '../field';
-import { Move } from '../move';
-import { Pokemon } from '../pokemon';
-import { Result } from '../result';
+import { Generation } from '../src/interface';
+import { Field } from '../src/field';
+import { Move } from '../src/move';
+import { Pokemon } from '../src/pokemon';
+import { Result } from '../src/result';
 export declare function calculateDPP(gen: Generation, attacker: Pokemon, defender: Pokemon, move: Move, field: Field): Result;

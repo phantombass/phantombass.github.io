@@ -1,4 +1,4 @@
-import * as I from '../data/interface';
+import * as I from '../src/interface';
 export interface MoveData {
     readonly name?: string;
     readonly type: I.TypeName;
@@ -28,11 +28,17 @@ export interface MoveData {
     readonly makesContact?: boolean;
     readonly isPunch?: boolean;
     readonly isBite?: boolean;
+    readonly isHeal?: boolean;
     readonly isBullet?: boolean;
     readonly isSound?: boolean;
     readonly isPulse?: boolean;
     readonly isSlicing?: boolean;
     readonly isWind?: boolean;
+    readonly isHammer?: boolean;
+    readonly isHead?: boolean;
+    readonly isBone?: boolean;
+    readonly isBeam?: boolean;
+    readonly isKicking?: boolean;
 }
 export declare const MOVES: {
     [name: string]: MoveData;

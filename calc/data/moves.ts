@@ -1,5 +1,5 @@
-import * as I from '../data/interface';
-import {toID, DeepPartial, assignWithout, extend} from '../util';
+import * as I from '../src/interface';
+import {toID, DeepPartial, assignWithout, extend} from '../src/util';
 
 export interface MoveData {
   readonly name?: string;
@@ -35,11 +35,16 @@ export interface MoveData {
   readonly makesContact?: boolean;
   readonly isPunch?: boolean;
   readonly isBite?: boolean;
+  readonly isHeal?: boolean;
   readonly isBullet?: boolean;
   readonly isSound?: boolean;
   readonly isPulse?: boolean;
   readonly isSlicing?: boolean;
   readonly isWind?: boolean;
+  readonly isHammer?: boolean;
+  readonly isHead?: boolean;
+  readonly isBone?: boolean;
+  readonly isKicking?: boolean;
 }
 
 const RBY: {[name: string]: MoveData} = {
@@ -4181,7 +4186,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Sacred Sword': {isSlicing: true},
   Sandstorm: {isWind: true},
   'Secret Sword': {isSlicing: true},
-  'Shadow Claw': {isSlicing: true}
+  'Shadow Claw': {isSlicing: true},
   Slash: {isSlicing: true},
   'Solar Blade': {isSlicing: true},
   Tailwind: {isWind: true},
@@ -4825,6 +4830,7 @@ class Move implements I.Move {
     'isPunch',
     'isBite',
     'isBullet',
+    'isHeal',
     'isSound',
     'isPulse',
     'zp',
@@ -4848,12 +4854,13 @@ class Move implements I.Move {
     if (data.isPunch) this.flags.punch = 1;
     if (data.isBite) this.flags.bite = 1;
     if (data.isBullet) this.flags.bullet = 1;
+    if (data.isHeal) this.flags.heal = 1;
     if (data.isSound) this.flags.sound = 1;
     if (data.isPulse) this.flags.pulse = 1;
     if (data.isSlicing) this.flags.slicing = 1;
     if (data.isWind) this.flags.wind = 1;
     if (data.isHammer) this.flags.hammer = 1;
-    if (data.isKicking) this.flags.kick = 1;
+    if (data.isKicking) this.flags.kicking = 1;
     if (data.isHead) this.flags.head = 1;
     if (data.isBone) this.flags.bone = 1;
 

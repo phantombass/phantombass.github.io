@@ -1,4 +1,4 @@
-import * as I from './interface';
+import * as I from '../src/interface';
 export declare const MEGA_STONES: {
     [species: string]: string;
 };

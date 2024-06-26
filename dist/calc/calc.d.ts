@@ -1,5 +1,5 @@
 import { Field } from './field';
-import { Generation } from './data/interface';
+import { Generation } from './src/data/interface';
 import { Move } from './move';
 import { Pokemon } from './pokemon';
 import { Result } from './result';

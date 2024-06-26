@@ -1,5 +1,5 @@
-﻿import * as I from './interface';
-import {toID, extend, DeepPartial, assignWithout} from '../util';
+﻿import * as I from '../src/interface';
+import {toID, extend, DeepPartial, assignWithout} from '../src/util';
 
 export interface SpeciesData {
   readonly types: [I.TypeName] | [I.TypeName, I.TypeName];
@@ -5125,7 +5125,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Staraptor: {bs: {sd: 60}},
   Steelix: {otherFormes: ['Steelix-Mega']},
   Stoutland: {bs: {at: 110}},
-  Swalot: {types: ['Poison','Fairy']}
+  Swalot: {types: ['Poison','Fairy']},
   Swampert: {otherFormes: ['Swampert-Mega']},
   Togekiss: {types: ['Fairy', 'Flying']},
   Togepi: {types: ['Fairy']},
@@ -9220,8 +9220,8 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Tauros: {otherFormes: ['Tauros-Paldea', 'Tauros-Paldea-Fire', 'Tauros-Paldea-Water']},
   Wooper: {otherFormes: ['Wooper-Paldea']},
   Ursaluna: {otherFormes: ['Ursaluna-Bloodmoon']},
-  Chingling: {otherFormes: {'Chingling-Wartime'}},
-  Chimecho: {otherFormes: ['Chimecho-Wartime','Chimecho-Wartime-Mega']}
+  Chingling: {otherFormes: ['Chingling-Wartime']},
+  Chimecho: {otherFormes: ['Chimecho-Wartime','Chimecho-Wartime-Mega']},
 //  Zacian: {bs: {at: 120}},
 //  'Zacian-Crowned': {bs: {at: 150}},
 //  Zamazenta: {bs: {at: 120}},
@@ -10053,8 +10053,8 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90},
     weightkg: 92,
     gender: 'N',
-    abilities: {0: 'Toxic Chain'},
-    otherFormes: {'Ogerpon-Teal','Ogerpon-Wellspring','Ogerpon-Hearthflame','Ogerpon-Cornerstone'}
+    abilities: {0: 'Defiant'},
+    otherFormes: ['Ogerpon-Teal', 'Ogerpon-Wellspring', 'Ogerpon-Hearthflame', 'Ogerpon-Cornerstone'],
   },
   'Ogerpon-Teal': {
     types: ['Grass'],
@@ -10062,7 +10062,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 92,
     gender: 'N',
     abilities: {0: 'Embody Aspect (Teal)'},
-    baseSpecies: {'Ogerpon'}
+    baseSpecies: 'Ogerpon',
   },
   'Ogerpon-Wellspring': {
     types: ['Grass','Water'],
@@ -10070,7 +10070,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 92,
     gender: 'N',
     abilities: {0: 'Embody Aspect (Wellspring)'},
-    baseSpecies: {'Ogerpon'}
+    baseSpecies: 'Ogerpon',
   },
   'Ogerpon-Hearthflame': {
     types: ['Grass','Fire'],
@@ -10078,7 +10078,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 92,
     gender: 'N',
     abilities: {0: 'Embody Aspect (Hearthflame)'},
-    baseSpecies: {'Ogerpon'}
+    baseSpecies: 'Ogerpon',
   },
   'Ogerpon-Cornerstone': {
     types: ['Grass','Rock'],
@@ -10086,7 +10086,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 92,
     gender: 'N',
     abilities: {0: 'Embody Aspect (Cornerstone)'},
-    baseSpecies: {'Ogerpon'}
+    baseSpecies: 'Ogerpon',
   },
   Archaludon: {
     types: ['Steel', 'Dragon'],
@@ -10094,7 +10094,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 60,
     gender: 'N',
     abilities: {0: 'Stamina'},
-    otherFormes: {'Archaludon-Mega'},
+    otherFormes: ['Archaludon-Mega'],
   },
   'Archaludon-Mega': {
     types: ['Steel', 'Dragon'],
@@ -10144,7 +10144,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 6.5,
     gender: 'N',
     abilities: {0: 'Tera Shift'},
-    otherFormes: {'Terapagos-Terastal','Terapagos-Stellar'},
+    otherFormes: ['Terapagos-Terastal','Terapagos-Stellar'],
   },
   'Terapagos-Terastal': {
     types: ['Normal'],
@@ -10196,7 +10196,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 95, at: 95, df: 120, sa: 125, sd: 120, sp: 95},
     weightkg: 1,
     abilities: {0: 'Levitate'},
-    baseSpecies: 'Chimecho'
+    baseSpecies: 'Chimecho',
   },
 };
 

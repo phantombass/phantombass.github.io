@@ -26,11 +26,11 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 };
 exports.__esModule = true;
 
-var items_1 = require("../items");
-var result_1 = require("../result");
-var util_1 = require("./util");
+var items_1 = require("../src/items");
+var result_1 = require("../src/result");
+var util_mech_1 = require("../src/util_mech");
 function calculateRBYGSC(gen, attacker, defender, move, field) {
-    (0, util_1.computeFinalStats)(gen, attacker, defender, field, 'atk', 'def', 'spa', 'spd', 'spe');
+    (0, util_mech_1.computeFinalStats)(gen, attacker, defender, field, 'atk', 'def', 'spa', 'spd', 'spe');
     var desc = {
         attackerName: attacker.name,
         moveName: move.name,
@@ -45,22 +45,22 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         return result;
     }
     if (gen.num === 1) {
-        var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move, defender);
+        var fixedDamage = (0, util_mech_1.handleFixedDamageMoves)(attacker, move, defender);
         if (fixedDamage) {
             result.damage = fixedDamage;
             return result;
         }
     }
-    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, defender.types[0], field.defenderSide.isForesight);
+    var type1Effectiveness = (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[0], field.defenderSide.isForesight);
     var type2Effectiveness = defender.types[1]
-        ? (0, util_1.getMoveEffectiveness)(gen, move, defender.types[1], field.defenderSide.isForesight)
+        ? (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[1], field.defenderSide.isForesight)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
     if (typeEffectiveness === 0) {
         return result;
     }
     if (gen.num === 2) {
-        var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move, defender);
+        var fixedDamage = (0, util_mech_1.handleFixedDamageMoves)(attacker, move, defender);
         if (fixedDamage) {
             result.damage = fixedDamage;
             return result;
