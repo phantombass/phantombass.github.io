@@ -172,6 +172,8 @@ export function calculateSMSSSV(
       : 'Normal';
     desc.terrain = field.terrain;
     desc.moveType = type;
+  }  else if (move.named('Ivy Cudgel') && attacker.item && attacker.item.includes('Mask')) {
+    type = attacker.types[0];
   } else if (move.named('Revelation Dance')) {
     type = attacker.types[0];
   } else if (move.named('Aura Wheel')) {
@@ -255,8 +257,6 @@ export function calculateSMSSSV(
     defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
   const hasType3Ability = 
     defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
-  const hasTeraShell =
-    defender.hasAbility('Tera Shell') || defender.hasAbility('Teraform Zero (AI)');
   const type3 = '???'
   if (hasType3Ability) {
     if ((defender.hasAbility('Haunted'))) {
@@ -327,10 +327,6 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
-    typeEffectiveness = 0.5;
-  }
-
   if (typeEffectiveness === 0) {
     return result;
   }
@@ -359,6 +355,15 @@ export function calculateSMSSSV(
       gen.types.get(toID(move.type))!.effectiveness['Flying']! > 1) {
     typeEffectiveness /= 2;
     desc.weather = field.weather;
+  }
+
+  if (defender.hasAbility('Tera Shell', 'Teraform Zero (AI)') &&
+      defender.curHP() === defender.maxHP() &&
+      (!field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) ||
+      defender.hasItem('Heavy-Duty Boots'))
+  ) {
+    typeEffectiveness = 0.5;
+    desc.defenderAbility = defender.ability;
   }
 
   if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
@@ -480,8 +485,8 @@ export function calculateSMSSSV(
     move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
   }
   const attackStat =
-    move.named('Shell Side Arm') &&
-    getShellSideArmCategory(attacker, defender) === 'Physical'
+    (move.named('Shell Side Arm') &&
+             (getShellSideArmCategory(attacker, defender) === 'Physical') || (move.flags.sound && attacker.hasAbility('Vocal Fry')))
       ? 'atk'
       : move.named('Body Press')
         ? 'def'
@@ -492,7 +497,7 @@ export function calculateSMSSSV(
   // #region (Special) Defense
 
   const defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
-  const hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
+  const hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' || (move.flags.sound && attacker.hasAbility('Vocal Fry')) ||
     (move.named('Shell Side Arm') && getShellSideArmCategory(attacker, defender) === 'Physical');
   const defenseStat = hitsPhysical ? 'def' : 'spd';
 
@@ -779,8 +784,8 @@ export function calculateBasePowerSMSSSV(
     basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
     desc.moveBP = basePower;
     break;
-  case 'Rising Voltage':
-    basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
+  case 'Rolling Fog':
+    basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Misty')) ? 2 : 1);
     desc.moveBP = basePower;
     break;
   case 'Fling':
@@ -1099,7 +1104,10 @@ export function calculateBPModsSMSSSV(
   if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
       (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
       (attacker.hasAbility('Vampiric') && move.flags.bite) ||
-      (attacker.hasAbility('Step Master') && move.flags.kicking)
+      (attacker.hasAbility('Step Master') && move.flags.kicking) ||
+      (attacker.hasAbility('Vocal Fry') && move.flags.sound) ||
+      (attacker.hasAbility('Rock Head') && move.flags.head) ||
+      (attacker.hasAbility('Vampiric') && move.flags.heal)
   ) {
     bpMods.push(4915);
     desc.attackerAbility = attacker.ability;
@@ -1371,7 +1379,7 @@ export function calculateDefenseSMSSSV(
   isCritical = false
 ) {
   let defense: number;
-  const hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
+  const hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' || (move.flags.sound && attacker.hasAbility('Vocal Fry')) ||
     (move.named('Shell Side Arm') && getShellSideArmCategory(attacker, defender) === 'Physical');
   const defenseStat = hitsPhysical ? 'def' : 'spd';
   desc.defenseEVs = getEVDescriptionText(gen, defender, defenseStat, defender.nature);
@@ -1422,6 +1430,37 @@ export function calculateDfModsSMSSSV(
   hitsPhysical = false
 ) {
   const dfMods = [];
+  const isGhostRevealed =
+    attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+  const isRingTarget =
+    defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
+  const type1Effectiveness = getMoveEffectiveness(
+    gen,
+    move,
+    defender.types[0],
+    isGhostRevealed,
+    field.isGravity,
+    isRingTarget
+  );
+  const type2Effectiveness = defender.types[1]
+    ? getMoveEffectiveness(
+      gen,
+      move,
+      defender.types[1],
+      isGhostRevealed,
+      field.isGravity,
+      isRingTarget
+    )
+    : 1;
+  let typeEffectiveness = type1Effectiveness * type2Effectiveness;
+  if (defender.hasAbility('Trash Shield') && typeEffectiveness < 2 && typeEffectiveness != 0) {
+    dfMods.push(6144);
+    desc.defenderAbility = defender.ability;
+  }
+  if (defender.hasAbility('Trash Shield') && typeEffectiveness >= 2) {
+    dfMods.push(2048);
+    desc.defenderAbility = defender.ability;
+  }
   if (defender.hasAbility('Marvel Scale') && defender.status && hitsPhysical) {
     dfMods.push(6144);
     desc.defenderAbility = defender.ability;

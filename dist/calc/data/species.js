@@ -10075,7 +10075,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Wellspring': {
-        types: ['Grass', 'Water'],
+        types: ['Water', 'Grass'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',
@@ -10083,7 +10083,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Hearthflame': {
-        types: ['Grass', 'Fire'],
+        types: ['Fire', 'Grass'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',
@@ -10091,7 +10091,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Cornerstone': {
-        types: ['Grass', 'Rock'],
+        types: ['Rock', 'Grass'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',
