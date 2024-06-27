@@ -340,8 +340,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.named('Tera Blast') && attackSource.teraType)) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
+    if (move.flags.sound && attacker.hasAbility('Vocal Fry')) {
+        move.category = 'Physical';
+    }
     var attackStat = (move.named('Shell Side Arm') &&
-        ((0, util_mech_1.getShellSideArmCategory)(attacker, defender) === 'Physical') || (move.flags.sound && attacker.hasAbility('Vocal Fry')))
+        ((0, util_mech_1.getShellSideArmCategory)(attacker, defender) === 'Physical'))
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
@@ -828,7 +831,6 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     }
     if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
         (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
-        (attacker.hasAbility('Vampiric') && move.flags.bite) ||
         (attacker.hasAbility('Step Master') && move.flags.kicking) ||
         (attacker.hasAbility('Vocal Fry') && move.flags.sound) ||
         (attacker.hasAbility('Rock Head') && move.flags.head) ||
