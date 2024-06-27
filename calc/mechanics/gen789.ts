@@ -380,7 +380,8 @@ export function calculateSMSSSV(
       (move.hasType('Psychic') && defender.hasAbility('Mental Block')) ||
       (move.hasType('Fairy') && defender.hasAbility('Corruption')) ||
       (move.hasType('Rock') && defender.hasAbility('Scaler')) ||
-      (move.hasType('Bug') && defender.hasAbility('Pesticide'))
+      (move.hasType('Bug') && defender.hasAbility('Pesticide')) ||
+      (move.hasType('Poison') && defender.hasAbility('Pastel Veil'))
   ) {
     desc.defenderAbility = defender.ability;
     return result;
