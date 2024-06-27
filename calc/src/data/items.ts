@@ -506,14 +506,22 @@ const SV = SS.concat([
   'Ability Shield',
   'Booster Energy',
   'Clear Amulet',
+  'Cornerstone Mask',
   'Covert Cloak',
+  'Fairy Feather',
+  'Hearthflame Mask',
   'Loaded Dice',
   'Malicious Armor',
+  'Masterpiece Teacup',
+  'Metal Alloy',
   'Mirror Herb',
   'Punching Glove',
   'Lustrous Globe',
   'Griseous Core',
   'Strange Ball',
+  'Syrupy Apple',
+  'Unremarkable Teacup',
+  'Wellspring Mask',
 ]);
 
 const GG = SV.concat([
