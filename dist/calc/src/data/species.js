@@ -4147,7 +4147,7 @@ var BW_PATCH = {
     },
     Emolga: {
         types: ['Electric', 'Flying'],
-        bs: { hp: 55, at: 75, df: 60, sa: 75, sd: 60, sp: 103 },
+        bs: { hp: 55, at: 35, df: 60, sa: 115, sd: 60, sp: 103 },
         weightkg: 5,
         abilities: { 0: 'Static' }
     },
