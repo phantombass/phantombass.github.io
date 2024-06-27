@@ -779,6 +779,10 @@ export function calculateBasePowerSMSSSV(
     basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
     desc.moveBP = basePower;
     break;
+  case 'Rolling Fog':
+    basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Misty')) ? 2 : 1);
+    desc.moveBP = basePower;
+    break;
   case 'Fling':
     basePower = getFlingPower(attacker.item);
     desc.moveBP = basePower;
@@ -942,8 +946,8 @@ export function calculateBPModsSMSSSV(
     bpMods.push(6144);
     desc.moveBP = basePower * 1.5;
   } else if ((move.named('Knock Off') && !resistedKnockOffDamage) ||
-    (move.named('Misty Explosion','Rolling Fog') && isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
-    (move.named('PsyBlade') && field.hasTerrain('Electric')) ||
+    (move.named('Misty Explosion') && isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
+    (move.named('PsyBlade') && isGrounded(attacker, field) && field.hasTerrain('Electric')) ||
     (move.named('Grav Apple') && field.isGravity)
   ) {
     bpMods.push(6144);

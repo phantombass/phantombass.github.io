@@ -299,6 +299,7 @@ function sortImports (a,b){
 }
 
 function addSets(pokes, name) {
+	localStorage.removeItem("customsets");
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;
@@ -333,7 +334,7 @@ function addSets(pokes, name) {
 			}
 		}
 	}
-	pokelist.sort(sortImports)
+	//pokelist.sort(sortImports)
 	for(var i=0 ; i<pokelist.length; i++){
 		addToDex(pokelist[i]);
 	}
