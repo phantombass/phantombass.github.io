@@ -1,4 +1,7 @@
-var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","moves":["Confusion","Hidden Power Fighting"],"nature":"Modest","item":"Oran Berry","index":1},},
+var SETDEX_SS = {/*
+* Falkner Split
+*/
+"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","moves":["Confusion","Hidden Power Fighting"],"nature":"Modest","item":"Oran Berry","index":1},},
 "Zubat":{"Rival Silver":{"level": 13,"ability":"Vampiric","moves":["Bite","Poison Fang","Wing Attack"],"nature":"Jolly","item":"Oran Berry","index":0},},
 "Pawmo":{"Youngster Joey":{"level": 15 ,"ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark"],"nature":"Jolly","item":"Muscle Band","index":2},"Elder Mashiro":{"level": 15,"ability":"Iron Fist","moves":["Fake Out","Spark","Mach Punch","Ice Punch"],"nature":"Jolly","item":"Berry Juice","index":26},},
 "Rattata":{"Youngster Joey":{"level": 1,"ability":"Guts","moves":["Protect","Endeavor","Quick Attack"],"nature":"Bashful","item":"Focus Sash","index":3},},
@@ -42,4 +45,27 @@ var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","mo
 "Ducklett":{"Gym Leader Falkner":{"level": 15,"ability":"Adaptability","moves":["Bubble Beam","Doldrums","Hidden Power Ground","Icy Wind"],"nature":"Timid","item":"Wacan Berry","index":42},},
 "Skiploom":{"Gym Leader Falkner":{"level": 15,"ability":"Aerilate","moves":["Tackle","Bullet Seed","Quick Attack","U-turn"],"nature":"Jolly","item":"Sharp Beak","index":43},},
 "Farfetch\u2019d":{"Gym Leader Falkner":{"level": 15,"ability":"Sharpness","moves":["Aerial Ace","Karate Chop","Roost","Power-Up Punch"],"nature":"Jolly","item":"Leek","index":44},},
-"Gligar":{"Gym Leader Falkner":{"level": 15,"ability":"Immunity","moves":["Dusty Dash","Wing Attack","Knock Off","Roost"],"nature":"Jolly","item":"Berry Juice","index":45},},};
+"Gligar":{"Gym Leader Falkner":{"level": 15,"ability":"Immunity","moves":["Dusty Dash","Wing Attack","Knock Off","Roost"],"nature":"Jolly","item":"Berry Juice","index":45},},
+/*
+* Bugsy Split
+*/
+"Farfetch\u2019d-Galar":{"Lass Krista":{"level": 27,"ability":"Sharpness","moves":["Karate Chop","Aerial Ace","Cut","Knock Off"],"nature":"Adamant","item":"Leek","index":46},},
+"Kirlia":{"Lass Krista":{"level": 27,"ability":"Trace","moves":["Draining Kiss","Psybeam","Magical Leaf","Hidden Power Fire"],"nature":"Timid","item":"Leftovers","index":47},},
+"Ponyta":{"Lass Krista":{"level": 27,"ability":"Flash Fire","moves":["Flame Wheel","Flame Charge","Double Kick","Trailblaze"],"nature":"Jolly","item":"Life Orb","index":48},},
+"Nidoqueen":{"Lass Krista":{"level": 28,"ability":"Poison Point","moves":["Poison Tail","Bite","Bulldoze","Ice Punch"],"nature":"Jolly","item":"Black Sludge","index":49},},
+"Primeape":{"Youngster Brandon":{"level": 27,"ability":"Defiant","moves":["Power-Up Punch","Rock Tomb","Karate Chop","Night Slash"],"nature":"Jolly","item":"Lum Berry","index":50},},
+"Linoone":{"Youngster Brandon":{"level": 27,"ability":"Pickup","moves":["Headbutt","Covet","Stomping Tantrum","Pin Missile"],"nature":"Jolly","item":"Chople Berry","index":51},},
+"Ferroseed":{"Youngster Brandon":{"level": 27,"ability":"Iron Barbs","moves":["Gyro Ball","Pin Missile","Bullet Seed","Toxic"],"nature":"Sassy","item":"Occa Berry","ivs":{"sp":0,},"index":52},},
+"Nidoking":{"Youngster Brandon":{"level": 28,"ability":"Poison Point","moves":["Poison Jab","Bulldoze","Ice Punch"],"nature":"Jolly","item":"Payapa Berry","index":53},},
+"Qwilfish":{"Fisherman Gary":{"level": 27,"ability":"Intimidate","moves":["Toxic Spikes","Flip Turn","Poison Tail","Aqua Jet"],"nature":"Jolly","item":"Payapa Berry","index":54},},
+"Gyarados":{"Fisherman Gary":{"level": 27,"ability":"Intimidate","moves":["Hydro Fangs","Bite","Ice Fang","Bulldoze"],"nature":"Jolly","item":"Wacan Berry","index":55},},
+"Quagsire":{"Fisherman Gary":{"level": 27,"ability":"Water Absorb","moves":["Bulldoze","Aqua Tail","Recover","Rock Tomb"],"nature":"Sassy","item":"Rindo Berry","index":56},},
+"Wugtrio":{"Fisherman Gary":{"level": 28,"ability":"Technician","moves":["Triple Dive","Aqua Jet","Bulldoze","Aerial Ace"],"nature":"Adamant","item":"Mystic Water","index":57},},
+"Kilowattrel":{"Bird Keeper Tony":{"level": 27,"ability":"Volt Absorb","moves":["Charge Beam","Doldrums","Hidden Power Grass","Weather Ball"],"nature":"Modest","item":"Wise Glasses","index":58},},
+"Pelipper":{"Bird Keeper Tony":{"level": 27,"ability":"Drizzle","moves":["Water Pulse","Air Cutter","Icy Wind"],"nature":"Modest","item":"Damp Rock","index":59},},
+"Skarmory":{"Bird Keeper Tony":{"level": 28,"ability":"Sturdy","moves":["Fury Attack","Metal Claw","Toxic","Roost"],"nature":"Careful","item":"Leftovers","index":60},},
+"Graveler-Alola":{"Hiker Nob":{"level": 27,"ability":"Sturdy","moves":["Stealth Rock","Spark","Rock Blast","Self-Destruct"],"nature":"Adamant","item":"Custap Berry","index":61},},
+"Marshtomp":{"Hiker Nob":{"level": 27,"ability":"Resurgence","moves":["Flip Turn","Rock Slide","Ice Punch","Bulldoze"],"nature":"Adamant","item":"Rindo Berry","index":62},},
+"Lileep":{"Hiker Nob":{"level": 27,"ability":"Storm Drain","moves":["Giga Drain","Ancient Power","Toxic","Recover"],"nature":"Relaxed","item":"Sitrus Berry","index":63},},
+"Tyrunt":{"Hiker Nob":{"level": 28,"ability":"Strong Jaw","moves":["Rock Polish","Draco Fangs","Bite","Rock Tomb"],"nature":"Jolly","item":"Lum Berry","index":64},},
+};

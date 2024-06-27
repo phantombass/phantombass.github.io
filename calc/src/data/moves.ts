@@ -127,7 +127,7 @@ const RBY: {[name: string]: MoveData} = {
   'Soft-Boiled': {bp: 0, category: 'Status', type: 'Normal'},
   'Solar Beam': {bp: 120, type: 'Grass'},
   'Sonic Boom': {bp: 1, type: 'Normal'},
-  'Spike Cannon': {bp: 20, type: 'Normal', multihit: [2, 5]},
+  'Spike Cannon': {bp: 20, type: 'Steel', multihit: [2, 5]},
   Stomp: {bp: 65, type: 'Normal'},
   Struggle: {bp: 50, type: 'Normal', recoil: [1, 2]},
   'Stun Spore': {bp: 0, category: 'Status', type: 'Grass'},
