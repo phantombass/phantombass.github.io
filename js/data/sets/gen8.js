@@ -1,10 +1,10 @@
 var SETDEX_SS = {"Abra":{"Rival Silver":{"level": 14,"ability":"Magic Guard","moves":["Confusion","Hidden Power Fighting"],"nature":"Modest","item":"Oran Berry","index":1},},
 "Zubat":{"Rival Silver":{"level": 13,"ability":"Vampiric","moves":["Bite","Poison Fang","Wing Attack"],"nature":"Jolly","item":"Oran Berry","index":0},},
-"Pawmo":{"Youngster Joey":{"level": 15 , "ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark"],"nature":"Jolly","Item":"Muscle Band","index":2},},
+"Pawmo":{"Youngster Joey":{"level": 15 ,"ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark"],"nature":"Jolly","Item":"Muscle Band","index":2},"Elder Mashiro":{"level": 15,"ability":"Iron Fist","moves":["Fake Out","Spark","Mach Punch","Ice Punch"],"nature":"Jolly","item":"Berry Juice","index":26},},
 "Rattata":{"Youngster Joey":{"level": 1,"ability":"Guts","moves":["Protect","Endeavor","Quick Attack"],"nature":"Bashful","item":"Focus Sash","index":3},},
 "Phanpy":{"Youngster Don":{"level": 14,"ability":"Pickup","moves":["Bulldoze","Ice Shard","Rapid Spin"],"nature":"Adamant","item":"Berry Juice","index":4},},
 "Taillow":{"Youngster Don":{"level": 14,"ability":"Scrappy","moves":["Quick Attack","Wing Attack"],"nature":"Adamant","item":"Silk Scarf","index":5},},
-"Roselia":{"Youngster Don":{"level": 15,"ability":"Poison Point","moves":["Mega Drain","Sludge","Hidden Power Rock"],"nature":"Timid","item":"Berry Juice","index":6},},///7-11 need to be new trainers from expert mode
+"Roselia":{"Youngster Don":{"level": 15,"ability":"Poison Point","moves":["Mega Drain","Sludge","Hidden Power Rock"],"nature":"Timid","item":"Berry Juice","index":6},},///add 5 to every one after this
 "Dustox":{"Bug Catcher Cale":{"level": 14,"ability":"Fever Pitch","moves":["Toxic Spikes","Venoshock","Roost","Struggle Bug"],"nature":"Timid","item":"Black Sludge","index":7},},
 "Dewpider":{"Bug Catcher Cale":{"level": 14,"ability":"Water Bubble","moves":["Bubble Beam","Struggle Bug","Icy Wind","Bite"],"nature":"Modest","item":"Mystic Water","index":8},},
 "Sizzlipede":{"Bug Catcher Cale":{"level": 15,"ability":"Flash Fire","moves":["Flame Wheel","Bug Bite","Bite"],"nature":"Adamant","item":"Berry Juice","index":9},},
