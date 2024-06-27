@@ -43,6 +43,7 @@ export function getItemBoostType(item: string | undefined) {
   case 'Twisted Spoon':
     return 'Psychic';
   case 'Pixie Plate':
+  case 'Fairy Feather':
     return 'Fairy';
   case 'Sky Plate':
   case 'Sharp Beak':
