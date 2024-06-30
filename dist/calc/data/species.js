@@ -4147,7 +4147,7 @@ var BW_PATCH = {
     },
     Emolga: {
         types: ['Electric', 'Flying'],
-        bs: { hp: 55, at: 35, df: 60, sa: 115, sd: 60, sp: 103 },
+        bs: { hp: 55, at: 75, df: 60, sa: 75, sd: 60, sp: 103 },
         weightkg: 5,
         abilities: { 0: 'Static' }
     },
@@ -10075,7 +10075,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Wellspring': {
-        types: ['Water', 'Grass'],
+        types: ['Grass', 'Water'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',
@@ -10083,7 +10083,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Hearthflame': {
-        types: ['Fire', 'Grass'],
+        types: ['Grass', 'Fire'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',
@@ -10091,7 +10091,7 @@ var SV_PATCH = {
         baseSpecies: 'Ogerpon'
     },
     'Ogerpon-Cornerstone': {
-        types: ['Rock', 'Grass'],
+        types: ['Grass', 'Rock'],
         bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
         weightkg: 92,
         gender: 'N',

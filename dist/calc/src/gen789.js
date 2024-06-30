@@ -195,6 +195,16 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         ? (0, util_mech_1.getMoveEffectiveness)(gen, move, type3, isGhostRevealed, field.isGravity, isRingTarget)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness * type3Effectiveness;
+    var inverseTypeEffectiveness1 = (type1Effectiveness > 0)
+        ? (1 / type1Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness2 = (type2Effectiveness > 0)
+        ? (1 / type2Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness3 = (type3Effectiveness > 0)
+        ? (1 / type3Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness = inverseTypeEffectiveness1 * inverseTypeEffectiveness2 * inverseTypeEffectiveness3;
     if (defender.teraType) {
         typeEffectiveness = (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget);
     }
@@ -211,8 +221,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
     }
-    if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
-        typeEffectiveness = 0.5;
+    if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+        typeEffectiveness = 1;
+    }
+    if (field.gameType === 'Inverse') {
+        typeEffectiveness = inverseTypeEffectiveness;
     }
     if (typeEffectiveness === 0) {
         return result;
@@ -343,7 +356,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.named('Shell Side Arm') && (0, util_mech_1.getShellSideArmCategory)(attacker, defender) === 'Physical');
     var defenseStat = hitsPhysical ? 'def' : 'spd';
     var baseDamage = (0, util_mech_1.getBaseDamage)(attacker.level, basePower, attack, defense);
-    var isSpread = field.gameType !== 'Singles' &&
+    var isSpread = field.gameType === 'Doubles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
     if (isSpread) {
         baseDamage = (0, util_mech_1.pokeRound)((0, util_mech_1.OF32)(baseDamage * 3072) / 4096);

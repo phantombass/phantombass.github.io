@@ -1,4 +1,4 @@
-import * as I from '../src/interface';
+import * as I from './interface';
 export type TypeChart = {
     [type in I.TypeName]?: {
         [type in I.TypeName]?: number;

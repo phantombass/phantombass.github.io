@@ -1,4 +1,4 @@
-import * as I from '../src/interface';
+import * as I from '../data/interface';
 export interface MoveData {
     readonly name?: string;
     readonly type: I.TypeName;

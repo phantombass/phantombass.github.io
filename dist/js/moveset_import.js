@@ -99,12 +99,12 @@ function serialize(array, separator) {
 
 function getAbility(row) {
 	var ability = row[1] ? row[1].trim() : '';
-	if (calc.ABILITIES[9].indexOf(ability) !== -1) return ability;
+	if (calc.ABILITIES[8].indexOf(ability) !== -1) return ability;
 }
 
 function getTeraType(row) {
 	var teraType = row[1] ? row[1].trim() : '';
-	if (Object.keys(calc.TYPE_CHART[9]).slice(1).indexOf(teraType) !== -1) return teraType;
+	if (Object.keys(calc.TYPE_CHART[8]).slice(1).indexOf(teraType) !== -1) return teraType;
 }
 
 function statToLegacyStat(stat) {
@@ -182,7 +182,7 @@ function getStats(currentPoke, rows, offset) {
 function getItem(currentRow, j) {
 	for (;j < currentRow.length; j++) {
 		var item = currentRow[j].trim();
-		if (calc.ITEMS[9].indexOf(item) != -1) {
+		if (calc.ITEMS[8].indexOf(item) != -1) {
 			return item;
 		}
 	}
@@ -299,7 +299,6 @@ function sortImports (a,b){
 }
 
 function addSets(pokes, name) {
-	localStorage.removeItem("customsets");
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;

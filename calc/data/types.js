@@ -50,8 +50,8 @@ var __values = (this && this.__values) || function(o) {
 };
 var e_1, _a;
 exports.__esModule = true;
-
-var util_1 = require("../src/util");
+exports.Types = exports.TYPE_CHART = void 0;
+var util_1 = require("../util");
 var RBY = {
     '???': {
         Normal: 1,

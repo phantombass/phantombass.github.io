@@ -4817,6 +4817,42 @@ var SV_PATCH = {
         maxPower: 110,
         isHeal: true
     },
+    'Pack In': {
+        type: 'Ice',
+        category: 'Status',
+        isHeal: true
+    },
+    'Boulder Blade': {
+        bp: 90,
+        type: 'Rock',
+        makesContact: true,
+        category: 'Physical',
+        ignoreDefensive: true,
+        isSlicing: true,
+        zp: 160
+    },
+    'Magma Trek': {
+        bp: 70,
+        type: 'Fire',
+        makesContact: true,
+        category: 'Physical',
+        zp: 160
+    },
+    'Temper Flare': {
+        bp: 75,
+        type: 'Fire',
+        makesContact: true,
+        category: 'Physical',
+        zp: 160
+    },
+    'Thunderclap': {
+        bp: 70,
+        type: 'Electric',
+        category: 'Special',
+        zp: 120,
+        maxPower: 110,
+        priority: 1
+    },
     'Brain Freeze': {
         bp: 70,
         type: 'Psychic',

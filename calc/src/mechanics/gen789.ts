@@ -257,14 +257,7 @@ export function calculateSMSSSV(
     defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
   const hasType3Ability = 
     defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
-  const type3 = '???'
-  if (hasType3Ability) {
-    if ((defender.hasAbility('Haunted'))) {
-      const type3 = 'Ghost'
-    } else if ((defender.hasAbility('Shadow Guard'))) {
-      const type3 = 'Dark'
-    }
-  };
+  const type3 = defender.hasAbility('Haunted') ? 'Ghost' : defender.hasAbility('Shadow Guard') ? 'Dark' : '???'
   const type1Effectiveness = getMoveEffectiveness(
     gen,
     move,
@@ -294,6 +287,17 @@ export function calculateSMSSSV(
     )
   : 1;
   let typeEffectiveness = type1Effectiveness * type2Effectiveness * type3Effectiveness;
+
+  const inverseTypeEffectiveness1 = (type1Effectiveness > 0)
+  ? (1/type1Effectiveness)
+  : 2;
+  const inverseTypeEffectiveness2 = (type2Effectiveness > 0)
+  ? (1/type2Effectiveness)
+  : 2;
+  const inverseTypeEffectiveness3 = (type3Effectiveness > 0)
+  ? (1/type3Effectiveness)
+  : 2;
+  let inverseTypeEffectiveness = inverseTypeEffectiveness1 * inverseTypeEffectiveness2 * inverseTypeEffectiveness3;
 
   if (defender.teraType) {
     typeEffectiveness = getMoveEffectiveness(
@@ -325,6 +329,10 @@ export function calculateSMSSSV(
 
   if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
     typeEffectiveness = 1;
+  }
+
+  if ((field.gameType === 'Inverse') || defender.hasAbility('Reverse Room')) {
+    typeEffectiveness = inverseTypeEffectiveness;
   }
 
   if (typeEffectiveness === 0) {
@@ -364,6 +372,11 @@ export function calculateSMSSSV(
   ) {
     typeEffectiveness = 0.5;
     desc.defenderAbility = defender.ability;
+  }
+
+  const item = gen.items.get(toID(defender.item))
+  if (item && item.megaEvolves && defender.name.includes(item.megaEvolves) && defender.name.includes('Mega') && move.named('Tera Starstorm')) {
+    typeEffectiveness = 2;
   }
 
   if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
@@ -509,7 +522,7 @@ export function calculateSMSSSV(
 
   let baseDamage = getBaseDamage(attacker.level, basePower, attack, defense);
 
-  const isSpread = field.gameType !== 'Singles' &&
+  const isSpread = field.gameType === 'Doubles' &&
      ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
   if (isSpread) {
     baseDamage = pokeRound(OF32(baseDamage * 3072) / 4096);
@@ -1037,9 +1050,9 @@ export function calculateBPModsSMSSSV(
     desc.attackerAbility = attacker.ability;
   }
 
-  const aura = `${move.type} Aura`;
-  const isAttackerAura = attacker.hasAbility(aura) || attacker.hasAbility('Gaia Force');
-  const isDefenderAura = defender.hasAbility(aura) || defender.hasAbility('Gaia Force');
+  const aura = move.type === 'Ground' ? 'Gaia Force' :`${move.type} Aura`;
+  const isAttackerAura = attacker.hasAbility(aura);
+  const isDefenderAura = defender.hasAbility(aura);
   const isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break');
   const isFieldAuraBreak = field.isAuraBreak;
   const isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
@@ -1071,7 +1084,8 @@ export function calculateBPModsSMSSSV(
     (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
     (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
     (attacker.hasAbility('Tight Focus') && move.flags.beam) ||
-    (attacker.hasAbility('Ballistic') && move.flags.bullet)
+    (attacker.hasAbility('Ballistic') && move.flags.bullet) ||
+    (defender.hasAbility('Unknown Power'))
   ) {
     bpMods.push(5325);
     desc.attackerAbility = attacker.ability;
@@ -1601,7 +1615,8 @@ export function calculateFinalModsSMSSSV(
     desc.defenderAbility = defender.ability;
   } else if (
     (defender.hasAbility('Punk Rock') && move.flags.sound) ||
-    (defender.hasAbility('Ice Scales') && move.category === 'Special')
+    (defender.hasAbility('Ice Scales') && move.category === 'Special') ||
+    (defender.hasAbility('Unknown Power'))
   ) {
     finalMods.push(2048);
     desc.defenderAbility = defender.ability;

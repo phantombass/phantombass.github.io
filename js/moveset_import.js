@@ -299,7 +299,6 @@ function sortImports (a,b){
 }
 
 function addSets(pokes, name) {
-	localStorage.removeItem("customsets");
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;

@@ -39,11 +39,11 @@ var __values = (this && this.__values) || function(o) {
 };
 var e_1, _a;
 exports.__esModule = true;
-
-var util_1 = require("../src/util");
+exports.Moves = exports.MOVES = void 0;
+var util_1 = require("../util");
 var RBY = {
     '(No Move)': { bp: 0, category: 'Status', type: 'Normal' },
-    Absorb: { bp: 40, type: 'Grass', drain: [1, 2] },
+    Absorb: { bp: 40, type: 'Grass', isHeal: true, drain: [1, 2] },
     Acid: { bp: 40, type: 'Poison' },
     Amnesia: { bp: 0, category: 'Status', type: 'Psychic' },
     'Aurora Beam': { bp: 65, type: 'Ice' },
@@ -69,7 +69,7 @@ var RBY = {
     'Double Kick': { bp: 30, type: 'Fighting', multihit: 2 },
     'Double Slap': { bp: 15, type: 'Normal', multihit: [2, 5] },
     'Dragon Rage': { bp: 1, type: 'Dragon' },
-    'Dream Eater': { bp: 100, type: 'Psychic', drain: [1, 2] },
+    'Dream Eater': { bp: 100, type: 'Psychic', isHeal: true, drain: [1, 2] },
     Earthquake: { bp: 100, type: 'Ground' },
     Explosion: { bp: 170, type: 'Normal' },
     'Fire Blast': { bp: 120, type: 'Fire' },
@@ -77,8 +77,8 @@ var RBY = {
     Fissure: { bp: 0, type: 'Ground' },
     Fly: { bp: 70, type: 'Flying' },
     'Focus Energy': { bp: 0, category: 'Status', type: 'Normal' },
-    'Fury Attack': { bp: 15, type: 'Flying', multihit: [2, 5] },
-    'Fury Swipes': { bp: 18, type: 'Normal', multihit: [2, 5] },
+    'Fury Attack': { bp: 25, type: 'Flying', multihit: [2, 5] },
+    'Fury Swipes': { bp: 25, type: 'Normal', multihit: [2, 5] },
     Glare: { bp: 0, category: 'Status', type: 'Normal' },
     Growth: { bp: 0, category: 'Status', type: 'Normal' },
     Guillotine: { bp: 0, type: 'Normal' },
@@ -120,7 +120,7 @@ var RBY = {
     'Soft-Boiled': { bp: 0, category: 'Status', type: 'Normal' },
     'Solar Beam': { bp: 120, type: 'Grass' },
     'Sonic Boom': { bp: 1, type: 'Normal' },
-    'Spike Cannon': { bp: 20, type: 'Normal', multihit: [2, 5] },
+    'Spike Cannon': { bp: 25, type: 'Steel', multihit: [2, 5] },
     Stomp: { bp: 65, type: 'Normal' },
     Struggle: { bp: 50, type: 'Normal', recoil: [1, 2] },
     'Stun Spore': { bp: 0, category: 'Status', type: 'Grass' },
@@ -150,8 +150,8 @@ var RBY = {
     Toxic: { bp: 0, category: 'Status', type: 'Poison' },
     Flash: { bp: 0, category: 'Status', type: 'Normal' },
     Hypnosis: { bp: 0, category: 'Status', type: 'Psychic' },
-    'Leech Life': { bp: 20, type: 'Bug', drain: [1, 2] },
-    'Mega Drain': { bp: 60, type: 'Grass', drain: [1, 2] },
+    'Leech Life': { bp: 20, type: 'Bug', isHeal: true, drain: [1, 2] },
+    'Mega Drain': { bp: 60, type: 'Grass', isHeal: true, drain: [1, 2] },
     'Vine Whip': { bp: 35, type: 'Grass' },
     Waterfall: { bp: 80, type: 'Water' },
     Tackle: { bp: 35, type: 'Normal' },
@@ -277,7 +277,7 @@ var GSC_PATCH = {
     'Bone Rush': { bp: 25, type: 'Ground', multihit: [2, 5] },
     Crunch: { bp: 80, type: 'Dark' },
     'Feint Attack': { bp: 60, type: 'Dark' },
-    'Giga Drain': { bp: 60, type: 'Grass', drain: [1, 2] },
+    'Giga Drain': { bp: 60, type: 'Grass', isHeal: true, drain: [1, 2] },
     'Hidden Power': { bp: 0, type: 'Normal' },
     'Mean Look': { bp: 0, category: 'Status', type: 'Normal' },
     'Rapid Spin': { bp: 20, type: 'Normal' },
@@ -845,6 +845,7 @@ var DPP_PATCH = {
         drain: [1, 2],
         makesContact: true,
         isPunch: true,
+        isHeal: true,
         category: 'Physical'
     },
     Embargo: { bp: 0, type: 'Dark' },
@@ -1327,6 +1328,7 @@ var BW_PATCH = {
         type: 'Grass',
         drain: [1, 2],
         makesContact: true,
+        isHeal: true,
         category: 'Physical'
     },
     Hurricane: {
@@ -1806,6 +1808,7 @@ var XY_PATCH = {
         bp: 50,
         type: 'Electric',
         drain: [1, 2],
+        isHeal: true,
         target: 'allAdjacent',
         category: 'Special'
     },
@@ -1843,6 +1846,7 @@ var XY_PATCH = {
     'Oblivion Wing': {
         bp: 80,
         type: 'Flying',
+        isHeal: true,
         drain: [3, 4],
         category: 'Special'
     },
@@ -1892,6 +1896,7 @@ var XY_PATCH = {
         type: 'Fairy',
         drain: [3, 4],
         makesContact: true,
+        isHeal: true,
         category: 'Special'
     },
     'Eerie Impulse': { bp: 0, type: 'Electric' },
@@ -2391,6 +2396,7 @@ var SM_PATCH = {
     'Bouncy Bubble': {
         bp: 90,
         type: 'Water',
+        isHeal: true,
         drain: [1, 2],
         category: 'Special',
         zp: 175
@@ -3513,7 +3519,8 @@ var SS_PATCH = {
         type: 'Water',
         category: 'Special',
         zp: 160,
-        maxPower: 130
+        maxPower: 130,
+        isBeam: true
     },
     'Scorching Sands': {
         bp: 70,
@@ -4249,6 +4256,7 @@ var SV_PATCH = {
         maxPower: 130,
         makesContact: true,
         isSlicing: true,
+        isHeal: true,
         drain: [1, 2]
     },
     'Bitter Malice': {

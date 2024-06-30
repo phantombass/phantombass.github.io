@@ -179,16 +179,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var hasType3Ability = defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
-    var type3 = '???';
-    if (hasType3Ability) {
-        if ((defender.hasAbility('Haunted'))) {
-            var type3_1 = 'Ghost';
-        }
-        else if ((defender.hasAbility('Shadow Guard'))) {
-            var type3_2 = 'Dark';
-        }
-    }
-    ;
+    var type3 = defender.hasAbility('Haunted') ? 'Ghost' : defender.hasAbility('Shadow Guard') ? 'Dark' : '???';
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
     var type2Effectiveness = defender.types[1]
         ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget)
@@ -197,6 +188,16 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         ? (0, util_2.getMoveEffectiveness)(gen, move, type3, isGhostRevealed, field.isGravity, isRingTarget)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness * type3Effectiveness;
+    var inverseTypeEffectiveness1 = (type1Effectiveness > 0)
+        ? (1 / type1Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness2 = (type2Effectiveness > 0)
+        ? (1 / type2Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness3 = (type3Effectiveness > 0)
+        ? (1 / type3Effectiveness)
+        : 2;
+    var inverseTypeEffectiveness = inverseTypeEffectiveness1 * inverseTypeEffectiveness2 * inverseTypeEffectiveness3;
     if (defender.teraType) {
         typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget);
     }
@@ -215,6 +216,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
         typeEffectiveness = 1;
+    }
+    if ((field.gameType === 'Inverse') || defender.hasAbility('Reverse Room')) {
+        typeEffectiveness = inverseTypeEffectiveness;
     }
     if (typeEffectiveness === 0) {
         return result;
@@ -245,6 +249,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             defender.hasItem('Heavy-Duty Boots'))) {
         typeEffectiveness = 0.5;
         desc.defenderAbility = defender.ability;
+    }
+    var item = gen.items.get((0, util_1.toID)(defender.item));
+    if (item && item.megaEvolves && defender.name.includes(item.megaEvolves) && defender.name.includes('Mega') && move.named('Tera Starstorm')) {
+        typeEffectiveness = 2;
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
         (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
@@ -356,7 +364,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical');
     var defenseStat = hitsPhysical ? 'def' : 'spd';
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, attack, defense);
-    var isSpread = field.gameType !== 'Singles' &&
+    var isSpread = field.gameType === 'Doubles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
     if (isSpread) {
         baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 3072) / 4096);
@@ -769,9 +777,9 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         bpMods.push(6144);
         desc.attackerAbility = attacker.ability;
     }
-    var aura = "".concat(move.type, " Aura");
-    var isAttackerAura = attacker.hasAbility(aura) || attacker.hasAbility('Gaia Force');
-    var isDefenderAura = defender.hasAbility(aura) || defender.hasAbility('Gaia Force');
+    var aura = move.type === 'Ground' ? 'Gaia Force' : "".concat(move.type, " Aura");
+    var isAttackerAura = attacker.hasAbility(aura);
+    var isDefenderAura = defender.hasAbility(aura);
     var isUserAuraBreak = attacker.hasAbility('Aura Break') || defender.hasAbility('Aura Break');
     var isFieldAuraBreak = field.isAuraBreak;
     var isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
@@ -803,7 +811,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
         (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
         (attacker.hasAbility('Tight Focus') && move.flags.beam) ||
-        (attacker.hasAbility('Ballistic') && move.flags.bullet)) {
+        (attacker.hasAbility('Ballistic') && move.flags.bullet) ||
+        (defender.hasAbility('Unknown Power'))) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
@@ -1215,7 +1224,8 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         desc.defenderAbility = defender.ability;
     }
     else if ((defender.hasAbility('Punk Rock') && move.flags.sound) ||
-        (defender.hasAbility('Ice Scales') && move.category === 'Special')) {
+        (defender.hasAbility('Ice Scales') && move.category === 'Special') ||
+        (defender.hasAbility('Unknown Power'))) {
         finalMods.push(2048);
         desc.defenderAbility = defender.ability;
     }

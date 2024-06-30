@@ -295,6 +295,17 @@ export function calculateSMSSSV(
   : 1;
   let typeEffectiveness = type1Effectiveness * type2Effectiveness * type3Effectiveness;
 
+  const inverseTypeEffectiveness1 = (type1Effectiveness > 0)
+  ? (1/type1Effectiveness)
+  : 2;
+  const inverseTypeEffectiveness2 = (type2Effectiveness > 0)
+  ? (1/type2Effectiveness)
+  : 2;
+  const inverseTypeEffectiveness3 = (type3Effectiveness > 0)
+  ? (1/type3Effectiveness)
+  : 2;
+  let inverseTypeEffectiveness = inverseTypeEffectiveness1 * inverseTypeEffectiveness2 * inverseTypeEffectiveness3;
+
   if (defender.teraType) {
     typeEffectiveness = getMoveEffectiveness(
       gen,
@@ -323,8 +334,12 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (defender.curHP == defender.maxHP && hasTeraShell && typeEffectiveness > 0) {
-    typeEffectiveness = 0.5;
+  if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+    typeEffectiveness = 1;
+  }
+
+  if (field.gameType === 'Inverse') {
+    typeEffectiveness = inverseTypeEffectiveness;
   }
 
   if (typeEffectiveness === 0) {
@@ -496,7 +511,7 @@ export function calculateSMSSSV(
 
   let baseDamage = getBaseDamage(attacker.level, basePower, attack, defense);
 
-  const isSpread = field.gameType !== 'Singles' &&
+  const isSpread = field.gameType === 'Doubles' &&
      ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
   if (isSpread) {
     baseDamage = pokeRound(OF32(baseDamage * 3072) / 4096);

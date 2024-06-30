@@ -64,8 +64,8 @@ var __values = (this && this.__values) || function(o) {
 };
 var e_1, _a, e_2, _b;
 exports.__esModule = true;
-
-var util_1 = require("../src/util");
+exports.Items = exports.ITEMS = exports.MEGA_STONES = void 0;
+var util_1 = require("../util");
 var RBY = [];
 var GSC = [
     'Berry Juice',
@@ -553,14 +553,22 @@ var SV = SS.concat([
     'Ability Shield',
     'Booster Energy',
     'Clear Amulet',
+    'Cornerstone Mask',
     'Covert Cloak',
+    'Fairy Feather',
+    'Hearthflame Mask',
     'Loaded Dice',
     'Malicious Armor',
+    'Masterpiece Teacup',
+    'Metal Alloy',
     'Mirror Herb',
     'Punching Glove',
     'Lustrous Globe',
     'Griseous Core',
     'Strange Ball',
+    'Syrupy Apple',
+    'Unremarkable Teacup',
+    'Wellspring Mask',
 ]);
 var GG = SV.concat([
     'Mithril Shield',
@@ -650,7 +658,7 @@ var BERRIES = {
     'Wiki Berry': { t: 'Rock', p: 80 },
     'Yache Berry': { t: 'Ice', p: 80 }
 };
-exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV, GG];
+exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];
 var Items = (function () {
     function Items(gen) {
         this.gen = gen;

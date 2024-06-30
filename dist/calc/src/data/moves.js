@@ -120,7 +120,7 @@ var RBY = {
     'Soft-Boiled': { bp: 0, category: 'Status', type: 'Normal' },
     'Solar Beam': { bp: 120, type: 'Grass' },
     'Sonic Boom': { bp: 1, type: 'Normal' },
-    'Spike Cannon': { bp: 20, type: 'Steel', multihit: [2, 5] },
+    'Spike Cannon': { bp: 25, type: 'Steel', multihit: [2, 5] },
     Stomp: { bp: 65, type: 'Normal' },
     Struggle: { bp: 50, type: 'Normal', recoil: [1, 2] },
     'Stun Spore': { bp: 0, category: 'Status', type: 'Grass' },
@@ -4816,6 +4816,42 @@ var SV_PATCH = {
         zp: 120,
         maxPower: 110,
         isHeal: true
+    },
+    'Pack In': {
+        type: 'Ice',
+        category: 'Status',
+        isHeal: true
+    },
+    'Boulder Blade': {
+        bp: 90,
+        type: 'Rock',
+        makesContact: true,
+        category: 'Physical',
+        ignoreDefensive: true,
+        isSlicing: true,
+        zp: 160
+    },
+    'Magma Trek': {
+        bp: 70,
+        type: 'Fire',
+        makesContact: true,
+        category: 'Physical',
+        zp: 160
+    },
+    'Temper Flare': {
+        bp: 75,
+        type: 'Fire',
+        makesContact: true,
+        category: 'Physical',
+        zp: 160
+    },
+    'Thunderclap': {
+        bp: 70,
+        type: 'Electric',
+        category: 'Special',
+        zp: 120,
+        maxPower: 110,
+        priority: 1
     },
     'Brain Freeze': {
         bp: 70,
