@@ -1786,7 +1786,7 @@ const XY_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     bp: 100,
     type: 'Rock',
     target: 'allAdjacentFoes',
-    category: 'Physical',
+    category: 'Special',
     secondaries: true,
   },
   'Fell Stinger': {

@@ -1769,7 +1769,7 @@ var XY_PATCH = {
         bp: 100,
         type: 'Rock',
         target: 'allAdjacentFoes',
-        category: 'Physical',
+        category: 'Special',
         secondaries: true
     },
     'Fell Stinger': {
