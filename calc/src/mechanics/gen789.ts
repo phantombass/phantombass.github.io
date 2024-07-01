@@ -257,7 +257,7 @@ export function calculateSMSSSV(
     defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
   const hasType3Ability = 
     defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard');
-  const type3 = defender.hasAbility('Haunted') ? 'Ghost' : defender.hasAbility('Shadow Guard') ? 'Dark' : '???'
+  const type3 = defender.hasAbility('Haunted') ? 'Ghost' : defender.hasAbility('Shadow Guard') ? 'Dark' : '???';
   const type1Effectiveness = getMoveEffectiveness(
     gen,
     move,
