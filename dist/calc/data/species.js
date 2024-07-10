@@ -5107,6 +5107,7 @@ var XY_PATCH = {
     Lopunny: { otherFormes: ['Lopunny-Mega'] },
     Lunatone: { types: ['Rock', 'Fairy'] },
     Lucario: { otherFormes: ['Lucario-Mega'] },
+    Luvdisc: { types: ['Water', 'Fairy'] },
     Manectric: { otherFormes: ['Manectric-Mega'] },
     Marill: { types: ['Water', 'Fairy'] },
     Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
