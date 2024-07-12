@@ -8442,7 +8442,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Rapidash-Galar': {
     types: ['Psychic', 'Fairy'],
-    bs: {hp: 65, at: 100, df: 70, sa: 80, sd: 80, sp: 105},
+    bs: {hp: 65, at: 100, df: 70, sa: 60, sd: 80, sp: 125},
     weightkg: 80,
     abilities: {0: 'Run Away'},
     baseSpecies: 'Rapidash',
