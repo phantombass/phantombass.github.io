@@ -500,6 +500,7 @@ var SV = SS.concat([
     'Impatient',
     'Slayer',
     'Echo Chamber',
+    'Hopeful Toll',
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SS];
 var Abilities = (function () {

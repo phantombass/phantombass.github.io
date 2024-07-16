@@ -468,6 +468,7 @@ const SV = SS.concat([
   'Impatient',
   'Slayer',
   'Echo Chamber',
+  'Hopeful Toll',
 ]);
 
 export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SS];

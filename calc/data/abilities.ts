@@ -384,6 +384,7 @@ const GG = SV.concat([
   'Impatient',
   'Slayer',
   'Echo Chamber',
+  'Hopeful Toll',
   ])
 
 export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];
