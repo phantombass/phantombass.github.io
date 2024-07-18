@@ -3944,7 +3944,7 @@
 "Slowking-Galar"={"Archer Power Plant"::{"level":92,"ability":"Regenerator","moves":["Death Toll","Eerie Spell","Flamethrower","Slack Off"],"nature":"Modest","item":"Black Sludge","index":number},},
 "Spectrier"={"Archer Power Plant"::{"level":92,"ability":"Grim Neigh","moves":["Spectral Shriek","Draining Kiss","Mud Shot","Hidden Power Fighting"],"nature":"Timid","item":"Life Orb","index":number},},
 "Meowscarada"={"Archer Power Plant"::{"level":92,"ability":"Protean","moves":["Flower Trick","Knock Off","Triple Axel","U-turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
-"Ho-oh"={"Archer Power Plant"::{"level":92,"ability":"Regenerator","moves":["Sacred Fire","Dual Wingbeat","Earthquake","Bolt Beak"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Ho-Oh"={"Archer Power Plant"::{"level":92,"ability":"Regenerator","moves":["Sacred Fire","Dual Wingbeat","Earthquake","Bolt Beak"],"nature":"Adamant","item":"Assault Vest","index":number},},
 "Houndoom-Mega"={"Archer Power Plant"::{"level":92,"ability":"Adaptability","moves":["Fiery Wrath","Flamethrower","Sludge Bomb","Nasty Plot"],"nature":"Timid","item":"Houndoominite","index":number},},
 
 
@@ -5129,7 +5129,7 @@
 "Girafarig"={"Cool Trainer Prince"::{"level":97,"ability":"Adaptability","moves":["Slack Off","Twin Beam","Thunderbolt","Hyper Voice"],"nature":"Timid","item":"Eviolite","index":number},},
 "Alomomola"={"Cool Trainer Prince"::{"level":98,"ability":"Regenerator","moves":["Scald","Flip Turn","Wish","Protect"],"nature":"Relaxed","item":"Leftovers","index":number},},
 "Farigiraf"={"Cool Trainer Prince"::{"level":98,"ability":"Adaptability","moves":["Nasty Plot","Boomburst","Twin Beam","Dazzling Gleam"],"nature":"Modest","item":"Wise Glasses","index":number},},
-"Ho-oh"={"Cool Trainer Prince"::{"level":98,"ability":"Regenerator","moves":["Sacred Fire","Brave Bird","Earthquake","Recover"],"nature":"Impish","item":"Leftovers","index":number},},
+"Ho-Oh"={"Cool Trainer Prince"::{"level":98,"ability":"Regenerator","moves":["Sacred Fire","Brave Bird","Earthquake","Recover"],"nature":"Impish","item":"Leftovers","index":number},},
 ""={"Cool Trainer Prince"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
