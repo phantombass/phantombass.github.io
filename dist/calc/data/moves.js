@@ -4134,7 +4134,7 @@ var SV_PATCH = {
     Crabhammer: { isHammer: true },
     'Cross Poison': { isSlicing: true },
     'Crush Claw': { isSlicing: true },
-    Cut: { isSlicing: true },
+    Cut: { bp: 70, type: 'Steel', isSlicing: true },
     'Double Kick': { isKicking: true },
     'Dragon Claw': { isSlicing: true },
     'Dragon Hammer': { isHammer: true },
