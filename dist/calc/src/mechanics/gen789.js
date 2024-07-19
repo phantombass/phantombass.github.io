@@ -1006,6 +1006,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     if ((defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) ||
         (defender.hasAbility('Water Bubble') && move.hasType('Fire')) ||
         (defender.hasAbility('Fairy Bubble') && move.hasType('Poison')) ||
+        (defender.hasAbility('Fever Pitch') && move.hasType('Psychic')) ||
         (defender.hasAbility('Purifying Salt') && move.hasType('Ghost'))) {
         atMods.push(2048);
         desc.defenderAbility = defender.ability;
