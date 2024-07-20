@@ -9210,7 +9210,7 @@ var PLA_PATCH = {
     },
     'Zoroark-Hisui': {
         types: ['Normal', 'Ghost'],
-        bs: { hp: 55, at: 105, df: 60, sa: 120, sd: 60, sp: 110 },
+        bs: { hp: 55, at: 105, df: 60, sa: 125, sd: 60, sp: 110 },
         weightkg: 73,
         abilities: { 0: 'Echo Chamber' },
         baseSpecies: 'Zoroark'
