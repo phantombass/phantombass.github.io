@@ -261,7 +261,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.hasType('Electric') &&
             defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb')) ||
         (move.hasType('Ground') &&
-            !field.isGravity && !move.named('Thousand Arrows') && !move.flags.bone &&
+            !field.isGravity && !move.named('Thousand Arrows', 'Hammer Smash') && !move.flags.bone &&
             !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
         (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
         (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
@@ -278,7 +278,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.defenderAbility = defender.ability;
         return result;
     }
-    if (move.hasType('Ground') && !move.named('Thousand Arrows') && !move.flags.bone &&
+    if (move.hasType('Ground') && !move.named('Thousand Arrows', 'Hammer Smash') && !move.flags.bone &&
         !field.isGravity && defender.hasItem('Air Balloon')) {
         desc.defenderItem = defender.item;
         return result;
