@@ -2501,7 +2501,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Spinda: {
     types: ['Normal'],
-    bs: {hp: 60, at: 60, df: 60, sa: 60, sd: 60, sp: 60},
+    bs: {hp: 60, at: 50, df: 60, sa: 60, sd: 60, sp: 70},
     weightkg: 5,
     abilities: {0: 'Own Tempo'},
   },
