@@ -5180,6 +5180,13 @@ var SV_PATCH = {
         isHammer: true,
         category: 'Physical'
     },
+    'Fairy\'s Haunt': {
+        bp: 75,
+        type: 'Fairy',
+        drain: [3, 4],
+        isHeal: true,
+        category: 'Special'
+    },
     'Raging Swarm': {
         bp: 130,
         type: 'Bug',
