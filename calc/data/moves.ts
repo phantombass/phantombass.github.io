@@ -4808,7 +4808,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     zp: 190,
     maxPower: 140,
-    makesContact: true,
+    target: 'allAdjacentFoes',
     recoil: [33, 100],
   },
   'Swift Swipe': {
@@ -4926,6 +4926,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     secondaries: true,
+    target: 'allAdjacentFoes',
     isWind: true,
   },
   'Polarity Pulse': {
@@ -4937,6 +4938,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isPulse: true,
     isBeam: true,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Spectral Shriek': {
     bp: 95,
@@ -4945,6 +4947,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Wicked Wind': {
     bp: 95,
@@ -4954,6 +4957,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 110,
     isWind: true,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Death Toll': {
     bp: 95,
@@ -4962,6 +4966,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Chilling Cry': {
     bp: 95,
@@ -4970,6 +4975,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Pixie Punch': {
     bp: 50,

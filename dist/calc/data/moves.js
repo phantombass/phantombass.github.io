@@ -4782,7 +4782,7 @@ var SV_PATCH = {
         category: 'Special',
         zp: 190,
         maxPower: 140,
-        makesContact: true,
+        target: 'allAdjacentFoes',
         recoil: [33, 100]
     },
     'Swift Swipe': {
@@ -4900,6 +4900,7 @@ var SV_PATCH = {
         zp: 120,
         maxPower: 110,
         secondaries: true,
+        target: 'allAdjacentFoes',
         isWind: true
     },
     'Polarity Pulse': {
@@ -4910,7 +4911,8 @@ var SV_PATCH = {
         maxPower: 110,
         isPulse: true,
         isBeam: true,
-        isSound: true
+        isSound: true,
+        target: 'allAdjacentFoes'
     },
     'Spectral Shriek': {
         bp: 95,
@@ -4918,7 +4920,8 @@ var SV_PATCH = {
         category: 'Special',
         zp: 120,
         maxPower: 110,
-        isSound: true
+        isSound: true,
+        target: 'allAdjacentFoes'
     },
     'Wicked Wind': {
         bp: 95,
@@ -4927,7 +4930,8 @@ var SV_PATCH = {
         zp: 120,
         maxPower: 110,
         isWind: true,
-        isSound: true
+        isSound: true,
+        target: 'allAdjacentFoes'
     },
     'Death Toll': {
         bp: 95,
@@ -4935,7 +4939,8 @@ var SV_PATCH = {
         category: 'Special',
         zp: 120,
         maxPower: 110,
-        isSound: true
+        isSound: true,
+        target: 'allAdjacentFoes'
     },
     'Chilling Cry': {
         bp: 95,
@@ -4943,7 +4948,8 @@ var SV_PATCH = {
         category: 'Special',
         zp: 120,
         maxPower: 110,
-        isSound: true
+        isSound: true,
+        target: 'allAdjacentFoes'
     },
     'Pixie Punch': {
         bp: 50,
