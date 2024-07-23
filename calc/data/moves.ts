@@ -5123,6 +5123,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     bp: 50,
     type: 'Steel',
     category: 'Physical',
+    makesContact: true,
+    isSlicing: true,
     zp: 100,
     maxPower: 90,
     multihit: 2,

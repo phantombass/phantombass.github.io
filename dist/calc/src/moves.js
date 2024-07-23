@@ -5097,6 +5097,8 @@ var SV_PATCH = {
         bp: 50,
         type: 'Steel',
         category: 'Physical',
+        makesContact: true,
+        isSlicing: true,
         zp: 100,
         maxPower: 90,
         multihit: 2
