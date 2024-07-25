@@ -4227,7 +4227,8 @@ var SV_PATCH = {
         category: 'Special',
         zp: 190,
         maxPower: 140,
-        isBeam: true
+        isBeam: true,
+        isPulse: true
     },
     'Axe Kick': {
         bp: 120,

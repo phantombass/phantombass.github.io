@@ -4251,6 +4251,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 190,
     maxPower: 140,
     isBeam: true,
+    isPulse: true,
   },
   'Axe Kick': {
     bp: 120,
