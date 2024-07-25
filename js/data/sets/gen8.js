@@ -363,7 +363,7 @@
 
 
 "Probopass"={"Rocket Grunt Union 3"::{"level":24,"ability":"Sturdy","moves":["Stealth Rock","Explosion","",""],"nature":"Adamant","item":"Custap Berry","index":number},},
-"Sneasel-Hisui"={"Rocket Grunt Union 3"::{"level":25,"ability":"Poison Touch","moves":["Knock Off","Power-up Punch","Septic Shot","Thunder Punch"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Sneasel-Hisui"={"Rocket Grunt Union 3"::{"level":25,"ability":"Poison Touch","moves":["Knock Off","Power-Up Punch","Septic Shot","Thunder Punch"],"nature":"Adamant","item":"Lum Berry","index":number},},
 ""={"Rocket Grunt Union 3"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Rocket Grunt Union 3"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Rocket Grunt Union 3"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -1021,7 +1021,7 @@
 
 
 "Zebstrika"={"Rocket Grunt Dark 4"::{"level":47,"ability":"Reckless","moves":["Double Edge","Wild Charge","Flare Blitz","Trailblaze"],"nature":"Jolly","item":"Air Balloon","index":number},},
-"Staraptor"={"Rocket Grunt Dark 4"::{"level":47,"ability":"Reckless","moves":["Brave Bird","Double Edge","Close Combat","U-Turn"],"nature":"Jolly","item":"Sharp Beak","index":number},},
+"Staraptor"={"Rocket Grunt Dark 4"::{"level":47,"ability":"Reckless","moves":["Brave Bird","Double Edge","Close Combat","U-turn"],"nature":"Jolly","item":"Sharp Beak","index":number},},
 "Gastrodon"={"Rocket Grunt Dark 4"::{"level":46,"ability":"Storm Drain","moves":["Earth Power","Scald","Mirror Coat","Recover"],"nature":"Bold","item":"Rindo Berry","index":number},},
 "Dhelmise"={"Rocket Grunt Dark 4"::{"level":46,"ability":"Tinted Lens","moves":["Power Whip","Anchor Shot","Spirit Shackle","Synthesis"],"nature":"Adamant","item":"Colbur Berry","index":number},},
 ""={"Rocket Grunt Dark 4"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -1034,7 +1034,7 @@
 
 
 "Swampert"={"Rocket Grunt Dark 5"::{"level":47,"ability":"Resurgence","moves":["Stealth Rock","Ice Punch","Earthquake","Flip Turn"],"nature":"Careful","item":"Leftovers","index":number},},
-"Darmanitan"={"Rocket Grunt Dark 5"::{"level":47,"ability":"Sheer Force","moves":["Flare Blitz","Rock Slide","U-Turn","Iron Head"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Darmanitan"={"Rocket Grunt Dark 5"::{"level":47,"ability":"Sheer Force","moves":["Flare Blitz","Rock Slide","U-turn","Iron Head"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Tangrowth"={"Rocket Grunt Dark 5"::{"level":47,"ability":"Regenerator","moves":["Power Whip","Knock Off","Sludge Bomb","Earthquake"],"nature":"Relaxed","item":"Assault Vest","index":number},},
 "Hawlucha"={"Rocket Grunt Dark 5"::{"level":47,"ability":"Unburden","moves":["Swords Dance","Acrobatics","Close Combat","Throat Chop"],"nature":"Adamant","item":"White Herb","index":number},},
 ""={"Rocket Grunt Dark 5"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -1076,7 +1076,7 @@
 "Sylveon"={"Lass Bonnie & Youngster Clyde"::{"level":48,"ability":"Pixilate","moves":["Hyper Voice","Psyshock","Calm Mind","Protect"],"nature":"Modest","item":"Leftovers","index":number},},
 "Sirfetch\u2019d"={"Lass Bonnie & Youngster Clyde"::{"level":48,"ability":"Sharpness","moves":["Grassy Glide","Leaf Blade","Sacred Sword","Twin Blades"],"nature":"Jolly","item":"Leek","index":number},},
 ""={"Lass Bonnie & Youngster Clyde"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Rillaboom"={"Lass Bonnie & Youngster Clyde"::{"level":48,"ability":"Grassy Surge","moves":["Fake Out","U-Turn","Grassy Glide","High Horsepower"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Rillaboom"={"Lass Bonnie & Youngster Clyde"::{"level":48,"ability":"Grassy Surge","moves":["Fake Out","U-turn","Grassy Glide","High Horsepower"],"nature":"Adamant","item":"Assault Vest","index":number},},
 "Carnivine"={"Lass Bonnie & Youngster Clyde"::{"level":48,"ability":"Meadow Rush","moves":["Snap Trap","Acrobatics","Knock Off",""],"nature":"Adamant","item":"Grassy Seed","index":number},},
 ""={"Lass Bonnie & Youngster Clyde"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -1114,10 +1114,10 @@
 
 
 "Gogoat"={"Twins Tori & Til"::{"level":48,"ability":"Grassy Surge","moves":["Grassy Glide","Stomping Tantrum","Milk Drink","Rock Slide"],"nature":"Adamant","item":"Terrain Extender","index":number},},
-"Swoobat"={"Twins Tori & Til"::{"level":49,"ability":"Simple","moves":["Calm Mind","Doldrums","Stored Power","Roost"],"nature":"Timid","item":"Grassy Seed","index":number},},
-""={"Twins Tori & Til"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 "Togedemaru"={"Twins Tori & Til"::{"level":48,"ability":"Iron Barbs","moves":["Fake Out","Zippy Zap","Iron Head","U-turn"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Swoobat"={"Twins Tori & Til"::{"level":49,"ability":"Simple","moves":["Calm Mind","Doldrums","Stored Power","Roost"],"nature":"Timid","item":"Grassy Seed","index":number},},
 "Darmanitan"={"Twins Tori & Til"::{"level":49,"ability":"Sheer Force","moves":["Fire Punch","Rock Slide","Zen Headbutt","Protect"],"nature":"Jolly","item":"Life Orb","index":number},},
+""={"Twins Tori & Til"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Twins Tori & Til"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -1459,7 +1459,7 @@
 "Huntail"={"Swimmer Penny & Swimmer Ginny"::{"level":56,"ability":"Swift Swim","moves":["Night Rush","Aqua Tail","Corrosive Jaw","Psychic Fangs"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Lumineon"={"Swimmer Penny & Swimmer Ginny"::{"level":56,"ability":"Composure","moves":["Bug Buzz","Hurricane","Scald","Ice Beam"],"nature":"Timid","item":"Throat Spray","index":number},},
 "Toxicroak"={"Swimmer Penny & Swimmer Ginny"::{"level":57,"ability":"Dry Skin","moves":["Sludge Wave","","",""],"nature":"Timid","item":"Choice Specs","index":number},},
-"Gorebyss"={"Swimmer Penny & Swimmer Ginny"::{"level":56,"ability":"Triage","moves":["Fairy's Haunt","Bouncy Bubble","Recover",""],"nature":"Modest","item":"Big Root","index":number},},
+"Gorebyss"={"Swimmer Penny & Swimmer Ginny"::{"level":56,"ability":"Triage","moves":["Fairy\'s Haunt","Bouncy Bubble","Recover",""],"nature":"Modest","item":"Big Root","index":number},},
 ""={"Swimmer Penny & Swimmer Ginny"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -1645,7 +1645,7 @@
 
 
 
-"Togedemaru"={"Lass Katrina"::{"level":61,"ability":"Iron Barbs","moves":["Zing Zap","Iron Head","U-Turn","Toxic"],"nature":"Careful","item":"Rocky Helmet","index":number},},
+"Togedemaru"={"Lass Katrina"::{"level":61,"ability":"Iron Barbs","moves":["Zing Zap","Iron Head","U-turn","Toxic"],"nature":"Careful","item":"Rocky Helmet","index":number},},
 "Lickilicky"={"Lass Katrina"::{"level":61,"ability":"Oblivious","moves":["Terrain Pulse","Wish","Protect","Knock Off"],"nature":"Careful","item":"Leftovers","index":number},},
 "Raichu-Alola"={"Lass Katrina"::{"level":61,"ability":"Surge Surfer","moves":["Rising Voltage","Psychic","Bouncy Bubble","Freezy Frost"],"nature":"Modest","item":"Focus Sash","index":number},},
 "Sceptile"={"Lass Katrina"::{"level":61,"ability":"Unburden","moves":["Swords Dance","Leaf Blade","Acrobatics","Earthquake"],"nature":"Adamant","item":"Electric Seed","index":number},},
@@ -1671,7 +1671,7 @@
 
 
 
-"Ninjask"={"Bird Keeper Tink"::{"level":62,"ability":"Sharpness","moves":["X-Scissor","Night Slash","Aerial Ace","Twin Blade"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Ninjask"={"Bird Keeper Tink"::{"level":62,"ability":"Sharpness","moves":["X-Scissor","Night Slash","Aerial Ace","Twin Blades"],"nature":"Adamant","item":"Focus Sash","index":number},},
 "Emolga"={"Bird Keeper Tink"::{"level":62,"ability":"Motor Drive","moves":["Rising Voltage","Wind Drill","Energy Ball","Hidden Power Ground"],"nature":"Timid","item":"Life Orb","index":number},},
 "Rotom-Fan"={"Bird Keeper Tink"::{"level":62,"ability":"Motor Drive","moves":["Rising Voltage","Wind Drill","Will-O-Wisp","Hex"],"nature":"Timid","item":"Leftovers","index":number},},
 "Iron Jugulis"={"Bird Keeper Tink"::{"level":62,"ability":"Quark Drive","moves":["Fiery Wrath","Flamethrower","Earth Power","Air Cannon"],"nature":"Timid","item":"King's Rock","index":number},},
@@ -1733,8 +1733,8 @@
 
 "Rhyperior"={"Scientist Bill"::{"level":64,"ability":"Solid Rock","moves":["Stealth Rock","Earthquake","Rock Blast","Heat Crash"],"nature":"Adamant","item":"Rindo Berry","index":number},},
 "Iron Moth"={"Scientist Bill"::{"level":64,"ability":"Quark Drive","moves":["Death Toll","Fiery Dance","Energy Ball","Thunderbolt"],"nature":"Timid","item":"Air Balloon","index":number},},
-"Mandibuzz"={"Scientist Bill"::{"level":64,"ability":"Overcoat","moves":["U-Turn","Protect","Toxic","Foul Play"],"nature":"Careful","item":"Leftovers","index":number},},
-"Dragapult"={"Scientist Bill"::{"level":64,"ability":"Infiltrator","moves":["Shadow Ball","Flamethrower","Draco Meteor","U-Turn"],"nature":"Modest","item":"Choice Specs","index":number},},
+"Mandibuzz"={"Scientist Bill"::{"level":64,"ability":"Overcoat","moves":["U-turn","Protect","Toxic","Foul Play"],"nature":"Careful","item":"Leftovers","index":number},},
+"Dragapult"={"Scientist Bill"::{"level":64,"ability":"Infiltrator","moves":["Shadow Ball","Flamethrower","Draco Meteor","U-turn"],"nature":"Modest","item":"Choice Specs","index":number},},
 ""={"Scientist Bill"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Scientist Bill"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -1798,7 +1798,7 @@
 
 "Cyclizar"={"Pokemon Ranger Rebecca"::{"level":65,"ability":"Regenerator","moves":["Shed Tail","Dual Chop","Knock Off",""],"nature":"Jolly","item":"Sitrus Berry","index":number},},
 "Lilligant-Hisui"={"Pokemon Ranger Rebecca"::{"level":65,"ability":"Chlorophyll","moves":["Close Combat","Solar Blade","Triple Axel","Swords Dance"],"nature":"Adamant","item":"Life Orb","index":number},},
-"Mienshao"={"Pokemon Ranger Rebecca"::{"level":66,"ability":"Regenerator","moves":["Close Combat","Knock Off","U-Turn","Poison Jab"],"nature":"Jolly","item":"Choice Scarf","index":number},},
+"Mienshao"={"Pokemon Ranger Rebecca"::{"level":66,"ability":"Regenerator","moves":["Close Combat","Knock Off","U-turn","Poison Jab"],"nature":"Jolly","item":"Choice Scarf","index":number},},
 "Houndoom-Mega"={"Pokemon Ranger Rebecca"::{"level":66,"ability":"Solar Power","moves":["Flamethrower","Fiery Wrath","Hidden Power Grass","Sludge Bomb"],"nature":"Timid","item":"Houndoominite","index":number},},
 ""={"Pokemon Ranger Rebecca"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Pokemon Ranger Rebecca"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -1847,7 +1847,7 @@
 
 
 "Poliwrath"={"Pokemon Rangers Mariana and Libby"::{"level":67,"ability":"Swift Swim","moves":["Jet Punch","Surging Strikes","Drain Punch","Ice Punch"],"nature":"Adamant","item":"Punching Glove","index":number},},
-"Kingler-Mega"={"Pokemon Rangers Mariana and Libby"::{"level":67,"ability":"Tough Claws","moves":["Swords Dance","Crabhammer","Ice Hammer","Hammer Smash"],"nature":"Jolly","item":"Kinglerite","index":number},},
+"Kingler-Mega"={"Pokemon Rangers Mariana and Libby"::{"level":67,"ability":"Gavel Power","moves":["Swords Dance","Crabhammer","Ice Hammer","Hammer Smash"],"nature":"Jolly","item":"Kinglerite","index":number},},
 ""={"Pokemon Rangers Mariana and Libby"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 "Gorebyss"={"Pokemon Rangers Mariana and Libby"::{"level":67,"ability":"Swift Swim","moves":["Scald","Moonblast","Ice Beam","Psychic"],"nature":"Modest","item":"Pixie Plate","index":number},},
 "Altaria-Mega"={"Pokemon Rangers Mariana and Libby"::{"level":67,"ability":"Pixilate","moves":["Hyper Voice","Roost","Hurricane","Stomping Tantrum"],"nature":"Timid","item":"Altarianite","index":number},},
@@ -1911,6 +1911,18 @@
 
 
 
+"Meowscarada"={"Scientist Ham"::{"level":69,"ability":"Protean","moves":["Toxic Spikes","Triple Axel","Flower Trick","U-turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Magnezone"={"Scientist Ham"::{"level":69,"ability":"Magnet Pull","moves":["Overcharge","Polarity Pulse","Volt Switch","Hidden Power Ice"],"nature":"Modest","item":"Choice Specs","index":number},},
+"Azumarill"={"Scientist Ham"::{"level":70,"ability":"Huge Power","moves":["Belly Drum","Aqua Jet","Knock Off","Play Rough"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
+"Garchomp"={"Scientist Ham"::{"level":70,"ability":"Rough Skin","moves":["Swords Dance","Scale Shot","Earthquake","Iron Head"],"nature":"Jolly","item":"Loaded Dice","index":number},},
+""={"Scientist Ham"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Scientist Ham"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
 
 "Araquanid"={"Rocket Grunt HQ 1"::{"level":69,"ability":"Water Bubble","moves":["Sticky Web","Liquidation","Leech Life","Toxic"],"nature":"Careful","item":"Focus Sash","index":number},},
 "Spidops"={"Rocket Grunt HQ 1"::{"level":68,"ability":"Sharpness","moves":["Sacred Sword","Stone Cutter","Twin Blades","X-Scissor"],"nature":"Adamant","item":"Lum Berry","index":number},},
@@ -1925,22 +1937,9 @@
 
 
 
-"Meowscarada"={"Scientist Ham"::{"level":69,"ability":"Protean","moves":["Toxic Spikes","Triple Axel","Flower Trick","U-Turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
-"Magnezone"={"Scientist Ham"::{"level":69,"ability":"Magnet Pull","moves":["Overcharge","Polarity Pulse","Volt Switch","Hidden Power Ice"],"nature":"Modest","item":"Choice Specs","index":number},},
-"Azumarill"={"Scientist Ham"::{"level":70,"ability":"Huge Power","moves":["Belly Drum","Aqua Jet","Knock Off","Play Rough"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
-"Garchomp"={"Scientist Ham"::{"level":70,"ability":"Rough Skin","moves":["Swords Dance","Scale Shot","Earthquake","Iron Head"],"nature":"Jolly","item":"Loaded Dice","index":number},},
-""={"Scientist Ham"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Scientist Ham"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-
-
-
-
-
-
-
 "Aerodactyl-Mega"={"Rocket Grunt HQ 2"::{"level":70,"ability":"Tough Claws","moves":["Stealth Rock","Earthquake","Stone Edge","Dual Wingbeat"],"nature":"Jolly","item":"Aerodactylite","index":number},},
 "Quaquaval"={"Rocket Grunt HQ 2"::{"level":70,"ability":"Step Master","moves":["Swords Dance","Aqua Step","Triple Arrows","Triple Axel"],"nature":"Adamant","item":"Lum Berry","index":number},},
-"Mandibuzz"={"Rocket Grunt HQ 2"::{"level":69,"ability":"Overcoat","moves":["Foul Play","U-Turn","Roost","Toxic"],"nature":"Bold","item":"Leftovers","index":number},},
+"Mandibuzz"={"Rocket Grunt HQ 2"::{"level":69,"ability":"Overcoat","moves":["Foul Play","U-turn","Roost","Toxic"],"nature":"Bold","item":"Leftovers","index":number},},
 "Slowking-Galar"={"Rocket Grunt HQ 2"::{"level":69,"ability":"Regenerator","moves":["Eerie Spell","Sludge Bomb","Flamethrower","Scald"],"nature":"Modest","item":"Assault Vest","index":number},},
 "Metagross"={"Rocket Grunt HQ 2"::{"level":70,"ability":"Clear Body","moves":["Bullet Punch","Psyshield Bash","Meteor Mash","Knock Off"],"nature":"Adamant","item":"Muscle Band","index":number},},
 ""={"Rocket Grunt HQ 2"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -1955,7 +1954,7 @@
 "Slowking"={"Rocket Grunt HQ 3"::{"level":69,"ability":"Regenerator","moves":["Chilly Reception","Scald","Slack Off","Thunder Wave"],"nature":"Relaxed","item":"Icy Rock","index":number},},
 "Glaceon"={"Rocket Grunt HQ 3"::{"level":70,"ability":"Slush Rush","moves":["Blizzard","Freeze-Dry","Shadow Ball","Earth Power"],"nature":"Modest","item":"Assault Vest","index":number},},
 "Gliscor"={"Rocket Grunt HQ 3"::{"level":69,"ability":"Poison Heal","moves":["Swords Dance","Earthquake","Facade","Knock Off"],"nature":"Jolly","item":"Toxic Orb","index":number},},
-"Lokix"={"Rocket Grunt HQ 3"::{"level":70,"ability":"Tinted Lens","moves":["First Impression","U-Turn","Axe Kick","Sucker Punch"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Lokix"={"Rocket Grunt HQ 3"::{"level":70,"ability":"Tinted Lens","moves":["First Impression","U-turn","Axe Kick","Sucker Punch"],"nature":"Adamant","item":"Life Orb","index":number},},
 ""={"Rocket Grunt HQ 3"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -2004,7 +2003,7 @@
 
 
 "Drapion"={"Rocket Grunt Male Password"::{"level":70,"ability":"Battle Armor","moves":["Toxic Spikes","Knock Off","Poison Jab","Earthquake"],"nature":"Jolly","item":"Shuca Berry","index":number},},
-"Darmanitan"={"Rocket Grunt Male Password"::{"level":71,"ability":"Sheer Force","moves":["Flare Blitz","Rock Slide","Earthquake","U-Turn"],"nature":"Jolly","item":"Choice Scarf","index":number},},
+"Darmanitan"={"Rocket Grunt Male Password"::{"level":71,"ability":"Sheer Force","moves":["Flare Blitz","Rock Slide","Earthquake","U-turn"],"nature":"Jolly","item":"Choice Scarf","index":number},},
 "Celesteela"={"Rocket Grunt Male Password"::{"level":71,"ability":"Beast Boost","moves":["Heavy Slam","Flamethrower","Leech Seed","Protect"],"nature":"Relaxed","item":"Leftovers","index":number},},
 "Hatterene"={"Rocket Grunt Male Password"::{"level":70,"ability":"Magic Bounce","moves":["Calm Mind","Draining Kiss","Mystical Fire","Psychic"],"nature":"Modest","item":"Leftovers","index":number},},
 "Pinsir-Mega"={"Rocket Grunt Male Password"::{"level":71,"ability":"Aerilate","moves":["Swords Dance","Quick Attack","Return","Close Combat"],"nature":"Jolly","item":"Pinsirite","index":number},},
@@ -2117,7 +2116,7 @@
 
 "Hippowdon"={"Rocket Grunt Radio 1"::{"level":72,"ability":"Sand Stream","moves":["Stealth Rock","Earthquake","Slack Off","Rock Slide"],"nature":"Careful","item":"Rindo Berry","index":number},},
 "Rotom-Wash"={"Rocket Grunt Radio 1"::{"level":73,"ability":"Levitate","moves":["Scald","Hidden Power Ice","Thunderbolt","Will-O-Wisp"],"nature":"Bold","item":"Leftovers","index":number},},
-"Tornadus-Therian"={"Rocket Grunt Radio 1"::{"level":73,"ability":"Regenerator","moves":["Oblivion Wing","U-Turn","Heat Wave","Focus Blast"],"nature":"Timid","item":"Assault Vest","index":number},},
+"Tornadus-Therian"={"Rocket Grunt Radio 1"::{"level":73,"ability":"Regenerator","moves":["Oblivion Wing","U-turn","Heat Wave","Focus Blast"],"nature":"Timid","item":"Assault Vest","index":number},},
 "Arcanine-Hisui"={"Rocket Grunt Radio 1"::{"level":72,"ability":"Rock Head","moves":["Head Smash","Flare Blitz","Double-Edge","Accelerock"],"nature":"Jolly","item":"Air Balloon","index":number},},
 "Hydreigon"={"Rocket Grunt Radio 1"::{"level":72,"ability":"Medusoid","moves":["Nasty Plot","Fickle Beam","Wicked Wind","Flash Cannon"],"nature":"Timid","item":"Roseli Berry","index":number},},
 "Metagross"={"Rocket Grunt Radio 1"::{"level":72,"ability":"Clear Body","moves":["Meteor Mash","Psyshield Bash","Earthquake","Bullet Punch"],"nature":"Adamant","item":"Colbur Berry","index":number},},
@@ -2128,7 +2127,7 @@
 
 
 
-"Rillaboom-Mega"={"Rocket Grunt Double Radio 1"::{"level":73,"ability":"Grassy Surge","moves":["Grassy Glide","U-Turn","Drain Punch","Knock Off"],"nature":"Jolly","item":"Rillaboomite","index":number},},
+"Rillaboom-Mega"={"Rocket Grunt Double Radio 1"::{"level":73,"ability":"Grassy Surge","moves":["Grassy Glide","U-turn","Drain Punch","Knock Off"],"nature":"Jolly","item":"Rillaboomite","index":number},},
 "Hawlucha"={"Rocket Grunt Double Radio 1"::{"level":74,"ability":"Unburden","moves":["Acrobatics","Close Combat","Swords Dance","Throat Chop"],"nature":"Adamant","item":"Grassy Seed","index":number},},
 ""={"Rocket Grunt Double Radio 1"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 "Carnivine"={"Rocket Grunt Double Radio 1"::{"level":73,"ability":"Meadow Rush","moves":["Grassy Glide","Snap Trap","Knock Off","Stomping Tantrum"],"nature":"Jolly","item":"Life Orb","index":number},},
@@ -2186,7 +2185,7 @@
 "Heatran"={"Rocket Grunt Radio 3"::{"level":75,"ability":"Flash Fire","moves":["Lava Plume","Stealth Rock","Roar","Earth Power"],"nature":"Calm","item":"Leftovers","index":number},},
 "Registeel"={"Rocket Grunt Radio 3"::{"level":75,"ability":"Clear Body","moves":["Heavy Slam","Earthquake","Body Press","Iron Defense"],"nature":"Careful","item":"Leftovers","index":number},},
 "Cofagrigus"={"Rocket Grunt Radio 3"::{"level":74,"ability":"Dauntless Shield","moves":["Hex","Toxic Spikes","Will-O-Wisp","Body Press"],"nature":"Bold","item":"Rocky Helmet","index":number},},
-"Lopunny-Mega"={"Rocket Grunt Radio 3"::{"level":75,"ability":"Scrappy","moves":["Fake Out","Close Combat","Return","Power-up Punch"],"nature":"Jolly","item":"Lopunnite","index":number},},
+"Lopunny-Mega"={"Rocket Grunt Radio 3"::{"level":75,"ability":"Scrappy","moves":["Fake Out","Close Combat","Return","Power-Up Punch"],"nature":"Jolly","item":"Lopunnite","index":number},},
 
 
 
@@ -2302,7 +2301,7 @@
 "Cyclizar"={"Cool Trainer Lucius"::{"level":78,"ability":"Regenerator","moves":["Shed Tail","Acrobatics","Return","Dragon Claw"],"nature":"Jolly","item":"Sitrus Berry","index":number},},
 "Naganadel"={"Cool Trainer Lucius"::{"level":79,"ability":"Beast Boost","moves":["Nasty Plot","Draco Meteor","Sludge Wave","Fire Blast"],"nature":"Timid","item":"Life Orb","index":number},},
 "Goodra"={"Cool Trainer Lucius"::{"level":78,"ability":"Poison Heal","moves":["Protect","Toxic","Draco Meteor","Sludge Bomb"],"nature":"Timid","item":"Toxic Orb","index":number},},
-"Milotic"={"Cool Trainer Lucius"::{"level":78,"ability":"Marvel Scale","moves":["Bouncy Bubble","Fairy's Haunt","Recover","Protect"],"nature":"Calm","item":"Flame Orb","index":number},},
+"Milotic"={"Cool Trainer Lucius"::{"level":78,"ability":"Marvel Scale","moves":["Bouncy Bubble","Fairy\'s Haunt","Recover","Protect"],"nature":"Calm","item":"Flame Orb","index":number},},
 "Latios"={"Cool Trainer Lucius"::{"level":79,"ability":"Levitate","moves":["Calm Mind","Thunderbolt","Draco Meteor","Recover"],"nature":"Timid","item":"Leftovers","index":number},},
 ""={"Cool Trainer Lucius"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -2362,7 +2361,7 @@
 "Great Tusk"={"Cool Trainer Terra"::{"level":81,"ability":"Rock Head","moves":["Headlong Rush","Head Smash","Iron Head","Stealth Rock"],"nature":"Adamant","item":"Focus Sash","index":number},},
 "Excadrill"={"Cool Trainer Terra"::{"level":82,"ability":"Sand Rush","moves":["Earthquake","Iron Head","Rock Slide","Swords Dance"],"nature":"Adamant","item":"Life Orb","index":number},},
 "Torterra"={"Cool Trainer Terra"::{"level":81,"ability":"Rock Head","moves":["Wood Hammer","Earthquake","Head Smash","Shell Smash"],"nature":"Adamant","item":"White Herb","index":number},},
-"Gliscor"={"Cool Trainer Terra"::{"level":81,"ability":"Poison Heal","moves":["Earthquake","U-Turn","Roost","Protect"],"nature":"Jolly","item":"Toxic Orb","index":number},},
+"Gliscor"={"Cool Trainer Terra"::{"level":81,"ability":"Poison Heal","moves":["Earthquake","U-turn","Roost","Protect"],"nature":"Jolly","item":"Toxic Orb","index":number},},
 "Sandaconda-Mega"={"Cool Trainer Terra"::{"level":82,"ability":"Sand Rush","moves":["Dragon Darts","Thousand Arrows","Coil","Shore Up"],"nature":"Adamant","item":"Sandacondanite","index":number},},
 ""={"Cool Trainer Terra"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -2558,8 +2557,8 @@
 
 
 
-"Ribombee"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Shield Dust","moves":["Sticky Web","Moonblast","Bug Buzz","U-Turn"],"nature":"Timid","item":"Focus Sash","index":number},},
-"Landorus-Therian"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Intimidate","moves":["Stealth Rock","Earthquake","U-Turn","Knock Off"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
+"Ribombee"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Shield Dust","moves":["Sticky Web","Moonblast","Bug Buzz","U-turn"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Landorus-Therian"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Intimidate","moves":["Stealth Rock","Earthquake","U-turn","Knock Off"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
 "Shaymin-Sky"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Serene Grace","moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Fire"],"nature":"Timid","item":"Life Orb","index":number},},
 "Goodra-Hisui"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Shell Armor","moves":["Polarity Pulse","Scald","Ice Beam","Draco Meteor"],"nature":"Modest","item":"Assault Vest","index":number},},
 "Basculegion"={" Cool Trainer Zinkatron"::{"level":85,"ability":"Adaptability","moves":["Wave Crash","Last Respects","",""],"nature":"Jolly","item":"Choice Scarf","index":number},},
@@ -2665,7 +2664,7 @@
 
 
 
-"Ribombee"={"Bug Catcher Calvin"::{"level":86,"ability":"Shield Dust","moves":["Sticky Web","Moonblast","Bug Buzz","U-Turn"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Ribombee"={"Bug Catcher Calvin"::{"level":86,"ability":"Shield Dust","moves":["Sticky Web","Moonblast","Bug Buzz","U-turn"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Spidops"={"Bug Catcher Calvin"::{"level":86,"ability":"Web Weaver","moves":["First Impression","Lunge","Bullet Punch","Reversal"],"nature":"Adamant","item":"Muscle Band","index":number},},
 "Flygon"={"Bug Catcher Calvin"::{"level":86,"ability":"Punk Rock","moves":["Boomburst","Earth Power","Bug Buzz","Ancient Cry"],"nature":"Timid","item":"Throat Spray","index":number},},
 ""={"Bug Catcher Calvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -2746,7 +2745,7 @@
 
 "Klefki"={"Cool Trainer Ivan"::{"level":86,"ability":"Prankster","moves":["Thunder Wave","Reflect","Dazzling Gleam","Light Screen"],"nature":"Calm","item":"Light Clay","index":number},},
 "Hydreigon"={"Cool Trainer Ivan"::{"level":87,"ability":"Levitate","moves":["Nasty Plot","Fickle Beam","Dark Pulse","Flash Cannon"],"nature":"Timid","item":"Wise Glasses","index":number},},
-"Zapdos-Galar"={"Cool Trainer Ivan"::{"level":87,"ability":"Defiant","moves":["Acrobatics","Thunderous Kick","Knock Off","U-Turn"],"nature":"Jolly","item":"Flying Gem","index":number},},
+"Zapdos-Galar"={"Cool Trainer Ivan"::{"level":87,"ability":"Defiant","moves":["Acrobatics","Thunderous Kick","Knock Off","U-turn"],"nature":"Jolly","item":"Flying Gem","index":number},},
 "Gouging Fire"={"Cool Trainer Ivan"::{"level":87,"ability":"Protosynthesis","moves":["Dragon Dance","Flare Blitz","Earthquake","Morning Sun"],"nature":"Jolly","item":"Booster Energy","index":number},},
 ""={"Cool Trainer Ivan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Ivan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -2824,7 +2823,7 @@
 
 
 
-"Kleavor"={"Youngster Jake"::{"level":87,"ability":"Sharpness","moves":["Stone Axe","X-Scissor","Night Slash","U-Turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Kleavor"={"Youngster Jake"::{"level":87,"ability":"Sharpness","moves":["Stone Axe","X-Scissor","Night Slash","U-turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
 "Lycanroc-Dusk"={"Youngster Jake"::{"level":86,"ability":"Tough Claws","moves":["Swords Dance","Accelerock","Close Combat","Crunch"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Minior"={"Youngster Jake"::{"level":86,"ability":"Shields Down","moves":["Shell Smash","Acrobatics","Earthquake","Stone Edge"],"nature":"Adamant","item":"White Herb","index":number},},
 "Ursaluna"={"Youngster Jake"::{"level":87,"ability":"Guts","moves":["Protect","Facade","Earthquake","Trailblaze"],"nature":"Adamant","item":"Flame Orb","index":number},},
@@ -2897,7 +2896,7 @@
 
 
 "Galvantula"={"Bug Catcher Omar"::{"level":87,"ability":"Compound Eyes","moves":["Sticky Web","Thunder","Thunder Wave","Bug Buzz"],"nature":"Timid","item":"Focus Sash","index":number},},
-"Lokix"={"Bug Catcher Omar"::{"level":87,"ability":"Tinted Lens","moves":["First Impression","Knock Off","U-Turn","Axe Kick"],"nature":"Adamant","item":"Silver Powder","index":number},},
+"Lokix"={"Bug Catcher Omar"::{"level":87,"ability":"Tinted Lens","moves":["First Impression","Knock Off","U-turn","Axe Kick"],"nature":"Adamant","item":"Silver Powder","index":number},},
 "Golisopod"={"Bug Catcher Omar"::{"level":88,"ability":"Shell Armor","moves":["First Impression","Liquidation","Knock Off","Aqua Jet"],"nature":"Adamant","item":"Mystic Water","index":number},},
 "Heracross-Mega"={"Bug Catcher Omar"::{"level":88,"ability":"Skill Link","moves":["Swords Dance","Close Combat","Pin Missile","Rock Blast"],"nature":"Jolly","item":"Heracronite","index":number},},
 ""={"Bug Catcher Omar"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -2948,7 +2947,7 @@
 
 
 
-"Emolga"={"Lass Sara"::{"level":88,"ability":"Motor Drive","moves":["Air Slash","Thunderbolt","U-Turn","Toxic"],"nature":"Timid","item":"Rocky Helmet","index":number},},
+"Emolga"={"Lass Sara"::{"level":88,"ability":"Motor Drive","moves":["Air Slash","Thunderbolt","U-turn","Toxic"],"nature":"Timid","item":"Rocky Helmet","index":number},},
 "Serperior"={"Lass Sara"::{"level":88,"ability":"Contrary","moves":["Leaf Storm","Draco Meteor","Synthesis","Hidden Power Fire"],"nature":"Timid","item":"Wise Glasses","index":number},},
 "Espeon"={"Lass Sara"::{"level":88,"ability":"Synchronize","moves":["Calm Mind","Psyshock","Shadow Ball","Morning Sun"],"nature":"Timid","item":"Leftovers","index":number},},
 "Bewear"={"Lass Sara"::{"level":87,"ability":"Fluffy","moves":["Swords Dance","Double Edge","Drain Punch","Darkest Lariat"],"nature":"Jolly","item":"Silk Scarf","index":number},},
@@ -3017,7 +3016,7 @@
 
 "Steelix"={"Hiker Winston"::{"level":89,"ability":"Sturdy","moves":["Earthquake","Toxic","Gyro Ball","Curse"],"nature":"Impish","item":"Rocky Helmet","ivs":{"sp":0},"index":number},},
 "Slowking-Galar"={"Hiker Winston"::{"level":88,"ability":"Regenerator","moves":["Death Toll","Surf","Eerie Spell","Shadow Ball"],"nature":"Bold","item":"Assault Vest","index":number},},
-"TTauros-Paldea-Aqua"={"Hiker Winston"::{"level":88,"ability":"Intimidate","moves":["Bulk Up","Raging Bull","Aqua Jet","Close Combat"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Tauros-Paldea-Aqua"={"Hiker Winston"::{"level":88,"ability":"Intimidate","moves":["Bulk Up","Raging Bull","Aqua Jet","Close Combat"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Archaludon"={"Hiker Winston"::{"level":89,"ability":"Stamina","moves":["Body Press","Draco Meteor","Polarity Pulse","Thunder Wave"],"nature":"Bold","item":"Leftovers","index":number},},
 ""={"Hiker Winston"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Hiker Winston"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3043,7 +3042,7 @@
 
 
 "Shuckle"={"Bug Catcher Yan"::{"level":89,"ability":"Sturdy","moves":["Sticky Web","Stealth Rock","Final Gambit",""],"nature":"Bold","item":"Custap Berry","index":number},},
-"Comfey"={"Bug Catcher Yan"::{"level":90,"ability":"Triage","moves":["Calm Mind","Fairy's Haunt","Synthesis","Stored Power"],"nature":"Modest","item":"Life Orb","index":number},},
+"Comfey"={"Bug Catcher Yan"::{"level":90,"ability":"Triage","moves":["Calm Mind","Fairy\'s Haunt","Synthesis","Stored Power"],"nature":"Modest","item":"Life Orb","index":number},},
 ""={"Bug Catcher Yan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Bug Catcher Yan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Bug Catcher Yan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3055,7 +3054,7 @@
 
 
 
-"Meganium"={"Lass Zara"::{"level":89,"ability":"Triage","moves":["Body Press","Giga Drain","Leech Seed","Fairy's Haunt"],"nature":"Calm","item":"Leftovers","index":number},},
+"Meganium"={"Lass Zara"::{"level":89,"ability":"Triage","moves":["Body Press","Giga Drain","Leech Seed","Fairy\'s Haunt"],"nature":"Calm","item":"Leftovers","index":number},},
 "Togekiss"={"Lass Zara"::{"level":90,"ability":"Serene Grace","moves":["Nasty Plot","Air Slash","Roost","Thunder Wave"],"nature":"Timid","item":"Sharp Beak","index":number},},
 "Mimikyu"={"Lass Zara"::{"level":90,"ability":"Disguise","moves":["Swords Dance","Play Rough","Drain Punch","Shadow Sneak"],"nature":"Adamant","item":"Red Card","index":number},},
 ""={"Lass Zara"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3083,7 +3082,7 @@
 
 "Clefable"={"Lass Beatrice"::{"level":90,"ability":"Magic Guard","moves":["Stealth Rock","Moonblast","Knock Off","Thunder Wave"],"nature":"Bold","item":"Leftovers","index":number},},
 "Hatterene"={"Lass Beatrice"::{"level":90,"ability":"Magic Bounce","moves":["Calm Mind","Stored Power","Mystical Fire","Draining Kiss"],"nature":"Bold","item":"Leftovers","index":number},},
-"Tinkaton"={"Lass Beatrice"::{"level":90,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir's Wrath"],"nature":"Jolly","item":"Assault Vest","index":number},},
+"Tinkaton"={"Lass Beatrice"::{"level":90,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir\'s Wrath"],"nature":"Jolly","item":"Assault Vest","index":number},},
 ""={"Lass Beatrice"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Lass Beatrice"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Lass Beatrice"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3265,7 +3264,7 @@
 
 
 
-"Gorebyss"={"Swimmer Janet"::{"level":89,"ability":"Triage","moves":["Shell Smash","Ice Beam","Bouncy Bubble","Fairy's Haunt"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Gorebyss"={"Swimmer Janet"::{"level":89,"ability":"Triage","moves":["Shell Smash","Ice Beam","Bouncy Bubble","Fairy\'s Haunt"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Slowking"={"Swimmer Janet"::{"level":90,"ability":"Regenerator","moves":["Scald","Slack Off","Chilly Reception","Psychic Noise"],"nature":"Sassy","item":"Leftovers","index":number},},
 "Golisopod"={"Swimmer Janet"::{"level":90,"ability":"Shell Armor","moves":["First Impression","Close Combat","Liquidation","Knock Off"],"nature":"Adamant","item":"Life Orb","index":number},},
 "Arctovish"={"Swimmer Janet"::{"level":89,"ability":"Slush Rush","moves":["Fishious Rend","Icicle Crash","Crunch","Psychic Fangs"],"nature":"Jolly","item":"Life Orb","index":number},},
@@ -3302,7 +3301,7 @@
 "Chesnaught"={"Lass Luna"::{"level":90,"ability":"Bulletproof","moves":["Drain Punch","Toxic","Leech Seed","Wood Hammer"],"nature":"Impish","item":"Rocky Helmet","index":number},},
 "Greninja"={"Lass Luna"::{"level":90,"ability":"Protean","moves":["Surf","Ice Beam","Wicked Wind","Water Shuriken"],"nature":"Timid","item":"Choice Specs","index":number},},
 "Delphox"={"Lass Luna"::{"level":90,"ability":"Magic Guard","moves":["Nasty Plot","Will-O-Wisp","Hex","Mind Blown"],"nature":"Timid","item":"Colbur Berry","index":number},},
-"Talonflame"={"Lass Luna"::{"level":90,"ability":"Gale Wings","moves":["U-Turn","Acrobatics","Solar Wings","Toxic"],"nature":"Adamant","item":"Flying Gem","index":number},},
+"Talonflame"={"Lass Luna"::{"level":90,"ability":"Gale Wings","moves":["U-turn","Acrobatics","Solar Wings","Toxic"],"nature":"Adamant","item":"Flying Gem","index":number},},
 "Aegislash"={"Lass Luna"::{"level":90,"ability":"Stance Change","moves":["Spectral Shriek","Polarity Pulse","Shadow Sneak","King's Shield"],"nature":"Modest","item":"Spell Tag","index":number},},
 ""={"Lass Luna"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -3326,7 +3325,7 @@
 
 
 "Vikavolt"={"Bug Catcher Norbert"::{"level":90,"ability":"Levitate","moves":["Sticky Web","Volt Switch","Bug Buzz","Thunderbolt"],"nature":"Modest","item":"Leftovers","index":number},},
-"Vespiquen"={"Bug Catcher Norbert"::{"level":91,"ability":"Pressure","moves":["Toxic","U-Turn","Roost","Attack Order"],"nature":"Impish","item":"Charti Berry","index":number},},
+"Vespiquen"={"Bug Catcher Norbert"::{"level":91,"ability":"Pressure","moves":["Toxic","U-turn","Roost","Attack Order"],"nature":"Impish","item":"Charti Berry","index":number},},
 "Basculegion-Female"={"Bug Catcher Norbert"::{"level":90,"ability":"Adaptability","moves":["Shadow Ball","Surf","Ice Beam","Flip Turn"],"nature":"Timid","item":"Wise Glasses","index":number},},
 "Dudunsparce"={"Bug Catcher Norbert"::{"level":90,"ability":"Composure","moves":["Boomburst","Earth Power","Flamethrower","Roost"],"nature":"Modest","item":"Throat Spray","index":number},},
 "Goodra-Hisui"={"Bug Catcher Norbert"::{"level":90,"ability":"Gooey","moves":["Draco Meteor","Polarity Pulse","Fire Blast","Thunderbolt"],"nature":"Modest","item":"Assault Vest","index":number},},
@@ -3731,7 +3730,7 @@
 "Emboar"={"Picnicker Marila"::{"level":91,"ability":"Reckless","moves":["Flare Blitz","Close Combat","Knock Off","Earthquake"],"nature":"Adamant","item":"Assault Vest","index":number},},
 "Samurott"={"Picnicker Marila"::{"level":91,"ability":"Sharpness","moves":["Swords Dance","Razor Shell","Crystal Edge","Sacred Sword"],"nature":"Adamant","item":"Life Orb","index":number},},
 "Serperior"={"Picnicker Marila"::{"level":91,"ability":"Contrary","moves":["Leaf Storm","Draco Meteor","Synthesis","Hidden Power Rock"],"nature":"Timid","item":"Wise Glasses","index":number},},
-"Unfezant"={"Picnicker Marila"::{"level":92,"ability":"Super Luck","moves":["Brave Bird","Facade","U-Turn","Tailwind"],"nature":"Jolly","item":"Scope Lens","index":number},},
+"Unfezant"={"Picnicker Marila"::{"level":92,"ability":"Super Luck","moves":["Brave Bird","Facade","U-turn","Tailwind"],"nature":"Jolly","item":"Scope Lens","index":number},},
 "Hydreigon"={"Picnicker Marila"::{"level":92,"ability":"Medusoid","moves":["Nasty Plot","Fickle Beam","Wicked Wind","Flamethrower"],"nature":"Timid","item":"Roseli Berry","index":number},},
 ""={"Picnicker Marila"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -3757,7 +3756,7 @@
 
 "Typhlosion"={"Picnicker Ophelia"::{"level":91,"ability":"Competitive","moves":["Flamethrower","Magma Trek","Scorching Sands","Eruption"],"nature":"Timid","item":"Charcoal","index":number},},
 "Feraligatr"={"Picnicker Ophelia"::{"level":92,"ability":"Tough Claws","moves":["Liquidation","Crunch","Dragon Dance","Earthquake"],"nature":"Jolly","item":"Muscle Band","index":number},},
-"Meganium"={"Picnicker Ophelia"::{"level":91,"ability":"Triage","moves":["Giga Drain","Fairy's Haunt","Toxic","Synthesis"],"nature":"Modest","item":"Big Root","index":number},},
+"Meganium"={"Picnicker Ophelia"::{"level":91,"ability":"Triage","moves":["Giga Drain","Fairy\'s Haunt","Toxic","Synthesis"],"nature":"Modest","item":"Big Root","index":number},},
 "Noctowl"={"Picnicker Ophelia"::{"level":91,"ability":"Tinted Lens","moves":["Wind Drill","Moonblast","Nasty Plot","Roost"],"nature":"Modest","item":"Life Orb","index":number},},
 "Steelix-Mega"={"Picnicker Ophelia"::{"level":91,"ability":"Strong Jaw","moves":["Curse","Draco Fangs","Gyro Ball","Fire Fang"],"nature":"Sassy","item":"Steelixite","ivs":{"sp":0},"index":number},},
 ""={"Picnicker Ophelia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3785,7 +3784,7 @@
 "Hydrapple"={"Cool Trainer Quinto"::{"level":91,"ability":"Regenerator","moves":["Nasty Plot","Fickle Beam","Recover","Spore Beam"],"nature":"Modest","item":"Yache Berry","index":number},},
 "Reuniclus"={"Cool Trainer Quinto"::{"level":91,"ability":"Regenerator","moves":["Calm Mind","Psychic","Focus Blast","Recover"],"nature":"Bold","item":"Life Orb","index":number},},
 "Amoonguss"={"Cool Trainer Quinto"::{"level":92,"ability":"Regenerator","moves":["Giga Drain","Sludge Bomb","Spore","Foul Play"],"nature":"Bold","item":"Eject Button","index":number},},
-"Tornadus-Therian"={"Cool Trainer Quinto"::{"level":92,"ability":"Regenerator","moves":["Bleakwind Storm","U-Turn","Knock Off","Heat Wave"],"nature":"Timid","item":"Assault Vest","index":number},},
+"Tornadus-Therian"={"Cool Trainer Quinto"::{"level":92,"ability":"Regenerator","moves":["Bleakwind Storm","U-turn","Knock Off","Heat Wave"],"nature":"Timid","item":"Assault Vest","index":number},},
 ""={"Cool Trainer Quinto"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -3796,7 +3795,7 @@
 
 "Tapu Fini"={"Cool Trainer Roberto"::{"level":92,"ability":"Misty Surge","moves":["Surf","Rolling Fog","Calm Mind","Teleport"],"nature":"Timid","item":"Leftovers","index":number},},
 "Rapidash-Galar"={"Cool Trainer Roberto"::{"level":91,"ability":"Composure","moves":["Rolling Fog","Psychic","Mystical Fire","HP Ground"],"nature":"Timid","item":"Expert Belt","index":number},},
-"Gorebyss"={"Cool Trainer Roberto"::{"level":92,"ability":"Triage","moves":["Rolling Fog","Fairy's Haunt","Bouncy Bubble","Shell Smash"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Gorebyss"={"Cool Trainer Roberto"::{"level":92,"ability":"Triage","moves":["Rolling Fog","Fairy\'s Haunt","Bouncy Bubble","Shell Smash"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Mawile-Mega"={"Cool Trainer Roberto"::{"level":92,"ability":"Huge Power","moves":["Swords Dance","Pixie Punch","Knock Off","Sucker Punch"],"nature":"Adamant","item":"Mawilite","index":number},},
 ""={"Cool Trainer Roberto"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Roberto"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3808,10 +3807,10 @@
 
 
 
-"Talonflame"={"Bird Keeper Soltaire"::{"level":91,"ability":"Gale Wings","moves":["Solar Wings","Acrobatics","Roost","U-Turn"],"nature":"Adamant","item":"Flying Gem","index":number},},
+"Talonflame"={"Bird Keeper Soltaire"::{"level":91,"ability":"Gale Wings","moves":["Solar Wings","Acrobatics","Roost","U-turn"],"nature":"Adamant","item":"Flying Gem","index":number},},
 "Drampa"={"Bird Keeper Soltaire"::{"level":92,"ability":"Berserk","moves":["Draco Meteor","Hyper Voice","Surf","Flamethrower"],"nature":"Modest","item":"Dragon Fang","index":number},},
-"Staraptor"={"Bird Keeper Soltaire"::{"level":91,"ability":"Reckless","moves":["Brave Bird","Double-Edge","U-Turn","Close Combat"],"nature":"Jolly","item":"Life Orb","index":number},},
-"Flygon"={"Bird Keeper Soltaire"::{"level":91,"ability":"Levitate","moves":["Earthquake","U-Turn","Fire Punch","Dragon Claw"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Staraptor"={"Bird Keeper Soltaire"::{"level":91,"ability":"Reckless","moves":["Brave Bird","Double-Edge","U-turn","Close Combat"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Flygon"={"Bird Keeper Soltaire"::{"level":91,"ability":"Levitate","moves":["Earthquake","U-turn","Fire Punch","Dragon Claw"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Chatot-Mega"={"Bird Keeper Soltaire"::{"level":92,"ability":"Punk Rock","moves":["Air Cannon","Boomburst","Roost","Wicked Wind"],"nature":"Timid","item":"Chatotite","index":number},},
 ""={"Bird Keeper Soltaire"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -3821,7 +3820,7 @@
 
 
 
-"Ninjask"={"Picnicker Trisha"::{"level":92,"ability":"Sharpness","moves":["Swords Dance","X-Scissor","U-Turn","Night Slash"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Ninjask"={"Picnicker Trisha"::{"level":92,"ability":"Sharpness","moves":["Swords Dance","X-Scissor","U-turn","Night Slash"],"nature":"Adamant","item":"Focus Sash","index":number},},
 "Kingdra"={"Picnicker Trisha"::{"level":91,"ability":"Sniper","moves":["Draco Meteor","Focus Energy","Ice Beam","Snipe Shot"],"nature":"Timid","item":"Scope Lens","index":number},},
 "Donphan"={"Picnicker Trisha"::{"level":91,"ability":"Sturdy","moves":["Knock Off","Earthquake","Ice Shard","Body Press"],"nature":"Adamant","item":"Leftovers","index":number},},
 "Lilligant"={"Picnicker Trisha"::{"level":91,"ability":"Unshaken","moves":["Sleep Powder","Quiver Dance","Leaf Storm","Hidden Power Rock"],"nature":"Modest","item":"Wide Lens","index":number},},
@@ -3888,8 +3887,8 @@
 
 
 "Tangrowth"={"Picnicker Zoe"::{"level":91,"ability":"Regenerator","moves":["Sleep Powder","Rock Slide","Power Whip","Protect"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
-"Darmanitan-Galar-Zen"={"Picnicker Zoe"::{"level":91,"ability":"Zen Mode","moves":["Icicle Crash","U-Turn","Temper Flare","Rock Slide"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Mew"={"Picnicker Zoe"::{"level":92,"ability":"Synchronize","moves":["Fake Out","U-Turn","Psychic","Thunder Wave"],"nature":"Timid","item":"Leftovers","index":number},},
+"Darmanitan-Galar-Zen"={"Picnicker Zoe"::{"level":91,"ability":"Zen Mode","moves":["Icicle Crash","U-turn","Temper Flare","Rock Slide"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Mew"={"Picnicker Zoe"::{"level":92,"ability":"Synchronize","moves":["Fake Out","U-turn","Psychic","Thunder Wave"],"nature":"Timid","item":"Leftovers","index":number},},
 ""={"Picnicker Zoe"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Picnicker Zoe"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Picnicker Zoe"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3900,8 +3899,8 @@
 
 
 
-"Tornadus"={"Cool Trainer Alf"::{"level":91,"ability":"Prankster","moves":["Tailwind","Bleakwind Storm","Protect","U-Turn"],"nature":"Bold","item":"Covert Cloak","index":number},},
-"Incineroar"={"Cool Trainer Alf"::{"level":91,"ability":"Intimidate","moves":["Fake Out","Knock Off","U-Turn","Flare Blitz"],"nature":"Careful","item":"Assault Vest","index":number},},
+"Tornadus"={"Cool Trainer Alf"::{"level":91,"ability":"Prankster","moves":["Tailwind","Bleakwind Storm","Protect","U-turn"],"nature":"Bold","item":"Covert Cloak","index":number},},
+"Incineroar"={"Cool Trainer Alf"::{"level":91,"ability":"Intimidate","moves":["Fake Out","Knock Off","U-turn","Flare Blitz"],"nature":"Careful","item":"Assault Vest","index":number},},
 "Victini"={"Cool Trainer Alf"::{"level":92,"ability":"Victory Star","moves":["V-Create","Final Gambit","Magma Trek","Lightning Kick"],"nature":"Jolly","item":"Assault Vest","index":number},},
 ""={"Cool Trainer Alf"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Alf"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -3969,7 +3968,7 @@
 
 
 "Jirachi"={"Super Nerd Charon"::{"level":91,"ability":"Serene Grace","moves":["Thunder Wave","Iron Head","Body Slam","Wish"],"nature":"Jolly","item":"Leftovers","index":number},},
-"Genesect"={"Super Nerd Charon"::{"level":92,"ability":"Download","moves":["U-Turn","Iron Head","Ice Beam","Flamethrower"],"nature":"Hasty","item":"Upgrade","index":number},},
+"Genesect"={"Super Nerd Charon"::{"level":92,"ability":"Download","moves":["U-turn","Iron Head","Ice Beam","Flamethrower"],"nature":"Hasty","item":"Upgrade","index":number},},
 "Zeraora"={"Super Nerd Charon"::{"level":92,"ability":"Iron Fist","moves":["Plasma Fists","Drain Punch","Knock Off","Bulk Up"],"nature":"Jolly","item":"Punching Glove","index":number},},
 ""={"Super Nerd Charon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Super Nerd Charon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4076,7 +4075,7 @@
 
 "Beheeyem-Mega"={"Channeler Janelle"::{"level":93,"ability":"Dimension Shift","moves":["Expanding Force","Thunderbolt","Wicked Wind","Bug Buzz"],"nature":"Modest","item":"Beheeyemite","ivs":{"sp":0},"index":number},},
 "Slowking"={"Channeler Janelle"::{"level":92,"ability":"Regenerator","moves":["Expanding Force","Ice Beam","Scald","Slack Off"],"nature":"Modest","item":"Leftovers","ivs":{"sp":0},"index":number},},
-"Enamorus-Therian"={"Channeler Janelle"::{"level":93,"ability":"Overcoat","moves":["Psychic","Moonblast","Wind Drill","U-Turn"],"nature":"Modest","item":"Assault Vest","ivs":{"sp":0},"index":number},},
+"Enamorus-Therian"={"Channeler Janelle"::{"level":93,"ability":"Overcoat","moves":["Psychic","Moonblast","Wind Drill","U-turn"],"nature":"Modest","item":"Assault Vest","ivs":{"sp":0},"index":number},},
 "Glastrier"={"Channeler Janelle"::{"level":94,"ability":"Chilling Neigh","moves":["Icicle Crash","Close Combat","High Horsepower","Rock Slide"],"nature":"Adamant","item":"Life Orb","ivs":{"sp":0},"index":number},},
 "Dhelmise"={"Channeler Janelle"::{"level":92,"ability":"Tinted Lens","moves":["Power Whip","Poltergeist","Synthesis","Earthquake"],"nature":"Adamant","item":"Colbur Berry","ivs":{"sp":0},"index":number},},
 ""={"Channeler Janelle"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4116,7 +4115,7 @@
 "Celebi"={"Psychic Miguel"::{"level":93,"ability":"Hopeful Toll","moves":["Nasty Plot","Psychic","Leaf Storm","Aura Sphere"],"nature":"Timid","item":"Life Orb","index":number},},
 "Umbreon"={"Psychic Miguel"::{"level":93,"ability":"Synchronize","moves":["Toxic","Foul Play","Wish","Protect"],"nature":"Calm","item":"Leftovers","index":number},},
 "Slowbro-Galar"={"Psychic Miguel"::{"level":94,"ability":"Regenerator","moves":["Psychic","Shell Side Arm","Flamethrower","Earthquake"],"nature":"Relaxed","item":"Assault Vest","index":number},},
-"Fezandipiti"={"Psychic Miguel"::{"level":92,"ability":"Toxic Chain","moves":["Pixie Punch","Poison Jab","U-Turn","Roost"],"nature":"Impish","item":"Black Sludge","index":number},},
+"Fezandipiti"={"Psychic Miguel"::{"level":92,"ability":"Toxic Chain","moves":["Pixie Punch","Poison Jab","U-turn","Roost"],"nature":"Impish","item":"Black Sludge","index":number},},
 "Gardevoir-Mega"={"Psychic Miguel"::{"level":93,"ability":"Pixilate","moves":["Calm Mind","Hyper Voice","Psyshock","Mystical Fire"],"nature":"Timid","item":"Gardevoirite","index":number},},
 ""={"Psychic Miguel"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -4160,7 +4159,7 @@
 "Chien-Pao"={"Gym Leader Sabrina"::{"level":94,"ability":"Sword of Ruin","moves":["Crystal Edge","Night Slash","Sacred Sword","Psycho Cut"],"nature":"Jolly","item":"Sheath","index":number},},
 "Sceptile-Mega"={"Gym Leader Sabrina"::{"level":94,"ability":"Sharpness","moves":["Leaf Blade","Dual Chop","Sacred Sword","Swords Dance"],"nature":"Adamant","item":"Sceptilite","index":number},},
 
-"Whimsicott"={"Twins Persephone & Diana"::{"level":94,"ability":"Prankster","moves":["Rolling Fog","Tailwind","U-Turn","Protect"],"nature":"Timid","item":"Covert Cloak","index":number},},
+"Whimsicott"={"Twins Persephone & Diana"::{"level":94,"ability":"Prankster","moves":["Rolling Fog","Tailwind","U-turn","Protect"],"nature":"Timid","item":"Covert Cloak","index":number},},
 "Milotic"={"Twins Persephone & Diana"::{"level":94,"ability":"Misty Surge","moves":["Rolling Fog","Bouncy Bubble","Flip Turn","Protect"],"nature":"Modest","item":"Leftovers","index":number},},
 "Aromatisse"={"Twins Persephone & Diana"::{"level":94,"ability":"Fairy Bubble","moves":["Rolling Fog","Calm Mind","Thunderbolt","Protect"],"nature":"Modest","item":"Pixie Plate","index":number},},
 "Volbeat"={"Twins Persephone & Diana"::{"level":95,"ability":"Prankster","moves":["Tailwind","Helping Hand","Struggle Bug","Protect"],"nature":"Bold","item":"Misty Seed","index":number},},
@@ -4283,7 +4282,7 @@
 "Sylveon"={"Lass Trina"::{"level":95,"ability":"Pixilate","moves":["Wish","Protect","Calm Mind","Hyper Voice"],"nature":"Bold","item":"Leftovers","index":number},},
 "Decidueye"={"Lass Trina"::{"level":94,"ability":"Adaptability","moves":["Spirit Shackle","Leaf Blade","Roost","Thousand Arrows"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Lilligant"={"Lass Trina"::{"level":95,"ability":"Unshaken","moves":["Sleep Powder","Quiver Dance","Leaf Storm","Alluring Voice"],"nature":"Timid","item":"Miracle Seed","index":number},},
-"Meganium"={"Lass Trina"::{"level":95,"ability":"Triage","moves":["Fairy's Haunt","Giga Drain","Calm Mind","Earth Power"],"nature":"Modest","item":"Life Orb","index":number},},
+"Meganium"={"Lass Trina"::{"level":95,"ability":"Triage","moves":["Fairy\'s Haunt","Giga Drain","Calm Mind","Earth Power"],"nature":"Modest","item":"Life Orb","index":number},},
 ""={"Lass Trina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -4351,8 +4350,8 @@
 
 
 
-"Pheromosa"={"Biker Cornelius"::{"level":97,"ability":"Beast Boost","moves":["U-Turn","Close Combat","Triple Axel","Lunge"],"nature":"Jolly","item":"Muscle Band","index":number},},
-"Flamigo"={"Biker Cornelius"::{"level":97,"ability":"Scrappy","moves":["Close Combat","Brave Bird","U-Turn","Roost"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Pheromosa"={"Biker Cornelius"::{"level":97,"ability":"Beast Boost","moves":["U-turn","Close Combat","Triple Axel","Lunge"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Flamigo"={"Biker Cornelius"::{"level":97,"ability":"Scrappy","moves":["Close Combat","Brave Bird","U-turn","Roost"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Hitmontop"={"Biker Cornelius"::{"level":97,"ability":"Step Master","moves":["Triple Kick","Triple Axel","Lightning Kick","Sucker Punch"],"nature":"Jolly","item":"Wide Lens","index":number},},
 ""={"Biker Cornelius"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Biker Cornelius"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4393,7 +4392,7 @@
 
 "Quaquaval"={"Biker Franco"::{"level":97,"ability":"Moxie","moves":["Swords Dance","Aqua Step","Close Combat","Knock Off"],"nature":"Jolly","item":"Leftovers","index":number},},
 "Falinks"={"Biker Franco"::{"level":97,"ability":"Skill Link","moves":["Population Bomb","Rock Blast","Arm Thrust","Bullet Seed"],"nature":"Jolly","item":"Wide Lens","index":number},},
-"Zapdos-Galar"={"Biker Franco"::{"level":97,"ability":"Defiant","moves":["Bulk Up","Brave Bird","U-Turn","Thunderous Kick"],"nature":"Jolly","item":"Leftovers","index":number},},
+"Zapdos-Galar"={"Biker Franco"::{"level":97,"ability":"Defiant","moves":["Bulk Up","Brave Bird","U-turn","Thunderous Kick"],"nature":"Jolly","item":"Leftovers","index":number},},
 ""={"Biker Franco"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Biker Franco"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Biker Franco"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4443,7 +4442,7 @@
 
 
 
-"Mienshao"={"Biker Jameson"::{"level":97,"ability":"Regenerator","moves":["Close Combat","Knock Off","U-Turn","Triple Axel"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Mienshao"={"Biker Jameson"::{"level":97,"ability":"Regenerator","moves":["Close Combat","Knock Off","U-turn","Triple Axel"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Slither Wing"={"Biker Jameson"::{"level":97,"ability":"Tinted Lens","moves":["First Impression","Close Combat","Will-O-Wisp","Wild Charge"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Lucario-Mega"={"Biker Jameson"::{"level":97,"ability":"Adaptability","moves":["Swords Dance","Meteor Mash","Close Combat","Bullet Punch"],"nature":"Jolly","item":"Lucarionite","index":number},},
 ""={"Biker Jameson"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4460,7 +4459,7 @@
 "Articuno"={"Bird Keeper Karl + Bird Keeper Lin"::{"level":97,"ability":"Snow Warning","moves":["Blizzard","Freeze-Dry","Tailwind","Roost"],"nature":"Timid","item":"Wise Glasses","index":number},},
 "Gyarados"={"Bird Keeper Karl + Bird Keeper Lin"::{"level":97,"ability":"Intimidate","moves":["Gill Gash","Thunder Wave","Earthquake","Protect"],"nature":"Careful","item":"Rocky Helmet","index":number},},
 ""={"Bird Keeper Karl + Bird Keeper Lin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Landorus-Therian"={"Bird Keeper Karl + Bird Keeper Lin"::{"level":97,"ability":"Intimidate","moves":["Earthquake","Rock Slide","U-Turn","Protect"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Landorus-Therian"={"Bird Keeper Karl + Bird Keeper Lin"::{"level":97,"ability":"Intimidate","moves":["Earthquake","Rock Slide","U-turn","Protect"],"nature":"Adamant","item":"Assault Vest","index":number},},
 "Regidrago"={"Bird Keeper Karl + Bird Keeper Lin"::{"level":97,"ability":"Dragon's Maw","moves":["Dragon Energy","Draco Meteor","Earth Power","Protect"],"nature":"Timid","item":"Dragon Fang","index":number},},
 ""={"Bird Keeper Karl + Bird Keeper Lin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -4511,7 +4510,7 @@
 
 
 "Naganadel"={"Cool Trainer Perry"::{"level":97,"ability":"Beast Boost","moves":["Nasty Plot","Draco Meteor","Death Toll","Fire Blast"],"nature":"Timid","item":"Wise Glasses","index":number},},
-"Zapdos"={"Cool Trainer Perry"::{"level":97,"ability":"Drizzle","moves":["Hurricane","Thunder","U-Turn","Roost"],"nature":"Timid","item":"Leftovers","index":number},},
+"Zapdos"={"Cool Trainer Perry"::{"level":97,"ability":"Drizzle","moves":["Hurricane","Thunder","U-turn","Roost"],"nature":"Timid","item":"Leftovers","index":number},},
 "Noivern"={"Cool Trainer Perry"::{"level":97,"ability":"Punk Rock","moves":["Clanging Scales","Boomburst","Hurricane","Death Toll"],"nature":"Timid","item":"Throat Spray","index":number},},
 ""={"Cool Trainer Perry"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Perry"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4523,7 +4522,7 @@
 
 
 
-"Staraptor"={"Bird Keeper Quan"::{"level":97,"ability":"Reckless","moves":["Brave Bird","Double Edge","U-Turn","Close Combat"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Staraptor"={"Bird Keeper Quan"::{"level":97,"ability":"Reckless","moves":["Brave Bird","Double Edge","U-turn","Close Combat"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Charizard-Mega-X"={"Bird Keeper Quan"::{"level":97,"ability":"Tough Claws","moves":["Dragon Dance","Solar Wings","Dragon Claw","Roost"],"nature":"Jolly","item":"Charizardite X","index":number},},
 ""={"Bird Keeper Quan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Bird Keeper Quan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4537,8 +4536,8 @@
 
 
 
-"Tornadus-Therian"={"Biker Riojas"::{"level":97,"ability":"Regenerator","moves":["Bleakwind Storm","Heat Wave","Knock Off","U-Turn"],"nature":"Timid","item":"Assault Vest","index":number},},
-"Dragapult"={"Biker Riojas"::{"level":97,"ability":"Cursed Body","moves":["Draco Meteor","Hex","Will-O-Wisp","U-Turn"],"nature":"Timid","item":"Leftovers","index":number},},
+"Tornadus-Therian"={"Biker Riojas"::{"level":97,"ability":"Regenerator","moves":["Bleakwind Storm","Heat Wave","Knock Off","U-turn"],"nature":"Timid","item":"Assault Vest","index":number},},
+"Dragapult"={"Biker Riojas"::{"level":97,"ability":"Cursed Body","moves":["Draco Meteor","Hex","Will-O-Wisp","U-turn"],"nature":"Timid","item":"Leftovers","index":number},},
 "Baxcalibur"={"Biker Riojas"::{"level":97,"ability":"Thermal Exchange","moves":["Dragon Dance","Icicle Crash","Glaive Rush","Earthquake"],"nature":"Jolly","item":"Never-Melt Ice","index":number},},
 ""={"Biker Riojas"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Biker Riojas"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4564,7 +4563,7 @@
 
 
 "Articuno-Galar"={"Cool Trainer Tristan"::{"level":97,"ability":"Competitive","moves":["Freezing Glare","Oblivion Wing","Hidden Power Fighting","Roost"],"nature":"Timid","item":"Life Orb","index":number},},
-"Moltres-Galar"={"Cool Trainer Tristan"::{"level":97,"ability":"Berserk","moves":["Nasty Plot","Fiery Wrath","Wind Drill","U-Turn"],"nature":"Timid","item":"Black Glasses","index":number},},
+"Moltres-Galar"={"Cool Trainer Tristan"::{"level":97,"ability":"Berserk","moves":["Nasty Plot","Fiery Wrath","Wind Drill","U-turn"],"nature":"Timid","item":"Black Glasses","index":number},},
 "Zapdos-Galar"={"Cool Trainer Tristan"::{"level":97,"ability":"Defiant","moves":["Knock Off","Brave Bird","Blaze Kick","Thunderous Kick"],"nature":"Jolly","item":"Leftovers","index":number},},
 ""={"Cool Trainer Tristan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Tristan"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4631,7 +4630,7 @@
 
 "Lycanroc-Dusk"={"Cool Trainer Boris"::{"level":97,"ability":"Tough Claws","moves":["Swords Dance","Close Combat","Accelerock","Thunder Fang"],"nature":"Jolly","item":"Focus Sash","index":number},},
 "Skeledirge"={"Cool Trainer Boris"::{"level":97,"ability":"Punk Rock","moves":["Torch Song","Spectral Shriek","Earth Power","Slack Off"],"nature":"Modest","item":"Throat Spray","index":number},},
-"Druddigon"={"Cool Trainer Boris"::{"level":97,"ability":"Gavel Power","moves":["Stone Hammer","Dragon Hammer","Hammer Smash","Mjolnir's Wrath"],"nature":"Adamant","item":"Choice Band","index":number},},
+"Druddigon"={"Cool Trainer Boris"::{"level":97,"ability":"Gavel Power","moves":["Stone Hammer","Dragon Hammer","Hammer Smash","Mjolnir\'s Wrath"],"nature":"Adamant","item":"Choice Band","index":number},},
 ""={"Cool Trainer Boris"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Boris"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Boris"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4681,7 +4680,7 @@
 
 
 
-"Moltres"={"Beauty Farrah & Beauty Georgina"::{"level":97,"ability":"Drought","moves":["Tailwind","Heat Wave","Wind Drill","U-Turn"],"nature":"Timid","item":"Charcoal","index":number},},
+"Moltres"={"Beauty Farrah & Beauty Georgina"::{"level":97,"ability":"Drought","moves":["Tailwind","Heat Wave","Wind Drill","U-turn"],"nature":"Timid","item":"Charcoal","index":number},},
 "Sunflora"={"Beauty Farrah & Beauty Georgina"::{"level":97,"ability":"Chlorophyll","moves":["Solar Beam","Heat Wave","Synthesis","Protect"],"nature":"Timid","item":"Life Orb","index":number},},
 ""={"Beauty Farrah & Beauty Georgina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 "Stonjourner"={"Beauty Farrah & Beauty Georgina"::{"level":97,"ability":"Power Spot","moves":["Rock Slide","Earthquake","Heavy Slam",""],"nature":"Adamant","item":"Focus Sash","index":number},},
@@ -4735,7 +4734,7 @@
 
 
 
-"Talonflame"={"Bird Keeper Kelvin"::{"level":97,"ability":"Gale Wings","moves":["Brave Bird","Flare Blitz","U-Turn","Bulk Up"],"nature":"Adamant","item":"Sharp Beak","index":number},},
+"Talonflame"={"Bird Keeper Kelvin"::{"level":97,"ability":"Gale Wings","moves":["Brave Bird","Flare Blitz","U-turn","Bulk Up"],"nature":"Adamant","item":"Sharp Beak","index":number},},
 "Volcarona"={"Bird Keeper Kelvin"::{"level":97,"ability":"Flame Body","moves":["Quiver Dance","Fiery Dance","Giga Drain","Morning Sun"],"nature":"Timid","item":"Charcoal","index":number},},
 "Iron Boulder"={"Bird Keeper Kelvin"::{"level":97,"ability":"Sharpness","moves":["Sacred Sword","Mighty Cleave","Psycho Cut","Earthquake"],"nature":"Jolly","item":"Muscle Band","index":number},},
 ""={"Bird Keeper Kelvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4749,8 +4748,8 @@
 
 
 
-"Tapu Koko"={"Cool Trainer Ludwig"::{"level":97,"ability":"Electric Surge","moves":["U-Turn","Reflect","Light Screen","Thunderbolt"],"nature":"Timid","item":"Light Clay","index":number},},
-"Iron Moth"={"Cool Trainer Ludwig"::{"level":97,"ability":"Quark Drive","moves":["Fiery Dance","Sludge Wave","Dazzling Glean","U-Turn"],"nature":"Timid","item":"Wise Glasses","index":number},},
+"Tapu Koko"={"Cool Trainer Ludwig"::{"level":97,"ability":"Electric Surge","moves":["U-turn","Reflect","Light Screen","Thunderbolt"],"nature":"Timid","item":"Light Clay","index":number},},
+"Iron Moth"={"Cool Trainer Ludwig"::{"level":97,"ability":"Quark Drive","moves":["Fiery Dance","Sludge Wave","Dazzling Glean","U-turn"],"nature":"Timid","item":"Wise Glasses","index":number},},
 "Iron Crown"={"Cool Trainer Ludwig"::{"level":97,"ability":"Quark Drive","moves":["Tachyon Cutter","Focus Blast","Volt Switch","Psychic"],"nature":"Timid","item":"Assault Vest","index":number},},
 "Toxtricity-Mega"={"Cool Trainer Ludwig"::{"level":97,"ability":"Surge Surfer","moves":["Boomburst","Rising Voltage","Death Toll","Hidden Power Grass"],"nature":"Timid","item":"Toxtricitite","index":number},},
 ""={"Cool Trainer Ludwig"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4777,7 +4776,7 @@
 
 "Clodsire"={"Cool Trainer Napoleon"::{"level":97,"ability":"Water Absorb","moves":["Stealth Rock","Earthquake","Toxic","Recover"],"nature":"Careful","item":"Black Sludge","index":number},},
 "Muk-Alola"={"Cool Trainer Napoleon"::{"level":97,"ability":"Poison Touch","moves":["Knock Off","Poison Jab","Rock Slide","Drain Punch"],"nature":"Careful","item":"Assault Vest","index":number},},
-"Tinkaton"={"Cool Trainer Napoleon"::{"level":97,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir's Wrath"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Tinkaton"={"Cool Trainer Napoleon"::{"level":97,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir\'s Wrath"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Togekiss"={"Cool Trainer Napoleon"::{"level":97,"ability":"Serene Grace","moves":["Thunder Wave","Air Slash","Moonblast","Flamethrower"],"nature":"Timid","item":"Leftovers","index":number},},
 "Garbodor-Mega"={"Cool Trainer Napoleon"::{"level":97,"ability":"Trash Shield","moves":["Gunk Shot","Stomping Tantrum","Curse","Drain Punch"],"nature":"Impish","item":"Garbodorite","index":number},},
 ""={"Cool Trainer Napoleon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4791,7 +4790,7 @@
 "Pecharunt"={"Cool Trainer Octavia"::{"level":97,"ability":"Poison Puppeteer","moves":["Nasty Plot","Malignant Chain","Spectral Shriek","Recover"],"nature":"Modest","item":"Black Sludge","index":number},},
 "Thundurus-T"={"Cool Trainer Octavia"::{"level":97,"ability":"Volt Absorb","moves":["Volt Switch","Thunderbolt","Grass Knot","Wind Drill"],"nature":"Timid","item":"Assault Vest","index":number},},
 "Darkrai"={"Cool Trainer Octavia"::{"level":97,"ability":"Bad Dreams","moves":["Wicked Wind","Death Toll","Ice Beam","Nasty Plot"],"nature":"Timid","item":"Focus Sash","index":number},},
-"Alcremie-Mega"={"Cool Trainer Octavia"::{"level":97,"ability":"Triage","moves":["Calm Mind","Fairy's Haunt","Stored Power","Recover"],"nature":"Modest","item":"Alcremite","index":number},},
+"Alcremie-Mega"={"Cool Trainer Octavia"::{"level":97,"ability":"Triage","moves":["Calm Mind","Fairy\'s Haunt","Stored Power","Recover"],"nature":"Modest","item":"Alcremite","index":number},},
 ""={"Cool Trainer Octavia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Cool Trainer Octavia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -4801,7 +4800,7 @@
 
 
 
-"Greninja"={"Cool Trainer Pedro"::{"level":97,"ability":"Protean","moves":["Spikes","Surf","Wicked Wind","U-Turn"],"nature":"Timid","item":"Life Orb","index":number},},
+"Greninja"={"Cool Trainer Pedro"::{"level":97,"ability":"Protean","moves":["Spikes","Surf","Wicked Wind","U-turn"],"nature":"Timid","item":"Life Orb","index":number},},
 "Nidoking"={"Cool Trainer Pedro"::{"level":97,"ability":"Sheer Force","moves":["Earth Power","Ice Beam","Flamethrower","Thunderbolt"],"nature":"Timid","item":"Life Orb","index":number},},
 "Chi-Yu"={"Cool Trainer Pedro"::{"level":97,"ability":"Beads of Ruin","moves":["Flamethrower","Psychic","Wicked Wind","Death Toll"],"nature":"Modest","item":"Focus Sash","index":number},},
 "Rapidash-Galar"={"Cool Trainer Pedro"::{"level":97,"ability":"Composure","moves":["Moonblast","Psychic","Calm Mind","Mystical Fire"],"nature":"Timid","item":"Wise Glasses","index":number},},
@@ -4817,7 +4816,7 @@
 "Samurott-Hisui"={"Cool Trainer Rachelle"::{"level":97,"ability":"Sharpness","moves":["Ceaseless Edge","Aqua Cutter","Sucker Punch","Flip Turn"],"nature":"Adamant","item":"Mystic Water","index":number},},
 "Lokix"={"Cool Trainer Rachelle"::{"level":97,"ability":"Tinted Lens","moves":["First Impression","Knock Off","Sucker Punch","Axe Kick"],"nature":"Jolly","item":"Black Glasses","index":number},},
 "Roaring Moon"={"Cool Trainer Rachelle"::{"level":97,"ability":"Tough Claws","moves":["Dragon Dance","Knock Off","Earthquake","Roost"],"nature":"Jolly","item":"Roseli Berry","index":number},},
-"Sneasler"={"Cool Trainer Rachelle"::{"level":97,"ability":"Unburden","moves":["Dire Claw","Close Combat","Acrobatics","U-Turn"],"nature":"Jolly","item":"Fighting Gem","index":number},},
+"Sneasler"={"Cool Trainer Rachelle"::{"level":97,"ability":"Unburden","moves":["Dire Claw","Close Combat","Acrobatics","U-turn"],"nature":"Jolly","item":"Fighting Gem","index":number},},
 "Grimmsnarl-Mega"={"Cool Trainer Rachelle"::{"level":97,"ability":"Prankster","moves":["Bulk Up","Spirit Break","Sucker Punch","Drain Punch"],"nature":"Adamant","item":"Grimmsnarlite","index":number},},
 ""={"Cool Trainer Rachelle"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -4838,7 +4837,7 @@
 "Venusaur"={"Swimmer Simone"::{"level":98,"ability":"Chlorophyll","moves":["Giga Drain","Sludge Bomb","Earth Power","Leech Seed"],"nature":"Timid","item":"Life Orb","index":number},},
 "Blastoise"={"Swimmer Simone"::{"level":97,"ability":"Torrent","moves":["Shell Smash","Surf","Ice Beam","Dark Pulse"],"nature":"Modest","item":"White Herb","index":number},},
 "Charizard"={"Swimmer Simone"::{"level":98,"ability":"Blaze","moves":["Dragon Dance","Solar Wings","Earthquake","Dragon Claw"],"nature":"Jolly","item":"Charti Berry","index":number},},
-"Pidgeot"={"Swimmer Simone"::{"level":97,"ability":"Keen Eye","moves":["U-Turn","Air Cannon","Heat Wave","Roost"],"nature":"Timid","item":"Flying Gem","index":number},},
+"Pidgeot"={"Swimmer Simone"::{"level":97,"ability":"Keen Eye","moves":["U-turn","Air Cannon","Heat Wave","Roost"],"nature":"Timid","item":"Flying Gem","index":number},},
 "Kangaskhan-Mega"={"Swimmer Simone"::{"level":98,"ability":"Parental Bond","moves":["Fake Out","Power-Up Punch","Body Slam","Crunch"],"nature":"Jolly","item":"Kangaskhanite","index":number},},
 ""={"Swimmer Simone"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -4861,9 +4860,9 @@
 
 
 
-"Pelipper"={"Swimmer Ursula"::{"level":98,"ability":"Drizzle","moves":["Surf","U-Turn","Hurricane","Roost"],"nature":"Relaxed","item":"Wacan Berry","index":number},},
+"Pelipper"={"Swimmer Ursula"::{"level":98,"ability":"Drizzle","moves":["Surf","U-turn","Hurricane","Roost"],"nature":"Relaxed","item":"Wacan Berry","index":number},},
 "Barraskewda"={"Swimmer Ursula"::{"level":97,"ability":"Swift Swim","moves":["Liquidation","Flip Turn","Aqua Jet","Close Combat"],"nature":"Adamant","item":"Mystic Water","index":number},},
-"Meganium"={"Swimmer Ursula"::{"level":97,"ability":"Triage","moves":["Giga Drain","Fairy's Haunt","Toxic","Earth Power"],"nature":"Bold","item":"Leftovers","index":number},},
+"Meganium"={"Swimmer Ursula"::{"level":97,"ability":"Triage","moves":["Giga Drain","Fairy\'s Haunt","Toxic","Earth Power"],"nature":"Bold","item":"Leftovers","index":number},},
 "Magnezone"={"Swimmer Ursula"::{"level":97,"ability":"Magnet Pull","moves":["Thunder","Polarity Pulse","Volt Switch","Body Press"],"nature":"Modest","item":"Assault Vest","index":number},},
 "Manectric-Mega"={"Swimmer Ursula"::{"level":98,"ability":"Intimidate","moves":["Thunder","Signal Beam","Toxic","Hidden Power Grass"],"nature":"Timid","item":"Manectite","index":number},},
 ""={"Swimmer Ursula"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -4930,7 +4929,7 @@
 "Torterra"={"Fisherman Zurich"::{"level":98,"ability":"Rock Head","moves":["Wood Hammer","Headlong Rush","Shell Smash","Head Smash"],"nature":"Adamant","item":"Focus Sash","index":number},},
 "Infernape"={"Fisherman Zurich"::{"level":98,"ability":"Iron Fist","moves":["Pyro Ball","Acrobatics","Mach Punch","Thunder Punch"],"nature":"Jolly","item":"Fire Gem","index":number},},
 "Empoleon"={"Fisherman Zurich"::{"level":97,"ability":"Competitive","moves":["Flip Turn","Ice Beam","Polarity Pulse","Scald"],"nature":"Timid","item":"Assault Vest","index":number},},
-"Staraptor"={"Fisherman Zurich"::{"level":97,"ability":"Reckless","moves":["Close Combat","Brave Bird","U-Turn","Double-Edge"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Staraptor"={"Fisherman Zurich"::{"level":97,"ability":"Reckless","moves":["Close Combat","Brave Bird","U-turn","Double-Edge"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Gallade-Mega"={"Fisherman Zurich"::{"level":98,"ability":"Sharpness","moves":["Crystal Edge","Bitter Blade","Psyblade","Sacred Sword"],"nature":"Jolly","item":"Galladite","index":number},},
 ""={"Fisherman Zurich"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -5035,7 +5034,7 @@
 
 "Cradily"={"Swimmer Harriet"::{"level":97,"ability":"Storm Drain","moves":["Stealth Rock","Recover","Toxic","Giga Drain"],"nature":"Calm","item":"Leftovers","index":number},},
 "Crawdaunt"={"Swimmer Harriet"::{"level":97,"ability":"Adaptability","moves":["Crabhammer","Knock Off","Close Combat","Aqua Jet"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Crobat"={"Swimmer Harriet"::{"level":97,"ability":"Vampiric","moves":["Corrosive Jaw","Crunch","Leech Life","U-Turn"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Crobat"={"Swimmer Harriet"::{"level":97,"ability":"Vampiric","moves":["Corrosive Jaw","Crunch","Leech Life","U-turn"],"nature":"Adamant","item":"Life Orb","index":number},},
 "Chandelure"={"Swimmer Harriet"::{"level":98,"ability":"Shadow Tag","moves":["Spectral Shriek","Overheat","Calm Mind","Energy Ball"],"nature":"Timid","item":"Colbur Berry","index":number},},
 "Copperajah-Mega"={"Swimmer Harriet"::{"level":97,"ability":"Thick Fat","moves":["Heavy Slam","Earthquake","Knock Off","Heat Crash"],"nature":"Adamant","item":"Copperajite","index":number},},
 ""={"Swimmer Harriet"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -5076,7 +5075,7 @@
 "Glimmora"={"Youngster Kenny"::{"level":97,"ability":"Toxic Debris","moves":["Stealth Rock","Venoshock","PaleoBeam","Toxic"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Skarmory"={"Youngster Kenny"::{"level":98,"ability":"Sturdy","moves":["Spikes","Whirlwind","Roost","Body Press"],"nature":"Bold","item":"Rocky Helmet","index":number},},
 "Hippowdon"={"Youngster Kenny"::{"level":97,"ability":"Sand Stream","moves":["Earthquake","Whirlwind","Slack Off","Spikes"],"nature":"Impish","item":"Rocky Helmet","index":number},},
-"Kleavor"={"Youngster Kenny"::{"level":98,"ability":"Sharpness","moves":["Stone Axe","U-Turn","Sacred Sword","Crystal Edge"],"nature":"Impish","item":"Rocky Helmet","index":number},},
+"Kleavor"={"Youngster Kenny"::{"level":98,"ability":"Sharpness","moves":["Stone Axe","U-turn","Sacred Sword","Crystal Edge"],"nature":"Impish","item":"Rocky Helmet","index":number},},
 "Stoutland"={"Youngster Kenny"::{"level":98,"ability":"Sand Rush","moves":["Retaliate","Last Resort","",""],"nature":"Adamant","item":"Silk Scarf","index":number},},
 ""={"Youngster Kenny"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -5357,7 +5356,7 @@
 
 
 "Weezing"={"Lass Carrie + Youngster Grant"::{"level":98,"ability":"Neutralizing Gas","moves":["Death Toll","Venoshock","Heat Wave","Toxic"],"nature":"Bold","item":"Rocky Helmet","index":number},},
-"Archeops"={"Lass Carrie + Youngster Grant"::{"level":99,"ability":"Defeatist","moves":["Rock Slide","U-Turn","Tailwind","Dual Wingbeat"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Archeops"={"Lass Carrie + Youngster Grant"::{"level":99,"ability":"Defeatist","moves":["Rock Slide","U-turn","Tailwind","Dual Wingbeat"],"nature":"Jolly","item":"Life Orb","index":number},},
 "Slaking"={"Lass Carrie + Youngster Grant"::{"level":98,"ability":"Truant","moves":["Drain Punch","Rock Slide","Double-Edge","Slack Off"],"nature":"Jolly","item":"Assault Vest","index":number},},
 "Regigigas"={"Lass Carrie + Youngster Grant"::{"level":98,"ability":"Slow Start","moves":["Body Slam","Knock Off","Rock Slide","Zen Headbutt"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Weezing"={"Lass Carrie + Youngster Grant"::{"level":99,"ability":"Neutralizing Gas","moves":["Death Toll","Heat Wave","Wicked Wind","Venoshock"],"nature":"Bold","item":"Black Sludge","index":number},},
@@ -5371,7 +5370,7 @@
 
 "Pincurchin"={"Cool Trainer Derrick"::{"level":98,"ability":"Lightning Rod","moves":["Volt Switch","Muddy Water","Venoshock","Toxic"],"nature":"Bold","item":"Sitrus Berry","index":number},},
 "Chandelure"={"Cool Trainer Derrick"::{"level":99,"ability":"Flash Fire","moves":["Spectral Shriek","Flamethrower","Energy Ball","Dazzling Gleam"],"nature":"Timid","item":"Life Orb","index":number},},
-"Pachirisu"={"Cool Trainer Derrick"::{"level":98,"ability":"Volt Absorb","moves":["Toxic","Zippy Zap","U-Turn","Super Fang"],"nature":"Impish","item":"Leftovers","index":number},},
+"Pachirisu"={"Cool Trainer Derrick"::{"level":98,"ability":"Volt Absorb","moves":["Toxic","Zippy Zap","U-turn","Super Fang"],"nature":"Impish","item":"Leftovers","index":number},},
 "Gogoat"={"Cool Trainer Derrick"::{"level":99,"ability":"Sap Sipper","moves":["Horn Leech","Earthquake","Bulk Up","Milk Drink"],"nature":"Careful","item":"Big Root","index":number},},
 "Vaporeon"={"Cool Trainer Derrick"::{"level":98,"ability":"Water Absorb","moves":["Scald","Flip Turn","Ice Beam","Wish"],"nature":"Bold","item":"Leftovers","index":number},},
 "Orthworm"={"Cool Trainer Derrick"::{"level":98,"ability":"Earth Eater","moves":["Iron Head","Earthquake","Shed Tail","Toxic"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
@@ -5387,7 +5386,7 @@
 "Milotic"={"Cool Trainer Morgan"::{"level":98,"ability":"Marvel Scale","moves":["Protect","Bouncy Bubble","Moonblast","Ice Beam"],"nature":"Bold","item":"Flame Orb","index":number},},
 "Sandaconda"={"Cool Trainer Morgan"::{"level":99,"ability":"Medusoid","moves":["Coil","Thousand Arrows","Stone Edge","Shore Up"],"nature":"Impish","item":"Leftovers","index":number},},
 "Serperior"={"Cool Trainer Morgan"::{"level":98,"ability":"Contrary","moves":["Leaf Storm","Draco Meteor","Hidden Power Rock","Giga Drain"],"nature":"Timid","item":"Wise Glasses","index":number},},
-"Gorebyss"={"Cool Trainer Morgan"::{"level":98,"ability":"Triage","moves":["Shell Smash","Fairy's Haunt","Bouncy Bubble","Psychic"],"nature":"Timid","item":"White Herb","index":number},},
+"Gorebyss"={"Cool Trainer Morgan"::{"level":98,"ability":"Triage","moves":["Shell Smash","Fairy\'s Haunt","Bouncy Bubble","Psychic"],"nature":"Timid","item":"White Herb","index":number},},
 
 
 
@@ -5561,11 +5560,11 @@
 
 
 
-"Rillaboom-Mega"={"Rocket Grunt Final 4"::{"level":99,"ability":"Grassy Surge","moves":["Wood Hammer","Grassy Glide","U-Turn","Knock Off"],"nature":"Adamant","item":"Rillaboomite","index":number},},
+"Rillaboom-Mega"={"Rocket Grunt Final 4"::{"level":99,"ability":"Grassy Surge","moves":["Wood Hammer","Grassy Glide","U-turn","Knock Off"],"nature":"Adamant","item":"Rillaboomite","index":number},},
 "Iron Moth"={"Rocket Grunt Final 4"::{"level":99,"ability":"Quark Drive","moves":["Fiery Dance","Psychic","Sludge Wave","Dazzling Gleam"],"nature":"Timid","item":"Booster Energy","index":number},},
 "Ogerpon-Cornerstone"={"Rocket Grunt Final 4"::{"level":99,"ability":"Embody Aspect (Cornerstone)","moves":["Spikes","Ivy Cudgel","Power Whip","Taunt"],"nature":"Jolly","item":"Cornerstone Mask","index":number},},
 "Primarina"={"Rocket Grunt Final 4"::{"level":99,"ability":"Torrent","moves":["Surf","Moonblast","Flip Turn","Psychic Noise"],"nature":"Modest","item":"Assault Vest","index":number},},
-"Dragapult"={"Rocket Grunt Final 4"::{"level":99,"ability":"Cursed Body","moves":["Draco Meteor","Shadow Ball","Flamethrower","U-Turn"],"nature":"Modest","item":"Life Orb","index":number},},
+"Dragapult"={"Rocket Grunt Final 4"::{"level":99,"ability":"Cursed Body","moves":["Draco Meteor","Shadow Ball","Flamethrower","U-turn"],"nature":"Modest","item":"Life Orb","index":number},},
 ""={"Rocket Grunt Final 4"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -5576,7 +5575,7 @@
 
 "Iron Treads"={"Rocket Grunt Final 5"::{"level":99,"ability":"Speed Boost","moves":["Stealth Rock","Protect","Earthquake","Volt Switch"],"nature":"Jolly","item":"Leftovers","index":number},},
 "Skeledirge"={"Rocket Grunt Final 5"::{"level":99,"ability":"Punk Rock","moves":["Torch Song","Alluring Voice","Spectral Shriek","Slack Off"],"nature":"Timid","item":"Throat Spray","index":number},},
-"Ogerpon-Wellspring"={"Rocket Grunt Final 5"::{"level":99,"ability":"Embody Aspect (Wellspring)","moves":["Ivy Cudgel","Power Whip","U-Turn","Knock Off"],"nature":"Jolly","item":"Wellspring Mask","index":number},},
+"Ogerpon-Wellspring"={"Rocket Grunt Final 5"::{"level":99,"ability":"Embody Aspect (Wellspring)","moves":["Ivy Cudgel","Power Whip","U-turn","Knock Off"],"nature":"Jolly","item":"Wellspring Mask","index":number},},
 "Ursaluna-Bloodmoon"={"Rocket Grunt Final 5"::{"level":99,"ability":"Mind's Eye","moves":["Calm Mind","Blood Moon","Earth Power","Moonlight"],"nature":"Modest","item":"Leftovers","index":number},},
 "Latias-Mega"={"Rocket Grunt Final 5"::{"level":99,"ability":"Levitate","moves":["Psychic","Calm Mind","Roost","Draco Meteor"],"nature":"Timid","item":"Latiasite","index":number},},
 ""={"Rocket Grunt Final 5"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -5588,7 +5587,7 @@
 
 
 
-"Landorus-Therian"={"Rocket Grunt Final 6"::{"level":99,"ability":"Intimidate","moves":["Earthquake","U-Turn","Stealth Rock","Grass Knot"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
+"Landorus-Therian"={"Rocket Grunt Final 6"::{"level":99,"ability":"Intimidate","moves":["Earthquake","U-turn","Stealth Rock","Grass Knot"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
 "Volcarona"={"Rocket Grunt Final 6"::{"level":99,"ability":"Flame Body","moves":["Quiver Dance","Fiery Dance","Bug Buzz","Giga Drain"],"nature":"Timid","item":"Expert Belt","index":number},},
 "Dragonite"={"Rocket Grunt Final 6"::{"level":99,"ability":"Multiscale","moves":["Dragon Dance","Ice Spinner","Earthquake","Extreme Speed"],"nature":"Adamant","item":"Leftovers","index":number},},
 "Chien-Pao"={"Rocket Grunt Final 6"::{"level":99,"ability":"Sword of Ruin","moves":["Swords Dance","Sacred Sword","Night Slash","Crystal Edge"],"nature":"Jolly","item":"Sheath","index":number},},
@@ -5627,7 +5626,7 @@
 
 
 
-"Moltres"={"Rocket Grunt Final 9"::{"level":99,"ability":"Drought","moves":["Flamethrower","Wind Drill","Roost","U-Turn"],"nature":"Bold","item":"Rocky Helmet","index":number},},
+"Moltres"={"Rocket Grunt Final 9"::{"level":99,"ability":"Drought","moves":["Flamethrower","Wind Drill","Roost","U-turn"],"nature":"Bold","item":"Rocky Helmet","index":number},},
 "Ceruledge"={"Rocket Grunt Final 9"::{"level":99,"ability":"Sharpness","moves":["Bitter Blade","Solar Blade","Swords Dance","Shadow Claw"],"nature":"Jolly","item":"Focus Sash","index":number},},
 "Sandy Shocks"={"Rocket Grunt Final 9"::{"level":99,"ability":"Protosynthesis","moves":["Thunderbolt","Earth Power","Volt Switch","Power Gem"],"nature":"Timid","item":"Magnet","index":number},},
 "Walking Wake"={"Rocket Grunt Final 9"::{"level":99,"ability":"Protosynthesis","moves":["Hydro Steam","Draco Meteor","Flamethrower","Flip Turn"],"nature":"Timid","item":"Expert Belt","index":number},},
@@ -5643,7 +5642,7 @@
 "Tyranitar-Mega"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Stream","moves":["Stealth Rock","Knock Off","Pursuit","Stone Edge"],"nature":"Adamant","item":"Tyranitarite","index":number},},
 "Excadrill"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Rush","moves":["Swords Dance","Earthquake","Twin Blades","Rapid Spin"],"nature":"Jolly","item":"Air Balloon","index":number},},
 "Dracozolt"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Rush","moves":["Bolt Beak","Dragon Claw","Earthquake","Fire Blast"],"nature":"Adamant","item":"Life Orb","index":number},},
-"Landorus"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Force","moves":["Earthquake","Rock Slide","U-Turn","Knock Off"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Landorus"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Force","moves":["Earthquake","Rock Slide","U-turn","Knock Off"],"nature":"Jolly","item":"Muscle Band","index":number},},
 "Houndstone"={"Rocket Grunt Final 10"::{"level":99,"ability":"Sand Rush","moves":["Last Respects","Shadow Sneak","Play Rough","Body Press"],"nature":"Bold","item":"Leftovers","index":number},},
 ""={"Rocket Grunt Final 10"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
@@ -5668,7 +5667,7 @@
 
 "Deoxys-Speed"={"Rocket Grunt Final 12"::{"level":99,"ability":"Pressure","moves":["Stealth Rock","Spikes","Psycho Boost","Shadow Ball"],"nature":"Timid","item":"Life Orb","index":number},},
 "Regieleki"={"Rocket Grunt Final 12"::{"level":99,"ability":"Transistor","moves":["Reflect","Light Screen","Explosion","Volt Switch"],"nature":"Timid","item":"Light Clay","index":number},},
-"Pheromosa"={"Rocket Grunt Final 12"::{"level":99,"ability":"Beast Boost","moves":["Close Combat","Triple Axel","U-Turn","Throat Chop"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Pheromosa"={"Rocket Grunt Final 12"::{"level":99,"ability":"Beast Boost","moves":["Close Combat","Triple Axel","U-turn","Throat Chop"],"nature":"Jolly","item":"Focus Sash","index":number},},
 "Electrode-Hisui"={"Rocket Grunt Final 12"::{"level":99,"ability":"Composure","moves":["Overcharge","Boomburst","Chilling Cry","Giga Drain"],"nature":"Timid","item":"Throat Spray","index":number},},
 "Empoleon-Mega"={"Rocket Grunt Final 12"::{"level":99,"ability":"Magic Bounce","moves":["Calm Mind","Scald","Polarity Pulse","Ice Beam"],"nature":"Timid","item":"Empoleonite","index":number},},
 ""={"Rocket Grunt Final 12"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -5681,7 +5680,7 @@
 
 "Clefable"={"Rocket Grunt Final 13"::{"level":99,"ability":"Magic Guard","moves":["Stealth Rock","Thunder Wave","Moonblast","Soft-Boiled"],"nature":"Bold","item":"Leftovers","index":number},},
 "Hydreigon"={"Rocket Grunt Final 13"::{"level":99,"ability":"Medusoid","moves":["Wicked Wind","Ancient Cry","Flamethrower","Flash Cannon"],"nature":"Timid","item":"Life Orb","index":number},},
-"Scizor"={"Rocket Grunt Final 13"::{"level":99,"ability":"Technician","moves":["Swords Dance","Bullet Punch","U-Turn","Knock Off"],"nature":"Adamant","item":"Leftovers","index":number},},
+"Scizor"={"Rocket Grunt Final 13"::{"level":99,"ability":"Technician","moves":["Swords Dance","Bullet Punch","U-turn","Knock Off"],"nature":"Adamant","item":"Leftovers","index":number},},
 "Mandibuzz"={"Rocket Grunt Final 13"::{"level":99,"ability":"Overcoat","moves":["Foul Play","Roost","Knock Off","Toxic"],"nature":"Impish","item":"Rocky Helmet","index":number},},
 "Medicham-Mega"={"Rocket Grunt Final 13"::{"level":99,"ability":"Pure Power","moves":["Fake Out","Close Combat","Zen Headbutt","Bullet Punch"],"nature":"Jolly","item":"Medichamite","index":number},},
 ""={"Rocket Grunt Final 13"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -5692,7 +5691,7 @@
 
 
 
-"Tapu Koko"={"Rocket Grunt Final 14"::{"level":99,"ability":"Electric Surge","moves":["Light Screen","Reflect","U-Turn","Thunderbolt"],"nature":"Jolly","item":"Light Clay","index":number},},
+"Tapu Koko"={"Rocket Grunt Final 14"::{"level":99,"ability":"Electric Surge","moves":["Light Screen","Reflect","U-turn","Thunderbolt"],"nature":"Jolly","item":"Light Clay","index":number},},
 "Raichu-Alola"={"Rocket Grunt Final 14"::{"level":99,"ability":"Surge Surfer","moves":["Nasty Plot","Psychic","Rising Voltage","Surf"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Iron Leaves"={"Rocket Grunt Final 14"::{"level":99,"ability":"Quark Drive","moves":["Swords Dance","Leaf Blade","Psyblade","Sacred Sword"],"nature":"Jolly","item":"Sheath","index":number},},
 "Iron Boulder"={"Rocket Grunt Final 14"::{"level":99,"ability":"Quark Drive","moves":["Swords Dance","Mighty Cleave","Sacred Sword","X-Scissor"],"nature":"Jolly","item":"Sheath","index":number},},
@@ -5705,7 +5704,7 @@
 
 
 
-"Musharna"={"Rocket Grunt Final 15"::{"level":99,"ability":"Psychic Surge","moves":["Fairy's Haunt","Expanding Force","Calm Mind","Reflect"],"nature":"Modest","item":"Leftovers","index":number},},
+"Musharna"={"Rocket Grunt Final 15"::{"level":99,"ability":"Psychic Surge","moves":["Fairy\'s Haunt","Expanding Force","Calm Mind","Reflect"],"nature":"Modest","item":"Leftovers","index":number},},
 "Wyrdeer"={"Rocket Grunt Final 15"::{"level":99,"ability":"Brain Blast","moves":["Calm Mind","Earth Power","Expanding Force","Hyper Voice"],"nature":"Modest","item":"Wise Glasses","index":number},},
 "Hawlucha"={"Rocket Grunt Final 15"::{"level":99,"ability":"Unburden","moves":["Swords Dance","Close Combat","Acrobatics","Throat Chop"],"nature":"Adamant","item":"Psychic Seed","index":number},},
 "Espathra"={"Rocket Grunt Final 15"::{"level":99,"ability":"Speed Boost","moves":["Expanding Force","Calm Mind","Roost","Dazzling Gleam"],"nature":"Modest","item":"Psychic Seed","index":number},},
@@ -5735,7 +5734,7 @@
 "Crabominable"={"Rocket Grunt Final 18"::{"level":99,"ability":"Gavel Power","moves":["Ice Hammer","Hammer Arm","Hammer Smash","Bulk Up"],"nature":"Adamant","item":"Muscle Band","index":number},},
 "Beartic"={"Rocket Grunt Final 18"::{"level":99,"ability":"Slush Rush","moves":["Hammer Arm","Ice Hammer","Swords Dance","Liquidation"],"nature":"Adamant","item":"Mjolnir","index":number},},
 "Tropius"={"Rocket Grunt Final 18"::{"level":99,"ability":"Gavel Power","moves":["Dragon Hammer","Wood Hammer","Tailwind","Roost"],"nature":"Jolly","item":"Yache Berry","index":number},},
-"Tinkaton"={"Rocket Grunt Final 18"::{"level":99,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir's Wrath"],"nature":"Adamant","item":"Air Balloon","index":number},},
+"Tinkaton"={"Rocket Grunt Final 18"::{"level":99,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Hammer Smash","Mjolnir\'s Wrath"],"nature":"Adamant","item":"Air Balloon","index":number},},
 "Kingler-Mega"={"Rocket Grunt Final 18"::{"level":99,"ability":"Gavel Power","moves":["Swords Dance","Ice Hammer","Hammer Smash","Crabhammer"],"nature":"Jolly","item":"Kinglerite","index":number},},
 
 
@@ -5761,7 +5760,7 @@
 
 "Gliscor"={"Dev Zinkatron"::{"level":100,"ability":"Poison Heal","moves":["Protect","Toxic","Earthquake","Spikes"],"nature":"Careful","item":"Toxic Orb","index":number},},
 "Ting-Lu"={"Dev Zinkatron"::{"level":100,"ability":"Vessel of Ruin","moves":["Stealth Rock","Earthquake","Ruination","Whirlwind"],"nature":"Careful","item":"Leftovers","index":number},},
-"Milotic"={"Dev Zinkatron"::{"level":100,"ability":"Misty Surge","moves":["Fairy's Haunt","Bouncy Bubble","Rolling Fog","Flip Turn"],"nature":"Bold","item":"Assault Vest","index":number},},
+"Milotic"={"Dev Zinkatron"::{"level":100,"ability":"Misty Surge","moves":["Fairy\'s Haunt","Bouncy Bubble","Rolling Fog","Flip Turn"],"nature":"Bold","item":"Assault Vest","index":number},},
 "Raging Bolt"={"Dev Zinkatron"::{"level":100,"ability":"Legend Armor","moves":["Calm Mind","Thunderclap","Nature Power","Flamethrower"],"nature":"Modest","item":"Leftovers","index":number},},
 "Necrozma-Dusk-Mane"={"Dev Zinkatron"::{"level":100,"ability":"Prism Armor","moves":["Dragon Dance","Photon Geyser","Sunsteel Strike","Morning Sun"],"nature":"Jolly","item":"Mind Plate","index":number},},
 "Blaziken-Mega"={"Dev Zinkatron"::{"level":100,"ability":"Speed Boost","moves":["Protect","Swords Dance","Close Combat","Flare Blitz"],"nature":"Jolly","item":"Blazikenite","index":number},},
@@ -5857,3 +5856,114 @@
 "Necrozma-Ultra"={"Pokemon Master Red"::{"level":100,"ability":"Neuroforce","moves":["Dragon Dance","Dragon Claw","Sunsteel Strike","Earthquake"],"nature":"Adamant","item":"Focus Sash","index":number},},
 "Terapagos-Stellar"={"Pokemon Master Red"::{"level":100,"ability":"Teraform Zero (AI)","moves":["Tera Starstorm","Moonblast","Earth Power","Shell Smash"],"nature":"Modest","item":"Indigo Disk","index":number},},
 "Lapras-Mega"={"Pokemon Master Red"::{"level":100,"ability":"Slush Rush","moves":["Blizzard","Sparkling Aria","Thunderbolt","Psychic"],"nature":"Modest","item":"Laprasite","index":number},},
+
+"Glimmora"={"Gym Leader Janine"::{"level":94,"ability":"Toxic Debris","moves":["PaleoBeam","Earth Power","Death Toll","Stealth Rock"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Gholdengo"={"Gym Leader Janine"::{"level":94,"ability":"Good as Gold","moves":["Make It Rain","Spectral Shriek","Focus Blast","Recover"],"nature":"Timid","item":"Air Balloon","index":number},},
+"Ting-Lu"={"Gym Leader Janine"::{"level":94,"ability":"Vessel of Ruin","moves":["Earthquake","Ruination","Whirlwind","Spikes"],"nature":"Impish","item":"Leftovers","index":number},},
+"Slowking-Galar"={"Gym Leader Janine"::{"level":94,"ability":"Regenerator","moves":["Future Sight","Flamethrower","Toxic Spikes","Teleport"],"nature":"Calm","item":"Black Sludge","index":number},},
+"Naganadel"={"Gym Leader Janine"::{"level":94,"ability":"Beast Boost","moves":["Dragon Pulse","Death Toll","Flamethrower","Thunderbolt"],"nature":"Timid","item":"Petaya Berry","index":number},},
+"Beedrill-Mega"={"Gym Leader Janine"::{"level":94,"ability":"Adaptability","moves":["Poison Jab","U-turn","Knock Off","Drill Run"],"nature":"Jolly","item":"Beedrillite","index":number},},
+
+
+
+
+
+
+
+"Urshifu-Rapid-Strike"={"Black Belt Koiji"::{"level":94,"ability":"Unseen Fist","moves":["Surging Strikes","Close Combat","Poison Jab","Aqua Jet"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Ninjask"={"Black Belt Koiji"::{"level":94,"ability":"Sharpness","moves":["X-Scissor","Aerial Ace","Twin Blades","Night Slash"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Greninja"={"Black Belt Koiji"::{"level":94,"ability":"Battle Bond","moves":["Surf","Wicked Wind","Ice Beam","Water Shuriken"],"nature":"Timid","item":"Expert Belt","index":number},},
+"Urshifu"={"Black Belt Koiji"::{"level":94,"ability":"Unseen Fist","moves":["Wicked Blow","Close Combat","Poison Jab","U-turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Marshadow"={"Black Belt Koiji"::{"level":94,"ability":"Technician","moves":["Hex Cannon","Drain Punch","Power-Up Punch","Rock Tomb"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Blaziken-Mega"={"Black Belt Koiji"::{"level":94,"ability":"Speed Boost","moves":["Swords Dance","Flare Blitz","Close Combat","Lightning Kick"],"nature":"Adamant","item":"Blazikenite","index":number},},
+
+"Landorus-Therian"={"Falkner Rematch"::{"level":80,"ability":"Intimidate","moves":["Earthquake","Stealth Rock","U-turn","Rock Slide"],"nature":"Jolly","item":"Yache Berry","index":number},},
+"Braviary-Hisui"={"Falkner Rematch"::{"level":80,"ability":"Backdraft","moves":["Hurricane","Psychic","Heat Wave","Roost"],"nature":"Timid","item":"Life Orb","index":number},},
+"Brambleghast"={"Falkner Rematch"::{"level":80,"ability":"Wind Rider","moves":["Power Whip","Poltergeist","Stomping Tantrum","Shadow Sneak"],"nature":"Adamant","item":"Coba Berry","index":number},},
+"Kilowattrel"={"Falkner Rematch"::{"level":80,"ability":"Wind Power","moves":["Thunderbolt","Weather Ball","Wind Drill","Hidden Power Grass"],"nature":"Timid","item":"Life Orb","index":number},},
+"Iron Bundle"={"Falkner Rematch"::{"level":80,"ability":"Quark Drive","moves":["Freeze-Dry","Hydro Pump","Hidden Power Fire","Wind Drill"],"nature":"Modest","item":"Booster Energy","index":number},},
+"Aerodactyl-Mega"={"Falkner Rematch"::{"level":80,"ability":"Rock Head","moves":["Head Smash","Brave Bird","Iron Head","Hone Claws"],"nature":"Adamant","item":"Aerodactylite","index":number},},
+
+
+
+
+
+
+
+
+"Ribombee"={"Bugsy Rematch"::{"level":80,"ability":"Shield Dust","moves":["Sticky Web","Moonblast","Raging Swarm","U-turn"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Flygon"={"Bugsy Rematch"::{"level":80,"ability":"Punk Rock","moves":["Ancient Cry","Earth Power","Boomburst","Hidden Power Electric"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Metagross"={"Bugsy Rematch"::{"level":80,"ability":"Clear Body","moves":["Meteor Mash","Psyshield Bash","Earthquake","Agility"],"nature":"Adamant","item":"Weakness Policy","index":number},},
+"Pheromosa"={"Bugsy Rematch"::{"level":80,"ability":"Beast Boost","moves":["Lunge","Triple Axel","Close Combat","U-turn"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Lumineon"={"Bugsy Rematch"::{"level":80,"ability":"Composure","moves":["Surf","Bug Buzz","Ice Beam","Hurricane"],"nature":"Timid","item":"Life Orb","index":number},},
+"Scizor-Mega"={"Bugsy Rematch"::{"level":80,"ability":"Technician","moves":["Swords Dance","Bullet Punch","Knock Off","U-turn"],"nature":"Careful","item":"Scizorite","index":number},},
+
+
+
+
+
+
+
+
+"Bewear"={"Whitney Rematch"::{"level":80,"ability":"Fluffy","moves":["Rock Slide","Body Slam","Darkest Lariat","Drain Punch"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Pyroar"={"Whitney Rematch"::{"level":80,"ability":"Lion's Pride","moves":["Torch Song","Hyper Voice","Wicked Wind","Hidden Power Psychic"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Terapagos-Terastal"={"Whitney Rematch"::{"level":80,"ability":"Tera Shell","moves":["Tera Starstorm","Earth Power","Moonblast","Recover"],"nature":"Modest","item":"Leftovers","index":number},},
+"Meloetta"={"Whitney Rematch"::{"level":80,"ability":"Punk Rock","moves":["Hyper Voice","Psychic Noise","Aura Sphere","Mach Pulse"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Ursaluna"={"Whitney Rematch"::{"level":80,"ability":"Guts","moves":["Protect","Facade","Earthquake","Heat Crash"],"nature":"Adamant","item":"Flame Orb","index":number},},
+"Kangaskhan-Mega"={"Whitney Rematch"::{"level":80,"ability":"Parental Bond","moves":["Fake Out","Power-Up Punch","Body Slam","Crunch"],"nature":"Jolly","item":"Kangaskhanite","index":number},},
+
+
+
+
+
+
+
+
+"Palossand"={"Morty Rematch"::{"level":80,"ability":"Water Compaction","moves":["Spectral Shriek","Earth Power","Stealth Rock","Shore Up"],"nature":"Sassy","item":"Leftovers","index":number},},
+"Zoroark-Hisui"={"Morty Rematch"::{"level":80,"ability":"Echo Chamber","moves":["Boomburst","Flamethrower","Spectral Shriek","Mach Pulse"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Flutter Mane"={"Morty Rematch"::{"level":80,"ability":"Protosynthesis","moves":["Spectral Shriek","Moonblast","Mystical Fire","Thunderbolt"],"nature":"Modest","item":"Booster Energy","index":number},},
+"Marshadow"={"Morty Rematch"::{"level":80,"ability":"Technician","moves":["Hex Cannon","Drain Punch","Rock Tomb","Shadow Sneak"],"nature":"Jolly","item":"Spell Tag","index":number},},
+"Dragapult"={"Morty Rematch"::{"level":80,"ability":"Clear Body","moves":["Dragon Darts","Hex Cannon","Steel Wing","Dragon Dance"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Gengar-Mega"={"Morty Rematch"::{"level":80,"ability":"Shadow Tag","moves":["Spectral Shriek","Death Toll","Dazzling Gleam","Destiny Bond"],"nature":"Timid","item":"Gengarite","index":number},},
+
+
+
+
+
+
+
+
+"Great Tusk"={" Chuck Rematch"::{"level":80,"ability":"Protosynthesis","moves":["Headlong Rush","Close Combat","Knock Off","Stone Edge"],"nature":"Jolly","item":"Booster Energy","index":number},},
+"Poliwrath"={" Chuck Rematch"::{"level":80,"ability":"Iron Fist","moves":["Surging Strikes","Poison Jab","Ice Punch","Drain Punch"],"nature":"Adamant","item":"Punching Glove","index":number},},
+"Urshifu"={" Chuck Rematch"::{"level":80,"ability":"Unseen Fist","moves":["Wicked Blow","Close Combat","Poison Jab","Ice Punch"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Zeraora"={" Chuck Rematch"::{"level":80,"ability":"Iron Fist","moves":["Plasma Fists","Close Combat","Blaze Kick","Knock Off"],"nature":"Adamant","item":"Shuca Berry","index":number},},
+"Sneasler"={" Chuck Rematch"::{"level":80,"ability":"Unburden","moves":["Dire Claw","Close Combat","Acrobatics","Earthquake"],"nature":"Adamant","item":"Poison Gem","index":number},},
+"Blaziken-Mega"={" Chuck Rematch"::{"level":80,"ability":"Speed Boost","moves":["Swords Dance","Close Combat","Blaze Kick","Lightning Kick"],"nature":"Jolly","item":"Blazikenite","index":number},},
+
+
+
+
+
+
+
+
+"Empoleon"={"Jasmine Rematch"::{"level":80,"ability":"Competitive","moves":["Hydro Pump","Polarity Pulse","Grass Knot","Roost"],"nature":"Quiet","item":"Chople Berry","ivs":{"sp":0},"index":number},},
+"Escavalier"={"Jasmine Rematch"::{"level":80,"ability":"Shell Armor","moves":["Double Iron Bash","Megahorn","Knock Off","Drill Run"],"nature":"Brave","item":"Occa Berry","ivs":{"sp":0},"index":number},},
+"Iron Hands"={"Jasmine Rematch"::{"level":80,"ability":"Quark Drive","moves":["Plasma Fists","Ice Punch","Drain Punch","Swords Dance"],"nature":"Brave","item":"Booster Energy","ivs":{"sp":0},"index":number},},
+"Stakataka"={"Jasmine Rematch"::{"level":80,"ability":"Beast Boost","moves":["Gyro Ball","Rock Slide","High Horsepower","Body Press"],"nature":"Lonely","item":"Air Balloon","ivs":{"sp":0},"index":number},},
+"Celesteela"={"Jasmine Rematch"::{"level":80,"ability":"Beast Boost","moves":["Heavy Slam","Acrobatics","Heat Crash","High Horsepower"],"nature":"Brave","item":"Room Service","ivs":{"sp":0},"index":number},},
+"Mawile-Mega"={"Jasmine Rematch"::{"level":80,"ability":"Huge Power","moves":["Swords Dance","Pixie Punch","Double Iron Bash","Fire Fang"],"nature":"Brave","item":"Mawilite","ivs":{"sp":0},"index":number},},
+
+
+
+
+
+
+
+
+"Froslass"={"Pryce Rematch"::{"level":80,"ability":"Adaptability","moves":["Blizzard","Spectral Shriek","Spikes","Destiny Bond"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Kyurem-White"={"Pryce Rematch"::{"level":80,"ability":"Turboblaze","moves":["Blizzard","Fusion Flare","Ancient Cry","Earth Power"],"nature":"Timid","item":"Life Orb","index":number},},
+"Chien-Pao"={"Pryce Rematch"::{"level":80,"ability":"Sword of Ruin","moves":["Icicle Crash","Sucker Punch","Sacred Sword","Swords Dance"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Articuno"={"Pryce Rematch"::{"level":80,"ability":"Pressure","moves":["Blizzard","Wind Drill","Hidden Power Ground","Calm Mind"],"nature":"Timid","item":"Charti Berry","index":number},},
+"Darmanitan-Galar-Zen"={"Pryce Rematch"::{"level":80,"ability":"Zen Mode","moves":["Icicle Crash","Flare Blitz","Earthquake","Magma Trek"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Lapras-Mega"={"Pryce Rematch"::{"level":80,"ability":"Slush Rush","moves":["Sparkling Aria","Blizzard","Psychic","Thunderbolt"],"nature":"Modest","item":"Laprasite","index":number},},
