@@ -1041,6 +1041,7 @@ export function calculateBPModsSMSSSV(
     (attacker.hasAbility('Strong Jaw') && move.flags.bite) ||
     (attacker.hasAbility('Steely Spirit') && move.hasType('Steel')) ||
     (attacker.hasAbility('Sharpness') && move.flags.slicing) ||
+    (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
     (attacker.hasAbility('Fever Pitch') && move.hasType('Poison')) ||
     (attacker.hasAbility('Subwoofer') && move.flags.sound && basePower <= 70)
   ) {
@@ -1079,7 +1080,6 @@ export function calculateBPModsSMSSSV(
       (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
     (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
     (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
-    (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
     (attacker.hasAbility('Tight Focus') && move.flags.beam) ||
     (attacker.hasAbility('Ballistic') && move.flags.bullet) ||
     (defender.hasAbility('Unknown Power'))
