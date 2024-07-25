@@ -5315,6 +5315,24 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 95,
     hasCrashDamage: true,
   },
+  'Psychic Noise': {
+    bp: 75,
+    type: 'Psychic',
+    category: 'Special',
+    isSound: true,
+  },
+  'Alluring Voice': {
+    bp: 80,
+    type: 'Fairy',
+    category: 'Special',
+    isSound: true,
+  },
+  'Upper Hand': {
+    bp: 65,
+    type: 'Fighting',
+    category: 'Physical',
+    priority: 3,
+  },
 };
 
 
