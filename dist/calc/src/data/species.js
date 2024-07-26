@@ -10061,7 +10061,7 @@ var SV_PATCH = {
     },
     Ogerpon: {
         types: ['Grass'],
-        bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Defiant' },
@@ -10069,7 +10069,7 @@ var SV_PATCH = {
     },
     'Ogerpon-Teal': {
         types: ['Grass'],
-        bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Embody Aspect (Teal)' },
@@ -10077,7 +10077,7 @@ var SV_PATCH = {
     },
     'Ogerpon-Wellspring': {
         types: ['Water', 'Grass'],
-        bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Embody Aspect (Wellspring)' },
@@ -10085,7 +10085,7 @@ var SV_PATCH = {
     },
     'Ogerpon-Hearthflame': {
         types: ['Fire', 'Grass'],
-        bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Embody Aspect (Hearthflame)' },
@@ -10093,7 +10093,7 @@ var SV_PATCH = {
     },
     'Ogerpon-Cornerstone': {
         types: ['Rock', 'Grass'],
-        bs: { hp: 88, at: 138, df: 115, sa: 58, sd: 91, sp: 90 },
+        bs: { hp: 80, at: 120, df: 84, sa: 60, sd: 96, sp: 110 },
         weightkg: 92,
         gender: 'N',
         abilities: { 0: 'Embody Aspect (Cornerstone)' },
