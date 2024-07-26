@@ -4816,7 +4816,8 @@ var SV_PATCH = {
         category: 'Physical',
         zp: 120,
         maxPower: 110,
-        isHeal: true
+        isHeal: true,
+        isSlicing: true
     },
     'Pack In': {
         type: 'Ice',

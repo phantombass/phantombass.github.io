@@ -4843,6 +4843,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isHeal: true,
+    isSlicing: true,
   },
   'Pack In': {
     type: 'Ice',

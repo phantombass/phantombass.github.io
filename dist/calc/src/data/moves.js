@@ -4816,6 +4816,7 @@ var SV_PATCH = {
         category: 'Physical',
         zp: 120,
         maxPower: 110,
+        isSlicing: true,
         isHeal: true
     },
     'Pack In': {
