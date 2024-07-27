@@ -4113,7 +4113,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Emolga: {
     types: ['Electric', 'Flying'],
-    bs: {hp: 55, at: 75, df: 60, sa: 75, sd: 60, sp: 103},
+    bs: {hp: 55, at: 35, df: 60, sa: 115, sd: 60, sp: 103},
     weightkg: 5,
     abilities: {0: 'Static'},
   },
@@ -9813,7 +9813,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Spidops: {
     types: ['Bug','Steel'],
-    bs: {hp: 60, at: 99, df: 92, sa: 52, sd: 86, sp: 35},
+    bs: {hp: 80, at: 99, df: 92, sa: 52, sd: 86, sp: 35},
     weightkg: 16.5,
     abilities: {0: 'Insomnia'},
   },

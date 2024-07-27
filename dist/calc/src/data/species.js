@@ -9825,7 +9825,7 @@ var SV_PATCH = {
     },
     Spidops: {
         types: ['Bug', 'Steel'],
-        bs: { hp: 60, at: 99, df: 92, sa: 52, sd: 86, sp: 35 },
+        bs: { hp: 80, at: 99, df: 92, sa: 52, sd: 86, sp: 35 },
         weightkg: 16.5,
         abilities: { 0: 'Insomnia' }
     },
