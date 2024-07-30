@@ -205,7 +205,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         defender.hasItem('Iron Ball') && !defender.hasAbility('Klutz')) {
         typeEffectiveness = 1;
     }
-    if (typeEffectiveness === 0 && (move.named('Thousand Arrows', 'Hammer Smash') || (move.hasType('Ground') && move.flags.bone))) {
+    if (typeEffectiveness === 0 && (move.named('Thousand Arrows', 'Hammer Smash', 'Bonemerang', 'Bone Rush', 'Bone Club'))) {
         typeEffectiveness = 1;
     }
     if (typeEffectiveness === 0 && move.named('Overcharge', 'Ancient Cry')) {
