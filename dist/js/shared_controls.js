@@ -1915,12 +1915,7 @@ function switchIconSingle(){
 	window.isInDoubles = true;
 	if (+localStorage.getItem("doubleLegacy")){
 		return;
-	}
-	document.getElementById("trainer-pok-list-opposing2").removeAttribute("hidden");
-	for (toShow of document.getElementsByClassName("for-doubles")){
-		toShow.removeAttribute("hidden");
-	}
-	
+	}	
 }
 
 function switchIconDouble(){

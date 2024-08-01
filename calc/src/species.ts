@@ -6454,7 +6454,7 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Decidueye: {
     types: ['Grass', 'Ghost'],
-    bs: {hp: 78, at: 107, df: 75, sa: 100, sd: 100, sp: 70},
+    bs: {hp: 78, at: 117, df: 70, sa: 70, sd: 95, sp: 100},
     weightkg: 36.6,
     abilities: {0: 'Overgrow'},
   },
