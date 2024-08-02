@@ -2663,7 +2663,7 @@ var ADV_PATCH = {
     },
     Whiscash: {
         types: ['Water', 'Ground'],
-        bs: { hp: 110, at: 78, df: 73, sa: 76, sd: 71, sp: 60 },
+        bs: { hp: 110, at: 58, df: 83, sa: 76, sd: 81, sp: 60 },
         weightkg: 23.6,
         abilities: { 0: 'Oblivious' }
     },
