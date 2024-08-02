@@ -5308,7 +5308,8 @@ var SV_PATCH = {
         type: 'Fighting',
         category: 'Physical',
         priority: 3
-    }
+    },
+    'Spirit Recall': { bp: 0, category: 'Status', type: 'Ghost' }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);
 exports.MOVES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SV];

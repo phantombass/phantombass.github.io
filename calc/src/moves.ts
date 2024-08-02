@@ -5335,6 +5335,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Physical',
     priority: 3,
   },
+  'Spirit Recall': {bp: 0, category: 'Status', type: 'Ghost'},
 };
 
 
