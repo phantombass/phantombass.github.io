@@ -1648,6 +1648,10 @@ export function calculateFinalModsSMSSSV(
       finalMods.push(8192);
     }
     desc.attackerItem = attacker.item;
+  } else if (attacker.hasItem('Wellspring Mask','Hearthflame Mask','Cornerstone Mask','Teal Mask') &&
+    attacker.named('Ogerpon-Teal','Ogerpon-Cornerstone','Ogerpon-Hearthflame','Ogerpon-Wellspring','Ogerpon') && !move.isZ) {
+    finalMods.push(4915);
+    desc.attackerItem = attacker.item;
   }
 
   if (move.hasType(getBerryResistType(defender.item)) &&

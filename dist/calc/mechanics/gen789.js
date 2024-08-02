@@ -1257,6 +1257,11 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         }
         desc.attackerItem = attacker.item;
     }
+    else if (attacker.hasItem('Wellspring Mask', 'Hearthflame Mask', 'Cornerstone Mask', 'Teal Mask') &&
+        attacker.named('Ogerpon-Teal', 'Ogerpon-Cornerstone', 'Ogerpon-Hearthflame', 'Ogerpon-Wellspring', 'Ogerpon') && !move.isZ) {
+        finalMods.push(4915);
+        desc.attackerItem = attacker.item;
+    }
     if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
         (typeEffectiveness > 1 || move.hasType('Normal')) &&
         !attacker.hasAbility('Unnerve', 'As One (Glastrier)', 'As One (Spectrier)')) {
