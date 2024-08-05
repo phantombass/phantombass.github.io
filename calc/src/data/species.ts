@@ -5298,7 +5298,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Diggersby: {
     types: ['Normal', 'Ground'],
-    bs: {hp: 85, at: 71, df: 77, sa: 50, sd: 77, sp: 78},
+    bs: {hp: 85, at: 56, df: 77, sa: 50, sd: 77, sp: 78},
     weightkg: 42.4,
     abilities: {0: 'Pickup'},
   },
