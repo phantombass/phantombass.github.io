@@ -198,3 +198,4 @@ This package is distributed under the terms of the [MIT License][3].
   [7]: https://rollupjs.org/
   [8]: https://parceljs.org/
   [9]: https://github.com/pkmn/ps/blob/master/data
+# hegemony.github.io
