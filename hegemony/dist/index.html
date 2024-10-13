@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Pok&eacute;mon Hegemony Damage Calculator</title>
-    <link type="text/css" rel="stylesheet" href="./hegemony/js/vendor/select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./hegemony/css/main.css?bab98f2f" />
-    <link type="text/css" rel="stylesheet" href="./hegemony/css/vendor/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="./hegemony/css/dark-theme.css" id="dark-theme-styles">
+    <title>Pok&eacute;mon Grueling Gold Damage Calculator</title>
+    <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?bab98f2f" />
+    <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="./css/dark-theme.css" id="dark-theme-styles">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
     <script>
@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Hegemony Damage Calculator v1.0.0</span>
+        <span class="title-text">Pok&eacute;mon Grueling Gold Damage Calculator v0.9.9</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -122,10 +122,10 @@
             <span id="damageValues"></span>
         </div>
     </div>
-    <!--div aria-label="Move selection" class="move-result-group for-doubles" role="region" title="Select a move to show detailed results." hidden>
+    <div aria-label="Move selection" class="move-result-group for-doubles" role="region" title="Select a move to show detailed results." hidden>
         <div aria-labelledby="resultHeader2L" class="move-result-subgroup " role="radiogroup">
             <div class="result-move-header"><span id="resultHeader2L">Pok&eacute;mon 1's Moves (select one to show detailed results)</span>
-            </div><!--ADDED FOR DOUBLES>
+            </div><!--ADDED FOR DOUBLES-->
             <div>
                 <input class="result-move2 visually-hidden" type="radio" name="resultMove2" id="resultMove2L1" checked="checked" aria-describedby="resultDamage2L1" />
                 <label class="btn btn-xxxwide btn-top" for="resultMove2L1">Loading...</label>
@@ -173,14 +173,14 @@
         </div>
     </div>
     <div aria-label="Calculation results2" class="main-result-group for-doubles" role="region" hidden>
-        <div class="big-text" title="Click to copy."><!--ADDED FOR DOUBLES>
+        <div class="big-text" title="Click to copy."><!--ADDED FOR DOUBLES-->
             <span id="mainResult2">Loading...</span>
             <span id="tooltipText">Copied</span>
         </div>
         <div class="small-text">
             <span id="damageValues2"></span>
         </div>
-    </div-->
+    </div>
     <div class="left-side-pannel side-pannel" hidden>
         <button data-set="i-f-type" class="l-side-button">
             <i class="s-arrow arrowdown"></i>
@@ -209,7 +209,7 @@
                 </legend>
                 <input type="text" class="set-selector calc-trigger player" />
                 <span id="importedSetsOptions" style="width:auto; display:none">
-                    <input type="checkbox" id="importedSets" checked="checked"> Only show imported sets</input> 
+                    <input type="checkbox" id="importedSets"> Only show imported sets</input> 
                 </span>
                 <div class="info-group top i-f-type">
                     <div>
@@ -746,15 +746,6 @@
                 </div>
                 <hr>
                 <div>
-                    <legend class="dropzone" align="center">Trash</legend>
-                    <div id="trash-box" class="box-poke dropzone" data-placeholder="">
-                        
-                    </div>
-                    <button class="deadzone" id="trash-pok">Remove Pokémon from the trash</button>
-                    <button class="deadzone" id="clearSets">Remove Pokémon from all boxes</button>
-                </div>
-                <hr>
-                <div>
                     <legend align="center">Color Codes</legend>
                     <button id="show-cc">Show</button>
                     <button id="hide-cc" hidden>Hide</button>
@@ -796,6 +787,15 @@
                         <input min="1" max="5" type="range" name="cc-spe-width" id="cc-spe-width">Speed Border width
                     </div>
                 </div>
+                <hr>
+                <div>
+                    <legend class="dropzone" align="center">Trash</legend>
+                    <div id="trash-box" class="box-poke dropzone" data-placeholder="">
+                        
+                    </div>
+                    <button class="deadzone" id="trash-pok">Remove Pokémon from the trash</button>
+                    <button class="deadzone" id="clearSets">Remove Pokémon from all boxes</button>
+                </div>
             </fieldset>
         </div>
     </div>
@@ -806,22 +806,19 @@
                     <img id="monSingle" src="https://raw.githubusercontent.com/May8th1995/sprites/master/Minun.png" alt="">
                     <img id="monDouble" src="https://raw.githubusercontent.com/May8th1995/sprites/master/Plusle.png" alt="" hidden>
                 </legend>
-                <div aria-labelledby="selectBattleFormatInstruction" class="gen-specific g3 g4 g5 g6 g7 g8 g9" role="radiogroup" style="width: 15.9em; margin: 0 auto 5px;" title="Select the battle format.">
+                <div aria-labelledby="selectBattleFormatInstruction" class="gen-specific g3 g4 g5 g6 g7 g8 g9" role="radiogroup" style="width: 10.6em; margin: 0 auto 5px;" title="Select the battle format.">
                     <span class="visually-hidden" id="selectBattleFormatInstruction">Select the battle format.</span>
                     <input class="visually-hidden calc-trigger" type="radio" name="format" value="Singles" id="singles-format" />
                     <label class="btn btn-left" for="singles-format">Singles</label>
                     <input class="visually-hidden calc-trigger" type="radio" name="format" value="Doubles" id="doubles-format" />
-                    <label class="btn btn-mid" for="doubles-format">Doubles</label>
-                    <input class="visually-hidden calc-trigger" type="radio" name="format" value="Inverse" id="inverse-format" />
-                    <label class="btn btn-right" for="inverse-format">Inverse</label>
+                    <label class="btn btn-right" for="doubles-format">Doubles</label>
                 </div>
                 <div aria-labelledby="selectTerrainInstruction" class="gen-specific g6 g7 g8 g9" role="group" title="Select the current terrain.">
                     <span class="visually-hidden" id="selectTerrainInstruction">Select the current terrain.</span>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Electric" id="electric" /><label class="btn btn-xxxwide btn-left" for="electric">Electric Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-xxxwide btn-mid" for="grassy">Grassy Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-left" for="psychic">Psychic Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Poison" id="poison" /><label class="btn btn-xxxwide btn-right" for="poison">Poison Terrain</label>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
                      <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
@@ -837,7 +834,7 @@
                 <hr class="gen-specific g6 g7 g8 g9" />
                 <div aria-labelledby="selectWeatherInstruction" role="radiogroup">
                     <span class="visually-hidden" id="selectWeatherInstruction">Select the current weather condition.</span>
-                    <div class="gen-specific g3 g4 g5 g6 g7 g8 hide" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
+                    <div class="gen-specific g3 g4 g5 g6 g7 g9 hide" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="" id="clear" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear">None</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sun" id="sun" />
@@ -846,20 +843,10 @@
                         <label class="btn btn-small btn-mid" for="rain">Rain</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sand" id="sand" />
                         <label class="btn btn-small btn-mid" for="sand">Sand</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Snow" id="snow" />
-                        <label class="btn btn-small btn-right" for="snow">Snow</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sleet" id="sleet" />
-                        <label class="btn btn-small btn-left" for="sleet">Sleet</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Acid Rain" id="acid" />
-                        <label class="btn btn-small btn-mid" for="acid">Acid</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Eclipse" id="eclipse" />
-                        <label class="btn btn-small btn-mid" for="eclipse">Eclipse</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Windy" id="windy" />
-                        <label class="btn btn-small btn-mid" for="windy">Windy</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Starstorm" id="starstorm" />
-                        <label class="btn btn-small btn-right" for="starstorm">Stars</label>
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Hail" id="hail" />
+                        <label class="btn btn-small btn-right" for="hail">Hail</label>
                     </div>
-                    <div class="gen-specific g9" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
+                    <div class="gen-specific g8" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="" id="clear" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear">None</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sun" id="sun" />
@@ -924,18 +911,7 @@
                                 <label class="btn btn-xwide" for="srR">Stealth Rock</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g4 g5 g6 g7 g8 g9">
-                            <div hidden id="selectCometShardInstruction">Are Comet Shards affecting this side of the field?</div>
-                            <td><div class="left" title="Are Comet Shards affecting this side of the field?">
-                                <input aria-describedby="selectCometShardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="csL" />
-                                <label class="btn btn-xwide" for="csL">Comet Shards</label>
-                            </div></td>
-                            <td><div class="right" title="Are Comet Shards affecting this side of the field?">
-                                <input aria-describedby="selectCometShardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="csR" />
-                                <label class="btn btn-xwide" for="csR">Comet Shards</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g8 hide">
                             <div hidden id="selectSteelsurgeInstruction">Is Steelsurge affecting this side of the field?</div>
                             <td><div class="left" title="Is Steelsurge affecting this side of the field?">
                                 <input aria-describedby="selectSteelsurgeInstruction" class="visually-hidden calc-trigger" type="checkbox" id="steelsurgeL" />
@@ -946,7 +922,7 @@
                                 <label class="btn btn-xwide" for="steelsurgeR">Steelsurge</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g8 hide">
                             <div hidden id="selectVinefireInstruction">Is Vine Lash and/or Wildfire affecting this side of the field?</div>
                             <td><div class="left" title="Is Vine Lash/Wildfire affecting this side of the field?">
                                 <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="vinelashL" />
@@ -961,7 +937,7 @@
                                 <label class="btn btn-wide btn-right" for="vinelashR">Vine Lash</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g8 hide">
                             <div hidden id="selectCannonlithInstruction">Is Cannonade and/or Volcalith affecting this side of the field?</div>
                             <td><div class="left" title="Is Cannonade/Volcalith affecting this side of the field?">
                                 <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="cannonadeL" />
@@ -1168,6 +1144,12 @@
                 </table>
             </fieldset>
         </div>
+        <div aria-label="Import team" role="region" hidden>
+            <fieldset class="note-button" hidden>
+                <legend align="center">Note</legend>
+                <button id="open-note" hidden>Open Notes</button>
+            </fieldset>
+        </div>
         <div aria-label="Import team" role="region">
             <fieldset class="poke-import">
                 <legend align="center">Import / Export</legend>
@@ -1197,7 +1179,7 @@
                         <select aria-label="Type 2" class="type2 terrain-trigger calc-trigger"></select>
                         <small class="right">(<a class="analysis links-lighten" target="_blank" href="">Smogon&nbsp;analysis</a>)</small>
                     </div>
-                    <div class="gen-specific g9">
+                    <div class="gen-specific g8">
                         <label>Tera Type</label>
                         <select class="teraType terrain-trigger calc-trigger"></select>
                         <input type="checkbox" title= "Has this Pok&eacute;mon terastalized?" class="teraToggle terrain-trigger calc-trigger">
@@ -1707,7 +1689,9 @@
                 <div class="trainer-poks">
                     <div id="trainer-pok-list-opposing" class="trainer-pok-list-opposing dropzone calc-trigger">
                     </div>
-                    <div id="trainer-pok-list-opposing2" class="dropzone calc-trigger" hidden>
+                    <div id="trainer-pok-list-opposing2" class="dropzone calc-trigger" 
+                    data-placeholder=" For doubles you can drag & drop the opposing pokemons here,
+                     only the first one off each row will be calculated against. Top left always top calc and Bot left always bot calc" hidden>
                     </div>
                 </div>
                 <!--hr>
@@ -1865,10 +1849,10 @@
     <script type="text/javascript">
         var linkExtension = '.html';
     </script>
-    <script type="text/javascript" src="./hegemony/js/vendor/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="./hegemony/js/vendor/select2/select2.min.js"></script>
-    <script type="text/javascript" src="./hegemony/js/vendor/url-search-params-0.1.2.min.js"></script>
-    <script type="text/javascript" src="./hegemony/js/vendor/interact.min.js"></script>
+    <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
+    <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
+    <script type="text/javascript" src="./js/vendor/interact.min.js"></script>
     <script type="text/javascript">
         this.__createBinding = function(o, m, k) {
             o[k] = m[k];
@@ -1876,46 +1860,46 @@
         var calc = exports = {};
         function require() { return exports };
     </script>
-    <script type="text/javascript" src="./hegemony/dist/calc/util.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/stats.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/species.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen9.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen8.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen7.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen6.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen5.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen4.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen3.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen2.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/sets/gen1.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/js/data/truck.js"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/types.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/natures.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/abilities.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/moves.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/items.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/data/index.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/move.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/pokemon.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/field.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/items.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/util.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/gen789.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/gen56.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/gen4.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/gen3.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/mechanics/gen12.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/calc.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/desc.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/result.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/adaptable.js?"></script>
-    <script type="text/javascript" src="./hegemony/dist/calc/index.js?"></script>
-    <script type="text/javascript" src="./hegemony/js/shared_controls.js?"></script>
-    <script type="text/javascript" src="./hegemony/js/index_randoms_controls.js?"></script>
-    <script type="text/javascript" src="./hegemony/src/js/moveset_import.js?"></script>
+    <script type="text/javascript" src="./calc/util.js?8fa0c7ff"></script>
+    <script type="text/javascript" src="./calc/stats.js?a9e37d1a"></script>
+    <script type="text/javascript" src="./calc/data/species.js?ad70d437"></script>
+    <script type="text/javascript" src="./js/data/sets/gen9.js?3d8cb383"></script>
+    <script type="text/javascript" src="./js/data/sets/gen8.js?419b7b67"></script>
+    <script type="text/javascript" src="./js/data/sets/gen7.js?5f5ba850"></script>
+    <script type="text/javascript" src="./js/data/sets/gen6.js?eaf8dc5f"></script>
+    <script type="text/javascript" src="./js/data/sets/gen5.js?d8d4ab96"></script>
+    <script type="text/javascript" src="./js/data/sets/gen4.js?1cca0e4b"></script>
+    <script type="text/javascript" src="./js/data/sets/gen3.js?1750a100"></script>
+    <script type="text/javascript" src="./js/data/sets/gen2.js?8534fa4a"></script>
+    <script type="text/javascript" src="./js/data/sets/gen1.js?6b6723b2"></script>
+    <script type="text/javascript" src="./js/data/truck.js"></script>
+    <script type="text/javascript" src="./calc/data/types.js?3b1d3db5"></script>
+    <script type="text/javascript" src="./calc/data/natures.js?04f00dc5"></script>
+    <script type="text/javascript" src="./calc/data/abilities.js?cba504a9"></script>
+    <script type="text/javascript" src="./calc/data/moves.js?f033a59c"></script>
+    <script type="text/javascript" src="./calc/data/items.js?9a2b027e"></script>
+    <script type="text/javascript" src="./calc/data/index.js?083d2bc9"></script>
+    <script type="text/javascript" src="./calc/move.js?57ab9f0a"></script>
+    <script type="text/javascript" src="./calc/pokemon.js?1cd9f7fb"></script>
+    <script type="text/javascript" src="./calc/field.js?bbf04408"></script>
+    <script type="text/javascript" src="./calc/items.js?6f1e0bc4"></script>
+    <script type="text/javascript" src="./calc/mechanics/util.js?29cb993d"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen789.js?40d98c3a"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen56.js?64fd8216"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen4.js?016c24ce"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen3.js?1354c164"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen12.js?fac6ec9d"></script>
+    <script type="text/javascript" src="./calc/calc.js?40a2d9b1"></script>
+    <script type="text/javascript" src="./calc/desc.js?edafb82b"></script>
+    <script type="text/javascript" src="./calc/result.js?9f8881b5"></script>
+    <script type="text/javascript" src="./calc/adaptable.js?92e49194"></script>
+    <script type="text/javascript" src="./calc/index.js?8130946e"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?1e195969"></script>
+    <script type="text/javascript" src="./js/index_randoms_controls.js?0a0407ae"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?023b0f1a"></script>
 </div>
 
-<div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Hegemony.
+<div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Grueling Gold.
     <ul>
         <li><a href="https://github.com/ForwardFeed/runbuncalc" class="links-lighten" target="_blank">Modification Repository</a></li>
         <br>
@@ -1925,7 +1909,7 @@
     </ul>
     <div id="sets">
         <button type="button" id="dark-theme-toggle"></button>
-        <script type="text/javascript" src="./hegemony/js/dark-theme-toggle.js?be118517"></script>
+        <script type="text/javascript" src="./js/dark-theme-toggle.js?be118517"></script>
         <button id="side-arrow-toggle" data-id="true">Show Side Arrows</button>
         <button id="double-legacy-mode">Doubles Modern</button>
     </div>
