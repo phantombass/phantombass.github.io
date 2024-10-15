@@ -37,12 +37,12 @@
 
 
 
-"Exeggcute"={"Cool Trainer Male James"::{"level":10,"ability":"Harvest","moves":["Hypnosis","Bullet Seed","Confusion",""],"nature":"Naive","item":"Oran Berry","index":number},},
-"Wooper"={"Cool Trainer Male James"::{"level":10,"ability":"Water Absorb","moves":["Water Gun","Mud Shot","Icy Wind",""],"nature":"Modest","item":"Berry Juice","index":number},},
-"Carvanha-Wartime"={"Cool Trainer Male James"::{"level":10,"ability":"Intimidate","moves":["Flame Wheel","Bite","Shadow Sneak",""],"nature":"Jolly","item":"Oran Berry","index":number},},
-""={"Cool Trainer Male James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Exeggcute"={"Cool Trainer James"::{"level":10,"ability":"Harvest","moves":["Hypnosis","Bullet Seed","Confusion",""],"nature":"Naive","item":"Oran Berry","index":number},},
+"Wooper"={"Cool Trainer James"::{"level":10,"ability":"Water Absorb","moves":["Water Gun","Mud Shot","Icy Wind",""],"nature":"Modest","item":"Berry Juice","index":number},},
+"Carvanha-Wartime"={"Cool Trainer James"::{"level":10,"ability":"Intimidate","moves":["Flame Wheel","Bite","Shadow Sneak",""],"nature":"Jolly","item":"Oran Berry","index":number},},
+""={"Cool Trainer James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer James"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -77,9 +77,9 @@
 
 
 
-"Joltik"={"Bug Catcher Cale"::{"level":12,"ability":"Unnerve","moves":["Volt Switch","","",""],"nature":"Timid","item":"Magnet","index":number},},
-"Spinarak"={"Bug Catcher Cale"::{"level":12,"ability":"Adaptability","moves":["U-turn","","",""],"nature":"Jolly","item":"Silver Powder","index":number},},
-"Kricketune"={"Bug Catcher Cale"::{"level":12,"ability":"Technician","moves":["Bug Bite","Rock Tomb","Mega Drain",""],"nature":"Jolly","item":"Berry Juice","index":number},},
+"Joltik"={"Bug Catcher Cale"::{"level":11,"ability":"Unnerve","moves":["Spark","Struggle Bug","",""],"nature":"Naive","item":"Magnet","index":number},},
+"Spinarak"={"Bug Catcher Cale"::{"level":12,"ability":"Adaptability","moves":["Poison Sting","Bug Bite","",""],"nature":"Jolly","item":"Silver Powder","index":number},},
+"Kricketune"={"Bug Catcher Cale"::{"level":11,"ability":"Technician","moves":["Bug Bite","Slash","",""],"nature":"Jolly","item":"Lum Berry","index":number},},
 ""={"Bug Catcher Cale"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Bug Catcher Cale"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Bug Catcher Cale"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -130,19 +130,19 @@
 
 
 
-"Pawmo"={"Cool Trainer Male Alfred"::{"level":15,"ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark","Ice Punch"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Roselia"={"Cool Trainer Male Alfred"::{"level":13,"ability":"Poison Point","moves":["Mega Drain","Sludge","Stun Spore",""],"nature":"Timid","item":"Berry Juice","index":number},},
-"Growlithe-Wartime"={"Cool Trainer Male Alfred"::{"level":14,"ability":"Mind Games","moves":["Aqua Jet","Bite","Ice Fang",""],"nature":"Jolly","item":"Berry Juice","index":number},},
-"Numel"={"Cool Trainer Male Alfred"::{"level":14,"ability":"Simple","moves":["Bulldoze","Flame Charge","Trailblaze","Ancient Power"],"nature":"Naive","item":"Passho Berry","index":number},},
-""={"Cool Trainer Male Alfred"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male Alfred"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Pawmo"={"Cool Trainer Alfred"::{"level":15,"ability":"Iron Fist","moves":["Fake Out","Mach Punch","Spark","Ice Punch"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Roselia"={"Cool Trainer Alfred"::{"level":13,"ability":"Poison Point","moves":["Mega Drain","Sludge","Stun Spore",""],"nature":"Timid","item":"Berry Juice","index":number},},
+"Growlithe-Wartime"={"Cool Trainer Alfred"::{"level":14,"ability":"Mind Games","moves":["Aqua Jet","Bite","Ice Fang",""],"nature":"Jolly","item":"Berry Juice","index":number},},
+"Numel"={"Cool Trainer Alfred"::{"level":14,"ability":"Simple","moves":["Bulldoze","Flame Charge","Trailblaze","Ancient Power"],"nature":"Naive","item":"Passho Berry","index":number},},
+""={"Cool Trainer Alfred"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Alfred"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
 
 
 
-7
+
 
 "Magnemite"={"Rival Helum Tunnel Treecko Chosen"::{"level":14,"ability":"Sturdy","moves":["Shock Wave","Mirror Shot","Mirror Rush","Thunder Wave"],"nature":"Modest","item":"Berry Juice","index":number},},
 "Palpitoad"={"Rival Helum Tunnel Treecko Chosen"::{"level":16,"ability":"Water Absorb","moves":["Mud Shot","Bubble Beam","Icy Wind",""],"nature":"Modest","item":"Rindo Berry","index":number},},
@@ -155,7 +155,7 @@
 
 
 
-8
+
 
 "Chinchou"={"Rival Helum Tunnel Torchic Chosen"::{"level":14,"ability":"Volt Absorb","moves":["Bubble Beam","Shock Wave","Icy Wind","Thunder Wave"],"nature":"Timid","item":"Berry Juice","index":number},},
 "Trumbeak"={"Rival Helum Tunnel Torchic Chosen"::{"level":16,"ability":"Skill Link","moves":["Fury Attack","Bullet Seed","Rock Smash","Quick Attack"],"nature":"Jolly","item":"Lum Berry","index":number},},
@@ -168,7 +168,7 @@
 
 
 
-6
+
 
 "Helioptile"={"Rival Helum Tunnel Mudkip Chosen"::{"level":14,"ability":"Dry Skin","moves":["Echoed Voice","Shock Wave","Mud Shot","Thunder Wave"],"nature":"Timid","item":"Berry Juice","index":number},},
 "Skiploom"={"Rival Helum Tunnel Mudkip Chosen"::{"level":16,"ability":"Aerilate","moves":["Headbutt","Quick Attack","Bullet Seed","Leech Seed"],"nature":"Jolly","item":"Yache Berry","index":number},},
@@ -236,12 +236,12 @@
 
 
 
-"Lileep"={"Cool Trainer Male Harrison"::{"level":18,"ability":"Storm Drain","moves":["Stealth Rock","Mega Drain","Ancient Power","Mud Shot"],"nature":"Relaxed","item":"Sitrus Berry","index":number},},
-"Frillish"={"Cool Trainer Male Harrison"::{"level":17,"ability":"Water Absorb","moves":["Bubble Beam","Hex","Will-o-Wisp","Mega Drain"],"nature":"Modest","item":"Lum Berry","index":number},},
-"Qwilfish-Wartime"={"Cool Trainer Male Harrison"::{"level":18,"ability":"Steam Engine","moves":["Mirror Shot","Flame Burst","Mirror Rush","Water Pulse"],"nature":"Timid","item":"Iron Ball","index":number},},
-""={"Cool Trainer Male Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Lileep"={"Cool Trainer Harrison"::{"level":18,"ability":"Storm Drain","moves":["Stealth Rock","Mega Drain","Ancient Power","Mud Shot"],"nature":"Relaxed","item":"Sitrus Berry","index":number},},
+"Frillish"={"Cool Trainer Harrison"::{"level":17,"ability":"Water Absorb","moves":["Bubble Beam","Hex","Will-o-Wisp","Mega Drain"],"nature":"Modest","item":"Lum Berry","index":number},},
+"Qwilfish-Wartime"={"Cool Trainer Harrison"::{"level":18,"ability":"Steam Engine","moves":["Mirror Shot","Flame Burst","Mirror Rush","Water Pulse"],"nature":"Timid","item":"Iron Ball","index":number},},
+""={"Cool Trainer Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Harrison"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -249,12 +249,12 @@
 
 
 
-"Spidops"={"Cool Trainer Female Carrie"::{"level":18,"ability":"Sharpness","moves":["Cut","Bug Bite","Slash","Toxic Spikes"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Croagunk"={"Cool Trainer Female Carrie"::{"level":18,"ability":"Dry Skin","moves":["Fake Out","Sludge","Mud Shot","Vacuum Wave"],"nature":"Timid","item":"Payapa Berry","index":number},},
-"Ivysaur-Wartime"={"Cool Trainer Female Carrie"::{"level":18,"ability":"Mind Games","moves":["Draining Kiss","Snarl","Hypnosis","Aurora Beam"],"nature":"Timid","item":"Lum Berry","index":number},},
-""={"Cool Trainer Female Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Female Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Female Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Spidops"={"Cool Trainer Carrie"::{"level":18,"ability":"Sharpness","moves":["Cut","Bug Bite","Slash","Toxic Spikes"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Croagunk"={"Cool Trainer Carrie"::{"level":18,"ability":"Dry Skin","moves":["Fake Out","Sludge","Mud Shot","Vacuum Wave"],"nature":"Timid","item":"Payapa Berry","index":number},},
+"Ivysaur-Wartime"={"Cool Trainer Carrie"::{"level":18,"ability":"Mind Games","moves":["Draining Kiss","Snarl","Hypnosis","Aurora Beam"],"nature":"Timid","item":"Lum Berry","index":number},},
+""={"Cool Trainer Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Carrie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -347,7 +347,7 @@
 
 
 
-1
+
 
 "Voltorb-Hisui"={"Militia M Grunt 1"::{"level":21,"ability":"Static","moves":["Mega Drain","Shock Wave","Thunder Wave","Self-Destruct"],"nature":"Timid","item":"Focus Sash","index":number},},
 "Fletchinder"={"Militia M Grunt 1"::{"level":21,"ability":"Flame Body","moves":["Flame Charge","Aerial Ace","Quick Attack","Steel Wing"],"nature":"Jolly","item":"Steel Gem","index":number},},
@@ -360,7 +360,7 @@
 
 
 
-2
+
 
 "Masquerain"={"Militia M Grunt 2"::{"level":21,"ability":"Intimidate","moves":["Bubble Beam","Icy Wind","Silver Wind",""],"nature":"Timid","item":"Mystic Water","index":number},},
 "Eelektrik"={"Militia M Grunt 2"::{"level":22,"ability":"Levitate","moves":["Shock Wave","Acid Spray","Mega Drain",""],"nature":"Modest","item":"Sitrus Berry","index":number},},
@@ -373,7 +373,7 @@
 
 
 
-3
+
 
 "Scraggy"={"Militia M Grunt 3"::{"level":22,"ability":"Intimidate","moves":["Fake Out","Payback","Brick Break","Rock Tomb"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
 "Skrelp"={"Militia M Grunt 3"::{"level":22,"ability":"Adaptability","moves":["Water Pulse","Sludge","Icy Wind","Toxic"],"nature":"Modest","item":"Black Sludge","index":number},},
@@ -467,12 +467,12 @@
 
 
 
-"Clefable"={"Cool Trainer Male Ashton"::{"level":23,"ability":"Magic Guard","moves":["Aurora Beam","Draining Kiss","Stealth Rock","Soft-boiled"],"nature":"Bold","item":"Sitrus Berry","index":number},},
-"Bramblin"={"Cool Trainer Male Ashton"::{"level":23,"ability":"Wind Rider","moves":["Seed Bomb","Shadow Sneak","Bulldoze",""],"nature":"Jolly","item":"Coba Berry","index":number},},
-"Gabite-Wartime"={"Cool Trainer Male Ashton"::{"level":24,"ability":"Snow Cloak","moves":["Icicle Spear","Bulldoze","Rock Tomb",""],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Kilowattrel"={"Cool Trainer Male Ashton"::{"level":25,"ability":"Competitive","moves":["Doldrums","Shock Wave","Charge Beam","Roost"],"nature":"Timid","item":"Lum Berry","index":number},},
-""={"Cool Trainer Male Ashton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Male Ashton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Clefable"={"Cool Trainer Ashton"::{"level":23,"ability":"Magic Guard","moves":["Aurora Beam","Draining Kiss","Stealth Rock","Soft-boiled"],"nature":"Bold","item":"Sitrus Berry","index":number},},
+"Bramblin"={"Cool Trainer Ashton"::{"level":23,"ability":"Wind Rider","moves":["Seed Bomb","Shadow Sneak","Bulldoze",""],"nature":"Jolly","item":"Coba Berry","index":number},},
+"Gabite-Wartime"={"Cool Trainer Ashton"::{"level":24,"ability":"Snow Cloak","moves":["Icicle Spear","Bulldoze","Rock Tomb",""],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Kilowattrel"={"Cool Trainer Ashton"::{"level":25,"ability":"Competitive","moves":["Doldrums","Shock Wave","Charge Beam","Roost"],"nature":"Timid","item":"Lum Berry","index":number},},
+""={"Cool Trainer Ashton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Ashton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -492,7 +492,7 @@
 
 
 
-1
+
 
 "Mr. Mime-Galar"={"Scientist Grunt 1"::{"level":25,"ability":"Mind Games","moves":["Freeze-Dry","Psybeam","Fake Out","Aurora Beam"],"nature":"Timid","item":"Wise Glasses","index":number},},
 "Sandslash-Alola"={"Scientist Grunt 1"::{"level":25,"ability":"Slush Rush","moves":["Ice Punch","Smart Strike","Rock Tomb","Aerial Ace"],"nature":"Adamant","item":"Lum Berry","index":number},},
@@ -505,7 +505,7 @@
 
 
 
-2
+
 
 "Togedemaru"={"Scientist Grunt 2"::{"level":26,"ability":"Iron Barbs","moves":["Fake Out","Smart Strike","Spark","U-turn"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
 "Kadabra"={"Scientist Grunt 2"::{"level":25,"ability":"Inner Focus","moves":["Psybeam","Aurora Beam","Reflect","Light Screen"],"nature":"Timid","item":"Focus Sash","index":number},},
@@ -588,7 +588,7 @@
 
 
 "Accelgor"={"Hiker Rocco"::{"level":27,"ability":"Sticky Hold","moves":["Spikes","Signal Beam","Water Shuriken","Mega Drain"],"nature":"Modest","item":"Focus Sash","index":number},},
-"Lucario"={"Hiker Rocco"::{"level":26,"ability":"Inner Focus","moves":["Vacuum Wave","Mirror Shot","Water Pulse",""],"nature":"Sitrus Berry","item":"Timid","index":number},},
+"Lucario"={"Hiker Rocco"::{"level":26,"ability":"Inner Focus","moves":["Vacuum Wave","Mirror Shot","Water Pulse",""],"nature":"Timid","item":"Sitrus Berry","index":number},},
 "Bellossom"={"Hiker Rocco"::{"level":26,"ability":"Unshaken","moves":["Leaf Storm","","",""],"nature":"Timid","item":"Metronome","index":number},},
 ""={"Hiker Rocco"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Hiker Rocco"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -613,12 +613,12 @@
 
 
 
-"Araquanid"={"Cool Trainer Female Tina"::{"level":27,"ability":"Water Bubble","moves":["Sticky Web","Hydro Fangs","Bug Bite","Crunch"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Bisharp"={"Cool Trainer Female Tina"::{"level":28,"ability":"Defiant","moves":["Cut","Night Slash","Low Kick","Grass Knot"],"nature":"Naive","item":"Lum Berry","index":number},},
-"Whimsicott-Wartime"={"Cool Trainer Female Tina"::{"level":27,"ability":"Transistor","moves":["Air Slash","Discharge","Giga Drain","U-turn"],"nature":"Timid","item":"Sitrus Berry","index":number},},
-"Mienshao"={"Cool Trainer Female Tina"::{"level":28,"ability":"Inner Focus","moves":["Thunder Punch","Drain Punch","Rock Tomb","Acrobatics"],"nature":"Jolly","item":"Lum Berry","index":number},},
-""={"Cool Trainer Female Tina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Female Tina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Araquanid"={"Cool Trainer Tina"::{"level":27,"ability":"Water Bubble","moves":["Sticky Web","Hydro Fangs","Bug Bite","Crunch"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Bisharp"={"Cool Trainer Tina"::{"level":28,"ability":"Defiant","moves":["Cut","Night Slash","Low Kick","Grass Knot"],"nature":"Naive","item":"Lum Berry","index":number},},
+"Whimsicott-Wartime"={"Cool Trainer Tina"::{"level":27,"ability":"Transistor","moves":["Air Slash","Discharge","Giga Drain","U-turn"],"nature":"Timid","item":"Sitrus Berry","index":number},},
+"Mienshao"={"Cool Trainer Tina"::{"level":28,"ability":"Inner Focus","moves":["Thunder Punch","Drain Punch","Rock Tomb","Acrobatics"],"nature":"Jolly","item":"Lum Berry","index":number},},
+""={"Cool Trainer Tina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Tina"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
