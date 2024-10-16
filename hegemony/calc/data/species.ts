@@ -10585,6 +10585,20 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
     abilities: {0: 'Contrary'},
   },
+  'Grookey-Wartime': {
+    types: ['Steel'],
+    bs: {hp: 50, at: 65, df: 50, sa: 40, sd: 40, sp: 65},
+    weightkg: 5,
+    abilities: {0: 'Heatproof'},
+    nfe: true,
+  },
+  'Thwackey-Wartime': {
+    types: ['Steel'],
+    bs: {hp: 70, at: 85, df: 70, sa: 55, sd: 60, sp: 80},
+    weightkg: 14,
+    abilities: {0: 'Heatproof'},
+    nfe: true,
+  },
 };
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH);
