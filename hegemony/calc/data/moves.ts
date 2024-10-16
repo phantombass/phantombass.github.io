@@ -4175,7 +4175,6 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Fury Cutter': {isSlicing: true},
   'Fury Swipes': {isSlicing: true},
   'Glacial Lance': {bp: 120, zp: 190},
-  'Grassy Glide': {bp: 60, zp: 120, maxPower: 110},
   Gust: {isWind: true},
   'Hammer Arm': {isHammer: true},
   'Head Charge': {isHead: true},
