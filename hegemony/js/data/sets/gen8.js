@@ -632,3 +632,141 @@
 "Centiskorch"={"Gym Leader Hazel "::{"level":28,"ability":"Flash Fire","moves":["Flame Charge","Leech Life","Fire Lash","Crunch"],"nature":"Jolly","item":"Charti Berry","index":number},},
 "Rapidash-Galar"={"Gym Leader Hazel "::{"level":28,"ability":"Composure","moves":["Extrasensory","Dazzling Gleam","Mystical Fire","Calm Mind"],"nature":"Timid","item":"Babiri Berry","index":number},},
 "Cobalion"={"Gym Leader Hazel "::{"level":28,"ability":"Justified","moves":["Cut","Brick Break","Psycho Cut","Stealth Rock"],"nature":"Jolly","item":"Shuca Berry","index":number},},
+
+"Gastrodon"={"Hiker Payne"::{"level":27,"ability":"Storm Drain","moves":["Scald","Earth Power","Recover","Stealth Rock"],"nature":"Modest","item":"Rindo Berry","index":number},},
+"Camerupt"={"Hiker Payne"::{"level":28,"ability":"Solid Rock","moves":["Scorching Sands","Lava Plume","Ancient Power","Trailblaze"],"nature":"Modest","item":"Passho Berry","index":number},},
+"Toedscruel"={"Hiker Payne"::{"level":27,"ability":"Resurgence","moves":["Giga Drain","Scorching Sands","Recover","Spore"],"nature":"Timid","item":"Yache Berry","index":number},},
+""={"Hiker Payne"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Payne"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Payne"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Hariyama"={"Hiker Gaines"::{"level":28,"ability":"Guts","moves":["Fake Out","Drain Punch","Payback","Rock Tomb"],"nature":"Adamant","item":"Flame Orb","index":number},},
+"Arbok"={"Hiker Gaines"::{"level":28,"ability":"Intimidate","moves":["Crunch","Fire Fang","Thunder Fang","Poison Fang"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Ursaring"={"Hiker Gaines"::{"level":28,"ability":"Guts","moves":["Slash","Crunch","Comet Punch","Trailblaze"],"nature":"Adamant","item":"Iapapa Berry","index":number},},
+"Piloswine"={"Hiker Gaines"::{"level":27,"ability":"Oblivious","moves":["Icicle Spear","Stomping Tantrum","Rock Tomb","Stealth Rock"],"nature":"Adamant","item":"Soft Sand","index":number},},
+""={"Hiker Gaines"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Gaines"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Granbull"={"Cool Trainer Lisa"::{"level":28,"ability":"Intimidate","moves":["Play Rough","Brick Break","Ice Punch","Fire Punch"],"nature":"Adamant","item":"Quick Claw","index":number},},
+"Dugtrio"={"Cool Trainer Lisa"::{"level":27,"ability":"Arena Trap","moves":["Earthquake","Rock Slide","Sucker Punch","Memento"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Ninetales-Wartime"={"Cool Trainer Lisa"::{"level":29,"ability":"Composure","moves":["Dark Pulse","Sludge Bomb","Mystical Fire","Grass Knot"],"nature":"Timid","item":"Black Sludge","index":number},},
+"Froslass"={"Cool Trainer Lisa"::{"level":28,"ability":"Cursed Body","moves":["Freeze-Dry","Hex","Thunder Wave","Thunderbolt"],"nature":"Timid","item":"Babiri Berry","index":number},},
+"Gothitelle"={"Cool Trainer Lisa"::{"level":27,"ability":"Shadow Tag","moves":["Astral Gale","Calm Mind","Psyshock","Mystical Fire"],"nature":"Modest","item":"Sitrus Berry","index":number},},
+""={"Cool Trainer Lisa"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Bronzong"={"Rocker Freddie"::{"level":28,"ability":"Dimension Shift","moves":["Iron Head","Zen Headbutt","Explosion","Trick Room"],"nature":"Brave","item":"Custap Berry","index":number},},
+"Probopass"={"Rocker Freddie"::{"level":29,"ability":"Galvanize","moves":["Earth Power","Flash Cannon","Explosion",""],"nature":"Quiet","item":"Focus Sash","index":number},},
+"Metang"={"Rocker Freddie"::{"level":29,"ability":"Clear Body","moves":["Comet Punch","Iron Head","Fire Punch","Astro Punch"],"nature":"Brave","item":"Room Service","index":number},},
+""={"Rocker Freddie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Rocker Freddie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Rocker Freddie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Klang"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","","",""],"nature":"Timid","item":"Choice Scarf","index":number},},
+"Magneton"={"Rocker Roger"::{"level":30,"ability":"Sturdy","moves":["Volt Switch","","",""],"nature":"Timid","item":"Choice Specs","index":number},},
+"Voltorb"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","","",""],"nature":"Timid","item":"Magnet","index":number},},
+"Voltorb-Hisui"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","Mega Drain","",""],"nature":"Timid","item":"Miracle Seed","index":number},},
+""={"Rocker Roger"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Rocker Roger"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Luxray"={"Engineer Deacon"::{"level":30,"ability":"Intimidate","moves":["Thunder Fang","Ice Fang","Crunch","Volt Switch"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Pawmot"={"Engineer Deacon"::{"level":30,"ability":"Iron Fist","moves":["Fake Out","Thunder Punch","Drain Punch","Ice Punch"],"nature":"Jolly","item":"Punching Glove","index":number},},
+"Eelektrik"={"Engineer Deacon"::{"level":29,"ability":"Levitate","moves":["Thunderbolt","Flame Burst","Sludge Bomb","Volt Switch"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+""={"Engineer Deacon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Engineer Deacon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Engineer Deacon"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Rotom-Totem"={"Boss Pokemon Rotom"::{"level":36,"ability":"Levitate","moves":["Hex","Discharge","Will-O-Wisp","Aurora Beam"],"nature":"Timid","item":"Iapapa Berry","index":number},},
+""={"Boss Pokemon Rotom"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Boss Pokemon Rotom"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Boss Pokemon Rotom"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Boss Pokemon Rotom"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Boss Pokemon Rotom"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Gabite-Wartime"={"Cool Trainer Annabeth"::{"level":30,"ability":"Hailstorm","moves":["Stealth Rock","Stomping Tantrum","Glacial Leech","Rock Slide"],"nature":"","item":"Lum Berry","index":number},},
+"Lapras"={"Cool Trainer Annabeth"::{"level":30,"ability":"Ice Body","moves":["Blizzard","Sparkling Aria","Psychic","Ice Shard"],"nature":"","item":"Sitrus Berry","index":number},},
+"Crabominable"={"Cool Trainer Annabeth"::{"level":31,"ability":"Iron Fist","moves":["Ice Punch","Drain Punch","Mach Punch","Rock Slide"],"nature":"","item":"Punching Glove","index":number},},
+""={"Cool Trainer Annabeth"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Annabeth"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Annabeth"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Glalie"={"Hiker Melvin"::{"level":31,"ability":"Hailstorm","moves":["Spikes","Blizzard","Explosion",""],"nature":"","item":"Focus Sash","index":number},},
+"Walrein"={"Hiker Melvin"::{"level":30,"ability":"Slush Rush","moves":["Blizzard","Surf","Yawn",""],"nature":"","item":"Sitrus Berry","index":number},},
+"Beartic"={"Hiker Melvin"::{"level":31,"ability":"Slush Rush","moves":["Ice Punch","Brick Break","Aqua Jet","Liquidation"],"nature":"","item":"Lum Berry","index":number},},
+""={"Hiker Melvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Melvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Melvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Glaceon"={"Cool Trainer Percival [Double]"::{"level":31,"ability":"Hailstorm","moves":["Aurora Veil","Blizzard","Earth Power","Baton Pass"],"nature":"Modest","item":"Light Clay","index":number},},
+"Lumineon-Wartime"={"Cool Trainer Percival [Double]"::{"level":32,"ability":"Slush Rush","moves":["Blizzard","Bug Buzz","Surf","U-turn"],"nature":"Modest","item":"Focus Band","index":number},},
+"Clefable"={"Cool Trainer Percival [Double]"::{"level":30,"ability":"Magic Guard","moves":["Blizzard","Dazzling Gleam","Astral Gale","Soft-boiled"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+"Mismagius"={"Cool Trainer Percival [Double]"::{"level":31,"ability":"Magic Guard","moves":["Weather Ball","Shadow Ball","Dazzling Gleam","Charge Beam"],"nature":"Timid","item":"Babiri Berry","index":number},},
+""={"Cool Trainer Percival [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Percival [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Ninetales-Alola"={"Gym Leader Astrid "::{"level":32,"ability":"Hailstorm","moves":["Aurora Veil","Blizzard","Dazzling Gleam","Helping Hand"],"nature":"Timid","item":"Light Clay","index":number},},
+"Mr. Rime"={"Gym Leader Astrid "::{"level":32,"ability":"Ice Body","moves":["Blizzard","Fake Out","Psyshock","Ice Shard"],"nature":"Timid","item":"Eject Button","index":number},},
+"Gogoat-Wartime"={"Gym Leader Astrid "::{"level":32,"ability":"Resurgence","moves":["Glacial Leech","Stomping Tantrum","Rock Slide","Bulk Up"],"nature":"Careful","item":"Leftovers","index":number},},
+"Weavile"={"Gym Leader Astrid "::{"level":31,"ability":"Inner Focus","moves":["Fake Out","Crystal Edge","Night Slash","Psycho Cut"],"nature":"Jolly","item":"Sheath","index":number},},
+"Iron Bundle"={"Gym Leader Astrid "::{"level":31,"ability":"Quark Drive","moves":["Freeze-Dry","Scald","Blizzard","Wind Drill"],"nature":"Timid","item":"Booster Energy","index":number},},
+"Abomasnow-Mega"={"Gym Leader Astrid "::{"level":32,"ability":"Slush Rush","moves":["Ice Punch","Wood Hammer","Stomping Tantrum","Rock Slide"],"nature":"Adamant","item":"Abomasite","index":number},},

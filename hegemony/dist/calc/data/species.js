@@ -10373,11 +10373,23 @@ var SV_PATCH = {
         weightkg: 41.5,
         abilities: { 0: 'Inner Focus' }
     },
+    'Farigiraf-Wartime': {
+        types: ['Steel', 'Dragon'],
+        bs: { hp: 120, at: 50, df: 70, sa: 120, sd: 70, sp: 90 },
+        weightkg: 160,
+        abilities: { 0: 'Armor Tail' }
+    },
     'Finneon-Wartime': {
         types: ['Ice', 'Bug'],
         bs: { hp: 49, at: 49, df: 56, sa: 49, sd: 61, sp: 66 },
         weightkg: 7,
         nfe: true,
+        abilities: { 0: 'Slush Rush' }
+    },
+    'Lumineon-Wartime': {
+        types: ['Ice', 'Bug'],
+        bs: { hp: 69, at: 69, df: 76, sa: 69, sd: 86, sp: 91 },
+        weightkg: 24,
         abilities: { 0: 'Slush Rush' }
     },
     'Spearow-Wartime': {
@@ -10610,6 +10622,44 @@ var SV_PATCH = {
         weightkg: 14,
         abilities: { 0: 'Heatproof' },
         nfe: true
+    },
+    'Ninetales-Wartime': {
+        types: ['Dark', 'Poison'],
+        bs: { hp: 83, at: 67, df: 86, sa: 59, sd: 100, sp: 109 },
+        weightkg: 19.9,
+        abilities: { 0: 'Nightdall' }
+    },
+    'Gogoat-Wartime': {
+        types: ['Ice', 'Ground'],
+        bs: { hp: 123, at: 100, df: 92, sa: 67, sd: 101, sp: 68 },
+        weightkg: 91,
+        abilities: { 0: 'Filter' }
+    },
+    Astreon: {
+        types: ['Cosmic'],
+        bs: { hp: 130, at: 60, df: 65, sa: 95, sd: 65, sp: 110 },
+        weightkg: 25.9,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Squirtle-Wartime': {
+        types: ['Steel', 'Psychic'],
+        bs: { hp: 44, at: 48, df: 65, sa: 50, sd: 64, sp: 43 },
+        weightkg: 9,
+        abilities: { 0: 'Unshaken' },
+        nfe: true
+    },
+    'Wartortle-Wartime': {
+        types: ['Steel', 'Psychic'],
+        bs: { hp: 59, at: 63, df: 80, sa: 65, sd: 80, sp: 58 },
+        weightkg: 9,
+        abilities: { 0: 'Unshaken' },
+        nfe: true
+    },
+    "Miltank-Wartime": {
+        types: ['Steel'],
+        bs: { hp: 95, at: 80, df: 105, sa: 40, sd: 70, sp: 100 },
+        weightkg: 75.5,
+        abilities: { 0: 'Steely Spirit' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
