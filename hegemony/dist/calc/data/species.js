@@ -10660,6 +10660,13 @@ var SV_PATCH = {
         bs: { hp: 95, at: 80, df: 105, sa: 40, sd: 70, sp: 100 },
         weightkg: 75.5,
         abilities: { 0: 'Steely Spirit' }
+    },
+    'Rotom-Totem': {
+        types: ['Electric', 'Ghost'],
+        bs: { hp: 100, at: 50, df: 115, sa: 142, sd: 115, sp: 136 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N'
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
