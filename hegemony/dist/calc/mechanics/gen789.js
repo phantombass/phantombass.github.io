@@ -1101,7 +1101,7 @@ function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCr
     desc.defenseEVs = (0, util_mech_1.getEVDescriptionText)(gen, defender, defenseStat, defender.nature);
     if (defender.boosts[defenseStat] === 0 ||
         (isCritical && defender.boosts[defenseStat] > 0) ||
-        move.ignoreDefensive) {
+        move.ignoreDefensive || (move.named('Explosion', 'Self-Destruct'))) {
         defense = defender.rawStats[defenseStat];
     }
     else if (attacker.hasAbility('Unaware')) {
@@ -1191,6 +1191,9 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         else {
             desc[hitsPhysical ? 'isSwordOfRuin' : 'isBeadsOfRuin'] = true;
         }
+        dfMods.push(3072);
+    }
+    if (move.named('Explosion', 'Self-Destruct')) {
         dfMods.push(3072);
     }
     if ((defender.hasAbility('Protosynthesis') &&

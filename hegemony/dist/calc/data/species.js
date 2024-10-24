@@ -5071,6 +5071,8 @@ var XY_PATCH = {
     Charizard: { otherFormes: ['Charizard-Mega-X', 'Charizard-Mega-Y'] },
     Chatot: { otherFormes: ['Chatot-Mega'] },
     Chimecho: { types: ['Psychic', 'Cosmic'], otherFormes: ['Chimecho-Mega'] },
+    Baltoy: { types: ['Ground', 'Cosmic'] },
+    Claydol: { types: ['Ground', 'Cosmic'] },
     Clefable: { types: ['Fairy', 'Cosmic'], bs: { sa: 95 } },
     Clefairy: { types: ['Fairy', 'Cosmic'] },
     Cleffa: { types: ['Fairy', 'Cosmic'] },
@@ -5177,7 +5179,7 @@ var XY_PATCH = {
     Beldum: { types: ['Steel', 'Cosmic'] },
     Metang: { types: ['Steel', 'Cosmic'] },
     Castform: { types: ['Normal', 'Cosmic'], otherFormes: ['Castform-Rainy', 'Castform-Snowy', 'Castform-Sunny', 'Castform-Acid', 'Castform-Eclipse',
-            'Castform-Windy', 'Castform-Sandy', 'Castform-Starry', 'Castform-Primal'] },
+            'Castform-Windy', 'Castform-Sand', 'Castform-Starry', 'Castform-Primal'] },
     'Castform-Sunny': { types: ['Fire', 'Cosmic'] },
     'Castform-Rainy': { types: ['Water', 'Cosmic'] },
     'Castform-Snowy': { types: ['Ice', 'Cosmic'] },
@@ -6802,7 +6804,7 @@ var SM_PATCH = {
         bs: { hp: 85, at: 115, df: 75, sa: 55, sd: 75, sp: 82 },
         weightkg: 25,
         baseSpecies: 'Lycanroc',
-        abilities: { 0: 'Keen Eye' }
+        abilities: { 0: 'Vital Spirit' }
     },
     Magearna: {
         types: ['Steel', 'Fairy'],
@@ -8723,7 +8725,7 @@ var SS_PATCH = {
         gender: 'N'
     },
     Stonjourner: {
-        types: ['Rock'],
+        types: ['Rock', 'Cosmic'],
         bs: { hp: 100, at: 125, df: 135, sa: 20, sd: 20, sp: 70 },
         weightkg: 520,
         abilities: { 0: 'Power Spot' }
@@ -10332,6 +10334,24 @@ var SV_PATCH = {
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
+    'Sceptile-Wartime': {
+        types: ['Fighting', 'Ground'],
+        bs: { hp: 70, at: 105, df: 65, sa: 85, sd: 85, sp: 120 },
+        weightkg: 52.2,
+        abilities: { 0: 'Inner Focus' }
+    },
+    'Swampert-Wartime': {
+        types: ['Rock', 'Dark'],
+        bs: { hp: 110, at: 110, df: 90, sa: 65, sd: 90, sp: 70 },
+        weightkg: 81.9,
+        abilities: { 0: 'Rock Head' }
+    },
+    'Blaziken-Wartime': {
+        types: ['Flying', 'Psychic'],
+        bs: { hp: 80, at: 65, df: 70, sa: 125, sd: 75, sp: 110 },
+        weightkg: 52,
+        abilities: { 0: 'Compound Eyes' }
+    },
     'Carvanha-Wartime': {
         types: ['Fire'],
         bs: { hp: 45, at: 90, df: 20, sa: 65, sd: 20, sp: 65 },
@@ -10555,6 +10575,12 @@ var SV_PATCH = {
         nfe: true,
         abilities: { 0: 'Splinter' }
     },
+    'Torterra-Wartime': {
+        types: ['Rock', 'Steel'],
+        bs: { hp: 95, at: 109, df: 105, sa: 75, sd: 85, sp: 56 },
+        weightkg: 310,
+        abilities: { 0: 'Splinter' }
+    },
     'Zebstrika-Wartime': {
         types: ['Electric', 'Ground'],
         bs: { hp: 75, at: 100, df: 63, sa: 80, sd: 63, sp: 116 },
@@ -10667,6 +10693,112 @@ var SV_PATCH = {
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N'
+    },
+    'Quilava-Wartime': {
+        types: ['Fairy', 'Cosmic'],
+        bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
+        weightkg: 19,
+        nfe: true
+    },
+    'Morgrem-Wartime': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 65, at: 60, df: 45, sa: 75, sd: 55, sp: 70 },
+        weightkg: 12.5,
+        abilities: { 0: 'Prankster' },
+        nfe: true
+    },
+    'Raboot-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 65, at: 86, df: 60, sa: 55, sd: 60, sp: 94 },
+        weightkg: 9,
+        abilities: { 0: 'Adaptability' },
+        nfe: true
+    },
+    'Primeape-Wartime': {
+        types: ['Fire', 'Grass'],
+        bs: { hp: 65, at: 105, df: 60, sa: 60, sd: 70, sp: 95 },
+        weightkg: 56,
+        abilities: { 0: 'Iron Fist' }
+    },
+    'Grumpig-Wartime': {
+        types: ['Fire', 'Cosmic'],
+        bs: { hp: 80, at: 45, df: 85, sa: 100, sd: 110, sp: 80 },
+        weightkg: 71.5,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Pikachu-Wartime': {
+        types: ['Electric', 'Fire'],
+        bs: { hp: 45, at: 70, df: 50, sa: 70, sd: 60, sp: 115 },
+        weightkg: 6,
+        abilities: { 0: 'Steam Powered' }
+    },
+    'Tauros-Wartime': {
+        types: ['Ghost'],
+        bs: { hp: 75, at: 100, df: 95, sa: 40, sd: 70, sp: 110 },
+        weightkg: 88.4,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Sharpedo-Wartime': {
+        types: ['Fire', 'Ghost'],
+        bs: { hp: 70, at: 120, df: 40, sa: 95, sd: 40, sp: 95 },
+        weightkg: 88.8,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Altaria-Wartime': {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 85, at: 60, df: 90, sa: 100, sd: 105, sp: 80 },
+        weightkg: 20.6,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Froslass-Wartime': {
+        types: ['Rock', 'Dark'],
+        bs: { hp: 70, at: 80, df: 70, sa: 80, sd: 70, sp: 110 },
+        weightkg: 26.6,
+        abilities: { 0: 'Solid Rock' }
+    },
+    'Venusaur-Wartime': {
+        types: ['Dark', 'Fairy'],
+        bs: { hp: 80, at: 82, df: 83, sa: 100, sd: 100, sp: 80 },
+        weightkg: 155.5,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Infernape-Wartime': {
+        types: ['Ground', 'Dark'],
+        bs: { hp: 76, at: 104, df: 71, sa: 104, sd: 71, sp: 108 },
+        weightkg: 55,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Blastoise-Wartime': {
+        types: ['Psychic', 'Steel'],
+        bs: { hp: 79, at: 83, df: 100, sa: 85, sd: 105, sp: 78 },
+        weightkg: 101.1,
+        abilities: { 0: 'Unshaken' }
+    },
+    'Togedemaru-Wartime': {
+        types: ['Rock', 'Fairy'],
+        bs: { hp: 65, at: 98, df: 63, sa: 40, sd: 73, sp: 96 },
+        weightkg: 3.3,
+        abilities: { 0: 'Fur Coat' }
+    },
+    'Charizard-Wartime': {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        weightkg: 0,
+        abilities: { 0: 'Nitric' },
+        otherFormes: ['Charizard-Wartime-Mega']
+    },
+    'Charizard-Wartime-Mega': {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 78, at: 130, df: 111, sa: 130, sd: 85, sp: 100 },
+        weightkg: 110.5,
+        abilities: { 0: 'Nitric' },
+        baseSpecies: 'Charizard-Wartime'
+    },
+    'Meganium-Wartime': {
+        types: ['Dragon', 'Rock'],
+        bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
+        weightkg: 100.5,
+        abilities: { 0: 'Sand Veil' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);

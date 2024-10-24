@@ -1427,7 +1427,7 @@ export function calculateDefenseSMSSSV(
   desc.defenseEVs = getEVDescriptionText(gen, defender, defenseStat, defender.nature);
   if (defender.boosts[defenseStat] === 0 ||
       (isCritical && defender.boosts[defenseStat] > 0) ||
-      move.ignoreDefensive) {
+      move.ignoreDefensive || (move.named('Explosion','Self-Destruct')))  {
     defense = defender.rawStats[defenseStat];
   } else if (attacker.hasAbility('Unaware')) {
     defense = defender.rawStats[defenseStat];
@@ -1553,6 +1553,10 @@ export function calculateDfModsSMSSSV(
     } else {
       desc[hitsPhysical ? 'isSwordOfRuin' : 'isBeadsOfRuin'] = true;
     }
+    dfMods.push(3072);
+  }
+
+  if (move.named('Explosion', 'Self-Destruct')) {
     dfMods.push(3072);
   }
 
