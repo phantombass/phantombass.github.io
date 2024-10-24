@@ -10587,11 +10587,24 @@ var SV_PATCH = {
         weightkg: 79.5,
         abilities: { 0: 'Levitate' }
     },
+    'Litten-Wartime': {
+        types: ['Ghost'],
+        bs: { hp: 45, at: 65, df: 40, sa: 60, sd: 40, sp: 70 },
+        weightkg: 4.3,
+        nfe: true,
+        abilities: { 0: 'Cursed Body' }
+    },
     'Torracat-Wartime': {
         types: ['Ghost'],
         bs: { hp: 65, at: 85, df: 50, sa: 80, sd: 50, sp: 90 },
         weightkg: 25,
         nfe: true,
+        abilities: { 0: 'Cursed Body' }
+    },
+    'Incineroar-Wartime': {
+        types: ['Ghost', 'Fighting'],
+        bs: { hp: 95, at: 115, df: 90, sa: 80, sd: 90, sp: 60 },
+        weightkg: 83,
         abilities: { 0: 'Cursed Body' }
     },
     'Pignite-Wartime': {
@@ -10628,11 +10641,24 @@ var SV_PATCH = {
         nfe: true,
         abilities: { 0: 'Nitric' }
     },
+    'Snivy-Wartime': {
+        types: ['Poison', 'Fairy'],
+        bs: { hp: 45, at: 45, df: 55, sa: 45, sd: 55, sp: 63 },
+        weightkg: 8.1,
+        nfe: true,
+        abilities: { 0: 'Contrary' }
+    },
     'Servine-Wartime': {
         types: ['Poison', 'Fairy'],
         bs: { hp: 60, at: 50, df: 75, sa: 70, sd: 75, sp: 83 },
         weightkg: 16,
         nfe: true,
+        abilities: { 0: 'Contrary' }
+    },
+    'Serperior-Wartime': {
+        types: ['Poison', 'Fairy'],
+        bs: { hp: 75, at: 65, df: 95, sa: 85, sd: 95, sp: 113 },
+        weightkg: 63,
         abilities: { 0: 'Contrary' }
     },
     'Grookey-Wartime': {
@@ -10653,7 +10679,7 @@ var SV_PATCH = {
         types: ['Dark', 'Poison'],
         bs: { hp: 83, at: 67, df: 86, sa: 59, sd: 100, sp: 109 },
         weightkg: 19.9,
-        abilities: { 0: 'Nightdall' }
+        abilities: { 0: 'Composure' }
     },
     'Gogoat-Wartime': {
         types: ['Ice', 'Ground'],
@@ -10799,6 +10825,132 @@ var SV_PATCH = {
         bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
         weightkg: 100.5,
         abilities: { 0: 'Sand Veil' }
+    },
+    'Chimchar-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 44, at: 58, df: 44, sa: 58, sd: 44, sp: 61 },
+        weightkg: 6.2,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Trapinch-Wartime': {
+        types: ['Steel'],
+        bs: { hp: 45, at: 100, df: 45, sa: 45, sd: 45, sp: 10 },
+        weightkg: 15,
+        nfe: true,
+        abilities: { 0: 'Hyper Cutter' }
+    },
+    'Vibrava-Wartime': {
+        types: ['Steel', 'Bug'],
+        bs: { hp: 50, at: 70, df: 50, sa: 70, sd: 50, sp: 70 },
+        weightkg: 15.3,
+        abilities: { 0: 'Entymate' },
+        nfe: true
+    },
+    'Flygon-Wartime': {
+        types: ['Steel', 'Bug'],
+        bs: { hp: 80, at: 100, df: 80, sa: 100, sd: 80, sp: 100 },
+        weightkg: 82,
+        abilities: { 0: 'Entymate' }
+    },
+    'Vulpix-Wartime': {
+        types: ['Dark'],
+        bs: { hp: 48, at: 41, df: 40, sa: 40, sd: 65, sp: 65 },
+        weightkg: 9.9,
+        nfe: true,
+        abilities: { 0: 'Composure' }
+    },
+    'Impidimp-Wartime': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 45, at: 45, df: 30, sa: 55, sd: 40, sp: 50 },
+        weightkg: 5.5,
+        abilities: { 0: 'Prankster' },
+        nfe: true
+    },
+    'Grimmsnarl-Wartime': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 95, at: 120, df: 65, sa: 95, sd: 75, sp: 60 },
+        weightkg: 61,
+        abilities: { 0: 'Prankster' }
+    },
+    'Oshawott-Wartime': {
+        types: ['Electric'],
+        bs: { hp: 55, at: 55, df: 45, sa: 63, sd: 45, sp: 45 },
+        weightkg: 5.9,
+        nfe: true,
+        abilities: { 0: 'Static' }
+    },
+    'Dewott-Wartime': {
+        types: ['Electric', 'Fighting'],
+        bs: { hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60 },
+        weightkg: 24.5,
+        nfe: true,
+        abilities: { 0: 'Static' }
+    },
+    'Samurott-Wartime': {
+        types: ['Electric', 'Fighting'],
+        bs: { hp: 75, at: 118, df: 75, sa: 110, sd: 70, sp: 95 },
+        weightkg: 58.2,
+        abilities: { 0: 'Static' }
+    },
+    'Totodile-Wartime': {
+        types: ['Dark', 'Psychic'],
+        bs: { hp: 50, at: 65, df: 64, sa: 44, sd: 48, sp: 43 },
+        weightkg: 9.5,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Croconaw-Wartime': {
+        types: ['Dark', 'Psychic'],
+        bs: { hp: 65, at: 80, df: 80, sa: 59, sd: 63, sp: 58 },
+        weightkg: 22,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Feraligatr-Wartime': {
+        types: ['Dark', 'Psychic'],
+        bs: { hp: 85, at: 105, df: 100, sa: 79, sd: 83, sp: 78 },
+        weightkg: 88.8,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Rowlet-Wartime': {
+        types: ['Dark'],
+        bs: { hp: 68, at: 55, df: 55, sa: 50, sd: 50, sp: 42 },
+        weightkg: 1.5,
+        nfe: true,
+        abilities: { 0: 'Steely Spirit' }
+    },
+    'Dartrix-Wartime': {
+        types: ['Dark'],
+        bs: { hp: 78, at: 75, df: 75, sa: 70, sd: 70, sp: 52 },
+        weightkg: 16,
+        nfe: true,
+        abilities: { 0: 'Steely Spirit' }
+    },
+    'Decidueye-Wartime': {
+        types: ['Dark', 'Steel'],
+        bs: { hp: 78, at: 117, df: 70, sa: 70, sd: 95, sp: 100 },
+        weightkg: 36.6,
+        abilities: { 0: 'Steely Spirit' }
+    },
+    'Budew-Percy': {
+        types: ['Grass', 'Poison'],
+        bs: { hp: 40, at: 30, df: 35, sa: 50, sd: 70, sp: 55 },
+        weightkg: 1.2,
+        nfe: true,
+        abilities: { 0: 'Natural Cure' }
+    },
+    'Sunflora-Percy': {
+        types: ['Grass', 'Fire'],
+        bs: { hp: 75, at: 45, df: 95, sa: 125, sd: 95, sp: 60 },
+        weightkg: 8.5,
+        abilities: { 0: 'Unshaken' }
+    },
+    'Spiritomb-Wartime': {
+        types: ['Ghost', 'Rock'],
+        bs: { hp: 50, at: 92, df: 108, sa: 92, sd: 108, sp: 35 },
+        weightkg: 108,
+        abilities: { 0: 'Splinter' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
