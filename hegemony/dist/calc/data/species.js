@@ -10387,6 +10387,19 @@ var SV_PATCH = {
         abilities: { 0: 'Clear Body' },
         nfe: true
     },
+    'Tinkaton-Wartime': {
+        types: ['Ice', 'Ghost'],
+        bs: { hp: 85, at: 95, df: 77, sa: 50, sd: 105, sp: 94 },
+        weightkg: 112.8,
+        abilities: { 0: 'Clear Body' }
+    },
+    'Tinkatuff-Wartime': {
+        types: ['Ice', 'Ghost'],
+        bs: { hp: 65, at: 75, df: 55, sa: 25, sd: 82, sp: 78 },
+        weightkg: 59.1,
+        abilities: { 0: 'Clear Body' },
+        nfe: true
+    },
     'Girafarig-Wartime': {
         types: ['Steel', 'Dragon'],
         bs: { hp: 70, at: 60, df: 65, sa: 100, sd: 65, sp: 85 },
