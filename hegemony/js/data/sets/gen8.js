@@ -689,7 +689,7 @@
 "Klang"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","","",""],"nature":"Timid","item":"Choice Scarf","index":number},},
 "Magneton"={"Rocker Roger"::{"level":30,"ability":"Sturdy","moves":["Volt Switch","","",""],"nature":"Timid","item":"Choice Specs","index":number},},
 "Voltorb"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","","",""],"nature":"Timid","item":"Magnet","index":number},},
-"Voltorb-Hisui"={"Rocker Roger"::{"level":29,"ability":"Composure","moves":["Volt Switch","Mega Drain","",""],"nature":"Timid","item":"Miracle Seed","index":number},},
+"Bellibolt"={"Rocker Roger"::{"level":29,"ability":"Filter","moves":["Volt Switch","Bubble Beam","",""],"nature":"Calm","item":"Leftovers","index":number},},
 ""={"Rocker Roger"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Rocker Roger"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
