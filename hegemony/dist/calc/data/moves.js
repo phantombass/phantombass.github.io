@@ -4823,6 +4823,14 @@ var SV_PATCH = {
         isHeal: true,
         isSlicing: true
     },
+    'Glacial Leech': {
+        bp: 75,
+        type: 'Ice',
+        category: 'Physical',
+        zp: 120,
+        maxPower: 110,
+        isHeal: true
+    },
     'Pack In': {
         type: 'Ice',
         category: 'Status',
