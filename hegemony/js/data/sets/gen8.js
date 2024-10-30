@@ -630,7 +630,7 @@
 "Drifblim"={"Gym Leader Hazel "::{"level":28,"ability":"Unburden","moves":["Acrobatics","Hex","Silver Wind","Charge Beam"],"nature":"Mild","item":"Flying Gem","index":number},},
 "Zebstrika-Wartime"={"Gym Leader Hazel "::{"level":28,"ability":"Levitate","moves":["Stomping Tantrum","Zing Zap","Temper Flare","Low Kick"],"nature":"Jolly","item":"Lum Berry","index":number},},
 "Centiskorch"={"Gym Leader Hazel "::{"level":28,"ability":"Flash Fire","moves":["Flame Charge","Leech Life","Fire Lash","Crunch"],"nature":"Jolly","item":"Charti Berry","index":number},},
-"Rapidash-Galar"={"Gym Leader Hazel "::{"level":28,"ability":"Composure","moves":["Extrasensory","Dazzling Gleam","Mystical Fire","Calm Mind"],"nature":"Timid","item":"Babiri Berry","index":number},},
+"Rapidash-Galar"={"Gym Leader Hazel "::{"level":28,"ability":"Composure","moves":["Extrasensory","Dazzling Gleam","Mystical Fire","Hypnosis"],"nature":"Timid","item":"Babiri Berry","index":number},},
 "Cobalion"={"Gym Leader Hazel "::{"level":28,"ability":"Justified","moves":["Cut","Brick Break","Psycho Cut","Stealth Rock"],"nature":"Jolly","item":"Shuca Berry","index":number},},
 
 "Gastrodon"={"Hiker Payne"::{"level":27,"ability":"Storm Drain","moves":["Scald","Earth Power","Recover","Stealth Rock"],"nature":"Modest","item":"Rindo Berry","index":number},},
