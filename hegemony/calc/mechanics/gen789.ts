@@ -581,6 +581,15 @@ export function calculateSMSSSV(
   } else if (attacker.hasAbility('Protean', 'Libero') && !attacker.teraType) {
     stabMod += 2048;
     desc.attackerAbility = attacker.ability;
+  } else if (attacker.hasAbility('Shadow Guard') && move.hasType('Dark')) {
+    stabMod += 2048;
+    desc.attackerAbility = attacker.ability;
+  } else if (attacker.hasAbility('Haunted') && move.hasType('Ghost')) {
+    stabMod += 2048;
+    desc.attackerAbility = attacker.ability;
+  } else if (attacker.hasAbility('Astral Cloak') && move.hasType('Cosmic')) {
+    stabMod += 2048;
+    desc.attackerAbility = attacker.ability;
   }
   const teraType = attacker.teraType;
   if (teraType === move.type) {

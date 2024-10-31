@@ -418,6 +418,18 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         stabMod += 2048;
         desc.attackerAbility = attacker.ability;
     }
+    else if (attacker.hasAbility('Shadow Guard') && move.hasType('Dark')) {
+        stabMod += 2048;
+        desc.attackerAbility = attacker.ability;
+    }
+    else if (attacker.hasAbility('Haunted') && move.hasType('Ghost')) {
+        stabMod += 2048;
+        desc.attackerAbility = attacker.ability;
+    }
+    else if (attacker.hasAbility('Astral Cloak') && move.hasType('Cosmic')) {
+        stabMod += 2048;
+        desc.attackerAbility = attacker.ability;
+    }
     var teraType = attacker.teraType;
     if (teraType === move.type) {
         stabMod += 2048;
