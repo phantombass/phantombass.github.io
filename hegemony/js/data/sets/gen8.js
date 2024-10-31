@@ -983,12 +983,12 @@
 
 
 
-"Torkoal"={"Rival Route 6 [Treecko Chosen]"::{"level":36,"ability":"Shell Armor","moves":["Stealth Rock","Lava Plume","Earth Power","Explosion"],"nature":"Relaxed","item":"Focus Sash","index":number},},
-"Shiftry"={"Rival Route 6 [Treecko Chosen]"::{"level":37,"ability":"Wind Rider","moves":["Leaf Blade","Night Slash","Sacred Sword","Sucker Punch"],"nature":"Jolly","item":"Dark Gem","index":number},},
-"Excadrill"={"Rival Route 6 [Treecko Chosen]"::{"level":36,"ability":"Mold Breaker","moves":["Drill Run","Iron Head","Rock Slide","X-Scissor"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Lanturn"={"Rival Route 6 [Treecko Chosen]"::{"level":37,"ability":"Volt Absorb","moves":["Scald","Volt Switch","Ice Beam","Thunder Wave"],"nature":"Modest","item":"Sitrus Berry","index":number},},
-"Tinkaton-Wartime"={"Rival Route 6 [Treecko Chosen]"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Blaziken-Wartime"={"Rival Route 6 [Treecko Chosen]"::{"level":38,"ability":"Compound Eyes","moves":["Aeroblast","Psychic","Aura Sphere","Calm Mind"],"nature":"Timid","item":"Colbur Berry","index":number},},
+"Torkoal"={"Rival Route 6 Treecko Chosen"::{"level":36,"ability":"Shell Armor","moves":["Stealth Rock","Lava Plume","Earth Power","Explosion"],"nature":"Relaxed","item":"Focus Sash","index":number},},
+"Shiftry"={"Rival Route 6 Treecko Chosen"::{"level":37,"ability":"Wind Rider","moves":["Leaf Blade","Night Slash","Sacred Sword","Sucker Punch"],"nature":"Jolly","item":"Dark Gem","index":number},},
+"Excadrill"={"Rival Route 6 Treecko Chosen"::{"level":36,"ability":"Mold Breaker","moves":["Drill Run","Iron Head","Rock Slide","X-Scissor"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Lanturn"={"Rival Route 6 Treecko Chosen"::{"level":37,"ability":"Volt Absorb","moves":["Scald","Volt Switch","Ice Beam","Thunder Wave"],"nature":"Modest","item":"Sitrus Berry","index":number},},
+"Tinkaton-Wartime"={"Rival Route 6 Treecko Chosen"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Blaziken-Wartime"={"Rival Route 6 Treecko Chosen"::{"level":38,"ability":"Compound Eyes","moves":["Aeroblast","Psychic","Aura Sphere","Calm Mind"],"nature":"Timid","item":"Colbur Berry","index":number},},
 
 
 
@@ -996,12 +996,12 @@
 
 
 
-"Ferrothorn"={"Rival Route 6 [Torchic Chosen]"::{"level":36,"ability":"Iron Barbs","moves":["Stealth Rock","Power Whip","Gyro Ball","Explosion"],"nature":"Sassy","item":"Focus Sash","index":number},},
-"Seismitoad"={"Rival Route 6 [Torchic Chosen]"::{"level":37,"ability":"Water Absorb","moves":["Scald","Earth Power","Sludge Wave","Toxic"],"nature":"Timid","item":"Rindo Berry","index":number},},
-"Nidoqueen"={"Rival Route 6 [Torchic Chosen]"::{"level":36,"ability":"Sheer Force","moves":["Sludge Bomb","Earth Power","Thunderbolt","Sucker Punch"],"nature":"Timid","item":"Sitrus Berry","index":number},},
-"Pyroar"={"Rival Route 6 [Torchic Chosen]"::{"level":37,"ability":"Unnerve","moves":["Hyper Voice","Flamethrower","Dark Pulse","Mach Pulse"],"nature":"Timid","item":"Fire Gem","index":number},},
-"Tinkaton-Wartime"={"Rival Route 6 [Torchic Chosen]"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Swampert-Wartime"={"Rival Route 6 [Torchic Chosen]"::{"level":38,"ability":"Rock Head","moves":["Head Smash","Crunch","Avalanche","Flip Turn"],"nature":"Adamant","item":"Chople Berry","index":number},},
+"Ferrothorn"={"Rival Route 6 Torchic Chosen"::{"level":36,"ability":"Iron Barbs","moves":["Stealth Rock","Power Whip","Gyro Ball","Explosion"],"nature":"Sassy","item":"Focus Sash","index":number},},
+"Seismitoad"={"Rival Route 6 Torchic Chosen"::{"level":37,"ability":"Water Absorb","moves":["Scald","Earth Power","Sludge Wave","Toxic"],"nature":"Timid","item":"Rindo Berry","index":number},},
+"Nidoqueen"={"Rival Route 6 Torchic Chosen"::{"level":36,"ability":"Sheer Force","moves":["Sludge Bomb","Earth Power","Thunderbolt","Sucker Punch"],"nature":"Timid","item":"Sitrus Berry","index":number},},
+"Pyroar"={"Rival Route 6 Torchic Chosen"::{"level":37,"ability":"Unnerve","moves":["Hyper Voice","Flamethrower","Dark Pulse","Mach Pulse"],"nature":"Timid","item":"Fire Gem","index":number},},
+"Tinkaton-Wartime"={"Rival Route 6 Torchic Chosen"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Swampert-Wartime"={"Rival Route 6 Torchic Chosen"::{"level":38,"ability":"Rock Head","moves":["Head Smash","Crunch","Avalanche","Flip Turn"],"nature":"Adamant","item":"Chople Berry","index":number},},
 
 
 
@@ -1009,12 +1009,12 @@
 
 
 
-"Omastar"={"Rival Route 6 [Mudkip Chosen]"::{"level":36,"ability":"Weak Armor","moves":["Stealth Rock","Scald","Power Gem","Ice Beam"],"nature":"Modest","item":"Focus Sash","index":number},},
-"Magmortar"={"Rival Route 6 [Mudkip Chosen]"::{"level":37,"ability":"Fever Pitch","moves":["Flamethrower","Sludge Bomb","Thunderbolt","Mach Punch"],"nature":"Naive","item":"Fire Gem","index":number},},
-"Toedscruel"={"Rival Route 6 [Mudkip Chosen]"::{"level":37,"ability":"Resurgence","moves":["Giga Drain","Earth Power","Spore","Recover"],"nature":"Timid","item":"Yache Berry","index":number},},
-"Magnezone"={"Rival Route 6 [Mudkip Chosen]"::{"level":36,"ability":"Sturdy","moves":["Thunderbolt","Flash Cannon","Mirror Rush","Explosion"],"nature":"Modest","item":"Custap Berry","index":number},},
-"Tinkaton-Wartime"={"Rival Route 6 [Mudkip Chosen]"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Sceptile-Wartime"={"Rival Route 6 [Mudkip Chosen]"::{"level":38,"ability":"Inner Focus","moves":["Thousand Arrows","Drain Punch","Acrobatics","Swords Dance"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Omastar"={"Rival Route 6 Mudkip Chosen"::{"level":36,"ability":"Weak Armor","moves":["Stealth Rock","Scald","Power Gem","Ice Beam"],"nature":"Modest","item":"Focus Sash","index":number},},
+"Magmortar"={"Rival Route 6 Mudkip Chosen"::{"level":37,"ability":"Fever Pitch","moves":["Flamethrower","Sludge Bomb","Thunderbolt","Mach Punch"],"nature":"Naive","item":"Fire Gem","index":number},},
+"Toedscruel"={"Rival Route 6 Mudkip Chosen"::{"level":37,"ability":"Resurgence","moves":["Giga Drain","Earth Power","Spore","Recover"],"nature":"Timid","item":"Yache Berry","index":number},},
+"Magnezone"={"Rival Route 6 Mudkip Chosen"::{"level":36,"ability":"Sturdy","moves":["Thunderbolt","Flash Cannon","Mirror Rush","Explosion"],"nature":"Modest","item":"Custap Berry","index":number},},
+"Tinkaton-Wartime"={"Rival Route 6 Mudkip Chosen"::{"level":38,"ability":"Gavel Power","moves":["Hammerang","Shadow Hammer","Fake Out","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Sceptile-Wartime"={"Rival Route 6 Mudkip Chosen"::{"level":38,"ability":"Inner Focus","moves":["Thousand Arrows","Drain Punch","Acrobatics","Swords Dance"],"nature":"Jolly","item":"Lum Berry","index":number},},
 
 
 
