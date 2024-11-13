@@ -5215,7 +5215,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
   },
   'Shadow Hammer': {
-    bp: 90,
+    bp: 70,
     type: 'Ghost',
     makesContact: true,
     isHammer: true,
