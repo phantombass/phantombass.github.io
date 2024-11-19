@@ -272,7 +272,7 @@ var SETDEX_SS = {
 "Togedemaru-Wartime":{"Army Grunt,5": {"level":40,"ability":"Magic Guard","moves":["Fake Out","Spirit Break","Rock Slide","Accelerock"],"nature":"Jolly","item":"Fairy Gem","index":297},},
 "Decidueye":{"Army General Ahab": {"level":41,"ability":"Adaptability","moves":["Leaf Blade","Spirit Shackle","Thousand Arrows","Sucker Punch"],"nature":"Jolly","item":"Coba Berry","index":300},},
 "Heracross":{"Army General Ahab": {"level":40,"ability":"Guts","moves":["Protect","X-Scissor","Close Combat","Rock Blast"],"nature":"Jolly","item":"Flame Orb","index":301},},
-"Urshifu-Single-Strike":{"Army General Ahab": {"level":40,"ability":"Unseen Fist","moves":["Drain Punch","Iron Head","Sucker Punch","U-turn"],"nature":"Jolly","item":"Lum Berry","index":302},},
+"Urshifu":{"Army General Ahab": {"level":40,"ability":"Unseen Fist","moves":["Drain Punch","Iron Head","Sucker Punch","U-turn"],"nature":"Jolly","item":"Lum Berry","index":302},},
 "Absol-Mega":{"Army General Ahab": {"level":41,"ability":"Magic Bounce","moves":["Astral Blade","Night Slash","Play Rough","Swords Dance"],"nature":"Jolly","item":"Absolite","index":303},},
 "Arcanine":{"Gentleman Carson": {"level":40,"ability":"Intimidate","moves":["Flare Blitz","Thunder Fang","Psychic Fangs","Will-O-Wisp"],"nature":"Jolly","item":"Sitrus Berry","index":304},},
 "Boltund":{"Gentleman Carson": {"level":40,"ability":"Strong Jaw","moves":["Thunder Fang","Crunch","Ice Fang","Volt Switch"],"nature":"Jolly","item":"Lum Berry","index":305},},
