@@ -5347,6 +5347,18 @@ var SV_PATCH = {
         category: 'Physical',
         priority: 1
     },
+    'Astral Gale': {
+        bp: 80,
+        type: 'Cosmic',
+        target: 'allAdjacentFoes',
+        category: 'Special'
+    },
+    'Astral Blade': {
+        bp: 90,
+        type: 'Cosmic',
+        category: 'Physical',
+        isSlicing: true
+    },
     'Static Surge': { bp: 0, category: 'Status', type: 'Electric' },
     'Deep Freeze': { bp: 0, category: 'Status', type: 'Ice' },
     'Weather Shot': { bp: 30, type: 'Normal' },
