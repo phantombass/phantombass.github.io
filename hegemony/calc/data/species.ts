@@ -10500,6 +10500,19 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
     abilities: {0: 'Skill Link'},
   },
+  'Lairon-Wartime': {
+    types: ['Ice', 'Poison'],
+    bs: {hp: 60, at: 90, df: 140, sa: 50, sd: 50, sp: 40},
+    weightkg: 120,
+    nfe: true,
+    abilities: {0: 'Skill Link'},
+  },
+  'Aggron-Wartime': {
+    types: ['Ice', 'Poison'],
+    bs: {hp: 70, at: 110, df: 180, sa: 60, sd: 60, sp: 50},
+    weightkg: 360,
+    abilities: {0: 'Skill Link'},
+  },
   'Magnemite-Wartime': {
     types: ['Water'],
     bs: {hp: 25, at: 25, df: 70, sa: 95, sd: 65, sp: 45},
@@ -10512,6 +10525,12 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 50, at: 50, df: 95, sa: 120, sd: 80, sp: 70},
     weightkg: 60.0,
     nfe: true,
+    abilities: {0: 'Magnet Pull'},
+  },
+  'Magnezone-Wartime': {
+    types: ['Water','Psychic'],
+    bs: {hp: 70, at: 60, df: 115, sa: 130, sd: 100, sp: 80},
+    weightkg: 180,
     abilities: {0: 'Magnet Pull'},
   },
   'Charcadet-Wartime': {
@@ -10615,6 +10634,12 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
     abilities: {0: 'Cursed Body'},
   },
+  'Emboar-Wartime': {
+    types: ['Ghost', 'Cosmic'],
+    bs: {hp: 110, at: 123, df: 65, sa: 100, sd: 65, sp: 65},
+    weightkg: 150,
+    abilities: {0: 'Cursed Body'},
+  },
   'Drifblim-Wartime': {
     types: ['Electric', 'Steel'],
     bs: {hp: 150, at: 80, df: 44, sa: 90, sd: 54, sp: 80},
@@ -10634,6 +10659,20 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 56,
     nfe: true,
     abilities: {0: 'Snow Cloak'},
+  },
+  'Garchomp-Wartime': {
+    types: ['Ice', 'Ground'],
+    bs: {hp: 108, at: 130, df: 95, sa: 80, sd: 85, sp: 102},
+    weightkg: 95,
+    abilities: {0: 'Snow Cloak'},
+    otherFormes: ['Garchomp-Wartime-Mega'],
+  },
+  'Garchomp-Wartime-Mega': {
+    types: ['Ice', 'Ground'],
+    bs: {hp: 108, at: 150, df: 115, sa: 120, sd: 95, sp: 112},
+    weightkg: 95,
+    abilities: {0: 'Refrigerate'},
+    baseSpecies: 'Garchomp-Wartime',
   },
   'Charmeleon-Wartime': {
     types: ['Poison', 'Dragon'],
@@ -10788,6 +10827,14 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 80, at: 82, df: 83, sa: 100, sd: 100, sp: 80},
     weightkg: 155.5,
     abilities: {0: 'Mind Games'},
+    otherFormes: ['Venusaur-Wartime-Mega'],
+  },
+  'Venusaur-Wartime-Mega': {
+    types: ['Dark', 'Fairy'],
+    bs: {hp: 80, at: 100, df: 123, sa: 122, sd: 120, sp: 80},
+    weightkg: 155.5,
+    abilities: {0: 'Mind Games'},
+    baseSpecies: 'Venusaur-Wartime',
   },
   'Infernape-Wartime': {
     types: ['Ground', 'Dark'],
@@ -10952,6 +10999,65 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 50, at: 92, df: 108, sa: 92, sd: 108, sp: 35},
     weightkg: 108,
     abilities: {0: 'Splinter'},
+  },
+  'Larvesta-Wartime': {
+    types: ['Ice', 'Psychic'],
+    bs: {hp: 55, at: 85, df: 55, sa: 50, sd: 55, sp: 60},
+    weightkg: 28.8,
+    nfe: true,
+    abilities: {0: 'Ice Body'},
+  },
+  'Volcarona-Wartime': {
+    types: ['Ice', 'Psychic'],
+    bs: {hp: 85, at: 60, df: 65, sa: 135, sd: 105, sp: 100},
+    weightkg: 46,
+    abilities: {0: 'Ice Body'},
+  },
+  'Flygon-Mega': {
+    types: ['Bug', 'Dragon'],
+    bs: {hp: 80, at: 100, df: 100, sa: 130, sd: 100, sp: 110},
+    weightkg: 82,
+    abilities: {0: 'Entymate'},
+  },
+  'Deino-Wartime': {
+    types: ['Ice', 'Fire'],
+    bs: {hp: 52, at: 65, df: 50, sa: 45, sd: 50, sp: 38},
+    weightkg: 17.3,
+    abilities: {0: 'Flash Fire'},
+    nfe: true,
+  },
+  'Zweilous-Wartime': {
+    types: ['Ice', 'Fire'],
+    bs: {hp: 72, at: 85, df: 70, sa: 65, sd: 70, sp: 58},
+    weightkg: 50,
+    abilities: {0: 'Flash Fire'},
+    nfe: true,
+  },
+  'Hydreigon-Wartime': {
+    types: ['Ice', 'Fire'],
+    bs: {hp: 92, at: 105, df: 90, sa: 125, sd: 90, sp: 98},
+    weightkg: 160,
+    abilities: {0: 'Flash Fire'},
+  },
+  'Porygon-Wartime': {
+    types: ['Dark','Cosmic'],
+    bs: {hp: 65, at: 60, df: 70, sa: 85, sd: 75, sp: 40},
+    weightkg: 36.5,
+    abilities: {0: 'Dark Aura'},
+  },
+  'Porygon2-Wartime': {
+    types: ['Dark','Cosmic'],
+    bs: {hp: 85, at: 80, df: 90, sa: 105, sd: 95, sp: 60},
+    weightkg: 32.5,
+    gender: 'N',
+    abilities: {0: 'Dark Aura'},
+  },
+  'Porygon-Z-Wartime': {
+    types: ['Dark','Cosmic'],
+    bs: {hp: 85, at: 80, df: 70, sa: 135, sd: 75, sp: 90},
+    weightkg: 34,
+    gender: 'N',
+    abilities: {0: 'Dark Aura'},
   },
 };
 

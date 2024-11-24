@@ -751,12 +751,12 @@
 
 
 
-"Glaceon"={"Cool Trainer Percival [Double]"::{"level":31,"ability":"Hailstorm","moves":["Aurora Veil","Blizzard","Earth Power","Baton Pass"],"nature":"Modest","item":"Light Clay","index":number},},
-"Lumineon-Wartime"={"Cool Trainer Percival [Double]"::{"level":32,"ability":"Slush Rush","moves":["Blizzard","Bug Buzz","Surf","U-turn"],"nature":"Modest","item":"Focus Band","index":number},},
-"Clefable"={"Cool Trainer Percival [Double]"::{"level":30,"ability":"Magic Guard","moves":["Blizzard","Dazzling Gleam","Astral Gale","Soft-boiled"],"nature":"Modest","item":"Iapapa Berry","index":number},},
-"Mismagius"={"Cool Trainer Percival [Double]"::{"level":31,"ability":"Magic Guard","moves":["Weather Ball","Shadow Ball","Dazzling Gleam","Charge Beam"],"nature":"Timid","item":"Babiri Berry","index":number},},
-""={"Cool Trainer Percival [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Cool Trainer Percival [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Glaceon"={"Cool Trainer Percival (Double)"::{"level":31,"ability":"Hailstorm","moves":["Aurora Veil","Blizzard","Earth Power","Baton Pass"],"nature":"Modest","item":"Light Clay","index":number},},
+"Lumineon-Wartime"={"Cool Trainer Percival (Double)"::{"level":32,"ability":"Slush Rush","moves":["Blizzard","Bug Buzz","Surf","U-turn"],"nature":"Modest","item":"Focus Band","index":number},},
+"Clefable"={"Cool Trainer Percival (Double)"::{"level":30,"ability":"Magic Guard","moves":["Blizzard","Dazzling Gleam","Astral Gale","Soft-boiled"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+"Mismagius"={"Cool Trainer Percival (Double)"::{"level":31,"ability":"Magic Guard","moves":["Weather Ball","Shadow Ball","Dazzling Gleam","Charge Beam"],"nature":"Timid","item":"Babiri Berry","index":number},},
+""={"Cool Trainer Percival (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Percival (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -1221,12 +1221,12 @@
 
 
 
-"Aerodactyl"={"Hiker Andy [Double]"::{"level":42,"ability":"Unnerve","moves":["Dual Wingbeat","Rock Slide","Crunch","Thunder Fang"],"nature":"Jolly","item":"Sitrus Berry","index":number},},
-"Excadrill"={"Hiker Andy [Double]"::{"level":43,"ability":"Sand Rush","moves":["High Horsepower","Iron Head","Rock Slide","Protect"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Heatmor"={"Hiker Andy [Double]"::{"level":44,"ability":"Earth Eater","moves":["Flamethrower","Earth Power","Giga Drain","Sucker Punch"],"nature":"Timid","item":"Passho Berry","index":number},},
-"Cacturne"={"Hiker Andy [Double]"::{"level":43,"ability":"Sand Rush","moves":["Needle Arm","Thousand Arrows","Sucker Punch","Drain Punch"],"nature":"Jolly","item":"Lum Berry","index":number},},
-""={"Hiker Andy [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-""={"Hiker Andy [Double]"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Aerodactyl"={"Hiker Andy (Double)"::{"level":42,"ability":"Unnerve","moves":["Dual Wingbeat","Rock Slide","Crunch","Thunder Fang"],"nature":"Jolly","item":"Sitrus Berry","index":number},},
+"Excadrill"={"Hiker Andy (Double)"::{"level":43,"ability":"Sand Rush","moves":["High Horsepower","Iron Head","Rock Slide","Protect"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Heatmor"={"Hiker Andy (Double)"::{"level":44,"ability":"Earth Eater","moves":["Flamethrower","Earth Power","Giga Drain","Sucker Punch"],"nature":"Timid","item":"Passho Berry","index":number},},
+"Cacturne"={"Hiker Andy (Double)"::{"level":43,"ability":"Sand Rush","moves":["Needle Arm","Thousand Arrows","Sucker Punch","Drain Punch"],"nature":"Jolly","item":"Lum Berry","index":number},},
+""={"Hiker Andy (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Andy (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
@@ -1400,3 +1400,512 @@
 "Baxcalibur"={"Gym Leader Gordon"::{"level":48,"ability":"Thermal Exchange","moves":["Icicle Crash","Glaive Rush","Earthquake","Dragon Dance"],"nature":"Jolly","item":"Lum Berry","index":number},},
 "Raging Bolt"={"Gym Leader Gordon"::{"level":47,"ability":"Protosynthesis","moves":["Thunderclap","Dragon Pulse","Flamethrower","Thunderbolt"],"nature":"Timid","item":"Booster Energy","index":number},},
 "Charizard-Wartime-Mega"={"Gym Leader Gordon"::{"level":49,"ability":"Nitric","moves":["Poison Jab","Dragon Claw","Earthquake","Dragon Dance"],"nature":"Jolly","item":"Wartime Charizardite","index":number},},
+
+"Greninja"={"Black Belt Hideki"::{"level":48,"ability":"Protean","moves":["Spikes","Surf","Dark Pulse","Extrasensory"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Flamigo"={"Black Belt Hideki"::{"level":49,"ability":"Scrappy","moves":["Brave Bird","Close Combat","Blaze Kick","Throat Chop"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Incineroar"={"Black Belt Hideki"::{"level":48,"ability":"Intimidate","moves":["Fake Out","Darkest Lariat","Flare Blitz","U-turn"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Starmie"={"Black Belt Hideki"::{"level":48,"ability":"Analytic","moves":["Hydro Pump","Star Beam","Ice Beam","Shadow Ball"],"nature":"Timid","item":"Wise Glasses","index":number},},
+"Dragapult"={"Black Belt Hideki"::{"level":49,"ability":"Clear Body","moves":["Dragon Darts","Hex Cannon","Steel Wing","Substitute"],"nature":"Adamant","item":"Leftovers","index":number},},
+""={"Black Belt Hideki"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Archeops"={"Bird Keeper Scott"::{"level":48,"ability":"Defeatist","moves":["Rock Slide","Dual Wingbeat","Earthquake","U-turn"],"nature":"Jolly","item":"Iapapa Berry","index":number},},
+"Espathra"={"Bird Keeper Scott"::{"level":49,"ability":"Speed Boost","moves":["Lumina Crash","Star Beam","Roost","Shadow Ball"],"nature":"Timid","item":"Weakness Policy","index":number},},
+"Decidueye-Hisui"={"Bird Keeper Scott"::{"level":50,"ability":"Adaptability","moves":["Swords Dance","Leaf Blade","Close Combat","Thousand Arrows"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Gliscor"={"Bird Keeper Scott"::{"level":49,"ability":"Poison Heal","moves":["Protect","Facade","Earthquake","Dual Wingbeat"],"nature":"Jolly","item":"Toxic Orb","index":number},},
+"Empoleon"={"Bird Keeper Scott"::{"level":50,"ability":"Competitive","moves":["Scald","Polarity Pulse","Ice Beam","Roost"],"nature":"Modest","item":"Leftovers","index":number},},
+""={"Bird Keeper Scott"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Ludicolo"={"Swimmer Rita & Swimmer Janet"::{"level":49,"ability":"Swift Swim","moves":["Fake Out","Giga Drain","Weather Ball","Nature Power"],"nature":"Modest","item":"Grass Gem","index":number},},
+"Raichu-Alola"={"Swimmer Rita & Swimmer Janet"::{"level":50,"ability":"Surge Surfer","moves":["Rising Voltage","Psyshock","Grass Knot","Fake Out"],"nature":"Modest","item":"Focus Sash","index":number},},
+""={"Swimmer Rita & Swimmer Janet"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Lanturn"={"Swimmer Rita & Swimmer Janet"::{"level":49,"ability":"Raging Sea","moves":["Scald","Ice Beam","Rising Voltage","Volt Switch"],"nature":"Modest","item":"Assault Vest","index":number},},
+"Toxtricity"={"Swimmer Rita & Swimmer Janet"::{"level":50,"ability":"Surge Surfer","moves":["Rising Voltage","Death Toll","Hyper Voice","Protect"],"nature":"Modest","item":"Throat Spray","index":number},},
+"Barraskewda"={"Swimmer Rita & Swimmer Janet"::{"level":50,"ability":"Swift Swim","moves":["Liquidation","Close Combat","Drill Run","Poison Jab"],"nature":"Adamant","item":"Life Orb","index":number},},
+
+
+
+
+
+
+
+"Palafin-Hero"={"Fisherman Stanton"::{"level":50,"ability":"Zero to Hero","moves":["Flip Turn","Jet Punch","Drain Punch","Ice Punch"],"nature":"Jolly","item":"Punching Glove","index":number},},
+"Tatsugiri"={"Fisherman Stanton"::{"level":51,"ability":"Storm Drain","moves":["Surf","Dragon Pulse","Star Beam","Ice Beam"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Stunfisk-Galar"={"Fisherman Stanton"::{"level":50,"ability":"Water Compaction","moves":["Iron Head","Earthquake","Sucker Punch","Curse"],"nature":"Brave","item":"Leftovers","index":number},},
+"Veluza"={"Fisherman Stanton"::{"level":50,"ability":"Sharpness","moves":["Razor Shell","Astral Blade","Night Slash","Fillet Away"],"nature":"Jolly","item":"Iapapa Berry","index":number},},
+""={"Fisherman Stanton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Fisherman Stanton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Masquerain"={"Navy Grunt"::{"level":51,"ability":"Drizzle","moves":["Scald","Bug Buzz","Sticky Web","Hurricane"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Basculegion"={"Navy Grunt"::{"level":51,"ability":"Swift Swim","moves":["Liquidation","Last Respects","Spirit Shackle","Flip Turn"],"nature":"Adamant","item":"Mystic Water","index":number},},
+"Crawdaunt"={"Navy Grunt"::{"level":50,"ability":"Adaptability","moves":["Liquidation","Crunch","X-Scissor","Aqua Jet"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Arcanine-Wartime"={"Navy Grunt"::{"level":51,"ability":"Water Veil","moves":["Surging Strikes","Close Combat","Ice Fang","Extreme Speed"],"nature":"Jolly","item":"Muscle Band","index":number},},
+""={"Navy Grunt"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Navy Grunt"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Wailord"={"Navy Grunt,1"::{"level":52,"ability":"Drizzle","moves":["Water Spout","Rest","Sleep Talk","Explosion"],"nature":"Quiet","item":"Normal Gem","index":number},},
+"Tentacruel"={"Navy Grunt,1"::{"level":51,"ability":"Rain Dish","moves":["Surf","Death Toll","Giga Drain","Toxic Spikes"],"nature":"Timid","item":"Black Sludge","index":number},},
+"Castform-Rainy"={"Navy Grunt,1"::{"level":51,"ability":"Forecast","moves":["Weather Ball","Star Beam","Thunder","Hurricane"],"nature":"Timid","item":"Life Orb","index":number},},
+"Magneton-Wartime"={"Navy Grunt,1"::{"level":50,"ability":"Swift Swim","moves":["Snipe Shot","Psyshock","Volt Switch","Ice Beam"],"nature":"Modest","item":"Eviolite","index":number},},
+"Inteleon"={"Navy Grunt,1"::{"level":51,"ability":"Tight Focus","moves":["Snipe Shot","Ice Beam","Signal Beam","Work Up"],"nature":"Timid","item":"Wise Glasses","index":number},},
+""={"Navy Grunt,1"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Qwilfish"={"Navy Grunt,2 (Double)"::{"level":52,"ability":"Intimidate","moves":["Barb Barrage","Liquidation","Aqua Jet","Destiny Bond"],"nature":"Jolly","item":"Custap Berry","index":number},},
+"Weavile"={"Navy Grunt,2 (Double)"::{"level":52,"ability":"Inner Focus","moves":["Fake Out","Night Slash","Icicle Crash","Ice Shard"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Magcargo"={"Navy Grunt,2 (Double)"::{"level":52,"ability":"Magma Armor","moves":["Heat Wave","Scald","Earth Power","Recover"],"nature":"Modest","item":"Sitrus Berry","index":number},},
+"Tinkaton-Wartime"={"Navy Grunt,2 (Double)"::{"level":51,"ability":"Gavel Power","moves":["Fake Out","Hammerang","Shadow Hammer","Hammer Smash"],"nature":"Jolly","item":"Lum Berry","index":number},},
+""={"Navy Grunt,2 (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Navy Grunt,2 (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Ninetales-Alola"={"Navy Grunt,3"::{"level":53,"ability":"Snow Warning","moves":["Blizzard","Moonblast","Aurora Veil","Encore"],"nature":"Timid","item":"Light Clay","index":number},},
+"Cetitan"={"Navy Grunt,3"::{"level":51,"ability":"Slush Rush","moves":["Play Rough","Belly Drum","Ice Spinner","Earthquake"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
+"Froslass"={"Navy Grunt,3"::{"level":52,"ability":"Snow Cloak","moves":["Blizzard","Thunder Wave","Will-O-Wisp","Hex"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Dewgong"={"Navy Grunt,3"::{"level":52,"ability":"Ice Scales","moves":["Blizzard","Surf","Rest","Sleep Talk"],"nature":"Modest","item":"Leftovers","index":number},},
+"Lumineon-Wartime"={"Navy Grunt,3"::{"level":51,"ability":"Slush Rush","moves":["Blizzard","Bug Buzz","Surf","Air Slash"],"nature":"Modest","item":"Life Orb","index":number},},
+""={"Navy Grunt,3"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Jynx"={"Navy Grunt,4"::{"level":53,"ability":"Neuroforce","moves":["Freeze-Dry","Psyshock","Focus Blast","Nasty Plot"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Aggron-Wartime"={"Navy Grunt,4"::{"level":53,"ability":"Skill Link","moves":["Icicle Spear","Poison Jab","Earthquake","Autotomize"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Lapras"={"Navy Grunt,4"::{"level":53,"ability":"Adaptability","moves":["Freeze-Dry","Sparkling Aria","Psychic","Thunderbolt"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+""={"Navy Grunt,4"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Navy Grunt,4"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Navy Grunt,4"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Pelipper"={"Navy Seal Edward"::{"level":54,"ability":"Drizzle","moves":["Scald","Hurricane","U-turn","Roost"],"nature":"Timid","item":"Wacan Berry","index":number},},
+"Overqwil"={"Navy Seal Edward"::{"level":53,"ability":"Swift Swim","moves":["Crunch","Poison Jab","Liquidation","Explosion"],"nature":"Adamant","item":"Poison Gem","index":number},},
+"Magnezone-Wartime"={"Navy Seal Edward"::{"level":54,"ability":"Swift Swim","moves":["Snipe Shot","Psystrike","Ice Beam","Thunder"],"nature":"Modest","item":"Life Orb","index":number},},
+"Orthworm"={"Navy Seal Edward"::{"level":54,"ability":"Earth Eater","moves":["Shed Tail","Iron Head","Rock Slide","Toxic"],"nature":"Careful","item":"Leftovers","index":number},},
+"Drednaw-Mega"={"Navy Seal Edward"::{"level":53,"ability":"Swift Swim","moves":["Gill Gash","Rock Slide","Earthquake","Crunch"],"nature":"Adamant","item":"Drednawite","index":number},},
+""={"Navy Seal Edward"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Abomasnow"={"Navy General Eugene  "::{"level":55,"ability":"Snow Warning","moves":["Aurora Veil","Earth Power","Blizzard","Energy Ball"],"nature":"Modest","item":"Focus Sash","index":number},},
+"Arctozolt"={"Navy General Eugene  "::{"level":54,"ability":"Slush Rush","moves":["Bolt Beak","Icicle Crash","Earthquake","Low Kick"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Starmie"={"Navy General Eugene  "::{"level":54,"ability":"Illuminate","moves":["Hydro Pump","Blizzard","Star Beam","Recover"],"nature":"Timid","item":"Life Orb","index":number},},
+"Manaphy"={"Navy General Eugene  "::{"level":55,"ability":"Hydration","moves":["Tail Glow","Scald","Ice Beam","Energy Ball"],"nature":"Timid","item":"Leftovers","index":number},},
+"Darmanitan-Galar-Zen"={"Navy General Eugene  "::{"level":53,"ability":"Zen Mode","moves":["Icicle Crash","Flare Blitz","Earthquake","U-turn"],"nature":"Jolly","item":"Charti Berry","index":number},},
+"Garchomp-Wartime-Mega"={"Navy General Eugene  "::{"level":55,"ability":"Refrigerate","moves":["Body Slam","Earthquake","Stone Edge","Swords Dance"],"nature":"Jolly","item":"Wartime Garchompite","index":number},},
+
+
+
+
+
+
+
+
+"Arctozolt"={"Ruin Maniac Tucker"::{"level":54,"ability":"Slush Rush","moves":["Icicle Crash","Bolt Beak","Earthquake","Low Kick"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Arctovish"={"Ruin Maniac Tucker"::{"level":54,"ability":"Slush Rush","moves":["Fishious Rend","Icicle Crash","Psychic Fangs","Crunch"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Castform-Snowy"={"Ruin Maniac Tucker"::{"level":55,"ability":"Forecast","moves":["Blizzard","Flamethrower","Scald","Recover"],"nature":"Timid","item":"Life Orb","index":number},},
+"Gholdengo"={"Ruin Maniac Tucker"::{"level":55,"ability":"Good as Gold","moves":["Make It Rain","Spectral Shriek","Dazzling Gleam","Recover"],"nature":"Timid","item":"Leftovers","index":number},},
+""={"Ruin Maniac Tucker"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Ruin Maniac Tucker"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Walrein"={"Hiker Neve (Double)"::{"level":55,"ability":"Slush Rush","moves":["Surf","","",""],"nature":"Modest","item":"Choice Specs","index":number},},
+"Coalossal"={"Hiker Neve (Double)"::{"level":55,"ability":"Steam Engine","moves":["Heat Crash","High Horsepower","Rock Slide",""],"nature":"Adamant","item":"Shuca Berry","index":number},},
+"Revavroom"={"Hiker Neve (Double)"::{"level":55,"ability":"Steam Engine","moves":["Gear Grind","Poison Jab","High Horsepower",""],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Tatsugiri"={"Hiker Neve (Double)"::{"level":54,"ability":"Storm Drain","moves":["Scald","Dragon Pulse","Ice Beam","Star Beam"],"nature":"Timid","item":"Life Orb","index":number},},
+""={"Hiker Neve (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Neve (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Omastar"={"Hiker Chester"::{"level":55,"ability":"Weak Armor","moves":["Shell Smash","Surf","Ice Beam","Power Gem"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Torterra"={"Hiker Chester"::{"level":55,"ability":"Rock Head","moves":["Shell Smash","Wood Hammer","Head Smash","Earthquake"],"nature":"Adamant","item":"White Herb","index":number},},
+"Charizard"={"Hiker Chester"::{"level":56,"ability":"Blaze","moves":["Weather Ball","Flamethrower","Earth Power","Wind Drill"],"nature":"Timid","item":"Focus Sash","index":number},},
+""={"Hiker Chester"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Chester"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Chester"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Darmanitan-Galar"={"Hiker Quenton"::{"level":55,"ability":"Gorilla Tactics","moves":["Icicle Crash","Earthquake","Fire Punch","U-turn"],"nature":"Jolly","item":"Choice Band","index":number},},
+"Basculegion"={"Hiker Quenton"::{"level":56,"ability":"Adaptability","moves":["Liquidation","Last Respects","Flip Turn","Spirit Shackle"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Gallade"={"Hiker Quenton"::{"level":57,"ability":"Sharpness","moves":["Sacred Sword","Psycho Cut","Crystal Edge","Bulk Up"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Excadrill"={"Hiker Quenton"::{"level":56,"ability":"Mold Breaker","moves":["Iron Head","Earthquake","Rock Slide","Swords Dance"],"nature":"Jolly","item":"Focus Sash","index":number},},
+""={"Hiker Quenton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Hiker Quenton"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Avalugg-Hisui"={"Hiker Thaire"::{"level":56,"ability":"Sturdy","moves":["Mountain Gale","Accelerock","Body Press","Recover"],"nature":"Adamant","item":"Iapapa Berry","index":number},},
+"Gothitelle"={"Hiker Thaire"::{"level":56,"ability":"Shadow Tag","moves":["Psychic","Star Beam","Mystical Fire","Baton Pass"],"nature":"Modest","item":"Leftovers","index":number},},
+"Zoroark-Hisui"={"Hiker Thaire"::{"level":57,"ability":"Echo Chamber","moves":["Hyper Voice","Spectral Shriek","Flamethrower","Mach Pulse"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Beartic"={"Hiker Thaire"::{"level":57,"ability":"Slush Rush","moves":["Icicle Crash","Close Combat","Liquidation","Swords Dance"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Sneasler"={"Hiker Thaire"::{"level":56,"ability":"Poison Touch","moves":["Fake Out","Close Combat","Dire Claw","Acrobatics"],"nature":"Adamant","item":"Normal Gem","index":number},},
+""={"Hiker Thaire"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Samurott-Hisui"={"Tamer Takari"::{"level":56,"ability":"Sharpness","moves":["Ceaseless Edge","Razor Shell","Crystal Edge","Flip Turn"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Luxray"={"Tamer Takari"::{"level":55,"ability":"Strong Jaw","moves":["Thunder Fang","Crunch","Ice Fang","Howl"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Houndoom"={"Tamer Takari"::{"level":57,"ability":"Adaptability","moves":["Flamethrower","Dark Pulse","Sludge Bomb","Sucker Punch"],"nature":"Timid","item":"Black Glasses","index":number},},
+"Obstagoon"={"Tamer Takari"::{"level":56,"ability":"Guts","moves":["Throat Chop","Facade","Close Combat","Obstruct"],"nature":"Jolly","item":"Flame Orb","index":number},},
+""={"Tamer Takari"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Tamer Takari"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Weezing"={"Scientist Neils"::{"level":56,"ability":"Levitate","moves":["Toxic Spikes","Venoshock","Flamethrower","Explosion"],"nature":"Relaxed","item":"Focus Sash","index":number},},
+"Muk-Alola"={"Scientist Neils"::{"level":56,"ability":"Gluttony","moves":["Crunch","Poison Jab","Fire Punch","Pursuit"],"nature":"Adamant","item":"Iapapa Berry","index":number},},
+"Sharpedo-Wartime"={"Scientist Neils"::{"level":56,"ability":"Magic Guard","moves":["Flare Blitz","Hex Cannon","Liquidation","Shadow Sneak"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Electivire"={"Scientist Neils"::{"level":56,"ability":"Iron Fist","moves":["Plasma Fists","Drain Punch","Ice Punch","Mach Punch"],"nature":"Jolly","item":"Punching Glove","index":number},},
+"Hydreigon"={"Scientist Neils"::{"level":56,"ability":"Levitate","moves":["Wicked Wind","Dragon Pulse","Flash Cannon","Flamethrower"],"nature":"Timid","item":"Throat Spray","index":number},},
+""={"Scientist Neils"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Lokix"={"Tamer Christoph"::{"level":56,"ability":"Tinted Lens","moves":["First Impression","Throat Chop","Axe Kick","U-turn"],"nature":"Jolly","item":"Muscle Band","index":number},},
+"Typhlosion-Hisui"={"Tamer Christoph"::{"level":57,"ability":"Grim Neigh","moves":["Flamethrower","Infernal Parade","Scorching Sands","Will-O-Wisp"],"nature":"Timid","item":"Life Orb","index":number},},
+"Decidueye"={"Tamer Christoph"::{"level":56,"ability":"Adaptability","moves":["Spirit Shackle","Leaf Blade","Thousand Arrows","Sucker Punch"],"nature":"Jolly","item":"Colbur Berry","index":number},},
+"Kingambit"={"Tamer Christoph"::{"level":56,"ability":"Supreme Overlord","moves":["Swords Dance","Sucker Punch","Iron Head","Kowtow Cleave"],"nature":"Adamant","item":"Chople Berry","index":number},},
+""={"Tamer Christoph"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Tamer Christoph"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Garchomp"={"Cool Trainer Abigail"::{"level":57,"ability":"Rough Skin","moves":["Dragon Claw","Earthquake","Stealth Rock","Toxic"],"nature":"Jolly","item":"Rocky Helmet","index":number},},
+"Crobat"={"Cool Trainer Abigail"::{"level":56,"ability":"Vampiric","moves":["Corrosive Jaw","Leech Life","Crunch","U-turn"],"nature":"Adamant","item":"Black Sludge","index":number},},
+"Ceruledge"={"Cool Trainer Abigail"::{"level":57,"ability":"Sharpness","moves":["Bitter Blade","Shadow Claw","Sacred Sword","Magma Trek"],"nature":"Jolly","item":"Assault Vest","index":number},},
+"Absol-Mega"={"Cool Trainer Abigail"::{"level":57,"ability":"Sharpness","moves":["Swords Dance","Kowtow Cleave","Astral Blade","Psycho Cut"],"nature":"Jolly","item":"Absolite","index":number},},
+""={"Cool Trainer Abigail"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Abigail"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Palossand"={"Cool Trainer Hank"::{"level":57,"ability":"Water Compaction","moves":["Stealth Rock","Earth Power","Shadow Ball","Shore Up"],"nature":"Bold","item":"Leftovers","index":number},},
+"Salazzle"={"Cool Trainer Hank"::{"level":56,"ability":"Corrosion","moves":["Flamethrower","Sludge Wave","Grass Knot","Nasty Plot"],"nature":"Timid","item":"Charcoal","index":number},},
+"Lucario"={"Cool Trainer Hank"::{"level":58,"ability":"Inner Focus","moves":["Close Combat","Iron Head","Zen Headbutt","Extreme Speed"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Orbeetle"={"Cool Trainer Hank"::{"level":57,"ability":"Magic Guard","moves":["Star Beam","Bug Buzz","Weather Ball","Recover"],"nature":"Timid","item":"Life Orb","index":number},},
+"Grimmsnarl-Mega"={"Cool Trainer Hank"::{"level":57,"ability":"Prankster","moves":["Darkest Lariat","Drain Punch","Bulk Up","Thunder Wave"],"nature":"Adamant","item":"Grimmsnarlite","index":number},},
+""={"Cool Trainer Hank"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Golurk"={"Channeler Aggie"::{"level":57,"ability":"No Guard","moves":["Poltergeist","Earthquake","Stone Edge","Autotomize"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Alakazam"={"Channeler Aggie"::{"level":57,"ability":"Magic Guard","moves":["Psyshock","Star Beam","Focus Blast","Counter"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Basculegion-Female"={"Channeler Aggie"::{"level":58,"ability":"Adaptability","moves":["Surf","Spectral Shriek","Ice Beam","Flip Turn"],"nature":"Modest","item":"Mystic Water","index":number},},
+"Metagross"={"Channeler Aggie"::{"level":57,"ability":"Clear Body","moves":["Meteor Mash","Iron Head","Agility","Earthquake"],"nature":"Adamant","item":"Weakness Policy","index":number},},
+""={"Channeler Aggie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Channeler Aggie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Bronzong"={"Channeler Marjorie"::{"level":57,"ability":"Levitate","moves":["Gyro Ball","Stealth Rock","Body Press","Psyshield Bash"],"nature":"Relaxed","item":"Leftovers","index":number},},
+"Mimikyu"={"Channeler Marjorie"::{"level":58,"ability":"Disguise","moves":["Shadow Hammer","Play Rough","Swords Dance","Drain Punch"],"nature":"Jolly","item":"Mjolnir","index":number},},
+"Medicham"={"Channeler Marjorie"::{"level":58,"ability":"Huge Power","moves":["Fake Out","Drain Punch","Meteor Mash","Rock Slide"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Nidoqueen"={"Channeler Marjorie"::{"level":57,"ability":"Sheer Force","moves":["Sludge Wave","Thunderbolt","Ice Beam","Shadow Ball"],"nature":"Modest","item":"Life Orb","index":number},},
+""={"Channeler Marjorie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Channeler Marjorie"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Spiritomb-Wartime"={"Cool Trainer Margaret"::{"level":58,"ability":"Splinter","moves":["PaleoBeam","Spectral Shriek","Recover","Calm Mind"],"nature":"Bold","item":"Leftovers","index":number},},
+"Pangoro"={"Cool Trainer Margaret"::{"level":57,"ability":"Iron Fist","moves":["Darkest Lariat","Drain Punch","Bullet Punch","Ice Punch"],"nature":"Jolly","item":"Assault Vest","index":number},},
+"Dragalge"={"Cool Trainer Margaret"::{"level":58,"ability":"Adaptability","moves":["Draco Meteor","Death Toll","Flip Turn","Toxic Spikes"],"nature":"Modest","item":"Eject Pack","index":number},},
+"Mismagius"={"Cool Trainer Margaret"::{"level":58,"ability":"Magic Guard","moves":["Moonblast","Shadow Ball","Mystical Fire","Nasty Plot"],"nature":"Timid","item":"Life Orb","index":number},},
+""={"Cool Trainer Margaret"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Margaret"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Sableye"={"Channeler Agatha (Double)"::{"level":58,"ability":"Prankster","moves":["Fake Out","Foul Play","Star Sap","Protect"],"nature":"Careful","item":"Leftovers","index":number},},
+"Weezing-Galar"={"Channeler Agatha (Double)"::{"level":58,"ability":"Misty Surge","moves":["Rolling Fog","Heat Wave","Death Toll","Shadow Ball"],"nature":"Modest","item":"Black Sludge","index":number},},
+"Drifblim"={"Channeler Agatha (Double)"::{"level":59,"ability":"Unburden","moves":["Acrobatics","Hex Cannon","",""],"nature":"Adamant","item":"Misty Seed","index":number},},
+"Annihilape"={"Channeler Agatha (Double)"::{"level":58,"ability":"Defiant","moves":["Rage Fist","Drain Punch","Rock Slide","Bulk Up"],"nature":"Jolly","item":"Adrenaline Orb","index":number},},
+"Greninja"={"Channeler Agatha (Double)"::{"level":59,"ability":"Protean","moves":["Surf","Wicked Wind","Grass Knot","U-turn"],"nature":"Timid","item":"Life Orb","index":number},},
+""={"Channeler Agatha (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Krookodile"={"Cool Trainer Lawrence"::{"level":59,"ability":"Intimidate","moves":["Earthquake","Crunch","Close Combat","Stealth Rock"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Toxtricity"={"Cool Trainer Lawrence"::{"level":58,"ability":"Punk Rock","moves":["Overdrive","Death Toll","Hyper Voice","Shift Gear"],"nature":"Timid","item":"Air Balloon","index":number},},
+"Tauros-Paldea-Blaze"={"Cool Trainer Lawrence"::{"level":60,"ability":"Intimidate","moves":["Will-O-Wisp","Raging Bull","Throat Chop","Close Combat"],"nature":"Jolly","item":"Sitrus Berry","index":number},},
+"Emboar-Wartime"={"Cool Trainer Lawrence"::{"level":59,"ability":"Shadow Shield","moves":["Spectral Thief","Cosmic Fury","Shadow Sneak","Power-Up Punch"],"nature":"Adamant","item":"Lum Berry","index":number},},
+""={"Cool Trainer Lawrence"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Lawrence"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Glimmora"={"Cool Trainer Ursula"::{"level":59,"ability":"Toxic Debris","moves":["Star Beam","Death Toll","Shadow Ball","Earth Power"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Breloom"={"Cool Trainer Ursula"::{"level":58,"ability":"Technician","moves":["Mach Punch","Bullet Seed","Rock Tomb","Spore"],"nature":"Jolly","item":"Loaded Dice","index":number},},
+"Blaziken"={"Cool Trainer Ursula"::{"level":59,"ability":"Speed Boost","moves":["Flare Blitz","Thunder Punch","Close Combat","Protect"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Venusaur-Wartime-Mega"={"Cool Trainer Ursula"::{"level":59,"ability":"Noctem Boost","moves":["Weather Ball","Moonblast","Star Beam","Calm Mind"],"nature":"Modest","item":"Wartime Venusaurite","index":number},},
+""={"Cool Trainer Ursula"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+""={"Cool Trainer Ursula"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Empoleon"={"Cool Trainer Oscar"::{"level":59,"ability":"Competitive","moves":["Stealth Rock","Scald","Polarity Pulse","Roost"],"nature":"Modest","item":"Sitrus Berry","index":number},},
+"Castform-Eclipse"={"Cool Trainer Oscar"::{"level":60,"ability":"Forecast","moves":["Weather Ball","Star Beam","Recover","Flamethrower"],"nature":"Timid","item":"Life Orb","index":number},},
+"Drapion"={"Cool Trainer Oscar"::{"level":59,"ability":"Sniper","moves":["Night Slash","Cross Poison","Earthquake","Focus Energy"],"nature":"Jolly","item":"Scope Lens","index":number},},
+"Scolipede"={"Cool Trainer Oscar"::{"level":60,"ability":"Speed Boost","moves":["Megahorn","Poison Jab","Rock Slide","Swords Dance"],"nature":"Adamant","item":"Charti Berry","index":number},},
+"Incineroar-Wartime"={"Cool Trainer Oscar"::{"level":60,"ability":"Gavel Power","moves":["Shadow Hammer","Hammer Smash","Hammer Arm","Shadow Sneak"],"nature":"Adamant","item":"Assault Vest","index":number},},
+""={"Cool Trainer Oscar"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+
+"Infernape"={"Cool Trainer Diamond"::{"level":60,"ability":"Blaze","moves":["Flamethrower","Aura Sphere","Grass Knot","Stealth Rock"],"nature":"Timid","item":"Wise Glasses","index":number},},
+"Gyarados"={"Cool Trainer Diamond"::{"level":60,"ability":"Intimidate","moves":["Waterfall","Bounce","Earthquake","Crunch"],"nature":"Jolly","item":"Wacan Berry","index":number},},
+"Shedinja"={"Cool Trainer Diamond"::{"level":60,"ability":"Wonder Guard","moves":["Swords Dance","Shadow Sneak","X-Scissor","Dig"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Sandslash-Alola"={"Cool Trainer Diamond"::{"level":60,"ability":"Slush Rush","moves":["Icicle Crash","Iron Head","Earthquake","Swords Dance"],"nature":"Adamant","item":"Chople Berry","index":number},},
+"Volcarona-Wartime"={"Cool Trainer Diamond"::{"level":60,"ability":"Astral Cloak","moves":["Blizzard","Psychic","Star Beam","Roost"],"nature":"Timid","item":"Bright Powder","index":number},},
+""={"Cool Trainer Diamond"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Blaziken-Wartime"={"Rival Chloros (Treecko Chosen)"::{"level":61,"ability":"Gale Force","moves":["Hurricane","Aura Sphere","Psychic","Vacuum Wave"],"nature":"Timid","item":"Fighting Gem","index":number},},
+"Brambleghast"={"Rival Chloros (Treecko Chosen)"::{"level":60,"ability":"Wind Rider","moves":["Power Whip","Spirit Shackle","Earthquake","Shadow Sneak"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Sigilyph"={"Rival Chloros (Treecko Chosen)"::{"level":60,"ability":"Backdraft","moves":["Hurricane","Star Beam","Shadow Ball","Roost"],"nature":"Timid","item":"Life Orb","index":number},},
+"Iron Moth"={"Rival Chloros (Treecko Chosen)"::{"level":60,"ability":"Quark Drive","moves":["Fiery Dance","Death Toll","Hurricane","Giga Drain"],"nature":"Timid","item":"Booster Energy","index":number},},
+"Samurott-Wartime"={"Rival Chloros (Treecko Chosen)"::{"level":60,"ability":"Galvanize","moves":["Sacred Sword","Slash","Night Slash","Swords Dance"],"nature":"Jolly","item":"Sheath","index":number},},
+"Flygon-Mega"={"Rival Chloros (Treecko Chosen)"::{"level":61,"ability":"Entymate","moves":["Ancient Cry","Hyper Voice","Earth Power","Quick Attack"],"nature":"Timid","item":"Flygonite","index":number},},
+
+
+
+
+
+
+
+"Swampert-Wartime"={"Rival Chloros (Torchic Chosen)"::{"level":61,"ability":"Nightfall","moves":["Stealth Rock","Night Rush","Head Smash","Flip Turn"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Dragalge"={"Rival Chloros (Torchic Chosen)"::{"level":60,"ability":"Adaptability","moves":["Draco Meteor","Death Toll","Scald","Toxic Spikes"],"nature":"Modest","item":"Eject Pack","index":number},},
+"Swellow"={"Rival Chloros (Torchic Chosen)"::{"level":60,"ability":"Scrappy","moves":["Boomburst","Wind Drill","Heat Wave","Quick Attack"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Slither Wing"={"Rival Chloros (Torchic Chosen)"::{"level":60,"ability":"Protosynthesis","moves":["First Impression","Flare Blitz","Close Combat","Bulk Up"],"nature":"Jolly","item":"Booster Energy","index":number},},
+"Decidueye-Wartime"={"Rival Chloros (Torchic Chosen)"::{"level":60,"ability":"Noctem Boost","moves":["Anchor Shot","Kowtow Cleave","Thousand Arrows","U-turn"],"nature":"Adamant","item":"Chople Berry","index":number},},
+"Medicham-Mega"={"Rival Chloros (Torchic Chosen)"::{"level":61,"ability":"Pure Power","moves":["Fake Out","Meteor Mash","Drain Punch","Shadow Punch"],"nature":"Jolly","item":"Medichamite","index":number},},
+
+
+
+
+
+
+
+"Sceptile-Wartime"={"Rival Chloros (Mudkip Chosen)"::{"level":61,"ability":"Sand Stream","moves":["Thousand Arrows","Close Combat","Rock Slide","Mach Punch"],"nature":"Jolly","item":"Rock Gem","index":number},},
+"Leavanny"={"Rival Chloros (Mudkip Chosen)"::{"level":60,"ability":"Overcoat","moves":["Leaf Blade","X-Scissor","Crystal Edge","Swords Dance"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Excadrill"={"Rival Chloros (Mudkip Chosen)"::{"level":60,"ability":"Sand Rush","moves":["Earthquake","Iron Head","Rock Slide","Brick Break"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Iron Boulder"={"Rival Chloros (Mudkip Chosen)"::{"level":60,"ability":"Quark Drive","moves":["Mighty Cleave","Psycho Cut","Sacred Sword","Earthquake"],"nature":"Jolly","item":"Booster Energy","index":number},},
+"Hydreigon-Wartime"={"Rival Chloros (Mudkip Chosen)"::{"level":60,"ability":"Scaler","moves":["Flamethrower","Freeze-Dry","Earth Power","Chilling Cry"],"nature":"Timid","item":"Chople Berry","index":number},},
+"Empoleon-Mega"={"Rival Chloros (Mudkip Chosen)"::{"level":61,"ability":"Magic Bounce","moves":["Surf","Polarity Pulse","Ice Beam","Calm Mind"],"nature":"Timid","item":"Empoleonite","index":number},},
+
+
+
+
+
+
+
+
+
+"Crobat"={"Cool Trainer Al & Cool Trainer Belle"::{"level":60,"ability":"Nitric","moves":["Tailwind","Death Toll","Doldrums","Heat Wave"],"nature":"Modest","item":"Life Orb","index":number},},
+"Metagross"={"Cool Trainer Al & Cool Trainer Belle"::{"level":60,"ability":"Clear Body","moves":["Meteor Mash","Bullet Punch","Knock Off","Rock Slide"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Cinderace-Mega"={"Cool Trainer Al & Cool Trainer Belle"::{"level":61,"ability":"Libero","moves":["Pyro Ball","Zen Headbutt","Sucker Punch","High Jump Kick"],"nature":"Adamant","item":"Cinderite","index":number},},
+"Excadrill"={"Cool Trainer Al & Cool Trainer Belle"::{"level":60,"ability":"Mold Breaker","moves":["High Horsepower","Iron Head","Rock Slide","Swords Dance"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Conkeldurr"={"Cool Trainer Al & Cool Trainer Belle"::{"level":60,"ability":"Iron Fist","moves":["Drain Punch","Mach Punch","Rock Slide","Thunder Punch"],"nature":"Adamant","item":"Assault Vest","index":number},},
+"Gardevoir-Mega"={"Cool Trainer Al & Cool Trainer Belle"::{"level":61,"ability":"Pixilate","moves":["Hyper Voice","Astral Gale","Psyshock","Calm Mind"],"nature":"Timid","item":"Gardevoirite","index":number},},
+
+
+
+
+
+
+
+"Klinklang"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":60,"ability":"Composure","moves":["Polarity Pulse","Thunderbolt","Hyper Voice","Volt Switch"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Electrode-Hisui"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":61,"ability":"Composure","moves":["Overcharge","Giga Drain","Chilling Cry","Volt Switch"],"nature":"Modest","item":"Throat Spray","index":number},},
+"Ninetales-Wartime"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":61,"ability":"Composure","moves":["Wicked Wind","Death Toll","Heat Wave","Nasty Plot"],"nature":"Timid","item":"Black Sludge","index":number},},
+"Azumarill"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":60,"ability":"Huge Power","moves":["Liquidation","Play Rough","Ice Punch","Aqua Jet"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
+"Diggersby"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":61,"ability":"Huge Power","moves":["Return","High Horsepower","Rock Slide","U-turn"],"nature":"Jolly","item":"Silk Scarf","index":number},},
+"Medicham-Mega"={"Cool Trainer Cara & Cool Trainer Derek"::{"level":61,"ability":"Huge Power","moves":["Fake Out","High Jump Kick","Meteor Mash","Rock Slide"],"nature":"Jolly","item":"Medichamite","index":number},},
+
+
+
+
+
+
+
+"Gyarados"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":60,"ability":"Intimidate","moves":["Aqua Tail","Ice Fang","Crunch","Dragon Dance"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Rhyperior"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":61,"ability":"Solid Rock","moves":["Rock Slide","High Horsepower","Megahorn","Supercell Slam"],"nature":"Adamant","item":"Rindo Berry","index":number},},
+"Flygon-Wartime"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":61,"ability":"Punk Rock","moves":["Polarity Pulse","Bug Buzz","Hyper Voice","Earth Power"],"nature":"Timid","item":"Throat Spray","index":number},},
+"Marowak-Alola"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":60,"ability":"Lightning Rod","moves":["Shadow Bone","Fire Punch","Thunder Punch","Rock Slide"],"nature":"Adamant","item":"Thick Club","index":number},},
+"Maractus"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":61,"ability":"Storm Drain","moves":["Maraca Shake","Hyper Voice","Aura Sphere","Mach Pulse"],"nature":"Modest","item":"Focus Sash","index":number},},
+"Altaria-Mega"={"Cool Trainer Elrich & Cool Trainer Falcor"::{"level":61,"ability":"Pixilate","moves":["Hyper Voice","Heat Wave","Cotton Guard","Roost"],"nature":"Timid","item":"Altarianite","index":number},},
+
+
+
+
+
+
+
+"Weavile"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Inner Focus","moves":["Fake Out","Icicle Crash","Night Slash","Poison Jab"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Inteleon"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Tight Focus","moves":["Snipe Shot","Ice Beam","Signal Beam","U-turn"],"nature":"Timid","item":"Life Orb","index":number},},
+"Aerodactyl-Mega"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Tough Claws","moves":["Dual Wingbeat","Stone Edge","Fire Fang","Hone Claws"],"nature":"Adamant","item":"Aerodactylite","index":number},},
+"Clefairy"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Friend Guard","moves":["Follow Me","Star Beam","Flamethrower","Thunder Wave"],"nature":"Bold","item":"Eviolite","index":number},},
+"Stonjourner"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Power Spot","moves":["Rock Slide","Meteor Mash","High Horsepower","Heavy Slam"],"nature":"Jolly","item":"Focus Sash","index":number},},
+"Unown"={"Cool Trainer Gina & Cool Trainer Hellen"::{"level":61,"ability":"Unknown Power","moves":["Photon Geyser","Earth Power","Aura Sphere","Mystical Power"],"nature":"Timid","item":"Colbur Berry","index":number},},
+
+
+
+
+
+
+
+"Beheeyem-Mega"={"Cool Trainer Ivan (Double)"::{"level":60,"ability":"Dimension Shift","moves":["Expanding Force","Bug Buzz","Calm Mind","Recover"],"nature":"Quiet","item":"Beheeyemite","index":number},},
+"Shuckle"={"Cool Trainer Ivan (Double)"::{"level":61,"ability":"Sturdy","moves":["Power Trick","Rock Slide","Bug Bite","Gyro Ball"],"nature":"Brave","item":"Red Card","index":number},},
+"Stakataka"={"Cool Trainer Ivan (Double)"::{"level":61,"ability":"Beast Boost","moves":["Rock Slide","High Horsepower","Gyro Ball","Protect"],"nature":"Brave","item":"Chople Berry","index":number},},
+"Doublade"={"Cool Trainer Ivan (Double)"::{"level":60,"ability":"Sharpness","moves":["Sacred Sword","Shadow Claw","Cut","Swords Dance"],"nature":"Brave","item":"Eviolite","index":number},},
+"Spiritomb"={"Cool Trainer Ivan (Double)"::{"level":62,"ability":"Mind Games","moves":["Wicked Wind","Calm Mind","Spirit Recall","Substitute"],"nature":"Relaxed","item":"Leftovers","index":number},},
+""={"Cool Trainer Ivan (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Gothitelle"={"Cool Trainer Jennifer (Double)"::{"level":61,"ability":"Dimension Shift","moves":["Fake Out","Astral Gale","Psychic","Thunderbolt"],"nature":"Quiet","item":"Colbur Berry","index":number},},
+"Camerupt"={"Cool Trainer Jennifer (Double)"::{"level":61,"ability":"Simple","moves":["Growth","Heat Wave","Earth Power","Rock Slide"],"nature":"Quiet","item":"Room Service","index":number},},
+"Brute Bonnet"={"Cool Trainer Jennifer (Double)"::{"level":60,"ability":"Protosynthesis","moves":["Leaf Blade","Close Combat","Crunch","Spore"],"nature":"Brave","item":"Booster Energy","index":number},},
+"Carracosta"={"Cool Trainer Jennifer (Double)"::{"level":61,"ability":"Sturdy","moves":["Liquidation","Rock Slide","High Horsepower","Aqua Jet"],"nature":"Brave","item":"Custap Berry","index":number},},
+"Ampharos-Mega"={"Cool Trainer Jennifer (Double)"::{"level":62,"ability":"Mold Breaker","moves":["Thunderbolt","Ancient Cry","Power Gem","Volt Switch"],"nature":"Quiet","item":"Ampharosite","index":number},},
+""={"Cool Trainer Jennifer (Double)"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+
+
+
+
+
+
+
+"Iron Hands"={"Gym Leader Winslow  (Double)"::{"level":62,"ability":"Quark Drive","moves":["Fake Out","Plasma Fists","Close Combat","Heavy Slam"],"nature":"Brave","item":"Booster Energy","index":number},},
+"Porygon2-Wartime"={"Gym Leader Winslow  (Double)"::{"level":62,"ability":"Unaware","moves":["Trick Room","Wicked Wind","Star Beam","Recover"],"nature":"Relaxed","item":"Eviolite","index":number},},
+"Dusknoir"={"Gym Leader Winslow  (Double)"::{"level":62,"ability":"Iron Fist","moves":["Shadow Punch","Drain Punch","Rock Slide","Shadow Sneak"],"nature":"Brave","item":"Life Orb","index":number},},
+"Escavalier"={"Gym Leader Winslow  (Double)"::{"level":62,"ability":"Shell Armor","moves":["Double Iron Bash","Megahorn","Drill Run","Pursuit"],"nature":"Brave","item":"Assault Vest","index":number},},
+"Glastrier"={"Gym Leader Winslow  (Double)"::{"level":63,"ability":"Chilling Neigh","moves":["Glacial Lance","High Horsepower","Close Combat","Swords Dance"],"nature":"Brave","item":"Lum Berry","index":number},},
+"Hatterene-Mega"={"Gym Leader Winslow  (Double)"::{"level":63,"ability":"Magic Bounce","moves":["Trick Room","Dazzling Gleam","Psychic","Mystical Fire"],"nature":"Quiet","item":"Hatterenite","index":number},},
