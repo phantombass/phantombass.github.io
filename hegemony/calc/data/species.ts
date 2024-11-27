@@ -5046,6 +5046,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Clefable: {types: ['Fairy', 'Cosmic'], bs: {sa: 95}},
   Clefairy: {types: ['Fairy', 'Cosmic']},
   Cleffa: {types: ['Fairy', 'Cosmic']},
+  Starmie: {types: ['Water', 'Cosmic']},
   Sigilyph: {types: ['Flying', 'Cosmic']},
   Xatu: {types: ['Flying', 'Cosmic']},
   Cottonee: {types: ['Grass', 'Fairy']},
