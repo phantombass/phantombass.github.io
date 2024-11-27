@@ -5149,7 +5149,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Beldum: {types: ['Steel', 'Cosmic']},
   Metang: {types: ['Steel', 'Cosmic']},
   Castform: {types: ['Normal', 'Cosmic'], otherFormes: ['Castform-Rainy', 'Castform-Snowy', 'Castform-Sunny', 'Castform-Acid', 'Castform-Eclipse',
-    'Castform-Windy', 'Castform-Sand', 'Castform-Starry', 'Castform-Primal']},
+    'Castform-Windy', 'Castform-Sandy', 'Castform-Starry', 'Castform-Primal']},
   'Castform-Sunny': {types: ['Fire', 'Cosmic']},
   'Castform-Rainy': {types: ['Water', 'Cosmic']},
   'Castform-Snowy': {types: ['Ice', 'Cosmic']},
@@ -5175,7 +5175,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Castform',
   },
   'Castform-Sandy': {
-    types: ['Ground', 'Cosmic'],
+    types: ['Rock', 'Cosmic'],
     bs: {hp: 85, at: 45, df: 95, sa: 105, sd: 95, sp: 85},
     weightkg: 0.8,
     abilities: {0: 'Forecast'},
