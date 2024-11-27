@@ -5076,6 +5076,8 @@ var XY_PATCH = {
     Clefable: { types: ['Fairy', 'Cosmic'], bs: { sa: 95 } },
     Clefairy: { types: ['Fairy', 'Cosmic'] },
     Cleffa: { types: ['Fairy', 'Cosmic'] },
+    Sigilyph: { types: ['Flying', 'Cosmic'] },
+    Xatu: { types: ['Flying', 'Cosmic'] },
     Cottonee: { types: ['Grass', 'Fairy'] },
     Delcatty: { types: ['Normal', 'Fairy'] },
     Empoleon: { otherFormes: ['Empoleon-Mega'] },
