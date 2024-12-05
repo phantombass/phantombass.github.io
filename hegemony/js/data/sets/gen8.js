@@ -12,9 +12,8 @@
 
 
 "Meowth"={"Lass Sophia"::{"level":9,"ability":"Pickup","moves":["Fake Out","Pay Day","Bite",""],"nature":"Jolly","item":"Oran Berry","index":number},},
-"Meowth-Alola"={"Lass Sophia"::{"level":9,"ability":"Technician","moves":["Fake Out","Bite","",""],"nature":"Jolly","item":"Oran Berry","index":number},},
-"Meowth-Galar"={"Lass Sophia"::{"level":9,"ability":"Tough Claws","moves":["Fake Out","Bite","Bullet Punch",""],"nature":"Adamant","item":"Oran Berry","index":number},},
-""={"Lass Sophia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
+"Purrloin"={"Lass Sophia"::{"level":9,"ability":"Unburden","moves":["Fake Out","Bite","Quick Attack",""],"nature":"Jolly","item":"Oran Berry","index":number},},
+"Litten"={"Lass Sophia"::{"level":9,"ability":"Intimidate","moves":["Fake Out","Bite","Ember",""],"nature":"Naive","item":"Oran Berry","index":number},},""={"Lass Sophia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Lass Sophia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Lass Sophia"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
