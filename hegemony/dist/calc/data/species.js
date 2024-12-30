@@ -10829,7 +10829,15 @@ var SV_PATCH = {
         types: ['Normal', 'Ghost'],
         bs: { hp: 85, at: 60, df: 90, sa: 100, sd: 105, sp: 80 },
         weightkg: 20.6,
-        abilities: { 0: 'Cursed Body' }
+        abilities: { 0: 'Cursed Body' },
+        otherFormes: ['Altaria-Wartime-Mega']
+    },
+    'Altaria-Wartime-Mega': {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 85, at: 75, df: 120, sa: 125, sd: 115, sp: 100 },
+        weightkg: 20.6,
+        abilities: { 0: 'Untainted' },
+        baseSpecies: 'Altaria-Wartime'
     },
     'Froslass-Wartime': {
         types: ['Rock', 'Dark'],
@@ -10861,7 +10869,15 @@ var SV_PATCH = {
         types: ['Psychic', 'Steel'],
         bs: { hp: 79, at: 83, df: 100, sa: 85, sd: 105, sp: 78 },
         weightkg: 101.1,
-        abilities: { 0: 'Unshaken' }
+        abilities: { 0: 'Unshaken' },
+        otherFormes: ['Blastoise-Wartime-Mega']
+    },
+    'Blastoise-Wartime-Mega': {
+        types: ['Psychic', 'Steel'],
+        bs: { hp: 79, at: 103, df: 120, sa: 135, sd: 115, sp: 78 },
+        weightkg: 101.1,
+        abilities: { 0: 'Unshaken' },
+        baseSpecies: 'Blastoise-Wartime'
     },
     'Togedemaru-Wartime': {
         types: ['Rock', 'Fairy'],
@@ -11073,6 +11089,18 @@ var SV_PATCH = {
         weightkg: 34,
         gender: 'N',
         abilities: { 0: 'Dark Aura' }
+    },
+    'Primarina-Wartime': {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 80, at: 74, df: 74, sa: 126, sd: 116, sp: 60 },
+        weightkg: 44,
+        abilities: { 0: 'Punk Rock' }
+    },
+    'Cinderace-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 80, at: 116, df: 75, sa: 65, sd: 75, sp: 119 },
+        weightkg: 33,
+        abilities: { 0: 'Scrappy' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
