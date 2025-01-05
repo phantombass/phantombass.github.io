@@ -4189,6 +4189,7 @@ var SV_PATCH = {
     'Secret Sword': { isSlicing: true },
     'Shadow Claw': { isSlicing: true },
     'Signal Beam': { isBeam: true },
+    'Silver Wind': { isWind: true },
     'Skull Bash': { isHead: true },
     Slash: { isSlicing: true },
     'Solar Beam': { isBeam: true },
