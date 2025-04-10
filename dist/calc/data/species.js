@@ -2063,7 +2063,8 @@ var ADV_PATCH = {
         types: ['Ground', 'Dragon'],
         bs: { hp: 80, at: 100, df: 80, sa: 100, sd: 80, sp: 100 },
         weightkg: 82,
-        abilities: { 0: 'Levitate' }
+        abilities: { 0: 'Levitate' },
+        otherFormes: ['Flygon-Mega']
     },
     Gardevoir: {
         types: ['Psychic'],
@@ -3573,7 +3574,7 @@ var DPP_PATCH = {
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
-        otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash']
+        otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash', 'Rotom-Dex']
     },
     'Rotom-Mow': {
         types: ['Electric', 'Ghost'],
@@ -3608,6 +3609,14 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Wash': {
+        types: ['Electric', 'Ghost'],
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom'
+    },
+    'Rotom-Dex': {
         types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
@@ -3831,6 +3840,7 @@ var BW_PATCH = {
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
     'Rotom-Mow': { types: ['Electric', 'Grass'] },
     'Rotom-Wash': { types: ['Electric', 'Water'] },
+    'Rotom-Dex': { types: ['Electric', 'Steel'] },
     Accelgor: {
         types: ['Bug'],
         bs: { hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145 },
@@ -5449,28 +5459,28 @@ var XY_PATCH = {
     },
     Gourgeist: {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 65, at: 90, df: 122, sa: 58, sd: 75, sp: 84 },
+        bs: { hp: 65, at: 58, df: 122, sa: 90, sd: 75, sp: 84 },
         weightkg: 12.5,
         abilities: { 0: 'Pickup' },
         otherFormes: ['Gourgeist-Large', 'Gourgeist-Small', 'Gourgeist-Super']
     },
     'Gourgeist-Large': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 75, at: 95, df: 122, sa: 58, sd: 75, sp: 69 },
+        bs: { hp: 75, at: 58, df: 122, sa: 95, sd: 75, sp: 69 },
         weightkg: 14,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
     },
     'Gourgeist-Small': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 55, at: 85, df: 122, sa: 58, sd: 75, sp: 99 },
+        bs: { hp: 55, at: 58, df: 122, sa: 85, sd: 75, sp: 99 },
         weightkg: 9.5,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
     },
     'Gourgeist-Super': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 85, at: 100, df: 122, sa: 58, sd: 75, sp: 54 },
+        bs: { hp: 85, at: 58, df: 122, sa: 100, sd: 75, sp: 54 },
         weightkg: 39,
         abilities: { 0: 'Pickup' },
         baseSpecies: 'Gourgeist'
@@ -6085,7 +6095,7 @@ var XY_PATCH = {
     },
     Pumpkaboo: {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 49, at: 66, df: 70, sa: 44, sd: 55, sp: 51 },
+        bs: { hp: 49, at: 44, df: 70, sa: 66, sd: 55, sp: 51 },
         weightkg: 5,
         nfe: true,
         abilities: { 0: 'Pickup' },
@@ -6093,7 +6103,7 @@ var XY_PATCH = {
     },
     'Pumpkaboo-Large': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 54, at: 66, df: 70, sa: 44, sd: 55, sp: 46 },
+        bs: { hp: 54, at: 44, df: 70, sa: 66, sd: 55, sp: 46 },
         weightkg: 7.5,
         nfe: true,
         abilities: { 0: 'Pickup' },
@@ -6101,7 +6111,7 @@ var XY_PATCH = {
     },
     'Pumpkaboo-Small': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 44, at: 66, df: 70, sa: 44, sd: 55, sp: 56 },
+        bs: { hp: 44, at: 44, df: 70, sa: 66, sd: 55, sp: 56 },
         weightkg: 3.5,
         nfe: true,
         abilities: { 0: 'Pickup' },
@@ -6109,7 +6119,7 @@ var XY_PATCH = {
     },
     'Pumpkaboo-Super': {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 59, at: 66, df: 70, sa: 44, sd: 55, sp: 41 },
+        bs: { hp: 59, at: 44, df: 70, sa: 66, sd: 55, sp: 41 },
         weightkg: 15,
         nfe: true,
         abilities: { 0: 'Pickup' },
@@ -10207,6 +10217,13 @@ var SV_PATCH = {
         weightkg: 1,
         abilities: { 0: 'Levitate' },
         baseSpecies: 'Chimecho-Wartime'
+    },
+    'Flygon-Mega': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 80, at: 100, df: 100, sa: 130, sd: 100, sp: 110 },
+        weightkg: 82,
+        abilities: { 0: 'Entymate' },
+        baseSpecies: 'Flygon'
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);

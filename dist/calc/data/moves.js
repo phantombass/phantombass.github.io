@@ -624,7 +624,7 @@ var DPP_PATCH = {
     'Sky Uppercut': { isPunch: true, category: 'Physical' },
     'Smelling Salts': { category: 'Physical' },
     'Solar Beam': { category: 'Special' },
-    'Spike Cannon': { category: 'Physical' },
+    'Spike Cannon': { type: 'Steel', category: 'Physical' },
     'Spit Up': { category: 'Special' },
     Stomp: { category: 'Physical' },
     Struggle: { category: 'Physical', struggleRecoil: true },
@@ -4550,7 +4550,7 @@ var SV_PATCH = {
         maxPower: 90,
         makesContact: true,
         isSlicing: true,
-        multihit: 10
+        multihit: [1, 10]
     },
     Pounce: {
         bp: 50,

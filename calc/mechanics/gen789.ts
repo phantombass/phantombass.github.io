@@ -1010,7 +1010,7 @@ export function calculateBPModsSMSSSV(
 
   // Field effects
 
-  const terrainMultiplier = 6144;
+  const terrainMultiplier = 5325;
   if (isGrounded(attacker, field)) {
     if ((field.hasTerrain('Electric') && move.hasType('Electric')) ||
         (field.hasTerrain('Grassy') && move.hasType('Grass')) ||
