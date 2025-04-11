@@ -6950,28 +6950,28 @@ var SM_PATCH = {
     },
     Oricorio: {
         types: ['Fire', 'Flying'],
-        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        bs: { hp: 85, at: 70, df: 70, sa: 118, sd: 70, sp: 103 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         otherFormes: ['Oricorio-Pa\'u', 'Oricorio-Pom-Pom', 'Oricorio-Sensu']
     },
     'Oricorio-Pa\'u': {
         types: ['Psychic', 'Flying'],
-        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        bs: { hp: 85, at: 70, df: 70, sa: 118, sd: 70, sp: 103 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
     },
     'Oricorio-Pom-Pom': {
         types: ['Electric', 'Flying'],
-        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        bs: { hp: 85, at: 70, df: 70, sa: 118, sd: 70, sp: 103 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
     },
     'Oricorio-Sensu': {
         types: ['Ghost', 'Flying'],
-        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        bs: { hp: 85, at: 70, df: 70, sa: 118, sd: 70, sp: 103 },
         weightkg: 3.4,
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio'
