@@ -480,16 +480,6 @@
 
 
 
-"Araquanid"={"Cool Trainer Alvin"::{"level":85,"ability":"Water Bubble","moves":["Liquidation","Leech Life","Toxic","Sticky Web"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Froslass"={"Cool Trainer Alvin"::{"level":85,"ability":"Adaptability","moves":["Spectral Shriek","Chilling Cry","Thunderbolt","Will-O-Wisp"],"nature":"Modest","item":"Throat Spray","index":number},},
-"Ursaluna-Bloodmoon"={"Cool Trainer Alvin"::{"level":86,"ability":"Mind's Eye","moves":["Blood Moon","Earth Power","Moonblast","Calm Mind"],"nature":"Timid","item":"Leftovers","index":number},},
-"Kingambit"={"Cool Trainer Alvin"::{"level":86,"ability":"Defiant","moves":["Twin Blades","Knock Off","Sucker Punch","Swords Dance"],"nature":"Jolly","item":"Chople Berry","index":number},},
-"Rapidash-Galar"={"Cool Trainer Alvin"::{"level":86,"ability":"Composure","moves":["Moonblast","Psychic","Mystical Fire","Secret Sword"],"nature":"Modest","item":"Life Orb","index":number},},
-""={"Cool Trainer Alvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-
-
-
-
 
 
 
@@ -2797,7 +2787,12 @@
 
 
 
-
+"Araquanid"={"Cool Trainer Alvin"::{"level":85,"ability":"Water Bubble","moves":["Liquidation","Leech Life","Toxic","Sticky Web"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Froslass"={"Cool Trainer Alvin"::{"level":85,"ability":"Adaptability","moves":["Spectral Shriek","Chilling Cry","Thunderbolt","Will-O-Wisp"],"nature":"Modest","item":"Throat Spray","index":number},},
+"Ursaluna-Bloodmoon"={"Cool Trainer Alvin"::{"level":86,"ability":"Mind's Eye","moves":["Blood Moon","Earth Power","Moonblast","Calm Mind"],"nature":"Timid","item":"Leftovers","index":number},},
+"Kingambit"={"Cool Trainer Alvin"::{"level":86,"ability":"Defiant","moves":["Twin Blades","Knock Off","Sucker Punch","Swords Dance"],"nature":"Jolly","item":"Chople Berry","index":number},},
+"Rapidash-Galar"={"Cool Trainer Alvin"::{"level":86,"ability":"Composure","moves":["Moonblast","Psychic","Mystical Fire","Secret Sword"],"nature":"Modest","item":"Life Orb","index":number},},
+""={"Cool Trainer Alvin"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
 
