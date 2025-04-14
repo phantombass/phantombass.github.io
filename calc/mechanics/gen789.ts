@@ -22,6 +22,8 @@ import {
   checkForecast,
   checkInfiltrator,
   checkIntimidate,
+  checkMindGames,
+  checkMedusoid,
   checkIntrepidSword,
   checkItem,
   checkMultihitBoost,
@@ -69,6 +71,10 @@ export function calculateSMSSSV(
 
   checkIntimidate(gen, attacker, defender);
   checkIntimidate(gen, defender, attacker);
+  checkMindGames(gen, attacker, defender);
+  checkMindGames(gen, defender, attacker);
+  checkMedusoid(gen, attacker, defender);
+  checkMedusoid(gen, defender, attacker);
   checkDownload(attacker, defender, field.isWonderRoom);
   checkDownload(defender, attacker, field.isWonderRoom);
   checkIntrepidSword(attacker, gen);
