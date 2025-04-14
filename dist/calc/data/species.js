@@ -8906,7 +8906,7 @@ var SS_PATCH = {
     'Coalossal-Mega': {
         types: ['Rock', 'Fire'],
         bs: { hp: 110, at: 110, df: 140, sa: 80, sd: 120, sp: 50 },
-        weightkg: 102,
+        weightkg: 990.4,
         abilities: { 0: 'Steam Engine' },
         baseSpecies: 'Coalossal'
     },
@@ -8934,7 +8934,7 @@ var SS_PATCH = {
     'Lapras-Mega': {
         types: ['Water', 'Ice'],
         bs: { hp: 130, at: 85, df: 90, sa: 145, sd: 105, sp: 80 },
-        weightkg: 102,
+        weightkg: 155.5,
         abilities: { 0: 'Slush Rush' },
         baseSpecies: 'Lapras'
     },
@@ -8948,7 +8948,7 @@ var SS_PATCH = {
     'Snorlax-Mega': {
         types: ['Normal'],
         bs: { hp: 160, at: 160, df: 95, sa: 65, sd: 130, sp: 30 },
-        weightkg: 102,
+        weightkg: 800,
         abilities: { 0: 'Resurgence' },
         baseSpecies: 'Snorlax'
     },
@@ -8962,7 +8962,7 @@ var SS_PATCH = {
     'Drednaw-Mega': {
         types: ['Water', 'Rock'],
         bs: { hp: 90, at: 135, df: 120, sa: 48, sd: 98, sp: 94 },
-        weightkg: 102,
+        weightkg: 155.5,
         abilities: { 0: 'Swift Swim' },
         baseSpecies: 'Drednaw'
     },
@@ -8983,14 +8983,14 @@ var SS_PATCH = {
     'Garbodor-Mega': {
         types: ['Poison', 'Steel'],
         bs: { hp: 80, at: 125, df: 112, sa: 60, sd: 112, sp: 85 },
-        weightkg: 102,
+        weightkg: 600,
         abilities: { 0: 'Trash Shield' },
         baseSpecies: 'Garbodor'
     },
     'Copperajah-Mega': {
         types: ['Steel', 'Ground'],
         bs: { hp: 122, at: 170, df: 89, sa: 80, sd: 89, sp: 50 },
-        weightkg: 102,
+        weightkg: 880,
         abilities: { 0: 'Thick Fat' },
         baseSpecies: 'Copperajah'
     },
