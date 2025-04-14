@@ -262,6 +262,49 @@ function checkIntimidate(gen, source, target) {
     }
 }
 exports.checkIntimidate = checkIntimidate;
+function checkMindGames(gen, source, target) {
+    var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
+        (gen.num >= 8 && target.hasAbility('Unshaken')) ||
+        target.hasItem('Clear Amulet');
+    if (source.hasAbility('Mind Games') && source.abilityOn && !blocked) {
+        if (target.hasAbility('Contrary', 'Competitive')) {
+            target.boosts.atk = Math.min(6, target.boosts.spa + 1);
+        }
+        else if (target.hasAbility('Simple')) {
+            target.boosts.atk = Math.max(-6, target.boosts.spa - 2);
+        }
+        else {
+            target.boosts.atk = Math.max(-6, target.boosts.spa - 1);
+        }
+        if (target.hasAbility('Competitive')) {
+            target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+        }
+    }
+}
+exports.checkMindGames = checkMindGames;
+function checkMedusoid(gen, source, target) {
+    var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
+        (gen.num >= 8 && target.hasAbility('Unshaken')) ||
+        target.hasItem('Clear Amulet');
+    if (source.hasAbility('Medusoid') && source.abilityOn && !blocked) {
+        if (target.hasAbility('Contrary')) {
+            target.boosts.atk = Math.min(6, target.boosts.spe + 1);
+        }
+        else if (target.hasAbility('Simple')) {
+            target.boosts.atk = Math.max(-6, target.boosts.spe - 2);
+        }
+        else {
+            target.boosts.atk = Math.max(-6, target.boosts.spe - 1);
+        }
+        if (target.hasAbility('Competitive')) {
+            target.boosts.spa = Math.min(6, target.boosts.spa + 2);
+        }
+        if (target.hasAbility('Defiant')) {
+            target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+        }
+    }
+}
+exports.checkMedusoid = checkMedusoid;
 function checkDownload(source, target, wonderRoomActive) {
     var _a;
     if (source.hasAbility('Download')) {
@@ -269,11 +312,21 @@ function checkDownload(source, target, wonderRoomActive) {
         var spd = target.stats.spd;
         if (wonderRoomActive)
             _a = __read([spd, def], 2), def = _a[0], spd = _a[1];
-        if (spd <= def) {
-            source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+        if (source.hasItem('Up-Grade')) {
+            if (spd <= def) {
+                source.boosts.spa = Math.min(6, source.boosts.spa + 2);
+            }
+            else {
+                source.boosts.atk = Math.min(6, source.boosts.atk + 2);
+            }
         }
         else {
-            source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+            if (spd <= def) {
+                source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+            }
+            else {
+                source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+            }
         }
     }
 }

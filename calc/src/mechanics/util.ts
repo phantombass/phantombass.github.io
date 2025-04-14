@@ -231,16 +231,67 @@ export function checkIntimidate(gen: Generation, source: Pokemon, target: Pokemo
   }
 }
 
+export function checkMindGames(gen: Generation, source: Pokemon, target: Pokemon) {
+  const blocked =
+    target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
+    // More abilities now block Intimidate in Gen 8+ (DaWoblefet, Cloudy Mistral)
+    (gen.num >= 8 && target.hasAbility('Unshaken')) ||
+    target.hasItem('Clear Amulet');
+  if (source.hasAbility('Mind Games') && source.abilityOn && !blocked) {
+    if (target.hasAbility('Contrary', 'Competitive')) {
+      target.boosts.atk = Math.min(6, target.boosts.spa + 1);
+    } else if (target.hasAbility('Simple')) {
+      target.boosts.atk = Math.max(-6, target.boosts.spa - 2);
+    } else {
+      target.boosts.atk = Math.max(-6, target.boosts.spa - 1);
+    }
+    if (target.hasAbility('Competitive')) {
+      target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+    }
+  }
+}
+
+export function checkMedusoid(gen: Generation, source: Pokemon, target: Pokemon) {
+  const blocked =
+    target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
+    // More abilities now block Intimidate in Gen 8+ (DaWoblefet, Cloudy Mistral)
+    (gen.num >= 8 && target.hasAbility('Unshaken')) ||
+    target.hasItem('Clear Amulet');
+  if (source.hasAbility('Medusoid') && source.abilityOn && !blocked) {
+    if (target.hasAbility('Contrary')) {
+      target.boosts.atk = Math.min(6, target.boosts.spe + 1);
+    } else if (target.hasAbility('Simple')) {
+      target.boosts.atk = Math.max(-6, target.boosts.spe - 2);
+    } else {
+      target.boosts.atk = Math.max(-6, target.boosts.spe - 1);
+    }
+    if (target.hasAbility('Competitive')) {
+      target.boosts.spa = Math.min(6, target.boosts.spa + 2);
+    }
+    if (target.hasAbility('Defiant')) {
+      target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+    }
+  }
+}
+
 export function checkDownload(source: Pokemon, target: Pokemon, wonderRoomActive?: boolean) {
   if (source.hasAbility('Download')) {
     let def = target.stats.def;
     let spd = target.stats.spd;
     // We swap the defense stats again here since Download ignores Wonder Room
     if (wonderRoomActive) [def, spd] = [spd, def];
-    if (spd <= def) {
-      source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+    if (source.hasItem('Up-Grade')) {
+      if (spd <= def) {
+        source.boosts.spa = Math.min(6, source.boosts.spa + 2);
+      } else {
+        source.boosts.atk = Math.min(6, source.boosts.atk + 2);
+      }
     } else {
-      source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+      if (spd <= def) {
+        source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+      } else {
+        source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+      }
     }
   }
 }
