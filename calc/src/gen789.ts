@@ -22,6 +22,8 @@ import {
   checkForecast,
   checkInfiltrator,
   checkIntimidate,
+  checkMindGames,
+  checkMedusoid,
   checkIntrepidSword,
   checkItem,
   checkMultihitBoost,
