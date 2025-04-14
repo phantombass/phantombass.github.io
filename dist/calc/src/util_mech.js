@@ -243,7 +243,7 @@ function checkWonderRoom(pokemon, wonderRoomActive) {
 exports.checkWonderRoom = checkWonderRoom;
 function checkIntimidate(gen, source, target) {
     var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
-        (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
+        (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy', 'Unshaken')) ||
         target.hasItem('Clear Amulet');
     if (source.hasAbility('Intimidate') && source.abilityOn && !blocked) {
         if (target.hasAbility('Contrary', 'Defiant', 'Guard Dog')) {
@@ -267,16 +267,16 @@ function checkMindGames(gen, source, target) {
         target.hasItem('Clear Amulet');
     if (source.hasAbility('Mind Games') && source.abilityOn && !blocked) {
         if (target.hasAbility('Contrary', 'Competitive')) {
-            target.boosts.atk = Math.min(6, target.boosts.spa + 1);
+            target.boosts.spa = Math.min(6, target.boosts.spa + 1);
         }
         else if (target.hasAbility('Simple')) {
-            target.boosts.atk = Math.max(-6, target.boosts.spa - 2);
+            target.boosts.spa = Math.max(-6, target.boosts.spa - 2);
         }
         else {
-            target.boosts.atk = Math.max(-6, target.boosts.spa - 1);
+            target.boosts.spa = Math.max(-6, target.boosts.spa - 1);
         }
-        if (target.hasAbility('Competitive')) {
-            target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+        if (target.hasAbility('Defiant')) {
+            target.boosts.atk = Math.min(6, target.boosts.atk + 2);
         }
     }
 }
@@ -287,19 +287,19 @@ function checkMedusoid(gen, source, target) {
         target.hasItem('Clear Amulet');
     if (source.hasAbility('Medusoid') && source.abilityOn && !blocked) {
         if (target.hasAbility('Contrary')) {
-            target.boosts.atk = Math.min(6, target.boosts.spe + 1);
+            target.boosts.spe = Math.min(6, target.boosts.spe + 1);
         }
         else if (target.hasAbility('Simple')) {
-            target.boosts.atk = Math.max(-6, target.boosts.spe - 2);
+            target.boosts.spe = Math.max(-6, target.boosts.spe - 2);
         }
         else {
-            target.boosts.atk = Math.max(-6, target.boosts.spe - 1);
+            target.boosts.spe = Math.max(-6, target.boosts.spe - 1);
         }
         if (target.hasAbility('Competitive')) {
             target.boosts.spa = Math.min(6, target.boosts.spa + 2);
         }
         if (target.hasAbility('Defiant')) {
-            target.boosts.spa = Math.min(6, target.boosts.atk + 2);
+            target.boosts.atk = Math.min(6, target.boosts.atk + 2);
         }
     }
 }
