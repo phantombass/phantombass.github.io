@@ -21,6 +21,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
     (0, util_2.checkIntimidate)(gen, attacker, defender);
     (0, util_2.checkIntimidate)(gen, defender, attacker);
+    (0, util_2.checkMindGames)(gen, attacker, defender);
+    (0, util_2.checkMindGames)(gen, defender, attacker);
+    (0, util_2.checkMedusoid)(gen, attacker, defender);
+    (0, util_2.checkMedusoid)(gen, defender, attacker);
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
     (0, util_2.checkIntrepidSword)(attacker, gen);
