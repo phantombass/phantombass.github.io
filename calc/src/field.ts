@@ -12,6 +12,7 @@ export class Field implements State.Field {
   isFairyAura?: boolean;
   isDarkAura?: boolean;
   isGaiaForce?: boolean;
+  isFeverPitch?: boolean;
   isBeadsOfRuin?: boolean;
   isSwordOfRuin?: boolean;
   isTabletsOfRuin?: boolean;
@@ -30,6 +31,7 @@ export class Field implements State.Field {
     this.isFairyAura = field.isFairyAura || false;
     this.isDarkAura = field.isDarkAura || false;
     this.isGaiaForce = field.isGaiaForce || false;
+    this.isFeverPitch = field.isFeverPitch || false;
     this.isBeadsOfRuin = field.isBeadsOfRuin || false;
     this.isSwordOfRuin = field.isSwordOfRuin || false;
     this.isTabletsOfRuin = field.isTabletsOfRuin || false;
@@ -66,6 +68,7 @@ export class Field implements State.Field {
       isDarkAura: this.isDarkAura,
       isFairyAura: this.isFairyAura,
       isGaiaForce: this.isGaiaForce,
+      isFeverPitch: this.isFeverPitch,
       isBeadsOfRuin: this.isBeadsOfRuin,
       isSwordOfRuin: this.isSwordOfRuin,
       isTabletsOfRuin: this.isTabletsOfRuin,

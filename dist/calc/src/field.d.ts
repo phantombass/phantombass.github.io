@@ -11,6 +11,7 @@ export declare class Field implements State.Field {
     isFairyAura?: boolean;
     isDarkAura?: boolean;
     isGaiaForce?: boolean;
+    isFeverPitch?: boolean;
     isBeadsOfRuin?: boolean;
     isSwordOfRuin?: boolean;
     isTabletsOfRuin?: boolean;

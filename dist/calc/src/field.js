@@ -30,6 +30,7 @@ var Field = (function () {
         this.isFairyAura = field.isFairyAura || false;
         this.isDarkAura = field.isDarkAura || false;
         this.isGaiaForce = field.isGaiaForce || false;
+        this.isFeverPitch = field.isFeverPitch || false;
         this.isBeadsOfRuin = field.isBeadsOfRuin || false;
         this.isSwordOfRuin = field.isSwordOfRuin || false;
         this.isTabletsOfRuin = field.isTabletsOfRuin || false;
@@ -70,6 +71,7 @@ var Field = (function () {
             isDarkAura: this.isDarkAura,
             isFairyAura: this.isFairyAura,
             isGaiaForce: this.isGaiaForce,
+            isFeverPitch: this.isFeverPitch,
             isBeadsOfRuin: this.isBeadsOfRuin,
             isSwordOfRuin: this.isSwordOfRuin,
             isTabletsOfRuin: this.isTabletsOfRuin,

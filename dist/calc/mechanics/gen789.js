@@ -777,7 +777,6 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Steely Spirit') && move.hasType('Steel')) ||
         (attacker.hasAbility('Sharpness') && move.flags.slicing) ||
         (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
-        (attacker.hasAbility('Fever Pitch') && move.hasType('Poison')) ||
         (attacker.hasAbility('Subwoofer') && move.flags.sound && basePower <= 70)) {
         bpMods.push(6144);
         desc.attackerAbility = attacker.ability;
@@ -790,7 +789,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     var isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
     var isFieldDarkAura = field.isDarkAura && move.type === 'Dark';
     var isFieldGaiaForce = field.isGaiaForce && move.type === 'Ground';
-    var auraActive = isAttackerAura || isDefenderAura || isFieldFairyAura || isFieldDarkAura || isFieldGaiaForce;
+    var isFieldFeverPitch = field.isFeverPitch && move.type === 'Poison';
+    var auraActive = isAttackerAura || isDefenderAura || isFieldFairyAura || isFieldDarkAura || isFieldGaiaForce || isFieldFeverPitch;
     var auraBreak = isFieldAuraBreak || isUserAuraBreak;
     if (auraActive) {
         if (auraBreak) {
