@@ -158,7 +158,7 @@
 
 
 "Chinchou"={"Rival Helum Tunnel Torchic Chosen"::{"level":14,"ability":"Volt Absorb","moves":["Bubble Beam","Shock Wave","Icy Wind","Thunder Wave"],"nature":"Timid","item":"Berry Juice","index":number},},
-"Trumbeak"={"Rival Helum Tunnel Torchic Chosen"::{"level":16,"ability":"Skill Link","moves":["Fury Attack","Bullet Seed","Rock Smash","Quick Attack"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Trumbeak"={"Rival Helum Tunnel Torchic Chosen"::{"level":16,"ability":"Keen Eye","moves":["Aerial Ace","Bullet Seed","Rock Smash","Quick Attack"],"nature":"Jolly","item":"Lum Berry","index":number},},
 "Tinkatink-Wartime"={"Rival Helum Tunnel Torchic Chosen"::{"level":15,"ability":"Clear Body","moves":["Icicle Spear","Shadow Sneak","Covet","Rock Tomb"],"nature":"Jolly","item":"Lum Berry","index":number},},
 "Marshtomp-Wartime"={"Rival Helum Tunnel Torchic Chosen"::{"level":16,"ability":"Rock Head","moves":["Bite","Headbutt","Rock Throw","Yawn"],"nature":"Adamant","item":"Berry Juice","index":number},},
 ""={"Rival Helum Tunnel Torchic Chosen"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
@@ -628,9 +628,9 @@
 
 "Overqwil"={"Gym Leader Hazel"::{"level":28,"ability":"Intimidate","moves":["Crunch","Barb Barrage","Flip Turn","Toxic Spikes"],"nature":"Jolly","item":"Focus Sash","index":number},},
 "Drifblim"={"Gym Leader Hazel"::{"level":28,"ability":"Unburden","moves":["Acrobatics","Hex","Silver Wind","Charge Beam"],"nature":"Mild","item":"Flying Gem","index":number},},
-"Zebstrika-Wartime"={"Gym Leader Hazel"::{"level":28,"ability":"Levitate","moves":["Stomping Tantrum","Zing Zap","Temper Flare","Low Kick"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Zebstrika-Wartime"={"Gym Leader Hazel"::{"level":28,"ability":"Levitate","moves":["Stomping Tantrum","Spark","Flame Wheel","Low Kick"],"nature":"Jolly","item":"Lum Berry","index":number},},
 "Centiskorch"={"Gym Leader Hazel"::{"level":28,"ability":"Flash Fire","moves":["Flame Charge","Leech Life","Fire Lash","Crunch"],"nature":"Jolly","item":"Charti Berry","index":number},},
-"Rapidash-Galar"={"Gym Leader Hazel"::{"level":28,"ability":"Composure","moves":["Extrasensory","Dazzling Gleam","Mystical Fire","Hypnosis"],"nature":"Timid","item":"Babiri Berry","index":number},},
+"Rapidash-Galar"={"Gym Leader Hazel"::{"level":28,"ability":"Composure","moves":["Psybeam","Draining Kiss","Mystical Fire","Hypnosis"],"nature":"Timid","item":"Babiri Berry","index":number},},
 "Cobalion"={"Gym Leader Hazel"::{"level":28,"ability":"Justified","moves":["Cut","Brick Break","Psycho Cut","Stealth Rock"],"nature":"Jolly","item":"Shuca Berry","index":number},},
 
 "Gastrodon"={"Hiker Payne"::{"level":27,"ability":"Storm Drain","moves":["Scald","Earth Power","Recover","Stealth Rock"],"nature":"Modest","item":"Rindo Berry","index":number},},
