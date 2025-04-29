@@ -1165,7 +1165,7 @@ export function calculateBPModsSMSSSV(
   // Items
 
   if (attacker.hasItem(`${move.type} Gem`)) {
-    bpMods.push(6144);
+    bpMods.push(5325);
     desc.attackerItem = attacker.item;
   } else if (
     ((attacker.hasItem('Adamant Crystal') && attacker.named('Dialga-Origin')) ||

@@ -878,7 +878,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.alliesFainted = attacker.alliesFainted;
     }
     if (attacker.hasItem("".concat(move.type, " Gem"))) {
-        bpMods.push(6144);
+        bpMods.push(5325);
         desc.attackerItem = attacker.item;
     }
     else if (((attacker.hasItem('Adamant Crystal') && attacker.named('Dialga-Origin')) ||
