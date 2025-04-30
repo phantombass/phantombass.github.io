@@ -189,7 +189,7 @@ export function calculateSMSSSV(
       type = 'Dark';
     }
   } else if (move.named('Raging Bull')) {
-    if (attacker.named('Tauros-Paldea')) {
+    if (attacker.named('Tauros-Paldea-Combat')) {
       type = 'Fighting';
     } else if (attacker.named('Tauros-Paldea-Fire')) {
       type = 'Fire';

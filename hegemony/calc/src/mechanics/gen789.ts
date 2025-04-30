@@ -194,6 +194,8 @@ export function calculateSMSSSV(
       type = 'Fire';
     } else if (attacker.named('Tauros-Paldea-Water')) {
       type = 'Water';
+    } else if (attacker.named('Tauros-Wartime')) {
+      type = 'Ghost';
     }
   }
 

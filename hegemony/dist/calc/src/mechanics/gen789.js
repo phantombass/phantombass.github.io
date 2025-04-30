@@ -129,6 +129,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         else if (attacker.named('Tauros-Paldea-Water')) {
             type = 'Water';
         }
+        else if (attacker.named('Tauros-Wartime')) {
+            type = 'Ghost';
+        }
     }
     var hasAteAbilityTypeChange = false;
     var isAerilate = false;
