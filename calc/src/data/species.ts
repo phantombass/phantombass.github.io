@@ -4326,7 +4326,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Klang: {
     types: ['Steel'],
-    bs: {hp: 60, at: 80, df: 95, sa: 45, sd: 85, sp: 85},
+    bs: {hp: 60, at: 80, df: 95, sa: 45, sd: 85, sp: 70},
     weightkg: 51,
     nfe: true,
     gender: 'N',
@@ -4342,7 +4342,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Klinklang: {
     types: ['Steel'],
-    bs: {hp: 60, at: 100, df: 115, sa: 55, sd: 85, sp: 110},
+    bs: {hp: 60, at: 100, df: 115, sa: 55, sd: 85, sp: 100},
     weightkg: 81,
     gender: 'N',
     abilities: {0: 'Plus'},
