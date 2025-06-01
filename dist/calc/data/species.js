@@ -2224,7 +2224,7 @@ var ADV_PATCH = {
     },
     Luvdisc: {
         types: ['Water'],
-        bs: { hp: 43, at: 30, df: 75, sa: 100, sd: 75, sp: 107 },
+        bs: { hp: 63, at: 30, df: 75, sa: 100, sd: 85, sp: 107 },
         weightkg: 8.7,
         abilities: { 0: 'Swift Swim' }
     },
