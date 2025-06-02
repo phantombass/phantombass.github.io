@@ -1,4 +1,4 @@
-import * as I from '../data/interface';
+import * as I from './interface';
 import {toID, DeepPartial, assignWithout, extend} from '../util';
 
 export interface MoveData {
@@ -63,7 +63,7 @@ const RBY: {[name: string]: MoveData} = {
   Bubble: {bp: 20, type: 'Water'},
   'Bubble Beam': {bp: 65, type: 'Water'},
   Clamp: {bp: 35, type: 'Water'},
-  'Comet Punch': {bp: 18, type: 'Normal', multihit: [2, 5]},
+  'Comet Punch': {bp: 25, type: 'Normal', multihit: [2, 5]},
   Constrict: {bp: 10, type: 'Normal'},
   Conversion: {bp: 0, category: 'Status', type: 'Normal'},
   Counter: {bp: 1, type: 'Fighting'},
@@ -1762,7 +1762,7 @@ const XY_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Octazooka: {isBullet: true},
   Overheat: {bp: 130},
   'Pin Missile': {bp: 25},
-  'Power Gem': {bp: 80},
+  'Power Gem': {bp: 80, isBeam: true},
   'Rage Powder': {priority: 2},
   'Rock Tomb': {bp: 60},
   'Rock Wrecker': {isBullet: true},
@@ -4157,7 +4157,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Crabhammer: {isHammer: true},
   'Cross Poison': {isSlicing: true},
   'Crush Claw': {isSlicing: true},
-  Cut: {isSlicing: true},
+  Cut: {bp: 70, type: 'Steel',isSlicing: true},
   'Double Kick': {isKicking: true},
   'Dragon Claw': {isSlicing: true},
   'Dragon Hammer': {isHammer: true},
@@ -4170,7 +4170,6 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Fury Cutter': {isSlicing: true},
   'Fury Swipes': {isSlicing: true},
   'Glacial Lance': {bp: 120, zp: 190},
-  'Grassy Glide': {bp: 60, zp: 120, maxPower: 110},
   Gust: {isWind: true},
   'Hammer Arm': {isHammer: true},
   'Head Charge': {isHead: true},
@@ -4208,6 +4207,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Secret Sword': {isSlicing: true},
   'Shadow Claw': {isSlicing: true},
   'Signal Beam': {isBeam: true},
+  'Silver Wind': {isWind: true},
   'Skull Bash': {isHead: true},
   Slash: {isSlicing: true},
   'Solar Beam': {isBeam: true},
@@ -4251,6 +4251,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 190,
     maxPower: 140,
     isBeam: true,
+    isPulse: true,
   },
   'Axe Kick': {
     bp: 120,
@@ -4808,7 +4809,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     zp: 190,
     maxPower: 140,
-    makesContact: true,
+    target: 'allAdjacentFoes',
     recoil: [33, 100],
   },
   'Swift Swipe': {
@@ -4842,6 +4843,51 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isHeal: true,
+    isSlicing: true,
+  },
+  'Glacial Leech': {
+    bp: 75,
+    type: 'Ice',
+    category: 'Physical',
+    zp: 120,
+    maxPower: 110,
+    isHeal: true,
+  },
+  'Pack In': {
+    type: 'Ice',
+    category: 'Status',
+    isHeal: true,
+  },
+  'Boulder Blade': {
+    bp: 90,
+    type: 'Rock',
+    makesContact: true,
+    category: 'Physical',
+    ignoreDefensive: true,
+    isSlicing: true,
+    zp: 160,
+  },
+  'Magma Trek': {
+    bp: 70,
+    type: 'Fire',
+    makesContact: true,
+    category: 'Physical',
+    zp: 160,
+  },
+  'Temper Flare': {
+    bp: 75,
+    type: 'Fire',
+    makesContact: true,
+    category: 'Physical',
+    zp: 160,
+  },
+  'Thunderclap': {
+    bp: 70,
+    type: 'Electric',
+    category: 'Special',
+    zp: 120,
+    maxPower: 110,
+    priority: 1,
   },
   'Brain Freeze': {
     bp: 70,
@@ -4890,6 +4936,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     secondaries: true,
+    target: 'allAdjacentFoes',
     isWind: true,
   },
   'Polarity Pulse': {
@@ -4901,6 +4948,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isPulse: true,
     isBeam: true,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Spectral Shriek': {
     bp: 95,
@@ -4909,6 +4957,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Wicked Wind': {
     bp: 95,
@@ -4918,6 +4967,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 110,
     isWind: true,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Death Toll': {
     bp: 95,
@@ -4926,6 +4976,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Chilling Cry': {
     bp: 95,
@@ -4934,6 +4985,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 120,
     maxPower: 110,
     isSound: true,
+    target: 'allAdjacentFoes',
   },
   'Pixie Punch': {
     bp: 50,
@@ -4986,7 +5038,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Physical',
   },
   'Hydro Fangs': {
-    bp: 65,
+    bp: 60,
     type: 'Water',
     makesContact: true,
     isBite: true,
@@ -5087,6 +5139,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     bp: 50,
     type: 'Steel',
     category: 'Physical',
+    makesContact: true,
+    isSlicing: true,
     zp: 100,
     maxPower: 90,
     multihit: 2,
@@ -5157,7 +5211,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
   },
   'Shadow Hammer': {
-    bp: 90,
+    bp: 70,
     type: 'Ghost',
     makesContact: true,
     isHammer: true,
@@ -5169,6 +5223,13 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
     isHammer: true,
     category: 'Physical',
+  },
+  'Fairy\'s Haunt': {
+    bp: 75,
+    type: 'Fairy',
+    drain: [3, 4],
+    isHeal: true,
+    category: 'Special',
   },
   'Raging Swarm': {
     bp: 130,
@@ -5264,6 +5325,37 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 190,
     maxPower: 95,
     hasCrashDamage: true,
+  },
+  'Psychic Noise': {
+    bp: 75,
+    type: 'Psychic',
+    category: 'Special',
+    isSound: true,
+  },
+  'Alluring Voice': {
+    bp: 80,
+    type: 'Fairy',
+    category: 'Special',
+    isSound: true,
+  },
+  'Upper Hand': {
+    bp: 65,
+    type: 'Fighting',
+    category: 'Physical',
+    priority: 3,
+  },
+  'Spirit Recall': {bp: 0, category: 'Status', type: 'Ghost'},
+  'Static Surge': {bp: 0, category: 'Status', type: 'Electric'},
+  'Deep Freeze': {bp: 0, category: 'Status', type: 'Ice'},
+  'Weather Shot': {bp: 30, type: 'Normal'},
+  'Tempest Rage': {bp: 65, type: 'Normal'},
+  Hammerang: {
+    bp: 50,
+    type: 'Ice',
+    multihit: 2,
+    category: 'Physical',
+    zp: 100,
+    maxPower: 130,
   },
 };
 

@@ -41,7 +41,7 @@
 <div class="wrapper">
 
     <div aria-label="Settings" role="region">
-        <span class="title-text">Pok&eacute;mon Ancient Platinum Damage Calculator v0.2.0</span>
+        <span class="title-text">Pok&eacute;mon Ancient Platinum Damage Calculator v0.2.2</span>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" checked="checked" />
@@ -621,7 +621,7 @@
                         <option value="5">5 times</option>
                     </select>
                 </div>
-                <div class="move2 i-f-move"">
+                <div class="move2 i-f-move">
                     <select class="move-selector save-trigger calc-trigger small-select"></select>
                     <input class="move-bp calc-trigger" value="0" />
                     <select class="move-type calc-trigger"></select>
@@ -655,7 +655,7 @@
                         <option value="5">5 times</option>
                     </select>
                 </div>
-                <div class="move3 i-f-move"">
+                <div class="move3 i-f-move">
                     <select class="move-selector save-trigger calc-trigger small-select"></select>
                     <input class="move-bp calc-trigger" value="0" />
                     <select class="move-type calc-trigger"></select>
@@ -689,7 +689,7 @@
                         <option value="5">5 times</option>
                     </select>
                 </div>
-                <div class="move4 i-f-move"">
+                <div class="move4 i-f-move">
                     <select class="move-selector save-trigger calc-trigger small-select"></select>
                     <input class="move-bp calc-trigger" value="0" />
                     <select class="move-type calc-trigger"></select>
@@ -820,7 +820,7 @@
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Electric" id="electric" /><label class="btn btn-xxxwide btn-left" for="electric">Electric Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-xxxwide btn-mid" for="grassy">Grassy Terrain</label>
                     <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide btn-right" for="misty">Misty Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-left" for="psychic">Psychic Terrain</label>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide btn-mid" for="psychic">Psychic Terrain</label>
                 </div>
                      <div aria-labelledby="selectRuinInstruction" class="gen-specific g8" role="group" style="margin: 5px auto auto;" title="Select the ruin abilities from other Pok&eacute;mon on the field.">
                     <span class="visually-hidden" id="selectRuinInstruction">Select the active Ruin abilities from other Poke&eacute;mon on the field.</span>
@@ -913,18 +913,7 @@
                                 <label class="btn btn-xwide" for="srR">Stealth Rock</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g4 g5 g6 g7 g8 g9">
-                            <div hidden id="selectCometShardInstruction">Are Comet Shards affecting this side of the field?</div>
-                            <td><div class="left" title="Are Comet Shards affecting this side of the field?">
-                                <input aria-describedby="selectCometShardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="csL" />
-                                <label class="btn btn-xwide" for="csL">Comet Shards</label>
-                            </div></td>
-                            <td><div class="right" title="Are Comet Shards affecting this side of the field?">
-                                <input aria-describedby="selectCometShardInstruction" class="visually-hidden calc-trigger" type="checkbox" id="csR" />
-                                <label class="btn btn-xwide" for="csR">Comet Shards</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g7 hide">
                             <div hidden id="selectSteelsurgeInstruction">Is Steelsurge affecting this side of the field?</div>
                             <td><div class="left" title="Is Steelsurge affecting this side of the field?">
                                 <input aria-describedby="selectSteelsurgeInstruction" class="visually-hidden calc-trigger" type="checkbox" id="steelsurgeL" />
@@ -935,7 +924,7 @@
                                 <label class="btn btn-xwide" for="steelsurgeR">Steelsurge</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g7 hide">
                             <div hidden id="selectVinefireInstruction">Is Vine Lash and/or Wildfire affecting this side of the field?</div>
                             <td><div class="left" title="Is Vine Lash/Wildfire affecting this side of the field?">
                                 <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="vinelashL" />
@@ -950,7 +939,7 @@
                                 <label class="btn btn-wide btn-right" for="vinelashR">Vine Lash</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g9 hide">
+                        <tr class="gen-specific g7 hide">
                             <div hidden id="selectCannonlithInstruction">Is Cannonade and/or Volcalith affecting this side of the field?</div>
                             <td><div class="left" title="Is Cannonade/Volcalith affecting this side of the field?">
                                 <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="cannonadeL" />
@@ -1101,7 +1090,7 @@
                                 <label class="btn btn-xxwide" for="auroraVeilR">Aurora Veil</label>
                             </div></td>
                         </tr>
-                        <tr class="gen-specific g7">
+                        <tr class="gen-specific g7 g8 g9">
                           <td><div class="left" title="Has the Pok&eacute;mon boosted all its stats one stage?">
                               <div hidden id="selectStatBoostInstruction">Has the Pok&eacute;mon boosted all its stats one stage?</div>
                                 <input aria-describedby="selectStatBoostInstruction" class="visually-hidden calc-trigger" type="checkbox" id="StatBoostL" />
@@ -1907,7 +1896,6 @@
 <div class="credits">Modification by ForwardFeed Originaly Created by Honko, maintained by Austin and Kris, Special thanks to Hzla. Other modifications by Phantombass solely for Ancient Platinum.
     <ul>
         <li><a href="https://github.com/ForwardFeed/runbuncalc" class="links-lighten" target="_blank">Modification Repository</a></li>
-        <br>
         <li><a href="https://github.com/smogon/damage-calc/contributors" class="links-lighten" target="_blank">Smogon Contributors</a></li>
         <li><a href="https://www.smogon.com/forums/threads/pok%C3%A9mon-showdown-damage-calculator.3593546/" class="links-lighten" target="_blank">Smogon Bug Reports</a></li>
         <li><a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">Smogon GitHub repository</a></li>
