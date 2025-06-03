@@ -8040,7 +8040,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Eternatus',
   },
   Falinks: {
-    types: ['Fighting'],
+    types: ['Fighting','Normal'],
     bs: {hp: 65, at: 100, df: 100, sa: 70, sd: 60, sp: 75},
     weightkg: 62,
     abilities: {0: 'Battle Armor'},
