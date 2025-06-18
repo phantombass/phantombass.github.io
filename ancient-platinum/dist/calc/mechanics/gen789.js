@@ -1045,7 +1045,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     else if ((attacker.hasAbility('Water Bubble') && move.hasType('Water')) ||
         (attacker.hasAbility('Fairy Bubble') && move.hasType('Fairy')) ||
         (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical') ||
-        (attacker.hasAbility('Composure') && move.category === 'Special')) {
+        (attacker.hasAbility('Composure', 'Pure Power') && move.category === 'Special')) {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
     }
