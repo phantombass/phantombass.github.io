@@ -1504,7 +1504,9 @@ function getSrcImgPokemon(poke) {
 		return
 	}
 	if (poke.name == "Aegislash-Shield") {
-		return `https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png`
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Aegislash.png`
+	} else { if (poke.name == "Type: Null")
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Type Null.png`
 	} else {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
 	}
