@@ -1481,10 +1481,15 @@ function getSrcImgPokemon(poke) {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Aegislash.png`
 	} else { if (poke.name == "Type: Null")
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Type Null.png`
+	} else { if (poke.name == "Farfetch\2016d")
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
+	} else { if (poke.name == "Farfetch\2016d-Galar")
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd-Galar.png`
+	} else { if (poke.name == "Sirfetch\2016d")
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Sirfetchd.png`
 	} else {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
 	}
-}
 
 function get_trainer_poks(trainer_name) {
 	var true_name = trainer_name.split("(")[1].split("\n")[0].trim()
