@@ -493,7 +493,7 @@ $(".set-selector").change(function () {
 				}//this ruined my day
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
-				newPoke.src = `https://raw.githubusercontent.com/phantombass/phantombass.github.io/icons/${pok_name}.png`;
+				newPoke.src = `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${pok_name}.png`;
 				newPoke.title = `${next_poks[i]}, ${next_poks[i]} BP`;
 				nextTrainer=`${next_poks[i]}`
 				newPoke.dataset.id = `${CURRENT_TRAINER_POKS[i].split("]")[1]}`;
@@ -1480,7 +1480,7 @@ function getSrcImgPokemon(poke) {
 	if (poke.name == "Aegislash-Shield") {
 		return `https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png`
 	} else {
-		return `https://raw.githubusercontent.com/phantombass/phantombass.github.io/icons/${pok_name}.png`
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${pok_name}.png`
 	}
 }
 
