@@ -491,6 +491,15 @@ $(".set-selector").change(function () {
 				if (pok_name == "Zygarde-10%") {
 					pok_name = "Zygarde-10%25"
 				}//this ruined my day
+				if (pok_name == "Farfetch\u2019d") {
+					pok_name = "Farfetchd"
+				}
+				if (pok_name == "Farfetch\u2019d-Galar") {
+					pok_name = "Farfetchd-Galar"
+				}
+				if (pok_name == "Sirfetch\u2019d") {
+					pok_name = "Sirfetchd"
+				}
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
 				newPoke.src = `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${pok_name}.png`;
@@ -1481,11 +1490,11 @@ function getSrcImgPokemon(poke) {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Aegislash.png`
 	} else if (poke.name == "Type: Null") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Type Null.png`
-	} else if (poke.name == "Farfetch\2016d") {
+	} else if (poke.name == "Farfetch\u2019d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
-	} else if (poke.name == "Farfetch\2016d-Galar") {
+	} else if (poke.name == "Farfetch\u2019d-Galar") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd-Galar.png`
-	} else if (poke.name == "Sirfetch\2016d") {
+	} else if (poke.name == "Sirfetch\u2019d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Sirfetchd.png`
 	} else {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
