@@ -1479,13 +1479,13 @@ function getSrcImgPokemon(poke) {
 	}
 	if (poke.name == "Aegislash-Shield") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Aegislash.png`
-	} else { if (poke.name == "Type: Null")
+	} else if (poke.name == "Type: Null") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Type Null.png`
-	} else { if (poke.name == "Farfetch'd")
+	} else if (poke.name == "Farfetch\2016d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
-	} else { if (poke.name == "Farfetch'd-Galar")
+	} else if (poke.name == "Farfetch\2016d-Galar") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd-Galar.png`
-	} else { if (poke.name == "Sirfetch'd")
+	} else if (poke.name == "Sirfetch\2016d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Sirfetchd.png`
 	} else {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
