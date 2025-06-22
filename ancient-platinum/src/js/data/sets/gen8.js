@@ -190,7 +190,7 @@ var SETDEX_SS = {
 "Shiftry":{"Gym Leader Gardenia": {"level":35,"ability":"Wind Rider","moves":["Fake Out","Night Slash","Giga Drain","Sunny Day"],"nature":"Naive","item":"Heat Rock","index":211},"Ace Trainer Alex & Ace Trainer Hailey": {"level":41,"ability":"Wind Rider","moves":["Fake Out","Night Slash","Leaf Blade","Sucker Punch"],"nature":"Jolly","item":"Focus Sash","index":292},},
 "Torterra":{"Gym Leader Gardenia": {"level":34,"ability":"Shell Armor","moves":["Seed Bomb","Stomping Tantrum","Rock Slide","Stealth Rock"],"nature":"Adamant","item":"Eject Button","index":212},},
 "Bellossom":{"Gym Leader Gardenia": {"level":35,"ability":"Chlorophyll","moves":["Dazzling Gleam","Giga Drain","Hidden Power Ground","Sleep Powder"],"nature":"Modest","item":"Kebia Berry","index":213},},
-"Sunflora":{"Gym Leader Gardenia": {"level":35,"ability":"Chlorophyll","moves":["Giga Drain","Flamethrower","Scorching Sands","Hidden Power Rock"],"nature":"Modest","item":"Fire Gem","index":214},},
+"Sunflora":{"Gym Leader Gardenia": {"level":35,"ability":"Chlorophyll","moves":["Giga Drain","Flame Burst","Scorching Sands","Hidden Power Rock"],"nature":"Modest","item":"Fire Gem","index":214},},
 "Celebi":{"Gym Leader Gardenia": {"level":34,"ability":"Hopeful Toll","moves":["Psyshock","Giga Drain","U-turn","Aura Sphere"],"nature":"Timid","item":"Tanga Berry","index":215},},
 "Roserade":{"Gym Leader Gardenia": {"level":35,"ability":"Technician","moves":["Magical Leaf","Sludge","Hidden Power Rock","Shadow Ball"],"nature":"Timid","item":"Sitrus Berry","index":216},},
 "Luxray":{"Team Galactic M Grunt Eterna Double": {"level":35,"ability":"Intimidate","moves":["Thunder Fang","Crunch","Ice Fang","Quick Attack"],"nature":"Adamant","item":"Lum Berry","index":217},},
