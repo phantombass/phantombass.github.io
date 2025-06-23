@@ -2579,8 +2579,8 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Overgrow'},
   },
   Tropius: {
-    types: ['Grass', 'Dragon'],
-    bs: {hp: 99, at: 108, df: 73, sa: 62, sd: 77, sp: 81},
+    types: ['Grass', 'Flying'],
+    bs: {hp: 99, at: 68, df: 83, sa: 72, sd: 87, sp: 51},
     weightkg: 100,
     abilities: {0: 'Chlorophyll'},
   },
