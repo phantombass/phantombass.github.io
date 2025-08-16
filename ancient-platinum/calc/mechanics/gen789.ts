@@ -324,7 +324,7 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (typeEffectiveness === 0 && (move.named('Thousand Arrows','Hammer Smash','Bonemerang','Bone Rush','Bone Club'))) {
+  if (typeEffectiveness === 0 && (move.named('Thousand Arrows','Hammer Smash'))) {
     typeEffectiveness = 1;
   }
 
@@ -336,7 +336,7 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+  if (typeEffectiveness === 0 && attacker.hasAbility('Corrosion') && move.hasType('Poison')) {
     typeEffectiveness = 1;
   }
 
@@ -400,14 +400,13 @@ export function calculateSMSSSV(
       (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
       (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail')) ||
       (move.hasType('Ground') && defender.hasAbility('Earth Eater')) ||
-      (move.flags.wind && defender.hasAbility('Wind Rider', 'Wind Power')) ||
+      (move.flags.wind && defender.hasAbility('Wind Rider')) ||
       (move.hasType('Dark') && defender.hasAbility('Untainted')) ||
       (move.hasType('Dragon') && defender.hasAbility('Legend Armor')) ||
       (move.hasType('Psychic') && defender.hasAbility('Mental Block')) ||
       (move.hasType('Fairy') && defender.hasAbility('Corruption')) ||
       (move.hasType('Rock') && defender.hasAbility('Scaler')) ||
       (move.hasType('Bug') && defender.hasAbility('Pesticide')) ||
-      (move.hasType('Poison') && defender.hasAbility('Pastel Veil')) ||
       (move.hasType('Cosmic') && defender.hasAbility('Dimension Block'))
   ) {
     desc.defenderAbility = defender.ability;
@@ -1344,7 +1343,7 @@ export function calculateAtModsSMSSSV(
   } else if (
     (attacker.hasAbility('Water Bubble') && move.hasType('Water')) ||
     (attacker.hasAbility('Fairy Bubble') && move.hasType('Fairy')) ||
-    (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical')||
+    (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical') ||
     (attacker.hasAbility('Composure', 'Pure Power') && move.category === 'Special')
   ) {
     atMods.push(8192);

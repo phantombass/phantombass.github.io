@@ -1073,7 +1073,7 @@ var GSC_PATCH = {
     },
     Delibird: {
         types: ['Ice', 'Flying'],
-        bs: { hp: 45, at: 95, df: 45, sa: 55, sd: 45, sp: 100 },
+        bs: { hp: 45, at: 60, df: 45, sa: 60, sd: 45, sp: 75 },
         weightkg: 16
     },
     Donphan: {
@@ -2223,7 +2223,7 @@ var ADV_PATCH = {
     },
     Luvdisc: {
         types: ['Water'],
-        bs: { hp: 43, at: 30, df: 75, sa: 100, sd: 75, sp: 107 },
+        bs: { hp: 63, at: 60, df: 55, sa: 60, sd: 65, sp: 97 },
         weightkg: 8.7,
         abilities: { 0: 'Swift Swim' }
     },
@@ -4979,7 +4979,7 @@ var BW_PATCH = {
     },
     Watchog: {
         types: ['Normal', 'Psychic'],
-        bs: { hp: 60, at: 85, df: 69, sa: 85, sd: 69, sp: 77 },
+        bs: { hp: 80, at: 85, df: 69, sa: 90, sd: 69, sp: 77 },
         weightkg: 27,
         abilities: { 0: 'Illuminate' }
     },
@@ -9805,7 +9805,7 @@ var SV_PATCH = {
     },
     Spidops: {
         types: ['Bug', 'Steel'],
-        bs: { hp: 80, at: 99, df: 92, sa: 52, sd: 86, sp: 35 },
+        bs: { hp: 70, at: 99, df: 92, sa: 52, sd: 86, sp: 45 },
         weightkg: 16.5,
         abilities: { 0: 'Insomnia' }
     },

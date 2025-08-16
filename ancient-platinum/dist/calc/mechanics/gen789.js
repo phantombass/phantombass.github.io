@@ -217,7 +217,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         defender.hasItem('Iron Ball') && !defender.hasAbility('Klutz')) {
         typeEffectiveness = 1;
     }
-    if (typeEffectiveness === 0 && (move.named('Thousand Arrows', 'Hammer Smash', 'Bonemerang', 'Bone Rush', 'Bone Club'))) {
+    if (typeEffectiveness === 0 && (move.named('Thousand Arrows', 'Hammer Smash'))) {
         typeEffectiveness = 1;
     }
     if (typeEffectiveness === 0 && move.named('Overcharge', 'Ancient Cry', 'Perfection Pulse')) {
@@ -226,7 +226,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
     }
-    if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+    if (typeEffectiveness === 0 && attacker.hasAbility('Corrosion') && move.hasType('Poison')) {
         typeEffectiveness = 1;
     }
     if ((field.gameType === 'Inverse') || defender.hasAbility('Reverse Room')) {
@@ -279,14 +279,13 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
         (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail')) ||
         (move.hasType('Ground') && defender.hasAbility('Earth Eater')) ||
-        (move.flags.wind && defender.hasAbility('Wind Rider', 'Wind Power')) ||
+        (move.flags.wind && defender.hasAbility('Wind Rider')) ||
         (move.hasType('Dark') && defender.hasAbility('Untainted')) ||
         (move.hasType('Dragon') && defender.hasAbility('Legend Armor')) ||
         (move.hasType('Psychic') && defender.hasAbility('Mental Block')) ||
         (move.hasType('Fairy') && defender.hasAbility('Corruption')) ||
         (move.hasType('Rock') && defender.hasAbility('Scaler')) ||
         (move.hasType('Bug') && defender.hasAbility('Pesticide')) ||
-        (move.hasType('Poison') && defender.hasAbility('Pastel Veil')) ||
         (move.hasType('Cosmic') && defender.hasAbility('Dimension Block'))) {
         desc.defenderAbility = defender.ability;
         return result;
