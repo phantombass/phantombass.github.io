@@ -815,10 +815,10 @@
 
 
 :base
-"Shiftry"={"Gym Leader Gardenia"::{"level":35,"ability":"Wind Rider","moves":["Fake Out","Night Slash","Giga Drain","Sunny Day"],"nature":"Naive","item":"Heat Rock","index":number},},
-"Torterra"={"Gym Leader Gardenia"::{"level":34,"ability":"Shell Armor","moves":["Seed Bomb","Stomping Tantrum","Rock Slide","Stealth Rock"],"nature":"Adamant","item":"Eject Button","index":number},},
-"Bellossom"={"Gym Leader Gardenia"::{"level":35,"ability":"Chlorophyll","moves":["Dazzling Gleam","Giga Drain","Hidden Power Ground","Sleep Powder"],"nature":"Modest","item":"Kebia Berry","index":number},},
-"Sunflora"={"Gym Leader Gardenia"::{"level":35,"ability":"Chlorophyll","moves":["Giga Drain","Flamethrower","Scorching Sands","Hidden Power Rock"],"nature":"Modest","item":"Fire Gem","index":number},},
+"Shiftry"={"Gym Leader Gardenia"::{"level":35,"ability":"Wind Rider","moves":["Fake Out","Ceaseless Edge","Giga Drain","Air Slash"],"nature":"Naive","item":"Focus Sash","index":number},},
+"Torterra"={"Gym Leader Gardenia"::{"level":34,"ability":"Shell Armor","moves":["Seed Bomb","Stomping Tantrum","Rock Slide","Stealth Rock"],"nature":"Adamant","item":"Sitrus Berry","index":number},},
+"Glimmora"={"Gym Leader Gardenia"::{"level":35,"ability":"Toxic Debris","moves":["Venoshock","Power Gem","Earth Power","Hidden Power Grass"],"nature":"Modest","item":"Eject Button","index":number},},
+"Florges"={"Gym Leader Gardenia"::{"level":35,"ability":"Adaptability","moves":["Dazzling Gleam","Psychic","Giga Drain","Calm Mind"],"nature":"Modest","item":"Leftovers","index":number},},
 "Celebi"={"Gym Leader Gardenia"::{"level":34,"ability":"Hopeful Toll","moves":["Psyshock","Giga Drain","U-turn","Aura Sphere"],"nature":"Timid","item":"Tanga Berry","index":number},},
 "Roserade"={"Gym Leader Gardenia"::{"level":35,"ability":"Technician","moves":["Magical Leaf","Sludge","Hidden Power Rock","Shadow Ball"],"nature":"Timid","item":"Sitrus Berry","index":number},},
 
@@ -1041,11 +1041,11 @@
 
 
 :base
-"Ferrothorn"={"Collector Terry & Ruin Maniac Gerald"::{"level":40,"ability":"Iron Barbs","moves":["Gyro Ball","Power Whip","Pin Missile","Thunder Wave"],"nature":"Brave","item":"Occa Berry","iv":["sp":0],"index":number},},
-"Beheeyem"={"Collector Terry & Ruin Maniac Gerald"::{"level":41,"ability":"Psychic Surge","moves":["Psychic","Shadow Ball","Dazzling Gleam","Recover"],"nature":"Quiet","item":"Psychic Seed","iv":["sp":0],"index":number},},
+"Ferrothorn"={"Collector Terry & Ruin Maniac Gerald"::{"level":40,"ability":"Iron Barbs","moves":["Gyro Ball","Power Whip","Pin Missile","Thunder Wave"],"nature":"Brave","item":"Occa Berry","ivs":{"sp":0},"index":number},},
+"Beheeyem"={"Collector Terry & Ruin Maniac Gerald"::{"level":41,"ability":"Psychic Surge","moves":["Psychic","Shadow Ball","Dazzling Gleam","Recover"],"nature":"Quiet","item":"Psychic Seed","ivs":{"sp":0},"index":number},},
 ""={"Collector Terry & Ruin Maniac Gerald"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Bronzong"={"Collector Terry & Ruin Maniac Gerald"::{"level":40,"ability":"Dimension Shift","moves":["Gyro Ball","Psyshield Bash","Body Press","Rock Slide"],"nature":"Sassy","item":"Steel Gem","iv":["sp":0],"index":number},},
-"Runerigus"={"Collector Terry & Ruin Maniac Gerald"::{"level":41,"ability":"Wandering Spirit","moves":["Shadow Claw","High Horsepower","Body Press","Rock Slide"],"nature":"Brave","item":"Sitrus Berry","iv":["sp":0],"index":number},},
+"Bronzong"={"Collector Terry & Ruin Maniac Gerald"::{"level":40,"ability":"Dimension Shift","moves":["Gyro Ball","Psyshield Bash","Body Press","Rock Slide"],"nature":"Sassy","item":"Steel Gem","ivs":{"sp":0},"index":number},},
+"Runerigus"={"Collector Terry & Ruin Maniac Gerald"::{"level":41,"ability":"Wandering Spirit","moves":["Shadow Claw","High Horsepower","Body Press","Rock Slide"],"nature":"Brave","item":"Sitrus Berry","ivs":{"sp":0},"index":number},},
 ""={"Collector Terry & Ruin Maniac Gerald"::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
