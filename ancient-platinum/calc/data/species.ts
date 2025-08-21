@@ -9040,7 +9040,7 @@ const PLA_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Electrode-Hisui': {
     types: ['Electric', 'Grass'],
-    bs: {hp: 60, at: 60, df: 80, sa: 60, sd: 80, sp: 150},
+    bs: {hp: 60, at: 50, df: 70, sa: 80, sd: 80, sp: 150},
     weightkg: 71,
     gender: 'N',
     abilities: {0: 'Soundproof'},
