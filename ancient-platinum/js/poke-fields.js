@@ -421,6 +421,11 @@ function getFullHTMLField() {
             <option value="3">3 hits</option>
             <option value="4">4 hits</option>
             <option value="5">5 hits</option>
+            <option value="6">6 hits</option>
+            <option value="7">7 hits</option>
+            <option value="8">8 hits</option>
+            <option value="9">9 hits</option>
+            <option value="10">10 hits</option>
         </select>
         <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
             <option value="1">Once</option>
@@ -455,6 +460,11 @@ function getFullHTMLField() {
             <option value="3">3 hits</option>
             <option value="4">4 hits</option>
             <option value="5">5 hits</option>
+            <option value="6">6 hits</option>
+            <option value="7">7 hits</option>
+            <option value="8">8 hits</option>
+            <option value="9">9 hits</option>
+            <option value="10">10 hits</option>
         </select>
         <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
             <option value="1">Once</option>
@@ -489,6 +499,11 @@ function getFullHTMLField() {
             <option value="3">3 hits</option>
             <option value="4">4 hits</option>
             <option value="5">5 hits</option>
+            <option value="6">6 hits</option>
+            <option value="7">7 hits</option>
+            <option value="8">8 hits</option>
+            <option value="9">9 hits</option>
+            <option value="10">10 hits</option>
         </select>
         <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
             <option value="1">Once</option>
@@ -523,6 +538,11 @@ function getFullHTMLField() {
             <option value="3">3 hits</option>
             <option value="4">4 hits</option>
             <option value="5">5 hits</option>
+            <option value="6">6 hits</option>
+            <option value="7">7 hits</option>
+            <option value="8">8 hits</option>
+            <option value="9">9 hits</option>
+            <option value="10">10 hits</option>
         </select>
         <select class="stat-drops calc-trigger hide" title="How many times was this move used in a row?">>
             <option value="1">Once</option>

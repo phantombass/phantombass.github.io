@@ -4550,7 +4550,7 @@ var SV_PATCH = {
         maxPower: 90,
         makesContact: true,
         isSlicing: true,
-        multihit: 10
+        multihit: [1, 10]
     },
     Pounce: {
         bp: 50,
