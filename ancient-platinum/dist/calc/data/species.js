@@ -4360,7 +4360,7 @@ var BW_PATCH = {
     },
     Klang: {
         types: ['Steel'],
-        bs: { hp: 60, at: 80, df: 95, sa: 45, sd: 85, sp: 85 },
+        bs: { hp: 60, at: 80, df: 95, sa: 70, sd: 85, sp: 50 },
         weightkg: 51,
         nfe: true,
         gender: 'N',
@@ -4368,7 +4368,7 @@ var BW_PATCH = {
     },
     Klink: {
         types: ['Steel'],
-        bs: { hp: 40, at: 55, df: 70, sa: 35, sd: 60, sp: 50 },
+        bs: { hp: 40, at: 55, df: 70, sa: 45, sd: 60, sp: 30 },
         weightkg: 21,
         nfe: true,
         gender: 'N',
@@ -4376,7 +4376,7 @@ var BW_PATCH = {
     },
     Klinklang: {
         types: ['Steel'],
-        bs: { hp: 60, at: 100, df: 115, sa: 55, sd: 85, sp: 110 },
+        bs: { hp: 60, at: 100, df: 115, sa: 70, sd: 85, sp: 90 },
         weightkg: 81,
         gender: 'N',
         abilities: { 0: 'Plus' }
