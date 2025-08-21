@@ -3113,7 +3113,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Persistent'},
   },
   Finneon: {
-    types: ['Water','Bug'],
+    types: ['Water'],
     bs: {hp: 49, at: 49, df: 56, sa: 49, sd: 61, sp: 66},
     weightkg: 7,
     nfe: true,
@@ -3300,7 +3300,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Steadfast'},
   },
   Lumineon: {
-    types: ['Water','Bug'],
+    types: ['Water'],
     bs: {hp: 69, at: 69, df: 76, sa: 69, sd: 86, sp: 91},
     weightkg: 24,
     abilities: {0: 'Swift Swim'},
