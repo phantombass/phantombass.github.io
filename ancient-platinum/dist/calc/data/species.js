@@ -8332,14 +8332,14 @@ var SS_PATCH = {
     },
     Morpeko: {
         types: ['Electric', 'Dark'],
-        bs: { hp: 58, at: 115, df: 58, sa: 70, sd: 58, sp: 107 },
+        bs: { hp: 58, at: 95, df: 58, sa: 70, sd: 58, sp: 97 },
         weightkg: 3,
         abilities: { 0: 'Hunger Switch' },
         otherFormes: ['Morpeko-Hangry']
     },
     'Morpeko-Hangry': {
         types: ['Electric', 'Dark'],
-        bs: { hp: 58, at: 115, df: 58, sa: 70, sd: 58, sp: 107 },
+        bs: { hp: 58, at: 95, df: 58, sa: 70, sd: 58, sp: 97 },
         weightkg: 3,
         abilities: { 0: 'Hunger Switch' },
         baseSpecies: 'Morpeko'
