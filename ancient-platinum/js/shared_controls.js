@@ -1516,6 +1516,14 @@ function getSrcImgPokemon(poke) {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Aegislash.png`
 	} else if (poke.name == "Type: Null") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Type Null.png`
+	} else if (poke.name == "Mime Jr.") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mime jr..png`
+	} else if (poke.name == "Mr. Mime") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime.png`
+	} else if (poke.name == "Mr. Mime-Galar") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime-galar.png`
+	} else if (poke.name == "Mr. Rime") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. rime.png`
 	} else if (poke.name == "Farfetch%E2%80%99d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
 	} else if (poke.name == "Farfetch%E2%80%99d-Galar") {
