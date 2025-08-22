@@ -3992,7 +3992,7 @@ var BW_PATCH = {
         gender: 'N'
     },
     Cofagrigus: {
-        types: ['Ghost', 'Steel'],
+        types: ['Ghost', 'Rock'],
         bs: { hp: 58, at: 50, df: 145, sa: 95, sd: 105, sp: 30 },
         weightkg: 76.5,
         abilities: { 0: 'Mummy' }
