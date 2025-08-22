@@ -3088,7 +3088,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Pressure'},
   },
   Electivire: {
-    types: ['Electric','Fighting'],
+    types: ['Electric'],
     bs: {hp: 75, at: 123, df: 67, sa: 95, sd: 85, sp: 95},
     weightkg: 138.6,
     abilities: {0: 'Motor Drive'},
