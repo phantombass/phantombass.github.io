@@ -4285,7 +4285,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     drain: [1, 2],
   },
   'Bitter Malice': {
-    bp: 75,
+    bp: 60,
     type: 'Ghost',
     category: 'Special',
     zp: 140,
