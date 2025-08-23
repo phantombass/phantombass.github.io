@@ -1379,7 +1379,7 @@
 "Obstagoon"={"Rich Boy Jason "::{"level":48,"ability":"Guts","moves":["Obstruct","Night Slash","Facade","Close Combat"],"nature":"Jolly","item":"Flame Orb","index":number},},
 "Typhlosion-Hisui"={"Rich Boy Jason "::{"level":48,"ability":"Blaze","moves":["Infernal Parade","Flamethrower","Scorching Sands","Hidden Power Grass"],"nature":"Timid","item":"Colbur Berry","index":number},},
 "Excadrill"={"Rich Boy Jason "::{"level":49,"ability":"Mold Breaker","moves":["Earthquake","Stone Edge","Iron Head","Swords Dance"],"nature":"Jolly","item":"Passho Berry","index":number},},
-"Salamence"={"Rich Boy Jason "::{"level":50,"ability":"Intimidate","moves":["Dual Wingbear","Dragon Claw","Iron Tail","Earthquake"],"nature":"Jolly","item":"Yache Berry","index":number},},
+"Salamence"={"Rich Boy Jason "::{"level":50,"ability":"Intimidate","moves":["Dual Wingbeat","Dragon Claw","Iron Tail","Earthquake"],"nature":"Jolly","item":"Yache Berry","index":number},},
 ""={"Rich Boy Jason "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 ""={"Rich Boy Jason "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
