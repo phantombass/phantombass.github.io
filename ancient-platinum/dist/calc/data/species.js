@@ -8354,7 +8354,7 @@ var SS_PATCH = {
     },
     'Mr. Rime': {
         types: ['Ice', 'Psychic'],
-        bs: { hp: 80, at: 45, df: 75, sa: 110, sd: 100, sp: 110 },
+        bs: { hp: 80, at: 85, df: 75, sa: 110, sd: 100, sp: 70 },
         weightkg: 58.2,
         abilities: { 0: 'Tangled Feet' }
     },

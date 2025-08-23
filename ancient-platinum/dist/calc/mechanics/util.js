@@ -190,9 +190,6 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
     else if (move.named('Freeze-Dry') && type === 'Water') {
         return 2;
     }
-    else if (move.named('Scald') && type === 'Ice') {
-        return 2;
-    }
     else if (move.named('Polarity Pulse') && type === 'Electric') {
         return 2;
     }
@@ -216,35 +213,35 @@ function checkForecast(pokemon, weather) {
         switch (weather) {
             case 'Sun':
             case 'Harsh Sunshine':
-                pokemon.types = ['Fire', 'Cosmic'];
+                pokemon.types = ['Fire'];
                 break;
             case 'Rain':
             case 'Heavy Rain':
-                pokemon.types = ['Water', 'Cosmic'];
+                pokemon.types = ['Water'];
                 break;
             case 'Hail':
             case 'Snow':
             case 'Sleet':
-                pokemon.types = ['Ice', 'Cosmic'];
+                pokemon.types = ['Ice'];
                 break;
             case 'Sand':
-                pokemon.types = ['Rock', 'Cosmic'];
+                pokemon.types = ['Rock'];
                 break;
             case 'Acid Rain':
-                pokemon.types = ['Poison', 'Cosmic'];
+                pokemon.types = ['Poison'];
                 break;
             case 'Eclipse':
-                pokemon.types = ['Dark', 'Cosmic'];
+                pokemon.types = ['Dark'];
                 break;
             case 'Windy':
             case 'Strong Winds':
-                pokemon.types = ['Flying', 'Cosmic'];
+                pokemon.types = ['Flying'];
                 break;
             case 'Starstorm':
                 pokemon.types = ['Cosmic'];
                 break;
             default:
-                pokemon.types = ['Normal', 'Cosmic'];
+                pokemon.types = ['Normal'];
         }
     }
 }
