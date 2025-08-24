@@ -2117,7 +2117,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Thick Fat' }
     },
     Huntail: {
-        types: ['Water'],
+        types: ['Water', 'Dark'],
         bs: { hp: 55, at: 104, df: 105, sa: 94, sd: 75, sp: 52 },
         weightkg: 27,
         abilities: { 0: 'Swift Swim' }
