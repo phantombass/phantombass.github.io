@@ -2248,7 +2248,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Torrent' }
     },
     Masquerain: {
-        types: ['Bug', 'Water'],
+        types: ['Bug', 'Flying'],
         bs: { hp: 70, at: 60, df: 62, sa: 80, sd: 82, sp: 60 },
         weightkg: 3.6,
         abilities: { 0: 'Intimidate' }
