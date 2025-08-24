@@ -516,7 +516,7 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 35,
   },
   Onix: {
-    types: ['Rock', 'Dragon'],
+    types: ['Rock', 'Ground'],
     bs: {hp: 35, at: 45, df: 160, sp: 70, sl: 30},
     weightkg: 210,
   },
@@ -1376,7 +1376,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 71.2,
   },
   Steelix: {
-    types: ['Steel', 'Dragon'],
+    types: ['Steel', 'Ground'],
     bs: {hp: 75, at: 85, df: 200, sa: 55, sd: 65, sp: 30},
     weightkg: 400,
   },
@@ -1393,7 +1393,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Sunflora: {
     types: ['Grass','Fire'],
-    bs: {hp: 75, at: 45, df: 85, sa: 115, sd: 85, sp: 50},
+    bs: {hp: 75, at: 75, df: 55, sa: 115, sd: 85, sp: 30},
     weightkg: 8.5,
   },
   Sunkern: {
@@ -5833,7 +5833,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Slowbro',
   },
   'Steelix-Mega': {
-    types: ['Steel', 'Dragon'],
+    types: ['Steel', 'Ground'],
     bs: {hp: 75, at: 125, df: 230, sa: 55, sd: 95, sp: 30},
     weightkg: 740,
     abilities: {0: 'Sand Force'},
