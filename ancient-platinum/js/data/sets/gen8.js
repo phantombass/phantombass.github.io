@@ -355,11 +355,11 @@
 
 
 :Jubilife 1
-"Croagunk"={"Team Galactic M Grunt Double "::{"level":19,"ability":"Poison Touch","moves":["Fake Out","Septic Shot","Karate Chop","Feint Attack"],"nature":"Jolly","item":"Payapa Berry","index":number},},
-"Eelektrik"={"Team Galactic M Grunt Double "::{"level":20,"ability":"Levitate","moves":["Shock Wave","Acid Spray","Flame Burst","Giga Drain"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+"Croagunk"={"Team Galactic M Grunt Double Jubilife"::{"level":19,"ability":"Poison Touch","moves":["Fake Out","Septic Shot","Karate Chop","Feint Attack"],"nature":"Jolly","item":"Payapa Berry","index":number},},
+"Eelektrik"={"Team Galactic M Grunt Double Jubilife"::{"level":20,"ability":"Levitate","moves":["Shock Wave","Acid Spray","Flame Burst","Giga Drain"],"nature":"Modest","item":"Iapapa Berry","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Stunky"={"Team Galactic M Grunt Double "::{"level":19,"ability":"Aftermath","moves":["Snarl","Poison Gas","Flame Burst","Sludge"],"nature":"Timid","item":"Shuca Berry","index":number},},
-"Krokorok"={"Team Galactic M Grunt Double "::{"level":20,"ability":"Intimidate","moves":["Stomping Tantrum","Bite","Rock Tomb","Fire Fang"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Stunky"={"Team Galactic M Grunt Double Jubilife"::{"level":19,"ability":"Aftermath","moves":["Snarl","Poison Gas","Flame Burst","Sludge"],"nature":"Timid","item":"Shuca Berry","index":number},},
+"Krokorok"={"Team Galactic M Grunt Double Jubilife"::{"level":20,"ability":"Intimidate","moves":["Stomping Tantrum","Bite","Rock Tomb","Fire Fang"],"nature":"Jolly","item":"Lum Berry","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -424,11 +424,11 @@
 
 
 :Meadow 1
-"Meditite"={"Team Galactic M Grunt Double "::{"level":21,"ability":"Pure Power","moves":["Fake Out","Psycho Cut","Force Palm","Rock Tomb"],"nature":"Jolly","item":"Coba Berry","index":number},},
-"Magcargo"={"Team Galactic M Grunt Double "::{"level":22,"ability":"Flame Body","moves":["Bubble Beam","Flame Burst","Ancient Power",""],"nature":"Modest","item":"Fire Gem","index":number},},
+"Meditite"={"Team Galactic M Grunt Double Meadow"::{"level":21,"ability":"Pure Power","moves":["Fake Out","Psycho Cut","Force Palm","Rock Tomb"],"nature":"Jolly","item":"Coba Berry","index":number},},
+"Magcargo"={"Team Galactic M Grunt Double Meadow"::{"level":22,"ability":"Flame Body","moves":["Bubble Beam","Flame Burst","Ancient Power",""],"nature":"Modest","item":"Fire Gem","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Masquerain"={"Team Galactic M Grunt Double "::{"level":21,"ability":"Intimidate","moves":["Struggle Bug","Air Cutter","Icy Wind","Bubble Beam"],"nature":"Timid","item":"Charti Berry","index":number},},
-"Varoom"={"Team Galactic M Grunt Double "::{"level":22,"ability":"Filter","moves":["Metal Claw","Poison Fang","Toxic",""],"nature":"Adamant","item":"Black Sludge","index":number},},
+"Masquerain"={"Team Galactic M Grunt Double Meadow"::{"level":21,"ability":"Intimidate","moves":["Struggle Bug","Air Cutter","Icy Wind","Bubble Beam"],"nature":"Timid","item":"Charti Berry","index":number},},
+"Varoom"={"Team Galactic M Grunt Double Meadow"::{"level":22,"ability":"Filter","moves":["Metal Claw","Poison Fang","Toxic",""],"nature":"Adamant","item":"Black Sludge","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -829,11 +829,11 @@
 
 
 :Eterna 1
-"Luxray"={"Team Galactic M Grunt Double "::{"level":35,"ability":"Intimidate","moves":["Thunder Fang","Crunch","Ice Fang","Quick Attack"],"nature":"Adamant","item":"Lum Berry","index":number},},
-"Unfezant"={"Team Galactic M Grunt Double "::{"level":36,"ability":"Technician","moves":["Dual Wingbeat","Quick Attack","Hidden Power Ground","Steel Wing"],"nature":"Jolly","item":"Charti Berry","index":number},},
+"Luxray"={"Team Galactic M Grunt Double Eterna"::{"level":35,"ability":"Intimidate","moves":["Thunder Fang","Crunch","Ice Fang","Quick Attack"],"nature":"Adamant","item":"Lum Berry","index":number},},
+"Unfezant"={"Team Galactic M Grunt Double Eterna"::{"level":36,"ability":"Technician","moves":["Dual Wingbeat","Quick Attack","Hidden Power Ground","Steel Wing"],"nature":"Jolly","item":"Charti Berry","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
-"Kecleon"={"Team Galactic M Grunt Double "::{"level":35,"ability":"Protean","moves":["Fake Out","Shadow Sneak","Ice Punch","Drain Punch"],"nature":"Adamant","item":"Normal Gem","index":number},},
-"Hypno"={"Team Galactic M Grunt Double "::{"level":36,"ability":"Forewarn","moves":["Toxoplasm","Psyshock","Shadow Ball","Dazzling Gleam"],"nature":"Modest","item":"Black Sludge","index":number},},
+"Kecleon"={"Team Galactic M Grunt Double Eterna"::{"level":35,"ability":"Protean","moves":["Fake Out","Shadow Sneak","Ice Punch","Drain Punch"],"nature":"Adamant","item":"Normal Gem","index":number},},
+"Hypno"={"Team Galactic M Grunt Double Eterna"::{"level":36,"ability":"Forewarn","moves":["Toxoplasm","Psyshock","Shadow Ball","Dazzling Gleam"],"nature":"Modest","item":"Black Sludge","index":number},},
 ""={"Team Galactic M Grunt Double "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
 
@@ -2363,12 +2363,12 @@
 
 
 :Veilstone 1
-"Bronzong"={"Team Galactic M Grunt Double "::{"level":65,"ability":"Levitate","moves":["Gyro Ball","Zen Headbutt","Reflect","Light Screen"],"nature":"Sassy","item":"Iapapa Berry","index":number},},
-"Salazzle"={"Team Galactic M Grunt Double "::{"level":65,"ability":"Corrosion","moves":["Sludge Bomb","Heat Wave","Hidden Power Grass","Fake Out"],"nature":"Timid","item":"Fire Gem","index":number},},
-"Cacturne"={"Team Galactic M Grunt Double "::{"level":66,"ability":"Water Absorb","moves":["Spiky Shield","Needle Arm","Knock Off","Sucker Punch"],"nature":"Adamant","item":"Focus Sash","index":number},},
-"Poliwrath"={"Team Galactic M Grunt Double "::{"level":65,"ability":"Water Absorb","moves":["Hypnosis","Surging Strikes","Close Combat","Jet Punch"],"nature":"Adamant","item":"Life Orb","index":number},},
-"Flygon"={"Team Galactic M Grunt Double "::{"level":65,"ability":"Levitate","moves":["Breaking Swipe","High Horsepower","Dragon Claw","Fire Punch"],"nature":"Jolly","item":"Yache Berry","index":number},},
-"Florges"={"Team Galactic M Grunt Double "::{"level":66,"ability":"Adaptability","moves":["Dazzling Gleam","Psychic","Calm Mind","Hidden Power Ground"],"nature":"Modest","item":"Leftovers","index":number},},
+"Bronzong"={"Team Galactic M Grunt Double Veilstone"::{"level":65,"ability":"Levitate","moves":["Gyro Ball","Zen Headbutt","Reflect","Light Screen"],"nature":"Sassy","item":"Iapapa Berry","index":number},},
+"Salazzle"={"Team Galactic M Grunt Double Veilstone"::{"level":65,"ability":"Corrosion","moves":["Sludge Bomb","Heat Wave","Hidden Power Grass","Fake Out"],"nature":"Timid","item":"Fire Gem","index":number},},
+"Cacturne"={"Team Galactic M Grunt Double Veilstone"::{"level":66,"ability":"Water Absorb","moves":["Spiky Shield","Needle Arm","Knock Off","Sucker Punch"],"nature":"Adamant","item":"Focus Sash","index":number},},
+"Poliwrath"={"Team Galactic M Grunt Double Veilstone"::{"level":65,"ability":"Water Absorb","moves":["Hypnosis","Surging Strikes","Close Combat","Jet Punch"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Flygon"={"Team Galactic M Grunt Double Veilstone"::{"level":65,"ability":"Levitate","moves":["Breaking Swipe","High Horsepower","Dragon Claw","Fire Punch"],"nature":"Jolly","item":"Yache Berry","index":number},},
+"Florges"={"Team Galactic M Grunt Double Veilstone"::{"level":66,"ability":"Adaptability","moves":["Dazzling Gleam","Psychic","Calm Mind","Hidden Power Ground"],"nature":"Modest","item":"Leftovers","index":number},},
 
 
 
@@ -2872,12 +2872,12 @@
 
 
 :Verity 1
-"Medicham"={"Team Galactic M Grunt Double "::{"level":73,"ability":"Pure Power","moves":["Fake Out","Rock Slide","Zen Headbutt","Drain Punch"],"nature":"Jolly","item":"Coba Berry","index":number},},
-"Rampardos"={"Team Galactic M Grunt Double "::{"level":73,"ability":"Sheer Force","moves":["Rock Slide","Fire Punch","Zen Headbutt","Rock Polish"],"nature":"Adamant","item":"Life Orb","index":number},},
-"Spinda"={"Team Galactic M Grunt Double "::{"level":74,"ability":"Pure Power","moves":["Hyper Voice","Psychic","Shadow Ball","Signal Beam"],"nature":"Modest","item":"Throat Spray","index":number},},
-"Vivillon"={"Team Galactic M Grunt Double "::{"level":73,"ability":"Friend Guard","moves":["Rage Powder","Hurricane","Bug Buzz","Sleep Powder"],"nature":"Timid","item":"Focus Sash","index":number},},
-"Wigglytuff"={"Team Galactic M Grunt Double "::{"level":73,"ability":"Friend Guard","moves":["Hyper Voice","Dazzling Gleam","Fire Blast","Sing"],"nature":"Modest","item":"Iapapa Berry","index":number},},
-"Maushold"={"Team Galactic M Grunt Double "::{"level":74,"ability":"Friend Guard","moves":["Population Bomb","Play Rough","Follow Me","Helping Hand"],"nature":"Adamant","item":"Loaded Dice","index":number},},
+"Medicham"={"Team Galactic M Grunt Double Verity"::{"level":73,"ability":"Pure Power","moves":["Fake Out","Rock Slide","Zen Headbutt","Drain Punch"],"nature":"Jolly","item":"Coba Berry","index":number},},
+"Rampardos"={"Team Galactic M Grunt Double Verity"::{"level":73,"ability":"Sheer Force","moves":["Rock Slide","Fire Punch","Zen Headbutt","Rock Polish"],"nature":"Adamant","item":"Life Orb","index":number},},
+"Spinda"={"Team Galactic M Grunt Double Verity"::{"level":74,"ability":"Pure Power","moves":["Hyper Voice","Psychic","Shadow Ball","Signal Beam"],"nature":"Modest","item":"Throat Spray","index":number},},
+"Vivillon"={"Team Galactic M Grunt Double Verity"::{"level":73,"ability":"Friend Guard","moves":["Rage Powder","Hurricane","Bug Buzz","Sleep Powder"],"nature":"Timid","item":"Focus Sash","index":number},},
+"Wigglytuff"={"Team Galactic M Grunt Double Verity"::{"level":73,"ability":"Friend Guard","moves":["Hyper Voice","Dazzling Gleam","Fire Blast","Sing"],"nature":"Modest","item":"Iapapa Berry","index":number},},
+"Maushold"={"Team Galactic M Grunt Double Verity"::{"level":74,"ability":"Friend Guard","moves":["Population Bomb","Play Rough","Follow Me","Helping Hand"],"nature":"Adamant","item":"Loaded Dice","index":number},},
 
 
 
@@ -3561,12 +3561,12 @@
 
 
 :Spear Pillar
-"Mienshao"={"Team Galactic M Grunt Double "::{"level":83,"ability":"Inner Focus","moves":["Fake Out","Rock Slide","Close Combat","U-turn"],"nature":"Jolly","item":"Lum Berry","index":number},},
-"Oricorio-Pom-Pom"={"Team Galactic M Grunt Double "::{"level":84,"ability":"Dancer","moves":["Revelation Dance","Dual Wingbeat","Hidden Power Grass","Tailwind"],"nature":"Timid","item":"Electric Gem","index":number},},
-"Serperior"={"Team Galactic M Grunt Double "::{"level":84,"ability":"Contrary","moves":["Leaf Storm","Hidden Power Rock","Dragon Pulse","Substitute"],"nature":"Timid","item":"Leftovers","index":number},},
-"Bruxish"={"Team Galactic M Grunt Double "::{"level":83,"ability":"Dazzling","moves":["Aqua Tail","Psychic Fangs","Aqua Jet","Swords Dance"],"nature":"Jolly","item":"Life Orb","index":number},},
-"Volcarona"={"Team Galactic M Grunt Double "::{"level":84,"ability":"Flame Body","moves":["Quiver Dance","Fiery Dance","Bug Buzz","Psychic"],"nature":"Timid","item":"Charti Berry","index":number},},
-"Tinkaton"={"Team Galactic M Grunt Double "::{"level":84,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Ice Hammer","Swords Dance"],"nature":"Jolly","item":"White Herb","index":number},},
+"Mienshao"={"Team Galactic M Grunt Double Spear Pillar"::{"level":83,"ability":"Inner Focus","moves":["Fake Out","Rock Slide","Close Combat","U-turn"],"nature":"Jolly","item":"Lum Berry","index":number},},
+"Oricorio-Pom-Pom"={"Team Galactic M Grunt Double Spear Pillar"::{"level":84,"ability":"Dancer","moves":["Revelation Dance","Dual Wingbeat","Hidden Power Grass","Tailwind"],"nature":"Timid","item":"Electric Gem","index":number},},
+"Serperior"={"Team Galactic M Grunt Double Spear Pillar"::{"level":84,"ability":"Contrary","moves":["Leaf Storm","Hidden Power Rock","Dragon Pulse","Substitute"],"nature":"Timid","item":"Leftovers","index":number},},
+"Bruxish"={"Team Galactic M Grunt Double Spear Pillar"::{"level":83,"ability":"Dazzling","moves":["Aqua Tail","Psychic Fangs","Aqua Jet","Swords Dance"],"nature":"Jolly","item":"Life Orb","index":number},},
+"Volcarona"={"Team Galactic M Grunt Double Spear Pillar"::{"level":84,"ability":"Flame Body","moves":["Quiver Dance","Fiery Dance","Bug Buzz","Psychic"],"nature":"Timid","item":"Charti Berry","index":number},},
+"Tinkaton"={"Team Galactic M Grunt Double Spear Pillar"::{"level":84,"ability":"Gavel Power","moves":["Gigaton Hammer","Pixie Hammer","Ice Hammer","Swords Dance"],"nature":"Jolly","item":"White Herb","index":number},},
 
 
 
@@ -4039,7 +4039,7 @@
 "Rotom-Frost"={"Sailor Zachariah "::{"level":90,"ability":"Levitate","moves":["Thunder","Blizzard","Hex","Thunder Wave"],"nature":"Timid","item":"Chople Berry","index":number},},
 "Togekiss"={"Sailor Zachariah "::{"level":89,"ability":"Serene Grace","moves":["Moonblast","Air Slash","Psychic","Thunder Wave"],"nature":"Timid","item":"Kebia Berry","index":number},},
 "Poliwrath"={"Sailor Zachariah "::{"level":90,"ability":"Swift Swim","moves":["Surging Strikes","Drain Punch","Ice Punch","Poison Jab"],"nature":"Adamant","item":"Assault Vest","index":number},},
-"Tropius"={""::{"level":Surging Strikes,"ability":"Assault Vest","moves":["Drain Punch","Ice Punch","Poison Jab",""],"nature":"90","item":"Adamant","index":number},},
+"Tropius"={"Sailor Zachariah "::{"level":89,"ability":"Harvest","moves":["Giga Drain","Earth Power","Hurricane","Substitute"],"nature":"Modest","item":"Starf Berry","index":number},},
 "Barraskewda"={"Sailor Zachariah "::{"level":90,"ability":"Swift Swim","moves":["Liquidation","Drill Run","Crunch","Close Combat"],"nature":"Adamant","item":"Life Orb","index":number},},
 ""={"Sailor Zachariah "::{"level":,"ability":"","moves":["","","",""],"nature":"","item":"","index":number},},
 
