@@ -875,7 +875,7 @@ var GSC_PATCH = {
     Eevee: { bs: { sa: 45, sd: 65 } },
     Ekans: { bs: { sa: 40, sd: 54 } },
     Electabuzz: { bs: { sa: 95, sd: 85 } },
-    Electrode: { bs: { hp: 60, at: 50, df: 70, sa: 80, sd: 80, sp: 150 }, gender: 'N' },
+    Electrode: { bs: { hp: 60, at: 50, df: 70, sa: 80, sd: 80 }, gender: 'N' },
     Exeggcute: { bs: { sa: 60, sd: 45 } },
     Exeggutor: { bs: { sa: 125, sd: 65 } },
     'Farfetch\u2019d': { bs: { sa: 58, sd: 62 } },
@@ -5906,7 +5906,7 @@ var XY_PATCH = {
     },
     'Infernape-Mega': {
         types: ['Fire', 'Fighting'],
-        bs: { hp: 76, at: 119, df: 111, sa: 119, sd: 111, sp: 98 },
+        bs: { hp: 76, at: 119, df: 101, sa: 119, sd: 101, sp: 118 },
         weightkg: 102,
         abilities: { 0: 'Mind Games' },
         baseSpecies: 'Infernape'

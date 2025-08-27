@@ -5876,7 +5876,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Infernape-Mega': {
     types: ['Fire', 'Fighting'],
-    bs: {hp: 76, at: 119, df: 111, sa: 119, sd: 111, sp: 98},
+    bs: {hp: 76, at: 119, df: 101, sa: 119, sd: 101, sp: 118},
     weightkg: 102,
     abilities: {0: 'Mind Games'},
     baseSpecies: 'Infernape',
