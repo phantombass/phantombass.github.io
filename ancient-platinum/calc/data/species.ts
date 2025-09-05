@@ -964,7 +964,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Azumarill: {
     types: ['Water'],
-    bs: {hp: 100, at: 50, df: 80, sa: 60, sd: 80, sp: 50},
+    bs: {hp: 100, at: 50, df: 80, sa: 90, sd: 80, sp: 50},
     weightkg: 28.5,
   },
   Bayleef: {
@@ -1200,7 +1200,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Marill: {
     types: ['Water'],
-    bs: {hp: 70, at: 20, df: 50, sa: 20, sd: 50, sp: 40},
+    bs: {hp: 70, at: 20, df: 50, sa: 60, sd: 50, sp: 40},
     weightkg: 8.5,
     nfe: true,
   },
