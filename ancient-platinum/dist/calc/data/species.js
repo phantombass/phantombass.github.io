@@ -3355,7 +3355,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Rivalry' }
     },
     Magmortar: {
-        types: ['Fire', 'Poison'],
+        types: ['Fire'],
         bs: { hp: 75, at: 95, df: 67, sa: 125, sd: 95, sp: 83 },
         weightkg: 68,
         abilities: { 0: 'Flame Body' }
