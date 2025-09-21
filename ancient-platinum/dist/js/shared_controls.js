@@ -263,6 +263,7 @@ function autosetWeather(ability, i) {
 			$("#sun").prop("checked", true);
 			break;
 		case "Drizzle":
+		case "Raging Sea":
 			lastAutoWeather[i] = "Rain";
 			$("#rain").prop("checked", true);
 			break;
@@ -271,13 +272,33 @@ function autosetWeather(ability, i) {
 			$("#sand").prop("checked", true);
 			break;
 		case "Snow Warning":
-			if (gen >= 9) {
+			if (gen >= 8) {
 				lastAutoWeather[i] = "Snow";
 				$("#snow").prop("checked", true);
 			} else {
 				lastAutoWeather[i] = "Hail";
 				$("#hail").prop("checked", true);
 			}
+			break;
+		case "Equinox":
+			lastAutoWeather[i] = "Starstorm";
+			$("#stars").prop("checked", true);
+			break;
+		case "Urban Cloud":
+			lastAutoWeather[i] = "Acid Rain";
+			$("#acid").prop("checked", true);
+			break;
+		case "Nightfall":
+			lastAutoWeather[i] = "Eclipse";
+			$("#eclipse").prop("checked", true);
+			break;
+		case "Gale Force":
+			lastAutoWeather[i] = "Windy";
+			$("#windy").prop("checked", true);
+			break;
+		case "Hailstorm":
+			lastAutoWeather[i] = "Sleet";
+			$("#sleet").prop("checked", true);
 			break;
 		case "Desolate Land":
 			lastAutoWeather[i] = "Harsh Sunshine";
@@ -309,6 +330,7 @@ function autosetTerrain(ability, i) {
 	switch (ability) {
 		case "Electric Surge":
 		case "Hadron Engine":
+		case "Raging Sea":
 			lastAutoTerrain[i] = "Electric";
 			$("#electric").prop("checked", true);
 			break;
@@ -323,6 +345,10 @@ function autosetTerrain(ability, i) {
 		case "Psychic Surge":
 			lastAutoTerrain[i] = "Psychic";
 			$("#psychic").prop("checked", true);
+			break;
+		case "Toxic Surge":
+			lastAutoTerrain[i] = "Poison";
+			$("#poison").prop("checked", true);
 			break;
 		default:
 			lastAutoTerrain[i] = "";
@@ -489,7 +515,7 @@ $(".set-selector").change(function () {
 				}
 				var pok_name = next_poks[i].split("]")[1].split(" (")[0]
 				if (pok_name == "Zygarde-10%") {
-					pok_name = "Zygarde-10%25"
+					pok_name = "Zygarde-10"
 				}//this ruined my day
 				if (pok_name == "Farfetch\u2019d") {
 					pok_name = "Farfetchd"
@@ -500,6 +526,25 @@ $(".set-selector").change(function () {
 				if (pok_name == "Sirfetch\u2019d") {
 					pok_name = "Sirfetchd"
 				}
+				if (pok_name == "Mr. Mime") {
+					pok_name = "Mr. mime"
+				}
+				if (pok_name == "Mr. Rime") {
+					pok_name = "Mr. rime"
+				}
+				if (pok_name == "Mr. Mime-Galar") {
+					pok_name = "Mrmime-galar"
+				}
+				if (pok_name == "Mime Jr.") {
+					pok_name = "Mime jr."
+				}
+				if (pok_name == "Nidoran-F") {
+					pok_name = "Nidoranfe"
+				}
+				if (pok_name == "Nidoran-M") {
+					pok_name = "Nidoranma"
+				}
+								
 				var newPoke = document.createElement("img");
 				newPoke.className = "opposite-pok right-side";
 				newPoke.src = `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${pok_name}.png`;
@@ -1495,9 +1540,13 @@ function getSrcImgPokemon(poke) {
 	} else if (poke.name == "Mr. Mime") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime.png`
 	} else if (poke.name == "Mr. Mime-Galar") {
-		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime-galar.png`
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mrmime-galar.png`
 	} else if (poke.name == "Mr. Rime") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. rime.png`
+	} else if (poke.name == "Nidoran-M") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Nidoranma.png`
+	} else if (poke.name == "Nidoran-F") {
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Nidoranfe.png`
 	} else if (poke.name == "Farfetch%E2%80%99d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
 	} else if (poke.name == "Farfetch%E2%80%99d-Galar") {
@@ -1508,6 +1557,7 @@ function getSrcImgPokemon(poke) {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
 	}
 }
+
 function get_trainer_poks(trainer_name) {
 	var true_name = trainer_name.split("(")[1].split("\n")[0].trim()
 	window.CURRENT_TRAINER = true_name.substring(0, true_name.length -1);
@@ -1939,7 +1989,7 @@ function switchIconSingle(){
 	window.isInDoubles = true;
 	if (+localStorage.getItem("doubleLegacy")){
 		return;
-	}	
+	}
 }
 
 function switchIconDouble(){

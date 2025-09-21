@@ -533,7 +533,7 @@ $(".set-selector").change(function () {
 					pok_name = "Mr. rime"
 				}
 				if (pok_name == "Mr. Mime-Galar") {
-					pok_name = "Mr. mime-galar"
+					pok_name = "Mrmime-galar"
 				}
 				if (pok_name == "Mime Jr.") {
 					pok_name = "Mime jr."
@@ -1540,18 +1540,18 @@ function getSrcImgPokemon(poke) {
 	} else if (poke.name == "Mr. Mime") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime.png`
 	} else if (poke.name == "Mr. Mime-Galar") {
-		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. mime-galar.png`
+		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mrmime-galar.png`
 	} else if (poke.name == "Mr. Rime") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Mr. rime.png`
 	} else if (poke.name == "Nidoran-M") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Nidoranma.png`
 	} else if (poke.name == "Nidoran-F") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Nidoranfe.png`
-	} else if (poke.name == "Farfetch%E2%80%99d") {
+	} else if (poke.name == "Farfetch\u2019d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd.png`
-	} else if (poke.name == "Farfetch%E2%80%99d-Galar") {
+	} else if (poke.name == "Farfetch\u2019d-Galar") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Farfetchd-Galar.png`
-	} else if (poke.name == "Sirfetch%E2%80%99d") {
+	} else if (poke.name == "Sirfetch\u2019d") {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/Sirfetchd.png`
 	} else {
 		return `https://raw.githubusercontent.com/phantombass/Project-Hegemony-Pokemon-Icons/master/${poke.name}.png`
