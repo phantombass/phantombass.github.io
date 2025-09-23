@@ -9348,7 +9348,7 @@ var SV_PATCH = {
     },
     Dachsbun: {
         types: ['Fairy'],
-        bs: { hp: 57, at: 100, df: 115, sa: 50, sd: 80, sp: 95 },
+        bs: { hp: 57, at: 80, df: 115, sa: 50, sd: 80, sp: 95 },
         weightkg: 14.9,
         abilities: { 0: 'Well-Baked Body' }
     },
