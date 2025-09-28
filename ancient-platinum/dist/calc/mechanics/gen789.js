@@ -1050,6 +1050,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     }
     if ((defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) ||
         (defender.hasAbility('Water Bubble') && move.hasType('Fire')) ||
+        (defender.hasAbility('Steam Engine') && move.hasType('Fire')) ||
         (defender.hasAbility('Water Compaction', 'Steam Engine') && move.hasType('Water')) ||
         (defender.hasAbility('Fairy Bubble') && move.hasType('Poison')) ||
         (defender.hasAbility('Fever Pitch') && move.hasType('Psychic')) ||

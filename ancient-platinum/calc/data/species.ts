@@ -5074,6 +5074,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Leavanny: {bs: {sd: 80}},
   Lopunny: {otherFormes: ['Lopunny-Mega']},
   Lucario: {otherFormes: ['Lucario-Mega']},
+  Luvdisc: {types: ['Water', 'Fairy']},
   Manectric: {otherFormes: ['Manectric-Mega']},
   Marill: {types: ['Water', 'Fairy']},
   Mawile: {types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega']},
