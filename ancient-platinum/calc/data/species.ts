@@ -1845,7 +1845,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Sand Veil'},
   },
   Cacturne: {
-    types: ['Grass', 'Ground'],
+    types: ['Grass', 'Dark'],
     bs: {hp: 70, at: 115, df: 60, sa: 115, sd: 60, sp: 55},
     weightkg: 77.4,
     abilities: {0: 'Sand Veil'},
