@@ -2086,7 +2086,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Swift Swim'},
   },
   Illumise: {
-    types: ['Bug'],
+    types: ['Bug','Fairy'],
     bs: {hp: 65, at: 47, df: 55, sa: 73, sd: 75, sp: 85},
     abilities: {0: 'Oblivious'},
     weightkg: 17.7,
@@ -2600,7 +2600,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
   },
   Volbeat: {
-    types: ['Bug'],
+    types: ['Bug','Electric'],
     bs: {hp: 65, at: 73, df: 55, sa: 47, sd: 75, sp: 85},
     weightkg: 17.7,
     abilities: {0: 'Illuminate'},
