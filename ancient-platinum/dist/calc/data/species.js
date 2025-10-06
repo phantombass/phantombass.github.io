@@ -4669,7 +4669,7 @@ var BW_PATCH = {
         abilities: { 0: 'Keen Eye' }
     },
     Samurott: {
-        types: ['Water', 'Fighting'],
+        types: ['Water', 'Steel'],
         bs: { hp: 95, at: 100, df: 85, sa: 108, sd: 70, sp: 70 },
         weightkg: 94.6,
         abilities: { 0: 'Torrent' }
