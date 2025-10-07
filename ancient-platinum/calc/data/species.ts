@@ -3537,7 +3537,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 0.3,
     abilities: {0: 'Levitate'},
     gender: 'N',
-    otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash'],
+    otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash', 'Rotom-Dex'],
   },
   'Rotom-Mow': {
     types: ['Electric', 'Ghost'],
@@ -3572,6 +3572,14 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Rotom',
   },
   'Rotom-Wash': {
+    types: ['Electric', 'Ghost'],
+    bs: {hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86},
+    weightkg: 0.3,
+    abilities: {0: 'Levitate'},
+    gender: 'N',
+    baseSpecies: 'Rotom',
+  },
+  'Rotom-Dex': {
     types: ['Electric', 'Ghost'],
     bs: {hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86},
     weightkg: 0.3,
@@ -3797,6 +3805,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Heat': {types: ['Electric', 'Fire']},
   'Rotom-Mow': {types: ['Electric', 'Grass']},
   'Rotom-Wash': {types: ['Electric', 'Water']},
+  'Rotom-Dex': {types: ['Electric', 'Steel']},
   Accelgor: {
     types: ['Bug'],
     bs: {hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145},
