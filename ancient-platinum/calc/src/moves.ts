@@ -5229,8 +5229,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     self: {boosts: {spa: -2}},
   },
   'Spore Beam': {
-    bp: 95,
-    type: 'Bug',
+    bp: 120,
+    type: 'Grass',
     category: 'Special',
     secondaries: true,
     isBeam: true,
