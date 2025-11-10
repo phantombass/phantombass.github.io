@@ -10104,7 +10104,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Hydrapple: {
     types: ['Grass', 'Dragon'],
-    bs: {hp: 106, at: 40, df: 110, sa: 120, sd: 90, sp: 74},
+    bs: {hp: 106, at: 40, df: 110, sa: 120, sd: 90, sp: 44},
     weightkg: 93,
     gender: 'N',
     abilities: {0: 'Supersweet Syrup'},
