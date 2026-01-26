@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9legendsou/items.ts"],
+  "sourcesContent": ["export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {\n\tslowbronite: {\n\t\tinherit: true,\n\t\tonTakeItem(item, source) {\n\t\t\treturn !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&\n\t\t\t\t!Object.values(item.megaStone).includes(source.baseSpecies.name));\n\t\t},\n\t},\n\tgreninjite: {\n\t\tinherit: true,\n\t\tonTakeItem(item, source) {\n\t\t\treturn !item.megaStone || (!item.megaStone[source.baseSpecies.name] &&\n\t\t\t\t!Object.values(item.megaStone).includes(source.baseSpecies.name));\n\t\t},\n\t},\n\tzygardite: {\n\t\tinherit: true,\n\t\tonTakeItem(item, source) {\n\t\t\tif ((source.baseSpecies.baseSpecies === 'Zygarde' && source.baseAbility === 'powerconstruct') ||\n\t\t\t\tsource.baseSpecies.name === 'Zygarde-Mega') return false;\n\t\t\treturn true;\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,WAAW,MAAM,QAAQ;AACxB,aAAO,CAAC,KAAK,aAAc,CAAC,KAAK,UAAU,OAAO,YAAY,IAAI,KACjE,CAAC,OAAO,OAAO,KAAK,SAAS,EAAE,SAAS,OAAO,YAAY,IAAI;AAAA,IACjE;AAAA,EACD;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,WAAW,MAAM,QAAQ;AACxB,aAAO,CAAC,KAAK,aAAc,CAAC,KAAK,UAAU,OAAO,YAAY,IAAI,KACjE,CAAC,OAAO,OAAO,KAAK,SAAS,EAAE,SAAS,OAAO,YAAY,IAAI;AAAA,IACjE;AAAA,EACD;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,WAAW,MAAM,QAAQ;AACxB,UAAK,OAAO,YAAY,gBAAgB,aAAa,OAAO,gBAAgB,oBAC3E,OAAO,YAAY,SAAS,eAAgB,QAAO;AACpD,aAAO;AAAA,IACR;AAAA,EACD;AACD;",
+  "names": []
+}

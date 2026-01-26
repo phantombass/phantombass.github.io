@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9urldraftleague/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\n\tvolttackle: {\n\t\tinherit: true,\n\t\tonModifyMove(move, pokemon, target) {\n\t\t\tif (pokemon.baseSpecies.name === \"Raichu-Mega-X\") {\n\t\t\t\tmove.self = { boosts: { atk: 1 } };\n\t\t\t}\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,YAAY;AAAA,IACX,SAAS;AAAA,IACT,aAAa,MAAM,SAAS,QAAQ;AACnC,UAAI,QAAQ,YAAY,SAAS,iBAAiB;AACjD,aAAK,OAAO,EAAE,QAAQ,EAAE,KAAK,EAAE,EAAE;AAAA,MAClC;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}
