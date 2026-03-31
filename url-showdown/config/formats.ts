@@ -432,7 +432,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen9',
 		searchShow: false,
 		teraPreviewDefault: true,
-		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
+		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', '+Future'],
 	},
 	{
 		name: "[Gen 9] NatDex 6v6 Doubles Draft",
@@ -3391,15 +3391,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[Gen 9] Legends Z-A - URL Draft",
+		name: "[Gen 9] Legends Z-A - Custom Draft",
 		desc: `Speculative turn-based metagame using Pok&eacute;mon obtainable in Legends: Z-A, but with National Dex learnsets.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3772808/">Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/posts/10749086">List of Changes</a>`,
 		],
 		mod: 'gen9',
-		ruleset: ['Standard Draft', 'Tera Type Preview', 'Dry Pass Clause', '+Unobtainable', '+Past', '+Future', 'Min Source Gen = 1'],
+		ruleset: ['[Gen 9] NatDex Draft', 'Tera Type Preview', 'Dry Pass Clause'],
 		banlist: ['Moody', 'Power Construct', 'Last Respects', 'Shed Tail'],
+	},
+	{
+		name: "[Gen 9] Legends Z-A - KDA Low-Tier Draft",
+		mod: 'gen9customdraftleague',
+		ruleset: ['[Gen 9] NatDex Draft', 'Tera Type Preview', 'Dry Pass Clause', '+Nonexistent'],
+		banlist: ['Moody', 'Power Construct', 'Last Respects', 'Shed Tail', 'Hidden Power', 'Shadow Tag', 'Drizzle', 'Drought', 'Damp Rock', 'Heat Rock', 'Smooth Rock', 'Icy Rock'],
 	},
 
 	// Randomized Format Spotlight

@@ -371,7 +371,7 @@ var RBY = {
     },
     Jynx: {
         types: ['Ice', 'Psychic'],
-        bs: { hp: 65, at: 50, df: 35, sp: 95, sl: 95 },
+        bs: { hp: 65, at: 50, df: 35, sp: 105, sl: 95 },
         weightkg: 40.6
     },
     Kabuto: {
@@ -2124,7 +2124,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Swift Swim' }
     },
     Illumise: {
-        types: ['Bug'],
+        types: ['Bug', 'Fairy'],
         bs: { hp: 65, at: 47, df: 55, sa: 73, sd: 75, sp: 85 },
         abilities: { 0: 'Oblivious' },
         weightkg: 17.7
@@ -2638,7 +2638,7 @@ var ADV_PATCH = {
         nfe: true
     },
     Volbeat: {
-        types: ['Bug'],
+        types: ['Bug', 'Electric'],
         bs: { hp: 65, at: 73, df: 55, sa: 47, sd: 75, sp: 85 },
         weightkg: 17.7,
         abilities: { 0: 'Illuminate' }

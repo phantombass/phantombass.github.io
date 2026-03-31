@@ -326,7 +326,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Jynx: {
     types: ['Ice', 'Psychic'],
-    bs: {hp: 65, at: 50, df: 35, sp: 95, sl: 95},
+    bs: {hp: 65, at: 50, df: 35, sp: 105, sl: 95},
     weightkg: 40.6,
   },
   Kabuto: {
