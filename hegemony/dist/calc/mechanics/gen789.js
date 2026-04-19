@@ -66,7 +66,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (move.named('Weather Ball')) {
         var holdingUmbrella = attacker.hasItem('Utility Umbrella');
         type =
-            field.hasWeather('Sun', 'Harsh Sunshine') && !holdingUmbrella ? 'Fire'
+            (field.hasWeather('Sun', 'Harsh Sunshine') || attacker.hasAbility('Mega Sol')) && !holdingUmbrella ? 'Fire'
                 : field.hasWeather('Rain', 'Heavy Rain') && !holdingUmbrella ? 'Water'
                     : field.hasWeather('Sand') ? 'Rock'
                         : field.hasWeather('Hail', 'Snow', 'Sleet') ? 'Ice'
@@ -262,6 +262,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         typeEffectiveness = 0.5;
         desc.defenderAbility = defender.ability;
     }
+    if (defender.hasAbility('Thermal Exchange') && move.hasType('Fire')) {
+        typeEffectiveness = 0.5;
+        desc.defenderAbility = defender.ability;
+    }
     var item = gen.items.get((0, util_1.toID)(defender.item));
     if (item && item.megaEvolves && defender.name.includes(item.megaEvolves) && defender.name.includes('Mega') && move.named('Tera Starstorm')) {
         typeEffectiveness = 2;
@@ -277,7 +281,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
         (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
         (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
-        (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail')) ||
+        (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail', 'Royal Fortress')) ||
         (move.hasType('Ground') && defender.hasAbility('Earth Eater')) ||
         (move.flags.wind && defender.hasAbility('Wind Rider', 'Wind Power')) ||
         (move.hasType('Dark') && defender.hasAbility('Untainted')) ||
@@ -287,7 +291,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.hasType('Rock') && defender.hasAbility('Scaler')) ||
         (move.hasType('Bug') && defender.hasAbility('Pesticide')) ||
         (move.hasType('Poison') && defender.hasAbility('Pastel Veil')) ||
-        (move.hasType('Cosmic') && defender.hasAbility('Dimension Block'))) {
+        (move.hasType('Cosmic') && defender.hasAbility('Dimension Block')) ||
+        (move.hasType('Steel') && defender.hasAbility('Royal Fortress'))) {
         desc.defenderAbility = defender.ability;
         return result;
     }
@@ -430,6 +435,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if (attacker.hasAbility('Astral Cloak') && move.hasType('Cosmic')) {
+        stabMod += 2048;
+        desc.attackerAbility = attacker.ability;
+    }
+    else if (attacker.hasAbility('Sword of Mastery') && move.flags.slicing && !attacker.teraType) {
         stabMod += 2048;
         desc.attackerAbility = attacker.ability;
     }
@@ -611,7 +620,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             break;
         case 'Weather Ball':
             basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
-            if (field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') &&
+            if ((field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') || attacker.hasAbility('Mega Sol')) &&
                 attacker.hasItem('Utility Umbrella'))
                 basePower = move.bp;
             desc.moveBP = basePower;
@@ -817,7 +826,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Mega Launcher') && move.flags.pulse) ||
         (attacker.hasAbility('Strong Jaw') && move.flags.bite) ||
         (attacker.hasAbility('Steely Spirit') && move.hasType('Steel')) ||
-        (attacker.hasAbility('Sharpness') && move.flags.slicing) ||
+        (attacker.hasAbility('Sharpness', 'Sword of Mastery') && move.flags.slicing) ||
         (attacker.hasAbility('Gavel Power') && move.flags.hammer) ||
         (attacker.hasAbility('Fever Pitch') && move.hasType('Poison')) ||
         (attacker.hasAbility('Subwoofer') && move.flags.sound && basePower <= 70)) {
@@ -1104,6 +1113,9 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         atMods.push(6144);
         desc.attackerItem = attacker.item;
     }
+    else if (attacker.hasAbility('Power of Aura')) {
+        atMods.push((4096) * (0, util_mech_1.pokeRound)(attacker.maxHP() / attacker.curHP()));
+    }
     return atMods;
 }
 exports.calculateAtModsSMSSSV = calculateAtModsSMSSSV;
@@ -1286,6 +1298,10 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
     }
     if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor') && typeEffectiveness > 1) {
         finalMods.push(3072);
+        desc.defenderAbility = defender.ability;
+    }
+    if (defender.hasAbility('Impervious') && typeEffectiveness > 1) {
+        finalMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
     if (field.defenderSide.isFriendGuard) {

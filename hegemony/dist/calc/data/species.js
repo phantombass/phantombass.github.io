@@ -1497,7 +1497,7 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Ursaring: {
-        types: ['Normal'],
+        types: ['Normal', 'Cosmic'],
         bs: { hp: 90, at: 130, df: 75, sa: 75, sd: 75, sp: 55 },
         weightkg: 125.8
     },
@@ -4400,7 +4400,7 @@ var BW_PATCH = {
         weightkg: 325,
         abilities: { 0: 'Pressure' },
         gender: 'N',
-        otherFormes: ['Kyurem-Black', 'Kyurem-White']
+        otherFormes: ['Kyurem-Black', 'Kyurem-White', 'Kyurem-Perfect']
     },
     'Kyurem-Black': {
         types: ['Dragon', 'Ice'],
@@ -4491,7 +4491,7 @@ var BW_PATCH = {
         abilities: { 0: 'Big Pecks' }
     },
     Maractus: {
-        types: ['Grass'],
+        types: ['Grass', 'Normal'],
         bs: { hp: 75, at: 86, df: 77, sa: 106, sd: 77, sp: 80 },
         weightkg: 28,
         abilities: { 0: 'Water Absorb' }
@@ -5070,7 +5070,7 @@ var XY_PATCH = {
     Camerupt: { otherFormes: ['Camerupt-Mega'] },
     Charizard: { otherFormes: ['Charizard-Mega-X', 'Charizard-Mega-Y'] },
     Chatot: { otherFormes: ['Chatot-Mega'] },
-    Chimecho: { types: ['Psychic', 'Cosmic'], otherFormes: ['Chimecho-Mega'] },
+    Chimecho: { types: ['Psychic', 'Cosmic'], otherFormes: ['Chimecho-Mega-Z'] },
     Baltoy: { types: ['Ground', 'Cosmic'] },
     Claydol: { types: ['Ground', 'Cosmic'] },
     Clefable: { types: ['Fairy', 'Cosmic'], bs: { sa: 95 } },
@@ -5968,9 +5968,9 @@ var XY_PATCH = {
         abilities: { 0: 'Thick Fat' },
         baseSpecies: 'Venusaur'
     },
-    'Chimecho-Mega': {
+    'Chimecho-Mega-Z': {
         types: ['Psychic', 'Cosmic'],
-        bs: { hp: 95, at: 50, df: 120, sa: 145, sd: 120, sp: 95 },
+        bs: { hp: 95, at: 24, df: 95, sa: 145, sd: 95, sp: 151 },
         weightkg: 102,
         abilities: { 0: 'Stellarize' },
         baseSpecies: 'Chimecho'
@@ -7829,7 +7829,7 @@ var SS_PATCH = {
         weightkg: 7.7,
         abilities: { 0: 'Unnerve' },
         gender: 'N',
-        otherFormes: ['Calyrex-Ice', 'Calyrex-Shadow']
+        otherFormes: ['Calyrex-Ice', 'Calyrex-Shadow', 'Calyrex-Double']
     },
     'Calyrex-Ice': {
         types: ['Psychic', 'Ice'],
@@ -10261,7 +10261,907 @@ var SV_PATCH = {
         weightkg: 0.3,
         gender: 'N',
         abilities: { 0: 'Poison Puppeteer' }
+    }
+};
+var ZA_PATCH = {
+    Barbaracle: { otherFormes: ['Barbaracle-Mega'] },
+    Chandelure: { otherFormes: ['Chandelure-Mega'] },
+    Chesnaught: { otherFormes: ['Chesnaught-Mega'] },
+    Clefable: { otherFormes: ['Clefable-Mega'] },
+    Delphox: { otherFormes: ['Delphox-Mega'] },
+    Dragalge: { otherFormes: ['Dragalge-Mega'] },
+    Dragonite: { otherFormes: ['Dragonite-Mega'] },
+    Drampa: { otherFormes: ['Drampa-Mega'] },
+    Eelektross: { otherFormes: ['Eelektross-Mega'] },
+    Emboar: { otherFormes: ['Emboar-Mega'] },
+    Excadrill: { otherFormes: ['Excadrill-Mega'] },
+    Falinks: { otherFormes: ['Falinks-Mega'] },
+    Feraligatr: { otherFormes: ['Feraligatr-Mega'] },
+    Floette: { otherFormes: ['Floette-Eternal', 'Floette-Mega'] },
+    Froslass: { otherFormes: ['Froslass-Mega'] },
+    Greninja: { otherFormes: ['Greninja-Ash', 'Greninja-Bond', 'Greninja-Mega'] },
+    Hawlucha: { otherFormes: ['Hawlucha-Mega'] },
+    Malamar: { otherFormes: ['Malamar-Mega'] },
+    Meganium: { otherFormes: ['Meganium-Mega'] },
+    Pyroar: { otherFormes: ['Pyroar-Mega'] },
+    Scolipede: { otherFormes: ['Scolipede-Mega'] },
+    Scrafty: { otherFormes: ['Scrafty-Mega'] },
+    Skarmory: { otherFormes: ['Skarmory-Mega'] },
+    Starmie: { otherFormes: ['Starmie-Mega'] },
+    Victreebel: { otherFormes: ['Victreebel-Mega'] },
+    Chimecho: { otherFormes: ['Chimecho-Mega', 'Chimecho-Mega-Z'] },
+    Raichu: { otherFormes: ['Raichu-Alola', 'Raichu-Mega-X', 'Raichu-Mega-Y'] },
+    Absol: { otherFormes: ['Absol-Mega', 'Absol-Mega-Z'] },
+    Lucario: { otherFormes: ['Lucario-Mega', 'Lucario-Mega-Z'] },
+    Garchomp: { otherFormes: ['Garchomp-Mega', 'Garchomp-Mega-Z'] },
+    Staraptor: { otherFormes: ['Staraptor-Mega'] },
+    Heatran: { otherFormes: ['Heatran-Mega'] },
+    Darkrai: { otherFormes: ['Darkrai-Mega'] },
+    Golurk: { otherFormes: ['Golurk-Mega'] },
+    Meowstic: { otherFormes: ['Meowstic-F', 'Meowstic-Mega'] },
+    Crabominable: { otherFormes: ['Crabominable-Mega'] },
+    Golisopod: { otherFormes: ['Golisopod-Mega'] },
+    Magearna: { otherFormes: ['Magearna-Original', 'Magearna-Mega'] },
+    Zeraora: { otherFormes: ['Zeraora-Mega'] },
+    Scovillain: { otherFormes: ['Scovillain-Mega'] },
+    Glimmora: { otherFormes: ['Glimmora-Mega'] },
+    Tatsugiri: { otherFormes: ['Tatsugiri-Mega'] },
+    Baxcalibur: { otherFormes: ['Baxcalibur-Mega'] },
+    Zygarde: { otherFormes: ['Zygarde-10%', 'Zygarde-Complete', 'Zygarde-Mega'] },
+    'Barbaracle-Mega': {
+        types: [
+            'Rock',
+            'Fighting',
+        ],
+        bs: {
+            hp: 72,
+            at: 140,
+            df: 130,
+            sa: 64,
+            sd: 106,
+            sp: 88
+        },
+        weightkg: 100.0,
+        abilities: {
+            '0': 'Tough Claws'
+        },
+        baseSpecies: 'Barbaracle'
     },
+    'Chandelure-Mega': {
+        types: [
+            'Ghost',
+            'Fire',
+        ],
+        bs: {
+            hp: 60,
+            at: 75,
+            df: 110,
+            sa: 175,
+            sd: 110,
+            sp: 90
+        },
+        weightkg: 69.6,
+        abilities: {
+            '0': 'Infiltrator'
+        },
+        baseSpecies: 'Chandelure'
+    },
+    'Chesnaught-Mega': {
+        types: [
+            'Grass',
+            'Fighting',
+        ],
+        bs: {
+            hp: 88,
+            at: 137,
+            df: 172,
+            sa: 74,
+            sd: 115,
+            sp: 44
+        },
+        weightkg: 90.0,
+        abilities: {
+            '0': 'Grassy Surge'
+        },
+        baseSpecies: 'Chesnaught'
+    },
+    'Clefable-Mega': {
+        types: [
+            'Fairy',
+            'Flying',
+        ],
+        bs: {
+            hp: 95,
+            at: 80,
+            df: 93,
+            sa: 135,
+            sd: 110,
+            sp: 70
+        },
+        weightkg: 42.3,
+        abilities: {
+            '0': 'Astral Cloak'
+        },
+        baseSpecies: 'Clefable'
+    },
+    'Delphox-Mega': {
+        types: [
+            'Fire',
+            'Psychic',
+        ],
+        bs: {
+            hp: 75,
+            at: 69,
+            df: 72,
+            sa: 159,
+            sd: 125,
+            sp: 134
+        },
+        weightkg: 39.0,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Delphox'
+    },
+    'Dragalge-Mega': {
+        types: [
+            'Poison',
+            'Dragon',
+        ],
+        bs: {
+            hp: 65,
+            at: 85,
+            df: 105,
+            sa: 132,
+            sd: 163,
+            sp: 44
+        },
+        weightkg: 100.3,
+        abilities: {
+            '0': 'Regenerator'
+        },
+        baseSpecies: 'Dragalge'
+    },
+    'Dragonite-Mega': {
+        types: [
+            'Dragon',
+            'Flying',
+        ],
+        bs: {
+            hp: 91,
+            at: 124,
+            df: 115,
+            sa: 145,
+            sd: 125,
+            sp: 100
+        },
+        weightkg: 290.0,
+        abilities: {
+            '0': 'Soul-Heart'
+        },
+        baseSpecies: 'Dragonite'
+    },
+    'Drampa-Mega': {
+        types: [
+            'Normal',
+            'Dragon',
+        ],
+        bs: {
+            hp: 78,
+            at: 85,
+            df: 110,
+            sa: 160,
+            sd: 116,
+            sp: 36
+        },
+        weightkg: 185,
+        abilities: {
+            '0': 'Adaptability'
+        },
+        baseSpecies: 'Drampa'
+    },
+    'Eelektross-Mega': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 85,
+            at: 145,
+            df: 80,
+            sa: 135,
+            sd: 90,
+            sp: 80
+        },
+        weightkg: 160.0,
+        abilities: {
+            '0': 'Hadron Engine'
+        },
+        baseSpecies: 'Eelektross'
+    },
+    'Emboar-Mega': {
+        types: [
+            'Fire',
+            'Fighting',
+        ],
+        bs: {
+            hp: 110,
+            at: 148,
+            df: 75,
+            sa: 110,
+            sd: 110,
+            sp: 75
+        },
+        weightkg: 180.3,
+        abilities: {
+            '0': 'Rock Head'
+        },
+        baseSpecies: 'Emboar'
+    },
+    'Excadrill-Mega': {
+        types: [
+            'Ground',
+            'Steel',
+        ],
+        bs: {
+            hp: 110,
+            at: 165,
+            df: 100,
+            sa: 65,
+            sd: 65,
+            sp: 103
+        },
+        weightkg: 60.0,
+        abilities: {
+            '0': 'Piercing Drill'
+        },
+        baseSpecies: 'Excadrill'
+    },
+    'Falinks-Mega': {
+        types: [
+            'Fighting',
+            'Normal'
+        ],
+        bs: {
+            hp: 65,
+            at: 135,
+            df: 135,
+            sa: 70,
+            sd: 65,
+            sp: 100
+        },
+        weightkg: 99.0,
+        abilities: {
+            '0': 'Skill Link'
+        },
+        gender: 'N',
+        baseSpecies: 'Falinks'
+    },
+    'Feraligatr-Mega': {
+        types: [
+            'Water',
+            'Dragon',
+        ],
+        bs: {
+            hp: 85,
+            at: 160,
+            df: 125,
+            sa: 89,
+            sd: 93,
+            sp: 78
+        },
+        weightkg: 108.8,
+        abilities: {
+            '0': 'Dragonize'
+        },
+        baseSpecies: 'Feraligatr'
+    },
+    'Floette-Eternal': { bs: { hp: 74, at: 65, df: 67, sa: 125, sd: 128, sp: 92 } },
+    'Floette-Mega': {
+        types: [
+            'Fairy',
+            'Cosmic'
+        ],
+        bs: {
+            hp: 74,
+            at: 85,
+            df: 87,
+            sa: 155,
+            sd: 148,
+            sp: 102
+        },
+        weightkg: 100.8,
+        abilities: {
+            '0': 'Adaptability'
+        },
+        baseSpecies: 'Floette'
+    },
+    'Froslass-Mega': {
+        types: [
+            'Ice',
+            'Ghost',
+        ],
+        bs: {
+            hp: 70,
+            at: 80,
+            df: 70,
+            sa: 140,
+            sd: 100,
+            sp: 120
+        },
+        weightkg: 29.6,
+        abilities: {
+            '0': 'Snow Warning'
+        },
+        baseSpecies: 'Froslass'
+    },
+    'Greninja-Mega': {
+        types: [
+            'Water',
+            'Dark',
+        ],
+        bs: {
+            hp: 72,
+            at: 125,
+            df: 77,
+            sa: 133,
+            sd: 81,
+            sp: 142
+        },
+        weightkg: 40.0,
+        abilities: {
+            '0': 'Protean'
+        },
+        baseSpecies: 'Greninja'
+    },
+    'Hawlucha-Mega': {
+        types: [
+            'Fighting',
+            'Flying',
+        ],
+        bs: {
+            hp: 78,
+            at: 137,
+            df: 100,
+            sa: 74,
+            sd: 93,
+            sp: 118
+        },
+        weightkg: 25.0,
+        abilities: {
+            '0': 'Keen Eye'
+        },
+        baseSpecies: 'Hawlucha'
+    },
+    'Malamar-Mega': {
+        types: [
+            'Dark',
+            'Psychic',
+        ],
+        bs: {
+            hp: 86,
+            at: 102,
+            df: 88,
+            sa: 98,
+            sd: 120,
+            sp: 88
+        },
+        weightkg: 69.8,
+        abilities: {
+            '0': 'Contrary'
+        },
+        baseSpecies: 'Malamar'
+    },
+    'Meganium-Mega': {
+        types: [
+            'Grass',
+            'Fairy',
+        ],
+        bs: {
+            hp: 80,
+            at: 92,
+            df: 115,
+            sa: 143,
+            sd: 115,
+            sp: 80
+        },
+        weightkg: 201.0,
+        abilities: {
+            '0': 'Mega Sol'
+        },
+        baseSpecies: 'Meganium'
+    },
+    'Pyroar-Mega': {
+        types: [
+            'Fire',
+            'Normal',
+        ],
+        bs: {
+            hp: 86,
+            at: 88,
+            df: 92,
+            sa: 129,
+            sd: 86,
+            sp: 126
+        },
+        weightkg: 93.3,
+        abilities: {
+            '0': 'Lion\'s Pride'
+        },
+        baseSpecies: 'Pyroar'
+    },
+    'Scolipede-Mega': {
+        types: [
+            'Bug',
+            'Poison',
+        ],
+        bs: {
+            hp: 60,
+            at: 140,
+            df: 149,
+            sa: 75,
+            sd: 99,
+            sp: 62
+        },
+        weightkg: 230.5,
+        abilities: {
+            '0': 'Tinted Lens'
+        },
+        baseSpecies: 'Scolipede'
+    },
+    'Scrafty-Mega': {
+        types: [
+            'Dark',
+            'Fighting',
+        ],
+        bs: {
+            hp: 65,
+            at: 130,
+            df: 135,
+            sa: 55,
+            sd: 135,
+            sp: 68
+        },
+        weightkg: 31.0,
+        abilities: {
+            '0': 'Intimidate'
+        },
+        baseSpecies: 'Scrafty'
+    },
+    'Skarmory-Mega': {
+        types: [
+            'Steel',
+            'Flying',
+        ],
+        bs: {
+            hp: 65,
+            at: 140,
+            df: 110,
+            sa: 40,
+            sd: 100,
+            sp: 110
+        },
+        weightkg: 40.4,
+        abilities: {
+            '0': 'Tough Claws'
+        },
+        baseSpecies: 'Skarmory'
+    },
+    'Starmie-Mega': {
+        types: [
+            'Water',
+            'Psychic',
+        ],
+        bs: {
+            hp: 60,
+            at: 100,
+            df: 105,
+            sa: 130,
+            sd: 105,
+            sp: 120
+        },
+        weightkg: 80.0,
+        abilities: {
+            '0': 'Pure Power'
+        },
+        gender: 'N',
+        baseSpecies: 'Starmie'
+    },
+    'Victreebel-Mega': {
+        types: [
+            'Grass',
+            'Poison',
+        ],
+        bs: {
+            hp: 80,
+            at: 125,
+            df: 85,
+            sa: 135,
+            sd: 95,
+            sp: 70
+        },
+        weightkg: 125.5,
+        abilities: {
+            '0': 'Corrosion'
+        },
+        baseSpecies: 'Victreebel'
+    },
+    'Zygarde-Mega': {
+        types: [
+            'Dragon',
+            'Ground',
+        ],
+        bs: {
+            hp: 216,
+            at: 70,
+            df: 91,
+            sa: 216,
+            sd: 85,
+            sp: 100
+        },
+        weightkg: 610,
+        abilities: {
+            '0': 'Aura Break'
+        },
+        gender: 'N',
+        baseSpecies: 'Zygarde'
+    },
+    'Chimecho-Mega': {
+        types: [
+            'Psychic',
+            'Steel',
+        ],
+        bs: {
+            hp: 75,
+            at: 52,
+            df: 110,
+            sa: 135,
+            sd: 120,
+            sp: 65
+        },
+        weightkg: 8,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Chimecho'
+    },
+    'Raichu-Mega-X': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 60,
+            at: 135,
+            df: 95,
+            sa: 90,
+            sd: 95,
+            sp: 110
+        },
+        weightkg: 38,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Raichu'
+    },
+    'Raichu-Mega-Y': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 60,
+            at: 100,
+            df: 55,
+            sa: 160,
+            sd: 80,
+            sp: 130
+        },
+        weightkg: 26,
+        abilities: {
+            '0': 'Transistor'
+        },
+        baseSpecies: 'Raichu'
+    },
+    'Absol-Mega-Z': {
+        types: [
+            'Dark',
+            'Ghost'
+        ],
+        bs: {
+            hp: 65,
+            at: 154,
+            df: 60,
+            sa: 75,
+            sd: 60,
+            sp: 151
+        },
+        weightkg: 49,
+        abilities: {
+            '0': 'Sharpness'
+        },
+        baseSpecies: 'Absol'
+    },
+    'Garchomp-Mega-Z': {
+        types: [
+            'Dragon'
+        ],
+        bs: {
+            hp: 108,
+            at: 130,
+            df: 85,
+            sa: 141,
+            sd: 85,
+            sp: 151
+        },
+        weightkg: 99,
+        abilities: {
+            '0': 'Slayer'
+        },
+        baseSpecies: 'Garchomp'
+    },
+    'Lucario-Mega-Z': {
+        types: [
+            'Fighting',
+            'Steel'
+        ],
+        bs: {
+            hp: 70,
+            at: 100,
+            df: 70,
+            sa: 164,
+            sd: 70,
+            sp: 151
+        },
+        weightkg: 49.4,
+        abilities: {
+            '0': 'Power of Aura'
+        },
+        baseSpecies: 'Lucario'
+    },
+    'Staraptor-Mega': {
+        types: [
+            'Fighting',
+            'Flying',
+        ],
+        bs: {
+            hp: 85,
+            at: 140,
+            df: 100,
+            sa: 60,
+            sd: 90,
+            sp: 110
+        },
+        weightkg: 50,
+        abilities: {
+            '0': 'Tough Claws'
+        },
+        baseSpecies: 'Staraptor'
+    },
+    'Heatran-Mega': {
+        types: [
+            'Fire',
+            'Steel',
+        ],
+        bs: {
+            hp: 91,
+            at: 120,
+            df: 106,
+            sa: 175,
+            sd: 141,
+            sp: 67
+        },
+        weightkg: 570,
+        abilities: {
+            '0': 'Earth Eater'
+        },
+        baseSpecies: 'Heatran'
+    },
+    'Darkrai-Mega': {
+        types: [
+            'Dark',
+        ],
+        bs: {
+            hp: 70,
+            at: 120,
+            df: 130,
+            sa: 165,
+            sd: 130,
+            sp: 85
+        },
+        weightkg: 240,
+        abilities: {
+            '0': 'Equinox'
+        },
+        baseSpecies: 'Darkrai'
+    },
+    'Golurk-Mega': {
+        types: [
+            'Ground',
+            'Ghost',
+        ],
+        bs: {
+            hp: 89,
+            at: 159,
+            df: 105,
+            sa: 70,
+            sd: 105,
+            sp: 55
+        },
+        weightkg: 330,
+        abilities: {
+            '0': 'Steam Engine'
+        },
+        baseSpecies: 'Golurk'
+    },
+    'Meowstic-Mega': {
+        types: [
+            'Psychic',
+        ],
+        bs: {
+            hp: 74,
+            at: 48,
+            df: 76,
+            sa: 143,
+            sd: 101,
+            sp: 124
+        },
+        weightkg: 10.1,
+        abilities: {
+            '0': 'Forewarn'
+        },
+        baseSpecies: 'Meowstic'
+    },
+    'Crabominable-Mega': {
+        types: [
+            'Fighting',
+            'Ice',
+        ],
+        bs: {
+            hp: 97,
+            at: 157,
+            df: 122,
+            sa: 65,
+            sd: 107,
+            sp: 33
+        },
+        weightkg: 252.8,
+        abilities: {
+            '0': 'Iron Fist'
+        },
+        baseSpecies: 'Crabominable'
+    },
+    'Golisopod-Mega': {
+        types: [
+            'Bug',
+            'Steel',
+        ],
+        bs: {
+            hp: 75,
+            at: 150,
+            df: 175,
+            sa: 70,
+            sd: 120,
+            sp: 40
+        },
+        weightkg: 148,
+        abilities: {
+            '0': 'Heatproof'
+        },
+        baseSpecies: 'Golisopod'
+    },
+    'Magearna-Mega': {
+        types: [
+            'Steel',
+            'Fairy',
+        ],
+        bs: {
+            hp: 80,
+            at: 125,
+            df: 115,
+            sa: 170,
+            sd: 115,
+            sp: 95
+        },
+        weightkg: 248.1,
+        abilities: {
+            '0': 'Soul-Heart'
+        },
+        baseSpecies: 'Magearna'
+    },
+    'Zeraora-Mega': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 88,
+            at: 157,
+            df: 75,
+            sa: 147,
+            sd: 80,
+            sp: 153
+        },
+        weightkg: 44.5,
+        abilities: {
+            '0': 'Volt Absorb'
+        },
+        baseSpecies: 'Zeraora'
+    },
+    'Scovillain-Mega': {
+        types: [
+            'Grass',
+            'Fire',
+        ],
+        bs: {
+            hp: 65,
+            at: 138,
+            df: 85,
+            sa: 138,
+            sd: 85,
+            sp: 75
+        },
+        weightkg: 22,
+        abilities: {
+            '0': 'Chlorophyll'
+        },
+        baseSpecies: 'Scovillain'
+    },
+    'Glimmora-Mega': {
+        types: [
+            'Rock',
+            'Poison',
+        ],
+        bs: {
+            hp: 83,
+            at: 90,
+            df: 105,
+            sa: 150,
+            sd: 96,
+            sp: 101
+        },
+        weightkg: 77,
+        abilities: {
+            '0': 'Adaptability'
+        },
+        baseSpecies: 'Glimmora'
+    },
+    'Tatsugiri-Mega': {
+        types: [
+            'Dragon',
+            'Water',
+        ],
+        bs: {
+            hp: 68,
+            at: 65,
+            df: 90,
+            sa: 135,
+            sd: 125,
+            sp: 92
+        },
+        weightkg: 24,
+        abilities: {
+            '0': 'Storm Drain'
+        },
+        baseSpecies: 'Tatsugiri'
+    },
+    'Baxcalibur-Mega': {
+        types: [
+            'Ice',
+            'Dragon',
+        ],
+        bs: {
+            hp: 115,
+            at: 175,
+            df: 117,
+            sa: 105,
+            sd: 101,
+            sp: 87
+        },
+        weightkg: 315,
+        abilities: {
+            '0': 'Thermal Exchange'
+        },
+        baseSpecies: 'Baxcalibur'
+    }
+};
+var HEGEMONY_PATCH = {
     'Chingling-Wartime': {
         types: ['Fairy'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
@@ -10341,19 +11241,22 @@ var SV_PATCH = {
         types: ['Fighting', 'Ground'],
         bs: { hp: 70, at: 105, df: 65, sa: 85, sd: 85, sp: 120 },
         weightkg: 52.2,
-        abilities: { 0: 'Inner Focus' }
+        abilities: { 0: 'Inner Focus' },
+        otherFormes: ['Sceptile-Wartime-Mega']
     },
     'Swampert-Wartime': {
         types: ['Rock', 'Dark'],
         bs: { hp: 110, at: 110, df: 90, sa: 65, sd: 90, sp: 70 },
         weightkg: 81.9,
-        abilities: { 0: 'Rock Head' }
+        abilities: { 0: 'Rock Head' },
+        otherFormes: ['Swampert-Wartime-Mega']
     },
     'Blaziken-Wartime': {
         types: ['Flying', 'Psychic'],
         bs: { hp: 80, at: 65, df: 70, sa: 125, sd: 75, sp: 110 },
         weightkg: 52,
-        abilities: { 0: 'Compound Eyes' }
+        abilities: { 0: 'Compound Eyes' },
+        otherFormes: ['Blaziken-Wartime-Mega']
     },
     'Carvanha-Wartime': {
         types: ['Fire'],
@@ -10368,6 +11271,12 @@ var SV_PATCH = {
         weightkg: 3.9,
         abilities: { 0: 'Steam Powered' },
         nfe: true
+    },
+    'Overqwil-Wartime': {
+        types: ['Fire', 'Steel'],
+        bs: { hp: 95, at: 55, df: 90, sa: 130, sd: 90, sp: 105 },
+        weightkg: 3.9,
+        abilities: { 0: 'Poison Point' }
     },
     'Bulbasaur-Wartime': {
         types: ['Dark', 'Fairy'],
@@ -10439,7 +11348,6 @@ var SV_PATCH = {
         types: ['Steel', 'Ground'],
         bs: { hp: 65, at: 100, df: 65, sa: 61, sd: 61, sp: 100 },
         weightkg: 38.0,
-        nfe: true,
         abilities: { 0: 'Intimidate' }
     },
     'Remoraid-Wartime': {
@@ -10526,7 +11434,8 @@ var SV_PATCH = {
         types: ['Ice', 'Poison'],
         bs: { hp: 70, at: 110, df: 180, sa: 60, sd: 60, sp: 50 },
         weightkg: 360,
-        abilities: { 0: 'Skill Link' }
+        abilities: { 0: 'Skill Link' },
+        otherFormes: ['Aggron-Wartime-Mega']
     },
     'Magnemite-Wartime': {
         types: ['Water'],
@@ -10555,6 +11464,12 @@ var SV_PATCH = {
         abilities: { 0: 'Filter' },
         nfe: true
     },
+    'Armarouge-Wartime': {
+        types: ['Steel', 'Psychic'],
+        bs: { hp: 85, at: 60, df: 100, sa: 125, sd: 80, sp: 75 },
+        weightkg: 85,
+        abilities: { 0: 'Clear Body' }
+    },
     'Ceruledge-Wartime': {
         types: ['Steel', 'Ghost'],
         bs: { hp: 75, at: 125, df: 80, sa: 60, sd: 100, sp: 85 },
@@ -10574,6 +11489,12 @@ var SV_PATCH = {
         weightkg: 11,
         abilities: { 0: 'Clear Body' },
         nfe: true
+    },
+    'Dragapult-Wartime': {
+        types: ['Steel', 'Ghost'],
+        bs: { hp: 88, at: 120, df: 75, sa: 100, sd: 75, sp: 142 },
+        weightkg: 50,
+        abilities: { 0: 'Clear Body' }
     },
     'Snorunt-Wartime': {
         types: ['Rock', 'Poison'],
@@ -10596,6 +11517,12 @@ var SV_PATCH = {
         nfe: true,
         abilities: { 0: 'Magic Guard' }
     },
+    'Empoleon-Wartime': {
+        types: ['Ice', 'Flying'],
+        bs: { hp: 84, at: 86, df: 88, sa: 111, sd: 101, sp: 60 },
+        weightkg: 84.5,
+        abilities: { 0: 'Magic Guard' }
+    },
     'Turtwig-Wartime': {
         types: ['Rock'],
         bs: { hp: 55, at: 68, df: 64, sa: 45, sd: 55, sp: 31 },
@@ -10614,13 +11541,21 @@ var SV_PATCH = {
         types: ['Rock', 'Steel'],
         bs: { hp: 95, at: 109, df: 105, sa: 75, sd: 85, sp: 56 },
         weightkg: 310,
-        abilities: { 0: 'Splinter' }
+        abilities: { 0: 'Splinter' },
+        otherFormes: ['Torterra-Wartime-Mega']
+    },
+    'Blitzle-Wartime': {
+        types: ['Electric', 'Ground'],
+        bs: { hp: 45, at: 60, df: 32, sa: 50, sd: 32, sp: 76 },
+        weightkg: 29.8,
+        nfe: true,
+        abilities: { 0: 'Earth Eater' }
     },
     'Zebstrika-Wartime': {
         types: ['Electric', 'Ground'],
         bs: { hp: 75, at: 100, df: 63, sa: 80, sd: 63, sp: 116 },
         weightkg: 79.5,
-        abilities: { 0: 'Levitate' }
+        abilities: { 0: 'Earth Eater' }
     },
     'Litten-Wartime': {
         types: ['Ghost'],
@@ -10642,6 +11577,13 @@ var SV_PATCH = {
         weightkg: 83,
         abilities: { 0: 'Cursed Body' }
     },
+    'Tepig-Wartime': {
+        types: ['Ghost'],
+        bs: { hp: 65, at: 63, df: 45, sa: 45, sd: 45, sp: 45 },
+        weightkg: 9.9,
+        nfe: true,
+        abilities: { 0: 'Cursed Body' }
+    },
     'Pignite-Wartime': {
         types: ['Ghost', 'Cosmic'],
         bs: { hp: 90, at: 93, df: 55, sa: 70, sd: 55, sp: 55 },
@@ -10653,7 +11595,8 @@ var SV_PATCH = {
         types: ['Ghost', 'Cosmic'],
         bs: { hp: 110, at: 123, df: 65, sa: 100, sd: 65, sp: 65 },
         weightkg: 150,
-        abilities: { 0: 'Cursed Body' }
+        abilities: { 0: 'Cursed Body' },
+        otherFormes: ['Emboar-Wartime-Mega']
     },
     'Drifblim-Wartime': {
         types: ['Electric', 'Steel'],
@@ -10661,12 +11604,19 @@ var SV_PATCH = {
         weightkg: 15,
         abilities: { 0: 'Levitate' }
     },
-    'Drifloon': {
+    'Drifloon-Wartime': {
         types: ['Electric'],
         bs: { hp: 90, at: 50, df: 34, sa: 60, sd: 44, sp: 70 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Steel' }
+    },
+    'Gible-Wartime': {
+        types: ['Ice', 'Ground'],
+        bs: { hp: 58, at: 70, df: 45, sa: 40, sd: 45, sp: 42 },
+        weightkg: 20.5,
+        nfe: true,
+        abilities: { 0: 'Snow Cloak' }
     },
     'Gabite-Wartime': {
         types: ['Ice', 'Ground'],
@@ -10688,6 +11638,13 @@ var SV_PATCH = {
         weightkg: 95,
         abilities: { 0: 'Refrigerate' },
         baseSpecies: 'Garchomp-Wartime'
+    },
+    'Charmander-Wartime': {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        weightkg: 19,
+        nfe: true,
+        abilities: { 0: 'Nitric' }
     },
     'Charmeleon-Wartime': {
         types: ['Poison', 'Dragon'],
@@ -10730,11 +11687,24 @@ var SV_PATCH = {
         abilities: { 0: 'Heatproof' },
         nfe: true
     },
+    'Rillaboom-Wartime': {
+        types: ['Grass'],
+        bs: { hp: 100, at: 125, df: 90, sa: 60, sd: 70, sp: 85 },
+        weightkg: 90,
+        abilities: { 0: 'Heatproof' }
+    },
     'Ninetales-Wartime': {
         types: ['Dark', 'Poison'],
         bs: { hp: 83, at: 67, df: 86, sa: 59, sd: 100, sp: 109 },
         weightkg: 19.9,
         abilities: { 0: 'Composure' }
+    },
+    'Skiddo-Wartime': {
+        types: ['Ice'],
+        bs: { hp: 66, at: 65, df: 58, sa: 32, sd: 67, sp: 52 },
+        weightkg: 31,
+        nfe: true,
+        abilities: { 0: 'Filter' }
     },
     'Gogoat-Wartime': {
         types: ['Ice', 'Ground'],
@@ -10775,17 +11745,38 @@ var SV_PATCH = {
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
+    'Cyndaquil-Wartime': {
+        types: ['Fairy', 'Cosmic'],
+        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        weightkg: 7.9,
+        nfe: true,
+        abilities: { 0: 'Pixilate' }
+    },
     'Quilava-Wartime': {
         types: ['Fairy', 'Cosmic'],
         bs: { hp: 58, at: 64, df: 58, sa: 80, sd: 65, sp: 80 },
         weightkg: 19,
-        nfe: true
+        nfe: true,
+        abilities: { 0: 'Pixilate' }
+    },
+    'Typhlosion-Wartime': {
+        types: ['Fire', 'Ghost'],
+        bs: { hp: 73, at: 84, df: 78, sa: 119, sd: 85, sp: 95 },
+        weightkg: 69.8,
+        abilities: { 0: 'Pixilate' }
     },
     'Morgrem-Wartime': {
         types: ['Fire', 'Fighting'],
         bs: { hp: 65, at: 60, df: 45, sa: 75, sd: 55, sp: 70 },
         weightkg: 12.5,
         abilities: { 0: 'Prankster' },
+        nfe: true
+    },
+    'Scorbunny-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 50, at: 71, df: 40, sa: 40, sd: 40, sp: 69 },
+        weightkg: 4.5,
+        abilities: { 0: 'Adaptability' },
         nfe: true
     },
     'Raboot-Wartime': {
@@ -10795,11 +11786,32 @@ var SV_PATCH = {
         abilities: { 0: 'Adaptability' },
         nfe: true
     },
+    'Mankey-Wartime': {
+        types: ['Grass', 'Fire'],
+        bs: { hp: 40, at: 80, df: 35, sa: 35, sd: 45, sp: 70 },
+        weightkg: 28,
+        abilities: { 0: 'Iron Fist' },
+        nfe: true
+    },
     'Primeape-Wartime': {
         types: ['Fire', 'Grass'],
         bs: { hp: 65, at: 105, df: 60, sa: 60, sd: 70, sp: 95 },
         weightkg: 56,
-        abilities: { 0: 'Iron Fist' }
+        abilities: { 0: 'Iron Fist' },
+        nfe: true
+    },
+    'Annihilape-Wartime': {
+        types: ['Fire', 'Grass'],
+        bs: { hp: 110, at: 125, df: 80, sa: 40, sd: 80, sp: 115 },
+        weightkg: 56,
+        abilities: { 0: 'Vital Spirit' }
+    },
+    'Spoink-Wartime': {
+        types: ['Fire'],
+        bs: { hp: 60, at: 25, df: 35, sa: 70, sd: 80, sp: 60 },
+        weightkg: 30.6,
+        nfe: true,
+        abilities: { 0: 'Mind Games' }
     },
     'Grumpig-Wartime': {
         types: ['Fire', 'Cosmic'],
@@ -10823,7 +11835,15 @@ var SV_PATCH = {
         types: ['Fire', 'Ghost'],
         bs: { hp: 70, at: 120, df: 40, sa: 95, sd: 40, sp: 95 },
         weightkg: 88.8,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Intimidate' },
+        otherFormes: ['Sharpedo-Wartime-Mega']
+    },
+    'Swablu-Wartime': {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 65, at: 20, df: 50, sa: 60, sd: 65, sp: 50 },
+        weightkg: 1.2,
+        nfe: true,
+        abilities: { 0: 'Cursed Body' }
     },
     'Altaria-Wartime': {
         types: ['Normal', 'Ghost'],
@@ -10839,11 +11859,19 @@ var SV_PATCH = {
         abilities: { 0: 'Untainted' },
         baseSpecies: 'Altaria-Wartime'
     },
+    'Glalie-Wartime': {
+        types: ['Rock', 'Poison'],
+        bs: { hp: 80, at: 80, df: 80, sa: 80, sd: 80, sp: 80 },
+        weightkg: 256.5,
+        abilities: { 0: 'Toxic Debris' },
+        otherFormes: ['Glalie-Wartime-Mega']
+    },
     'Froslass-Wartime': {
         types: ['Rock', 'Dark'],
         bs: { hp: 70, at: 80, df: 70, sa: 80, sd: 70, sp: 110 },
         weightkg: 26.6,
-        abilities: { 0: 'Solid Rock' }
+        abilities: { 0: 'Solid Rock' },
+        otherFormes: ['Froslass-Wartime-Mega']
     },
     'Venusaur-Wartime': {
         types: ['Dark', 'Fairy'],
@@ -10859,11 +11887,19 @@ var SV_PATCH = {
         abilities: { 0: 'Mind Games' },
         baseSpecies: 'Venusaur-Wartime'
     },
+    'Monferno-Wartime': {
+        types: ['Ground', 'Dark'],
+        bs: { hp: 64, at: 78, df: 52, sa: 78, sd: 52, sp: 81 },
+        weightkg: 22,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
     'Infernape-Wartime': {
         types: ['Ground', 'Dark'],
         bs: { hp: 76, at: 104, df: 71, sa: 104, sd: 71, sp: 108 },
         weightkg: 55,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Intimidate' },
+        otherFormes: ['Infernape-Wartime-Mega']
     },
     'Blastoise-Wartime': {
         types: ['Psychic', 'Steel'],
@@ -10899,11 +11935,26 @@ var SV_PATCH = {
         abilities: { 0: 'Nitric' },
         baseSpecies: 'Charizard-Wartime'
     },
+    'Chikorita-Wartime': {
+        types: ['Dragon', 'Rock'],
+        bs: { hp: 45, at: 49, df: 65, sa: 49, sd: 65, sp: 45 },
+        weightkg: 6.4,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
+    'Bayleef-Wartime': {
+        types: ['Dragon', 'Rock'],
+        bs: { hp: 60, at: 62, df: 80, sa: 63, sd: 80, sp: 60 },
+        weightkg: 15.8,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
     'Meganium-Wartime': {
         types: ['Dragon', 'Rock'],
         bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
         weightkg: 100.5,
-        abilities: { 0: 'Sand Veil' }
+        abilities: { 0: 'Sand Veil' },
+        otherFormes: ['Meganium-Wartime-Mega']
     },
     'Chimchar-Wartime': {
         types: ['Ground'],
@@ -10930,7 +11981,8 @@ var SV_PATCH = {
         types: ['Steel', 'Bug'],
         bs: { hp: 80, at: 100, df: 80, sa: 100, sd: 80, sp: 100 },
         weightkg: 82,
-        abilities: { 0: 'Entymate' }
+        abilities: { 0: 'Entymate' },
+        otherFormes: ['Flygon-Wartime-Mega']
     },
     'Vulpix-Wartime': {
         types: ['Dark'],
@@ -10990,7 +12042,8 @@ var SV_PATCH = {
         types: ['Dark', 'Psychic'],
         bs: { hp: 85, at: 105, df: 100, sa: 79, sd: 83, sp: 78 },
         weightkg: 88.8,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Intimidate' },
+        otherFormes: ['Feraligatr-Wartime-Mega']
     },
     'Rowlet-Wartime': {
         types: ['Dark'],
@@ -11090,6 +12143,20 @@ var SV_PATCH = {
         gender: 'N',
         abilities: { 0: 'Dark Aura' }
     },
+    'Popplio-Wartime': {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 50, at: 54, df: 54, sa: 66, sd: 56, sp: 40 },
+        weightkg: 7.5,
+        nfe: true,
+        abilities: { 0: 'Punk Rock' }
+    },
+    'Brionne-Wartime': {
+        types: ['Normal', 'Psychic'],
+        bs: { hp: 60, at: 69, df: 69, sa: 91, sd: 81, sp: 50 },
+        weightkg: 17.5,
+        nfe: true,
+        abilities: { 0: 'Punk Rock' }
+    },
     'Primarina-Wartime': {
         types: ['Normal', 'Psychic'],
         bs: { hp: 80, at: 74, df: 74, sa: 126, sd: 116, sp: 60 },
@@ -11101,9 +12168,710 @@ var SV_PATCH = {
         bs: { hp: 80, at: 116, df: 75, sa: 65, sd: 75, sp: 119 },
         weightkg: 33,
         abilities: { 0: 'Scrappy' }
+    },
+    'Kyurem-Perfect': {
+        types: ['Dragon', 'Ice'],
+        bs: { hp: 125, at: 170, df: 100, sa: 170, sd: 100, sp: 105 },
+        weightkg: 325,
+        abilities: { 0: 'Mold Breaker' },
+        gender: 'N',
+        baseSpecies: 'Kyurem'
+    },
+    'Calyrex-Double': {
+        types: ['Psychic', 'Ice'],
+        bs: { hp: 100, at: 165, df: 100, sa: 165, sd: 100, sp: 140 },
+        weightkg: 809.1,
+        abilities: { 0: 'Haunted' },
+        gender: 'N',
+        baseSpecies: 'Calyrex'
+    },
+    'Regice-Wartime': {
+        types: ['Bug'],
+        bs: { hp: 80, at: 50, df: 100, sa: 100, sd: 200, sp: 50 },
+        weightkg: 175,
+        gender: 'N',
+        abilities: { 0: 'Entymate' }
+    },
+    'Regirock-Wartime': {
+        types: ['Fighting'],
+        bs: { hp: 80, at: 100, df: 200, sa: 50, sd: 100, sp: 50 },
+        weightkg: 230,
+        gender: 'N',
+        abilities: { 0: 'Scrappy' }
+    },
+    'Registeel-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 80, at: 75, df: 150, sa: 75, sd: 150, sp: 50 },
+        weightkg: 205,
+        gender: 'N',
+        abilities: { 0: 'Gaia Force' }
+    },
+    'Regidrago-Wartime': {
+        types: ['Fairy'],
+        bs: { hp: 200, at: 100, df: 50, sa: 100, sd: 50, sp: 80 },
+        weightkg: 200,
+        abilities: { 0: 'Fairy Bubble' },
+        gender: 'N'
+    },
+    'Regieleki-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 80, at: 100, df: 50, sa: 100, sd: 50, sp: 200 },
+        weightkg: 145,
+        abilities: { 0: 'Psychic Surge' },
+        gender: 'N'
+    },
+    'Regigigas-Wartime': {
+        types: ['Cosmic'],
+        bs: { hp: 110, at: 160, df: 110, sa: 80, sd: 110, sp: 100 },
+        weightkg: 420,
+        abilities: { 0: 'Unaware' },
+        gender: 'N'
+    },
+    'Zygarde-Wartime': {
+        types: ['Ghost', 'Dark'],
+        bs: { hp: 216, at: 110, df: 121, sa: 71, sd: 95, sp: 95 },
+        weightkg: 305,
+        abilities: { 0: 'Astral Cloak' },
+        gender: 'N'
+    },
+    'Ferroseed-Wartime': {
+        types: ['Ice', 'Cosmic'],
+        bs: { hp: 44, at: 50, df: 91, sa: 24, sd: 86, sp: 10 },
+        weightkg: 18.8,
+        nfe: true,
+        abilities: { 0: 'Ice Body' }
+    },
+    'Ferrothorn-Wartime': {
+        types: ['Ice', 'Cosmic'],
+        bs: { hp: 74, at: 94, df: 131, sa: 54, sd: 116, sp: 20 },
+        weightkg: 110,
+        abilities: { 0: 'Ice Body' }
+    },
+    'Bouffalant-Wartime': {
+        types: ['Grass', 'Ground'],
+        bs: { hp: 95, at: 120, df: 95, sa: 40, sd: 95, sp: 75 },
+        weightkg: 94.6,
+        abilities: { 0: 'Reckless' }
+    },
+    'Sobble-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 50, at: 40, df: 40, sa: 70, sd: 40, sp: 70 },
+        weightkg: 4,
+        abilities: { 0: 'Illuminate' },
+        nfe: true
+    },
+    'Drizzile-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 65, at: 60, df: 55, sa: 95, sd: 55, sp: 90 },
+        weightkg: 11.5,
+        abilities: { 0: 'Illuminate' },
+        nfe: true
+    },
+    'Inteleon-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 70, at: 85, df: 65, sa: 125, sd: 65, sp: 120 },
+        weightkg: 45.2,
+        abilities: { 0: 'Illuminate' }
+    },
+    'Maractus-Wartime': {
+        types: ['Steel', 'Psychic'],
+        bs: { hp: 75, at: 86, df: 77, sa: 106, sd: 77, sp: 80 },
+        weightkg: 28,
+        abilities: { 0: 'Motor Drive' }
+    },
+    'Honedge-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 45, at: 80, df: 100, sa: 35, sd: 37, sp: 28 },
+        weightkg: 2,
+        abilities: { 0: 'Sharpness' },
+        nfe: true
+    },
+    'Doublade-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 59, at: 110, df: 150, sa: 45, sd: 49, sp: 35 },
+        weightkg: 4.5,
+        abilities: { 0: 'Sharpness' },
+        nfe: true
+    },
+    'Aegislash-Wartime': {
+        types: ['Normal'],
+        bs: { hp: 60, at: 100, df: 100, sa: 100, sd: 100, sp: 60 },
+        weightkg: 53,
+        abilities: { 0: 'Sword of Mastery' }
+    },
+    'Misdreavus-Wartime': {
+        types: ['Fire'],
+        bs: { hp: 60, at: 60, df: 60, sa: 85, sd: 85, sp: 85 },
+        weightkg: 1,
+        abilities: { 0: 'Levitate' }
+    },
+    'Mismagius-Wartime': {
+        types: ['Fire', 'Psychic'],
+        bs: { hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105 },
+        weightkg: 1,
+        abilities: { 0: 'Levitate' }
+    },
+    'Pawniard-Wartime': {
+        types: ['Cosmic', 'Fighting'],
+        bs: { hp: 45, at: 85, df: 70, sa: 40, sd: 40, sp: 60 },
+        weightkg: 10.2,
+        nfe: true,
+        abilities: { 0: 'Sharpness' }
+    },
+    'Bisharp-Wartime': {
+        types: ['Cosmic', 'Fighting'],
+        bs: { hp: 65, at: 125, df: 100, sa: 60, sd: 70, sp: 70 },
+        weightkg: 70,
+        abilities: { 0: 'Sharpness' }
+    },
+    'Kingambit-Wartime': {
+        types: ['Cosmic', 'Fighting'],
+        bs: { hp: 100, at: 135, df: 110, sa: 40, sd: 85, sp: 80 },
+        weightkg: 120,
+        abilities: { 0: 'Sharpness' }
+    },
+    'Dunsparce-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 100, at: 70, df: 80, sa: 45, sd: 75, sp: 45 },
+        weightkg: 14,
+        abilities: { 0: 'Serene Grace' }
+    },
+    'Dudunsparce-Wartime': {
+        types: ['Ground', 'Dragon'],
+        bs: { hp: 125, at: 100, df: 90, sa: 55, sd: 95, sp: 55 },
+        weightkg: 39.2,
+        abilities: { 0: 'Serene Grace' }
+    },
+    'Sneasel-Wartime': {
+        types: ['Water', 'Poison'],
+        bs: { hp: 55, at: 95, df: 55, sa: 35, sd: 75, sp: 115 },
+        weightkg: 27,
+        abilities: { 0: 'Poison Touch' },
+        baseSpecies: 'Sneasel',
+        nfe: true
+    },
+    'Weavile-Wartime': {
+        types: ['Water', 'Poison'],
+        bs: { hp: 70, at: 120, df: 65, sa: 45, sd: 85, sp: 125 },
+        weightkg: 34,
+        abilities: { 0: 'Poison Touch' }
+    },
+    'Sneasler-Wartime': {
+        types: ['Water', 'Grass'],
+        bs: { hp: 80, at: 130, df: 60, sa: 40, sd: 80, sp: 120 },
+        weightkg: 43,
+        abilities: { 0: 'Rain Dish' }
+    },
+    'Basculin-Wartime': {
+        types: ['Water'],
+        bs: { hp: 70, at: 92, df: 65, sa: 80, sd: 55, sp: 98 },
+        weightkg: 18,
+        abilities: { 0: 'Rock Head' },
+        nfe: true
+    },
+    'Basculegion-Wartime': {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 120, at: 112, df: 65, sa: 80, sd: 75, sp: 78 },
+        weightkg: 110,
+        abilities: { 0: 'Rock Head' }
+    },
+    'Stantler-Wartime': {
+        types: ['Ghost'],
+        bs: { hp: 73, at: 95, df: 62, sa: 85, sd: 65, sp: 85 },
+        weightkg: 71.2,
+        abilities: { 0: 'Intimidate' },
+        nfe: true
+    },
+    'Wyrdeer-Wartime': {
+        types: ['Ghost'],
+        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65 },
+        weightkg: 95.1,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Teddiursa-Wartime': {
+        types: ['Ice'],
+        bs: { hp: 60, at: 80, df: 50, sa: 50, sd: 50, sp: 40 },
+        weightkg: 8.8,
+        nfe: true,
+        abilities: { 0: 'Guts' }
+    },
+    'Ursaring-Wartime': {
+        types: ['Ice'],
+        bs: { hp: 90, at: 130, df: 75, sa: 75, sd: 75, sp: 55 },
+        weightkg: 125.8,
+        nfe: true,
+        abilities: { 0: 'Guts' }
+    },
+    'Ursaluna-Wartime': {
+        types: ['Ice', 'Steel'],
+        bs: { hp: 130, at: 140, df: 105, sa: 35, sd: 80, sp: 60 },
+        weightkg: 290,
+        abilities: { 0: 'Guts' }
+    },
+    'Scyther-Wartime': {
+        types: ['Fighting'],
+        bs: { hp: 70, at: 110, df: 80, sa: 55, sd: 80, sp: 105 },
+        weightkg: 56,
+        abilities: { 0: 'Inner Focus' }
+    },
+    'Scizor-Wartime': {
+        types: ['Fighting', 'Dark'],
+        bs: { hp: 70, at: 130, df: 100, sa: 55, sd: 80, sp: 65 },
+        weightkg: 118,
+        abilities: { 0: 'Inner Focus' },
+        otherFormes: ['Scizor-Wartime-Mega']
+    },
+    'Scizor-Wartime-Mega': {
+        types: ['Fighting', 'Dark'],
+        bs: { hp: 70, at: 150, df: 140, sa: 65, sd: 100, sp: 75 },
+        weightkg: 125,
+        abilities: { 0: 'Technician' },
+        baseSpecies: 'Scizor'
+    },
+    'Kleavor-Wartime': {
+        types: ['Fighting', 'Rock'],
+        bs: { hp: 70, at: 130, df: 95, sa: 45, sd: 75, sp: 85 },
+        weightkg: 89,
+        abilities: { 0: 'Inner Focus' }
+    },
+    'Petilil-Wartime': {
+        types: ['Electric'],
+        bs: { hp: 45, at: 35, df: 50, sa: 70, sd: 50, sp: 30 },
+        weightkg: 6.6,
+        nfe: true,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    'Lilligant-Wartime': {
+        types: ['Electric', 'Fairy'],
+        bs: { hp: 70, at: 105, df: 75, sa: 50, sd: 75, sp: 105 },
+        weightkg: 19.2,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    'Rufflet-Wartime': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 70, at: 83, df: 50, sa: 37, sd: 50, sp: 60 },
+        weightkg: 10.5,
+        nfe: true,
+        abilities: { 0: 'Keen Eye' }
+    },
+    'Braviary-Wartime': {
+        types: ['Steel', 'Flying'],
+        bs: { hp: 100, at: 123, df: 75, sa: 57, sd: 75, sp: 80 },
+        weightkg: 41,
+        abilities: { 0: 'Keen Eye' }
+    },
+    'Bergmite-Wartime': {
+        types: ['Grass', 'Rock'],
+        bs: { hp: 55, at: 69, df: 85, sa: 32, sd: 35, sp: 28 },
+        weightkg: 99.5,
+        nfe: true,
+        abilities: { 0: 'Own Tempo' }
+    },
+    'Avalugg-Wartime': {
+        types: ['Grass', 'Rock'],
+        bs: { hp: 95, at: 127, df: 184, sa: 24, sd: 46, sp: 38 },
+        weightkg: 262.4,
+        abilities: { 0: 'Strong Jaw' },
+        baseSpecies: 'Avalugg'
+    },
+    'Larvitar-Wartime': {
+        types: ['Dragon', 'Electric'],
+        bs: { hp: 50, at: 64, df: 50, sa: 45, sd: 50, sp: 41 },
+        weightkg: 72,
+        nfe: true,
+        abilities: { 0: 'Static' }
+    },
+    'Pupitar-Wartime': {
+        types: ['Dragon', 'Electric'],
+        bs: { hp: 70, at: 84, df: 70, sa: 65, sd: 70, sp: 51 },
+        weightkg: 152,
+        nfe: true,
+        abilities: { 0: 'Static' }
+    },
+    'Tyranitar-Wartime': {
+        types: ['Dragon', 'Electric'],
+        bs: { hp: 100, at: 134, df: 110, sa: 95, sd: 100, sp: 61 },
+        weightkg: 202,
+        abilities: { 0: 'Electric Surge' },
+        otherFormes: ['Tyranitar-Wartime-Mega']
+    },
+    'Tyranitar-Wartime-Mega': {
+        types: ['Dragon', 'Electric'],
+        bs: { hp: 100, at: 164, df: 150, sa: 95, sd: 120, sp: 71 },
+        weightkg: 255,
+        abilities: { 0: 'Electric Surge' },
+        baseSpecies: 'Tyranitar-Wartime'
+    },
+    'Chespin-Wartime': {
+        types: ['Dark'],
+        bs: { hp: 56, at: 61, df: 65, sa: 48, sd: 45, sp: 38 },
+        weightkg: 9,
+        nfe: true,
+        abilities: { 0: 'Filter' }
+    },
+    'Quilladin-Wartime': {
+        types: ['Dark'],
+        bs: { hp: 61, at: 78, df: 95, sa: 56, sd: 58, sp: 57 },
+        weightkg: 29,
+        nfe: true,
+        abilities: { 0: 'Filter' }
+    },
+    'Chesnaught-Wartime': {
+        types: ['Dark', 'Normal'],
+        bs: { hp: 88, at: 107, df: 122, sa: 74, sd: 75, sp: 64 },
+        weightkg: 90,
+        abilities: { 0: 'Filter' },
+        otherFormes: ['Chesnaught-Wartime-Mega']
+    },
+    'Chesnaught-Wartime-Mega': {
+        types: ['Dark', 'Normal'],
+        bs: {
+            hp: 88,
+            at: 137,
+            df: 172,
+            sa: 74,
+            sd: 115,
+            sp: 44
+        },
+        weightkg: 90.0,
+        abilities: {
+            '0': 'Impervious'
+        },
+        baseSpecies: 'Chesnaught'
+    },
+    'Fennekin-Wartime': {
+        types: ['Fairy'],
+        bs: { hp: 40, at: 45, df: 40, sa: 62, sd: 60, sp: 60 },
+        weightkg: 9.4,
+        nfe: true,
+        abilities: { 0: 'Prankster' }
+    },
+    'Braixen-Wartime': {
+        types: ['Fairy'],
+        bs: { hp: 59, at: 59, df: 58, sa: 90, sd: 70, sp: 73 },
+        weightkg: 14.5,
+        nfe: true,
+        abilities: { 0: 'Prankster' }
+    },
+    'Delphox-Wartime': {
+        types: ['Fairy', 'Flying'],
+        bs: { hp: 75, at: 69, df: 72, sa: 114, sd: 100, sp: 104 },
+        weightkg: 39,
+        abilities: { 0: 'Prankster' },
+        otherFormes: ['Delphox-Wartime-Mega']
+    },
+    'Delphox-Wartime-Mega': {
+        types: ['Fairy', 'Flying'],
+        bs: {
+            hp: 75,
+            at: 69,
+            df: 72,
+            sa: 159,
+            sd: 125,
+            sp: 134
+        },
+        weightkg: 39.0,
+        abilities: {
+            '0': 'Gale Force'
+        },
+        baseSpecies: 'Delphox'
+    },
+    'Froakie-Wartime': {
+        types: ['Poison'],
+        bs: { hp: 41, at: 56, df: 40, sa: 62, sd: 44, sp: 71 },
+        weightkg: 7,
+        nfe: true,
+        abilities: { 0: 'Dry Skin' }
+    },
+    'Frogadier-Wartime': {
+        types: ['Poison'],
+        bs: { hp: 54, at: 63, df: 52, sa: 83, sd: 56, sp: 97 },
+        weightkg: 10.9,
+        nfe: true,
+        abilities: { 0: 'Dry Skin' }
+    },
+    'Greninja-Wartime': {
+        types: ['Poison', 'Psychic'],
+        bs: { hp: 72, at: 95, df: 67, sa: 103, sd: 71, sp: 122 },
+        weightkg: 40,
+        abilities: { 0: 'Dry Skin' },
+        otherFormes: ['Greninja-Wartime-Mega']
+    },
+    'Greninja-Wartime-Mega': {
+        types: ['Poison', 'Psychic'],
+        bs: {
+            hp: 72,
+            at: 125,
+            df: 77,
+            sa: 133,
+            sd: 81,
+            sp: 142
+        },
+        weightkg: 40.0,
+        abilities: {
+            '0': 'Merciless'
+        },
+        baseSpecies: 'Greninja'
+    },
+    'Sprigatito-Wartime': {
+        types: ['Fairy'],
+        bs: { hp: 40, at: 45, df: 54, sa: 61, sd: 45, sp: 65 },
+        weightkg: 4.1,
+        abilities: { 0: 'Shield Dust' },
+        nfe: true
+    },
+    'Floragato-Wartime': {
+        types: ['Fairy'],
+        bs: { hp: 61, at: 60, df: 63, sa: 80, sd: 63, sp: 83 },
+        weightkg: 12.2,
+        abilities: { 0: 'Shield Dust' },
+        nfe: true
+    },
+    'Meowscarada-Wartime': {
+        types: ['Fairy', 'Bug'],
+        bs: { hp: 76, at: 81, df: 70, sa: 110, sd: 70, sp: 123 },
+        weightkg: 31.2,
+        abilities: { 0: 'Shield Dust' }
+    },
+    'Fuecoco-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 67, at: 45, df: 59, sa: 63, sd: 40, sp: 36 },
+        weightkg: 9.8,
+        abilities: { 0: 'Gaia Force' },
+        nfe: true
+    },
+    'Crocalor-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 81, at: 55, df: 78, sa: 90, sd: 58, sp: 49 },
+        weightkg: 30.7,
+        abilities: { 0: 'Gaia Force' },
+        nfe: true
+    },
+    'Skeledirge-Wartime': {
+        types: ['Ground', 'Steel'],
+        bs: { hp: 104, at: 75, df: 100, sa: 110, sd: 75, sp: 66 },
+        weightkg: 326.5,
+        abilities: { 0: 'Gaia Force' }
+    },
+    'Quaxly-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 55, at: 65, df: 45, sa: 50, sd: 45, sp: 50 },
+        weightkg: 6.1,
+        abilities: { 0: 'Magic Bounce' },
+        nfe: true
+    },
+    'Quaxwell-Wartime': {
+        types: ['Psychic'],
+        bs: { hp: 70, at: 85, df: 65, sa: 65, sd: 60, sp: 65 },
+        weightkg: 21.5,
+        abilities: { 0: 'Magic Bounce' },
+        nfe: true
+    },
+    'Quaquaval-Wartime': {
+        types: ['Psychic', 'Cosmic'],
+        bs: { hp: 85, at: 120, df: 80, sa: 85, sd: 75, sp: 85 },
+        weightkg: 61.9,
+        abilities: { 0: 'Magic Bounce' }
+    },
+    'Cleffa-Wartime': {
+        types: ['Normal', 'Bug'],
+        bs: { hp: 50, at: 25, df: 28, sa: 45, sd: 55, sp: 15 },
+        weightkg: 3,
+        nfe: true,
+        abilities: { 0: 'Shield Dust' }
+    },
+    'Clefable-Wartime': {
+        types: ['Normal', 'Bug'],
+        bs: { hp: 95, at: 70, df: 73, sa: 95, sd: 90, sp: 60 },
+        weightkg: 40,
+        abilities: { 0: 'Shield Dust' },
+        otherFormes: ['Clefable-Wartime-Mega']
+    },
+    'Clefable-Wartime-Mega': {
+        types: [
+            'Normal',
+            'Bug',
+        ],
+        bs: {
+            hp: 95,
+            at: 80,
+            df: 93,
+            sa: 135,
+            sd: 110,
+            sp: 70
+        },
+        weightkg: 42.3,
+        abilities: {
+            '0': 'Prankster'
+        },
+        baseSpecies: 'Clefable-Wartime'
+    },
+    'Clefairy-Wartime': {
+        types: ['Normal', 'Bug'],
+        bs: { hp: 70, at: 45, df: 48, sa: 60, sd: 55, sp: 35 },
+        weightkg: 7.5,
+        nfe: true,
+        abilities: { 0: 'Shield Dust' }
+    },
+    'Rhydon-Wartime': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 105, at: 130, df: 120, sa: 45, sd: 45, sp: 40 },
+        weightkg: 120,
+        abilities: { 0: 'Tinted Lens' }
+    },
+    'Rhyhorn-Wartime': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 80, at: 85, df: 95, sa: 30, sd: 25, sp: 25 },
+        weightkg: 115,
+        nfe: true,
+        abilities: { 0: 'Tinted Lens' }
+    },
+    'Rhyperior-Wartime': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 282.8,
+        abilities: { 0: 'Tinted Lens' }
+    },
+    'Gastly-Wartime': {
+        types: ['Fire', 'Rock'],
+        bs: { hp: 30, at: 35, df: 30, sa: 100, sd: 35, sp: 80 },
+        weightkg: 0.1,
+        nfe: true,
+        abilities: { 0: 'Flame Body' }
+    },
+    'Gengar-Wartime': {
+        types: ['Fire', 'Rock'],
+        bs: { hp: 60, at: 65, df: 60, sa: 130, sd: 75, sp: 110 },
+        weightkg: 40.5,
+        abilities: { 0: 'Flame Body' },
+        otherFormes: ['Gengar-Wartime-Mega']
+    },
+    'Gengar-Wartime-Mega': {
+        types: ['Fire', 'Rock'],
+        bs: { hp: 60, at: 65, df: 80, sa: 170, sd: 95, sp: 130 },
+        weightkg: 40.5,
+        abilities: { 0: 'Earth Eater' },
+        baseSpecies: 'Gengar-Wartime'
+    },
+    'Haunter-Wartime': {
+        types: ['Fire', 'Rock'],
+        bs: { hp: 45, at: 50, df: 45, sa: 115, sd: 55, sp: 95 },
+        weightkg: 0.1,
+        nfe: true,
+        abilities: { 0: 'Flame Body' }
+    },
+    'Igglybuff-Wartime': {
+        types: ['Water', 'Fighting'],
+        bs: { hp: 90, at: 30, df: 15, sa: 40, sd: 20, sp: 15 },
+        weightkg: 1,
+        nfe: true,
+        abilities: { 0: 'Water Bubble' }
+    },
+    'Jigglypuff-Wartime': {
+        types: ['Water', 'Fighting'],
+        bs: { hp: 115, at: 35, df: 20, sa: 55, sd: 25, sp: 40 },
+        weightkg: 5.5,
+        nfe: true,
+        abilities: { 0: 'Water Bubble' }
+    },
+    'Wigglytuff-Wartime': {
+        types: ['Water', 'Fighting'],
+        bs: { hp: 140, at: 50, df: 45, sa: 105, sd: 50, sp: 65 },
+        weightkg: 12,
+        abilities: { 0: 'Water Bubble' }
+    },
+    'Murkrow-Wartime': {
+        types: ['Ghost', 'Poison'],
+        bs: { hp: 60, at: 85, df: 42, sa: 85, sd: 42, sp: 91 },
+        weightkg: 2.1,
+        abilities: { 0: 'Fever Pitch' }
+    },
+    'Honchkrow-Wartime': {
+        types: ['Ghost', 'Poison'],
+        bs: { hp: 100, at: 125, df: 52, sa: 105, sd: 52, sp: 71 },
+        weightkg: 27.3,
+        nfe: true,
+        abilities: { 0: 'Fever Pitch' }
+    },
+    'Magikarp-Wartime': {
+        types: ['Ground'],
+        bs: { hp: 20, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 10,
+        nfe: true,
+        abilities: { 0: 'Rattled' }
+    },
+    'Gyarados-Wartime': {
+        types: ['Ground', 'Bug'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 235,
+        abilities: { 0: 'Strong Jaw' },
+        otherFormes: ['Gyarados-Wartime-Mega']
+    },
+    'Gyarados-Wartime-Mega': {
+        types: ['Water', 'Dark'],
+        bs: { hp: 95, at: 155, df: 109, sa: 70, sd: 130, sp: 81 },
+        weightkg: 305,
+        abilities: { 0: 'Strong Jaw' },
+        baseSpecies: 'Gyarados-Wartime'
+    },
+    'Nidoking-Wartime': {
+        types: ['Dragon', 'Dark'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 62,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Nidoqueen-Wartime': {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 60,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Nidoran-F-Wartime': {
+        types: ['Water'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 7,
+        nfe: true,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Nidoran-M-Wartime': {
+        types: ['Dragon'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 9,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Nidorina-Wartime': {
+        types: ['Water'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 20,
+        nfe: true,
+        abilities: { 0: 'Mind Games' }
+    },
+    'Nidorino-Wartime': {
+        types: ['Dragon'],
+        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        weightkg: 19.5,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    'Diancie': {
+        types: ['Rock', 'Cosmic'],
+        bs: { hp: 50, at: 100, df: 150, sa: 100, sd: 150, sp: 50 },
+        weightkg: 8.8,
+        abilities: { 0: 'Queenly Majesty' },
+        otherFormes: ['Diancie-Wartime-Mega'],
+        gender: 'N'
+    },
+    'Diancie-Wartime-Mega': {
+        types: ['Rock', 'Cosmic'],
+        bs: { hp: 50, at: 120, df: 200, sa: 120, sd: 200, sp: 10 },
+        weightkg: 27.8,
+        abilities: { 0: 'Royal Fortress' },
+        baseSpecies: 'Diancie-Wartime',
+        gender: 'N'
     }
 };
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, ZA_PATCH, HEGEMONY_PATCH);
 exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SV];
 var Species = (function () {
     function Species(gen) {
