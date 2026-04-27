@@ -1045,6 +1045,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         desc.attackerAbility = 'Flash Fire';
     }
     else if ((attacker.hasAbility('Steelworker') && move.hasType('Steel')) ||
+        (attacker.hasAbility('Molten Core') && move.hasType('Fire')) ||
         (attacker.hasAbility('Dragon\'s Maw') && move.hasType('Dragon')) ||
         (attacker.hasAbility('Transistor') && move.hasType('Electric')) ||
         (attacker.hasAbility('Rocky Payload') && move.hasType('Rock'))) {
