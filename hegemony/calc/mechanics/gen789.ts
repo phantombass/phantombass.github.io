@@ -405,7 +405,7 @@ export function calculateSMSSSV(
         defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb')) ||
       (move.hasType('Ground') &&
         !field.isGravity && !move.named('Thousand Arrows','Hammer Smash') && !move.flags.bone &&
-        !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
+        !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate','Multitool')) ||
       (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
       (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
       (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail', 'Royal Fortress')) ||

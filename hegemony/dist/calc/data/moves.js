@@ -5330,6 +5330,7 @@ var SV_PATCH = {
     'Star Sap': { bp: 50, type: 'Cosmic', category: 'Physical' },
     'Star Beam': { bp: 95, type: 'Cosmic', category: 'Special', secondaries: true, isBeam: true },
     'Meteor Shower': { bp: 120, type: 'Cosmic', category: 'Special' },
+    'RotoBlast': { bp: 0, category: 'Status', type: 'Normal' },
     'Astro Bomb': {
         bp: 130,
         type: 'Cosmic',

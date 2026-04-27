@@ -439,7 +439,8 @@ var GG = SV.concat([
     'Fortify',
     'Impervious',
     'Royal Fortress',
-    'Sword of Mastery'
+    'Sword of Mastery',
+    'Multitool'
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];
 var Abilities = (function () {

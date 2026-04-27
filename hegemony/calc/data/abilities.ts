@@ -408,7 +408,8 @@ const GG = SV.concat([
   'Fortify',
   'Impervious',
   'Royal Fortress',
-  'Sword of Mastery'
+  'Sword of Mastery',
+  'Multitool'
   ])
 
 export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];

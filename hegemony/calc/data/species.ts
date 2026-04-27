@@ -3537,7 +3537,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 0.3,
     abilities: {0: 'Levitate'},
     gender: 'N',
-    otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash'],
+    otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash','Rotom-Dex','Rotom-Multitool'],
   },
   'Rotom-Mow': {
     types: ['Electric', 'Ghost'],
@@ -12983,6 +12983,22 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Royal Fortress'},
     baseSpecies: 'Diancie-Wartime',
     gender: 'N',
+  },
+  'Rotom-Dex': {
+    types: ['Electric', 'Steel'],
+    bs: {hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86},
+    weightkg: 0.3,
+    abilities: {0: 'Levitate'},
+    gender: 'N',
+    baseSpecies: 'Rotom',
+  },
+  'Rotom-Multitool': {
+    types: ['Electric', 'Cosmic'],
+    bs: {hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86},
+    weightkg: 0.3,
+    abilities: {0: 'Multitool'},
+    gender: 'N',
+    baseSpecies: 'Rotom',
   },
 }
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, ZA_PATCH, HEGEMONY_PATCH);
