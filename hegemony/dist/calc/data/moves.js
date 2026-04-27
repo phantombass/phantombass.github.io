@@ -5031,7 +5031,7 @@ var SV_PATCH = {
         category: 'Physical'
     },
     'Draco Fangs': {
-        bp: 85,
+        bp: 65,
         type: 'Dragon',
         makesContact: true,
         isBite: true,
@@ -5357,6 +5357,12 @@ var SV_PATCH = {
     'Astral Blade': {
         bp: 90,
         type: 'Cosmic',
+        category: 'Physical',
+        isSlicing: true
+    },
+    'Luster Blade': {
+        bp: 95,
+        type: 'Normal',
         category: 'Physical',
         isSlicing: true
     },

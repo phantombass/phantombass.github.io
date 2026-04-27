@@ -5057,7 +5057,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Physical',
   },
   'Draco Fangs': {
-    bp: 85,
+    bp: 65,
     type: 'Dragon',
     makesContact: true,
     isBite: true,
@@ -5383,6 +5383,12 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Astral Blade': {
     bp: 90,
     type: 'Cosmic',
+    category: 'Physical',
+    isSlicing : true
+  },
+  'Luster Blade': {
+    bp: 95,
+    type: 'Normal',
     category: 'Physical',
     isSlicing : true
   },

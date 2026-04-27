@@ -1169,7 +1169,7 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     if (isCritical === void 0) { isCritical = false; }
     if (hitsPhysical === void 0) { hitsPhysical = false; }
     var dfMods = [];
-    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight || move.named('Luster Blade');
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var type1Effectiveness = (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
     var type2Effectiveness = defender.types[1]

@@ -1510,7 +1510,7 @@ export function calculateDfModsSMSSSV(
 ) {
   const dfMods = [];
   const isGhostRevealed =
-    attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    attacker.hasAbility('Scrappy') || field.defenderSide.isForesight || move.named('Luster Blade');
   const isRingTarget =
     defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
   const type1Effectiveness = getMoveEffectiveness(

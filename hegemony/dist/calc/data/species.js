@@ -12795,7 +12795,7 @@ var HEGEMONY_PATCH = {
     },
     'Magikarp-Wartime': {
         types: ['Ground'],
-        bs: { hp: 20, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 20, at: 10, df: 55, sa: 15, sd: 20, sp: 80 },
         weightkg: 10,
         nfe: true,
         abilities: { 0: 'Rattled' }
@@ -12816,40 +12816,40 @@ var HEGEMONY_PATCH = {
     },
     'Nidoking-Wartime': {
         types: ['Dragon', 'Dark'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 81, at: 102, df: 77, sa: 85, sd: 75, sp: 85 },
         weightkg: 62,
         abilities: { 0: 'Intimidate' }
     },
     'Nidoqueen-Wartime': {
         types: ['Water', 'Ghost'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 90, at: 92, df: 87, sa: 75, sd: 85, sp: 76 },
         weightkg: 60,
         abilities: { 0: 'Mind Games' }
     },
     'Nidoran-F-Wartime': {
         types: ['Water'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 55, at: 47, df: 52, sa: 40, sd: 40, sp: 41 },
         weightkg: 7,
         nfe: true,
         abilities: { 0: 'Mind Games' }
     },
     'Nidoran-M-Wartime': {
         types: ['Dragon'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 46, at: 57, df: 40, sa: 40, sd: 40, sp: 50 },
         weightkg: 9,
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
     'Nidorina-Wartime': {
         types: ['Water'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 70, at: 62, df: 67, sa: 55, sd: 55, sp: 56 },
         weightkg: 20,
         nfe: true,
         abilities: { 0: 'Mind Games' }
     },
     'Nidorino-Wartime': {
         types: ['Dragon'],
-        bs: { hp: 115, at: 140, df: 130, sa: 55, sd: 55, sp: 40 },
+        bs: { hp: 61, at: 72, df: 57, sa: 55, sd: 55, sp: 65 },
         weightkg: 19.5,
         nfe: true,
         abilities: { 0: 'Intimidate' }
