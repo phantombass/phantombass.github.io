@@ -12602,7 +12602,7 @@ const HEGEMONY_PATCH = {
       abilities: {
           '0': 'Impervious'
       },
-      baseSpecies: 'Chesnaught'
+      baseSpecies: 'Chesnaught-Wartime'
   },
   'Fennekin-Wartime': {
     types: ['Fairy'],
@@ -12639,7 +12639,7 @@ const HEGEMONY_PATCH = {
       abilities: {
           '0': 'Gale Force'
       },
-      baseSpecies: 'Delphox'
+      baseSpecies: 'Delphox-Wartime'
   },
   'Froakie-Wartime': {
     types: ['Poison'],
@@ -12676,7 +12676,7 @@ const HEGEMONY_PATCH = {
       abilities: {
           '0': 'Merciless'
       },
-      baseSpecies: 'Greninja'
+      baseSpecies: 'Greninja-Wartime'
   },
   'Sprigatito-Wartime': {
     types: ['Fairy'],
