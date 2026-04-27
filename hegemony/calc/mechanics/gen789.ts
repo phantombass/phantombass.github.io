@@ -1435,7 +1435,7 @@ export function calculateAtModsSMSSSV(
     desc.attackerItem = attacker.item;
   } else if (attacker.hasAbility('Power of Aura')
     ) {
-    atMods.push((4096)*pokeRound(attacker.maxHP()/attacker.curHP()))
+    atMods.push((4096)*Math.min(pokeRound(attacker.maxHP()/attacker.curHP()),5))
   }
   return atMods;
 }

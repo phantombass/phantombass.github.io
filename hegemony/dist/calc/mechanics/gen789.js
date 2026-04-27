@@ -1119,7 +1119,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         desc.attackerItem = attacker.item;
     }
     else if (attacker.hasAbility('Power of Aura')) {
-        atMods.push((4096) * (0, util_mech_1.pokeRound)(attacker.maxHP() / attacker.curHP()));
+        atMods.push((4096) * Math.min((0, util_mech_1.pokeRound)(attacker.maxHP() / attacker.curHP()), 5));
     }
     return atMods;
 }
