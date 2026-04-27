@@ -192,7 +192,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.priority = 1;
         desc.attackerAbility = attacker.ability;
     }
-    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight || move.named('Luster Blade');
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var hasType3Ability = defender.hasAbility('Haunted') || defender.hasAbility('Shadow Guard') || defender.hasAbility('Astral Cloak');
     var type3 = defender.hasAbility('Haunted') ? 'Ghost' : defender.hasAbility('Shadow Guard') ? 'Dark' : defender.hasAbility('Astral Cloak') ? 'Cosmic' : '???';
@@ -792,7 +792,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.weather = field.weather;
     }
     else if (move.named('Collision Course', 'Electro Drift')) {
-        var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+        var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight || move.named('Luster Blade');
         var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
         var type1Effectiveness = (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
         var type2Effectiveness = defender.types[1] ? (0, util_mech_1.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget) : 1;
