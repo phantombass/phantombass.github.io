@@ -230,7 +230,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0 && attacker.hasAbility('Slayer') && move.hasType('Dragon')) {
         typeEffectiveness = 1;
     }
-    if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+    if (typeEffectiveness === 0 && attacker.hasAbility('Nitric', 'Corrosion') && move.hasType('Poison')) {
         typeEffectiveness = 1;
     }
     if ((field.gameType === 'Inverse') || defender.hasAbility('Reverse Room')) {

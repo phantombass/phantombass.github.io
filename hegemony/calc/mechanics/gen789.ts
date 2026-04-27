@@ -339,7 +339,7 @@ export function calculateSMSSSV(
     typeEffectiveness = 1;
   }
 
-  if (typeEffectiveness === 0 && attacker.hasAbility('Nitric') && move.hasType('Poison')) {
+  if (typeEffectiveness === 0 && attacker.hasAbility('Nitric','Corrosion') && move.hasType('Poison')) {
     typeEffectiveness = 1;
   }
 
