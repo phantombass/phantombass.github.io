@@ -11587,6 +11587,25 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Cursed Body'},
     otherFormes: ['Emboar-Wartime-Mega'],
   },
+  'Emboar-Wartime-Mega': {
+        types: [
+            'Ghost',
+            'Cosmic',
+        ],
+        bs: {
+            hp: 110,
+            at: 148,
+            df: 75,
+            sa: 110,
+            sd: 110,
+            sp: 75
+        },
+        weightkg: 180.3,
+        abilities: {
+            '0': 'Equinox'
+        },
+        baseSpecies: 'Emboar-Wartime'
+    },
   'Drifblim-Wartime': {
     types: ['Electric', 'Steel'],
     bs: {hp: 150, at: 80, df: 44, sa: 90, sd: 54, sp: 80},
@@ -11862,6 +11881,25 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Solid Rock'},
     otherFormes: ['Froslass-Wartime-Mega'],
   },
+  'Froslass-Wartime-Mega': {
+        types: [
+            'Rock',
+            'Dark',
+        ],
+        bs: {
+            hp: 70,
+            at: 80,
+            df: 70,
+            sa: 140,
+            sd: 100,
+            sp: 120
+        },
+        weightkg: 29.6,
+        abilities: {
+            '0': 'Haunted'
+        },
+        baseSpecies: 'Froslass-Wartime'
+    },
   'Venusaur-Wartime': {
     types: ['Dark', 'Fairy'],
     bs: {hp: 80, at: 82, df: 83, sa: 100, sd: 100, sp: 80},
@@ -11945,6 +11983,25 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Sand Veil'},
     otherFormes: ['Meganium-Wartime-Mega'],
   },
+  'Meganium-Wartime-Mega': {
+        types: [
+            'Rock',
+            'Dragon',
+        ],
+        bs: {
+            hp: 80,
+            at: 92,
+            df: 115,
+            sa: 143,
+            sd: 115,
+            sp: 80
+        },
+        weightkg: 201.0,
+        abilities: {
+            '0': 'Solid Rock'
+        },
+        baseSpecies: 'Meganium-Wartime'
+    },
   'Chimchar-Wartime': {
     types: ['Ground'],
     bs: {hp: 44, at: 58, df: 44, sa: 58, sd: 44, sp: 61},
@@ -12034,6 +12091,25 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Intimidate'},
     otherFormes: ['Feraligatr-Wartime-Mega'],
   },
+  'Feraligatr-Wartime-Mega': {
+        types: [
+            'Dark',
+            'Psychic',
+        ],
+        bs: {
+            hp: 85,
+            at: 160,
+            df: 125,
+            sa: 89,
+            sd: 93,
+            sp: 78
+        },
+        weightkg: 108.8,
+        abilities: {
+            '0': 'Strong Jaw'
+        },
+        baseSpecies: 'Feraligatr-Wartime'
+    },
   'Rowlet-Wartime': {
     types: ['Dark'],
     bs: {hp: 68, at: 55, df: 55, sa: 50, sd: 50, sp: 42},
@@ -12691,7 +12767,7 @@ const HEGEMONY_PATCH = {
         },
         weightkg: 42.3,
         abilities: {
-            '0': 'Prankster'
+            '0': 'Thick Fat'
         },
         baseSpecies: 'Clefable-Wartime'
     },
