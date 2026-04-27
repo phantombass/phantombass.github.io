@@ -5954,7 +5954,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Infernape-Mega': {
     types: ['Fire', 'Fighting'],
-    bs: {hp: 76, at: 119, df: 111, sa: 119, sd: 111, sp: 98},
+    bs: {hp: 76, at: 119, df: 101, sa: 119, sd: 101, sp: 118},
     weightkg: 102,
     abilities: {0: 'Mind Games'},
     baseSpecies: 'Infernape',
@@ -11233,6 +11233,13 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Inner Focus'},
     otherFormes: ['Sceptile-Wartime-Mega'],
   },
+  'Sceptile-Wartime-Mega': {
+    types: ['Fighting', 'Ground'],
+    bs: {hp: 70, at: 135, df: 110, sa: 65, sd: 105, sp: 145},
+    weightkg: 55.2,
+    abilities: {0: 'Sand Force'},
+    baseSpecies: 'Sceptile-Wartime',
+  },
   'Swampert-Wartime': {
     types: ['Rock', 'Dark'],
     bs: {hp: 110, at: 110, df: 90, sa: 65, sd: 90, sp: 70},
@@ -11240,12 +11247,26 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Rock Head'},
     otherFormes: ['Swampert-Wartime-Mega'],
   },
+  'Swampert-Wartime-Mega': {
+    types: ['Rock', 'Dark'],
+    bs: {hp: 110, at: 150, df: 120, sa: 65, sd: 120, sp: 70},
+    weightkg: 102,
+    abilities: {0: 'Noctem Boost'},
+    baseSpecies: 'Swampert-Wartime',
+  },
   'Blaziken-Wartime': {
     types: ['Flying', 'Psychic'],
     bs: {hp: 80, at: 65, df: 70, sa: 125, sd: 75, sp: 110},
     weightkg: 52,
     abilities: {0: 'Compound Eyes'},
     otherFormes: ['Blaziken-Wartime-Mega'],
+  },
+  'Blaziken-Wartime-Mega': {
+    types: ['Flying', 'Psychic'],
+    bs: {hp: 80, at: 65, df: 98, sa: 165, sd: 95, sp: 130},
+    weightkg: 52,
+    abilities: {0: 'Screen Cleaner'},
+    baseSpecies: 'Blaziken-Wartime',
   },
   'Carvanha-Wartime': {
     types: ['Fire'],
@@ -11846,6 +11867,13 @@ const HEGEMONY_PATCH = {
     abilities: {0: 'Intimidate'},
     otherFormes: ['Sharpedo-Wartime-Mega'],
   },
+  'Sharpedo-Wartime-Mega': {
+    types: ['Water', 'Dark'],
+    bs: {hp: 70, at: 140, df: 70, sa: 110, sd: 65, sp: 105},
+    weightkg: 130.3,
+    abilities: {0: 'Magic Guard'},
+    baseSpecies: 'Sharpedo-Wartime',
+  },
   'Swablu-Wartime': {
     types: ['Normal', 'Ghost'],
     bs: {hp: 65, at: 20, df: 50, sa: 60, sd: 65, sp: 50},
@@ -11927,6 +11955,27 @@ const HEGEMONY_PATCH = {
     weightkg: 55,
     abilities: {0: 'Intimidate'},
     otherFormes: ['Infernape-Wartime-Mega'],
+  },
+  'Torterra-Wartime-Mega': {
+    types: ['Grass', 'Ground'],
+    bs: {hp: 95, at: 139, df: 105, sa: 105, sd: 105, sp: 76},
+    weightkg: 102,
+    abilities: {0: 'Earth Eater'},
+    baseSpecies: 'Torterra-Wartime',
+  },
+  'Infernape-Wartime-Mega': {
+    types: ['Fire', 'Fighting'],
+    bs: {hp: 76, at: 119, df: 101, sa: 119, sd: 101, sp: 118},
+    weightkg: 102,
+    abilities: {0: 'Gorilla Tactics'},
+    baseSpecies: 'Infernape-Wartime',
+  },
+  'Empoleon-Wartime-Mega': {
+    types: ['Water', 'Steel'],
+    bs: {hp: 84, at: 121, df: 73, sa: 146, sd: 86, sp: 120},
+    weightkg: 102,
+    abilities: {0: 'Scaler'},
+    baseSpecies: 'Empoleon-Wartime',
   },
   'Blastoise-Wartime': {
     types: ['Psychic','Steel'],
