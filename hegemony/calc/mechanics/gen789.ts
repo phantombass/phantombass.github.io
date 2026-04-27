@@ -96,7 +96,7 @@ export function calculateSMSSSV(
   }
 
   const breaksProtect = move.breaksProtect || move.isZ || attacker.isDynamaxed ||
-  (attacker.hasAbility('Unseen Fist') && move.flags.contact);
+  (attacker.hasAbility('Unseen Fist','Piercing Drill') && move.flags.contact);
 
   if (field.defenderSide.isProtected && !breaksProtect) {
     desc.isProtected = true;
@@ -208,6 +208,7 @@ export function calculateSMSSSV(
   let isNormalize = false;
   let isEntymate = false;
   let isStellarize = false;
+  let isDragonize = false;
   const noTypeChange = move.named(
     'Revelation Dance',
     'Judgment',
@@ -235,10 +236,12 @@ export function calculateSMSSSV(
       type = 'Cosmic';
     } else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
       type = 'Ice';
+    } else if ((isDragonize = attacker.hasAbility('Dragonize') && normal)) {
+      type = 'Dragon';
     } else if ((isNormalize = attacker.hasAbility('Normalize'))) { // Boosts any type
       type = 'Normal';
     }
-    if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isEntymate || isStellarize) {
+    if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isEntymate || isStellarize || isDragonize) {
       desc.attackerAbility = attacker.ability;
       hasAteAbilityTypeChange = true;
     } else if (isLiquidVoice) {
@@ -829,13 +832,13 @@ export function calculateBasePowerSMSSSV(
     break;
   case 'Weather Shot':
     basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
-    if (field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') &&
+    if ((field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') || attacker.hasAbility('Mega Sol')) &&
       attacker.hasItem('Utility Umbrella')) basePower = move.bp;
     desc.moveBP = basePower;
     break;
   case 'Tempest Rage':
     basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
-    if (field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') &&
+    if ((field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') || attacker.hasAbility('Mega Sol')) &&
       attacker.hasItem('Utility Umbrella')) basePower = move.bp;
     desc.moveBP = basePower;
     break;

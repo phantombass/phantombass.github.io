@@ -398,7 +398,11 @@ const GG = SV.concat([
   'Star Salve',
   'Sludge Rush',
   'Noctem Boost',
-  'God-like Power'
+  'God-like Power',
+  'Mega Sol',
+  'Dragonize',
+  'Spicy Spray',
+  'Piercing Drill',
   ])
 
 export const ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];

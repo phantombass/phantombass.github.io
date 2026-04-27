@@ -10801,7 +10801,7 @@ const ZA_PATCH = {
         ],
         bs: {
             hp: 75,
-            at: 52,
+            at: 50,
             df: 110,
             sa: 135,
             sd: 120,

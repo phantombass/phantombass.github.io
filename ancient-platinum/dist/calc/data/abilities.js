@@ -429,7 +429,11 @@ var GG = SV.concat([
     'Star Salve',
     'Sludge Rush',
     'Noctem Boost',
-    'God-like Power'
+    'God-like Power',
+    'Mega Sol',
+    'Dragonize',
+    'Spicy Spray',
+    'Piercing Drill',
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, GG];
 var Abilities = (function () {

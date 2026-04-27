@@ -5049,7 +5049,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Camerupt: {otherFormes: ['Camerupt-Mega']},
   Charizard: {otherFormes: ['Charizard-Mega-X', 'Charizard-Mega-Y']},
   Chatot: {otherFormes: ['Chatot-Mega']},
-  Chimecho: {types: ['Psychic','Fairy'], otherFormes: ['Chimecho-Mega']},
+  Chimecho: {types: ['Psychic','Fairy'], otherFormes: ['Chimecho-Mega-Z']},
   Clefable: {types: ['Fairy'], bs: {sa: 95}},
   Clefairy: {types: ['Fairy']},
   Cleffa: {types: ['Fairy']},
@@ -5870,9 +5870,9 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Thick Fat'},
     baseSpecies: 'Venusaur',
   },
-  'Chimecho-Mega': {
+  'Chimecho-Mega-Z': {
     types: ['Psychic', 'Fairy'],
-    bs: {hp: 95, at: 50, df: 120, sa: 145, sd: 120, sp: 95},
+    bs: {hp: 85, at: 24, df: 110, sa: 145, sd: 110, sp: 151},
     weightkg: 102,
     abilities: {0: 'Pixilate'},
     baseSpecies: 'Chimecho',
@@ -11008,7 +11008,905 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
 };
 
-const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH);
+const ZA_PATCH = {
+    Barbaracle: { otherFormes: ['Barbaracle-Mega'] },
+    Chandelure: { otherFormes: ['Chandelure-Mega'] },
+    Chesnaught: { otherFormes: ['Chesnaught-Mega'] },
+    Clefable: { otherFormes: ['Clefable-Mega'] },
+    Delphox: { otherFormes: ['Delphox-Mega'] },
+    Dragalge: { otherFormes: ['Dragalge-Mega'] },
+    Dragonite: { otherFormes: ['Dragonite-Mega'] },
+    Drampa: { otherFormes: ['Drampa-Mega'] },
+    Eelektross: { otherFormes: ['Eelektross-Mega'] },
+    Emboar: { otherFormes: ['Emboar-Mega'] },
+    Excadrill: { otherFormes: ['Excadrill-Mega'] },
+    Falinks: { otherFormes: ['Falinks-Mega'] },
+    Feraligatr: { otherFormes: ['Feraligatr-Mega'] },
+    Floette: { otherFormes: ['Floette-Eternal', 'Floette-Mega'] },
+    Froslass: { otherFormes: ['Froslass-Mega'] },
+    Greninja: { otherFormes: ['Greninja-Ash', 'Greninja-Bond', 'Greninja-Mega'] },
+    Hawlucha: { otherFormes: ['Hawlucha-Mega'] },
+    Malamar: { otherFormes: ['Malamar-Mega'] },
+    Meganium: { otherFormes: ['Meganium-Mega'] },
+    Pyroar: { otherFormes: ['Pyroar-Mega'] },
+    Scolipede: { otherFormes: ['Scolipede-Mega'] },
+    Scrafty: { otherFormes: ['Scrafty-Mega'] },
+    Skarmory: { otherFormes: ['Skarmory-Mega'] },
+    Starmie: { otherFormes: ['Starmie-Mega'] },
+    Victreebel: { otherFormes: ['Victreebel-Mega'] },
+    Chimecho: { otherFormes: ['Chimecho-Mega','Chimecho-Mega-Z'] },
+    Raichu: { otherFormes: ['Raichu-Alola', 'Raichu-Mega-X', 'Raichu-Mega-Y'] },
+    Absol: { otherFormes: ['Absol-Mega', 'Absol-Mega-Z'] },
+    Lucario: { otherFormes: ['Lucario-Mega', 'Lucario-Mega-Z'] },
+    Garchomp: { otherFormes: ['Garchomp-Mega', 'Garchomp-Mega-Z'] },
+    Staraptor: { otherFormes: ['Staraptor-Mega'] },
+    Heatran: { otherFormes: ['Heatran-Mega'] },
+    Darkrai: { otherFormes: ['Darkrai-Mega'] },
+    Golurk: { otherFormes: ['Golurk-Mega'] },
+    Meowstic: { otherFormes: ['Meowstic-F', 'Meowstic-Mega'] },
+    Crabominable: { otherFormes: ['Crabominable-Mega'] },
+    Golisopod: { otherFormes: ['Golisopod-Mega'] },
+    Magearna: { otherFormes: ['Magearna-Original', 'Magearna-Mega'] },
+    Zeraora: { otherFormes: ['Zeraora-Mega'] },
+    Scovillain: { otherFormes: ['Scovillain-Mega'] },
+    Glimmora: { otherFormes: ['Glimmora-Mega'] },
+    Tatsugiri: { otherFormes: ['Tatsugiri-Mega'] },
+    Baxcalibur: { otherFormes: ['Baxcalibur-Mega'] },
+    Zygarde: { otherFormes: ['Zygarde-10%', 'Zygarde-Complete', 'Zygarde-Mega'] },
+    'Barbaracle-Mega': {
+        types: [
+            'Rock',
+            'Fighting',
+        ],
+        bs: {
+            hp: 72,
+            at: 140,
+            df: 130,
+            sa: 64,
+            sd: 106,
+            sp: 88
+        },
+        weightkg: 100.0,
+        abilities: {
+            '0': 'Tough Claws'
+        },
+        baseSpecies: 'Barbaracle'
+    },
+    'Chandelure-Mega': {
+        types: [
+            'Ghost',
+            'Fire',
+        ],
+        bs: {
+            hp: 60,
+            at: 75,
+            df: 110,
+            sa: 175,
+            sd: 110,
+            sp: 90
+        },
+        weightkg: 69.6,
+        abilities: {
+            '0': 'Infiltrator'
+        },
+        baseSpecies: 'Chandelure'
+    },
+    'Chesnaught-Mega': {
+        types: [
+            'Grass',
+            'Fighting',
+        ],
+        bs: {
+            hp: 88,
+            at: 137,
+            df: 172,
+            sa: 74,
+            sd: 115,
+            sp: 44
+        },
+        weightkg: 90.0,
+        abilities: {
+            '0': 'Bulletproof'
+        },
+        baseSpecies: 'Chesnaught'
+    },
+    'Clefable-Mega': {
+        types: [
+            'Fairy',
+            'Flying',
+        ],
+        bs: {
+            hp: 95,
+            at: 80,
+            df: 93,
+            sa: 135,
+            sd: 110,
+            sp: 70
+        },
+        weightkg: 42.3,
+        abilities: {
+            '0': 'Magic Bounce'
+        },
+        baseSpecies: 'Clefable'
+    },
+    'Delphox-Mega': {
+        types: [
+            'Fire',
+            'Psychic',
+        ],
+        bs: {
+            hp: 75,
+            at: 69,
+            df: 72,
+            sa: 159,
+            sd: 125,
+            sp: 134
+        },
+        weightkg: 39.0,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Delphox'
+    },
+    'Dragalge-Mega': {
+        types: [
+            'Poison',
+            'Dragon',
+        ],
+        bs: {
+            hp: 65,
+            at: 85,
+            df: 105,
+            sa: 132,
+            sd: 163,
+            sp: 44
+        },
+        weightkg: 100.3,
+        abilities: {
+            '0': 'Regenerator'
+        },
+        baseSpecies: 'Dragalge'
+    },
+    'Dragonite-Mega': {
+        types: [
+            'Dragon',
+            'Flying',
+        ],
+        bs: {
+            hp: 91,
+            at: 124,
+            df: 115,
+            sa: 145,
+            sd: 125,
+            sp: 100
+        },
+        weightkg: 290.0,
+        abilities: {
+            '0': 'Multiscale'
+        },
+        baseSpecies: 'Dragonite'
+    },
+    'Drampa-Mega': {
+        types: [
+            'Normal',
+            'Dragon',
+        ],
+        bs: {
+            hp: 78,
+            at: 85,
+            df: 110,
+            sa: 160,
+            sd: 116,
+            sp: 36
+        },
+        weightkg: 185,
+        abilities: {
+            '0': 'Berserk'
+        },
+        baseSpecies: 'Drampa'
+    },
+    'Eelektross-Mega': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 85,
+            at: 145,
+            df: 80,
+            sa: 135,
+            sd: 90,
+            sp: 80
+        },
+        weightkg: 160.0,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Eelektross'
+    },
+    'Emboar-Mega': {
+        types: [
+            'Fire',
+            'Fighting',
+        ],
+        bs: {
+            hp: 110,
+            at: 148,
+            df: 75,
+            sa: 110,
+            sd: 110,
+            sp: 75
+        },
+        weightkg: 180.3,
+        abilities: {
+            '0': 'Mold Breaker'
+        },
+        baseSpecies: 'Emboar'
+    },
+    'Excadrill-Mega': {
+        types: [
+            'Ground',
+            'Steel',
+        ],
+        bs: {
+            hp: 110,
+            at: 165,
+            df: 100,
+            sa: 65,
+            sd: 65,
+            sp: 103
+        },
+        weightkg: 60.0,
+        abilities: {
+            '0': 'Piercing Drill'
+        },
+        baseSpecies: 'Excadrill'
+    },
+    'Falinks-Mega': {
+        types: [
+            'Fighting',
+            'Normal'
+        ],
+        bs: {
+            hp: 65,
+            at: 135,
+            df: 135,
+            sa: 70,
+            sd: 65,
+            sp: 100
+        },
+        weightkg: 99.0,
+        abilities: {
+            '0': 'Skill Link'
+        },
+        gender: 'N',
+        baseSpecies: 'Falinks'
+    },
+    'Feraligatr-Mega': {
+        types: [
+            'Water',
+            'Dragon',
+        ],
+        bs: {
+            hp: 85,
+            at: 160,
+            df: 125,
+            sa: 89,
+            sd: 93,
+            sp: 78
+        },
+        weightkg: 108.8,
+        abilities: {
+            '0': 'Dragonize'
+        },
+        baseSpecies: 'Feraligatr'
+    },
+    'Floette-Eternal': { bs: { hp: 74, at: 65, df: 67, sa: 125, sd: 128, sp: 92 } },
+    'Floette-Mega': {
+        types: [
+            'Fairy',
+        ],
+        bs: {
+            hp: 74,
+            at: 85,
+            df: 87,
+            sa: 155,
+            sd: 148,
+            sp: 102
+        },
+        weightkg: 100.8,
+        abilities: {
+            '0': 'Fairy Aura'
+        },
+        baseSpecies: 'Floette'
+    },
+    'Froslass-Mega': {
+        types: [
+            'Ice',
+            'Ghost',
+        ],
+        bs: {
+            hp: 70,
+            at: 80,
+            df: 70,
+            sa: 140,
+            sd: 100,
+            sp: 120
+        },
+        weightkg: 29.6,
+        abilities: {
+            '0': 'Snow Warning'
+        },
+        baseSpecies: 'Froslass'
+    },
+    'Greninja-Mega': {
+        types: [
+            'Water',
+            'Dark',
+        ],
+        bs: {
+            hp: 72,
+            at: 125,
+            df: 77,
+            sa: 133,
+            sd: 81,
+            sp: 142
+        },
+        weightkg: 40.0,
+        abilities: {
+            '0': 'Protean'
+        },
+        baseSpecies: 'Greninja'
+    },
+    'Hawlucha-Mega': {
+        types: [
+            'Fighting',
+            'Flying',
+        ],
+        bs: {
+            hp: 78,
+            at: 137,
+            df: 100,
+            sa: 74,
+            sd: 93,
+            sp: 118
+        },
+        weightkg: 25.0,
+        abilities: {
+            '0': 'No Guard'
+        },
+        baseSpecies: 'Hawlucha'
+    },
+    'Malamar-Mega': {
+        types: [
+            'Dark',
+            'Psychic',
+        ],
+        bs: {
+            hp: 86,
+            at: 102,
+            df: 88,
+            sa: 98,
+            sd: 120,
+            sp: 88
+        },
+        weightkg: 69.8,
+        abilities: {
+            '0': 'Contrary'
+        },
+        baseSpecies: 'Malamar'
+    },
+    'Meganium-Mega': {
+        types: [
+            'Grass',
+            'Fairy',
+        ],
+        bs: {
+            hp: 80,
+            at: 92,
+            df: 115,
+            sa: 143,
+            sd: 115,
+            sp: 80
+        },
+        weightkg: 201.0,
+        abilities: {
+            '0': 'Mega Sol'
+        },
+        baseSpecies: 'Meganium'
+    },
+    'Pyroar-Mega': {
+        types: [
+            'Fire',
+            'Normal',
+        ],
+        bs: {
+            hp: 86,
+            at: 88,
+            df: 92,
+            sa: 129,
+            sd: 86,
+            sp: 126
+        },
+        weightkg: 93.3,
+        abilities: {
+            '0': 'Lion\'s Pride'
+        },
+        baseSpecies: 'Pyroar'
+    },
+    'Scolipede-Mega': {
+        types: [
+            'Bug',
+            'Poison',
+        ],
+        bs: {
+            hp: 60,
+            at: 140,
+            df: 149,
+            sa: 75,
+            sd: 99,
+            sp: 62
+        },
+        weightkg: 230.5,
+        abilities: {
+            '0': 'Tinted Lens'
+        },
+        baseSpecies: 'Scolipede'
+    },
+    'Scrafty-Mega': {
+        types: [
+            'Dark',
+            'Fighting',
+        ],
+        bs: {
+            hp: 65,
+            at: 130,
+            df: 135,
+            sa: 55,
+            sd: 135,
+            sp: 68
+        },
+        weightkg: 31.0,
+        abilities: {
+            '0': 'Intimidate'
+        },
+        baseSpecies: 'Scrafty'
+    },
+    'Skarmory-Mega': {
+        types: [
+            'Steel',
+            'Flying',
+        ],
+        bs: {
+            hp: 65,
+            at: 140,
+            df: 110,
+            sa: 40,
+            sd: 100,
+            sp: 110
+        },
+        weightkg: 40.4,
+        abilities: {
+            '0': 'Stalwart'
+        },
+        baseSpecies: 'Skarmory'
+    },
+    'Starmie-Mega': {
+        types: [
+            'Water',
+            'Psychic',
+        ],
+        bs: {
+            hp: 60,
+            at: 100,
+            df: 105,
+            sa: 130,
+            sd: 105,
+            sp: 120
+        },
+        weightkg: 80.0,
+        abilities: {
+            '0': 'Huge Power'
+        },
+        gender: 'N',
+        baseSpecies: 'Starmie'
+    },
+    'Victreebel-Mega': {
+        types: [
+            'Grass',
+            'Poison',
+        ],
+        bs: {
+            hp: 80,
+            at: 125,
+            df: 85,
+            sa: 135,
+            sd: 95,
+            sp: 70
+        },
+        weightkg: 125.5,
+        abilities: {
+            '0': 'Innards Out'
+        },
+        baseSpecies: 'Victreebel'
+    },
+    'Zygarde-Mega': {
+        types: [
+            'Dragon',
+            'Ground',
+        ],
+        bs: {
+            hp: 216,
+            at: 70,
+            df: 91,
+            sa: 216,
+            sd: 85,
+            sp: 100
+        },
+        weightkg: 610,
+        abilities: {
+            '0': 'Aura Break'
+        },
+        gender: 'N',
+        baseSpecies: 'Zygarde'
+    },
+    'Chimecho-Mega': {
+        types: [
+            'Psychic',
+            'Steel',
+        ],
+        bs: {
+            hp: 85,
+            at: 50,
+            df: 110,
+            sa: 135,
+            sd: 120,
+            sp: 65
+        },
+        weightkg: 8,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Chimecho'
+    },
+    'Raichu-Mega-X': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 60,
+            at: 135,
+            df: 95,
+            sa: 90,
+            sd: 95,
+            sp: 110
+        },
+        weightkg: 38,
+        abilities: {
+            '0': 'Levitate'
+        },
+        baseSpecies: 'Raichu'
+    },
+    'Raichu-Mega-Y': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 60,
+            at: 100,
+            df: 55,
+            sa: 160,
+            sd: 80,
+            sp: 130
+        },
+        weightkg: 26,
+        abilities: {
+            '0': 'Transistor'
+        },
+        baseSpecies: 'Raichu'
+    },
+    'Absol-Mega-Z': {
+        types: [
+            'Dark',
+            'Ghost'
+        ],
+        bs: {
+            hp: 65,
+            at: 154,
+            df: 60,
+            sa: 75,
+            sd: 60,
+            sp: 151
+        },
+        weightkg: 49,
+        abilities: {
+            '0': 'Sharpness'
+        },
+        baseSpecies: 'Absol'
+    },
+    'Garchomp-Mega-Z': {
+        types: [
+            'Dragon'
+        ],
+        bs: {
+            hp: 108,
+            at: 130,
+            df: 85,
+            sa: 141,
+            sd: 85,
+            sp: 151
+        },
+        weightkg: 99,
+        abilities: {
+            '0': 'Rough Skin'
+        },
+        baseSpecies: 'Garchomp'
+    },
+    'Lucario-Mega-Z': {
+        types: [
+            'Fighting',
+            'Steel'
+        ],
+        bs: {
+            hp: 70,
+            at: 100,
+            df: 70,
+            sa: 164,
+            sd: 70,
+            sp: 151
+        },
+        weightkg: 49.4,
+        abilities: {
+            '0': 'Mind\'s Eye'
+        },
+        baseSpecies: 'Lucario'
+    },
+    'Staraptor-Mega': {
+        types: [
+            'Fighting',
+            'Flying',
+        ],
+        bs: {
+            hp: 85,
+            at: 140,
+            df: 100,
+            sa: 60,
+            sd: 90,
+            sp: 110
+        },
+        weightkg: 50,
+        abilities: {
+            '0': 'Tough Claws'
+        },
+        baseSpecies: 'Staraptor'
+    },
+    'Heatran-Mega': {
+        types: [
+            'Fire',
+            'Steel',
+        ],
+        bs: {
+            hp: 91,
+            at: 120,
+            df: 106,
+            sa: 175,
+            sd: 141,
+            sp: 67
+        },
+        weightkg: 570,
+        abilities: {
+            '0': 'Filter'
+        },
+        baseSpecies: 'Heatran'
+    },
+    'Darkrai-Mega': {
+        types: [
+            'Dark',
+        ],
+        bs: {
+            hp: 70,
+            at: 120,
+            df: 130,
+            sa: 165,
+            sd: 130,
+            sp: 85
+        },
+        weightkg: 240,
+        abilities: {
+            '0': 'Dark Aura'
+        },
+        baseSpecies: 'Darkrai'
+    },
+    'Golurk-Mega': {
+        types: [
+            'Ground',
+            'Ghost',
+        ],
+        bs: {
+            hp: 89,
+            at: 159,
+            df: 105,
+            sa: 70,
+            sd: 105,
+            sp: 55
+        },
+        weightkg: 330,
+        abilities: {
+            '0': 'Unseen Fist'
+        },
+        baseSpecies: 'Golurk'
+    },
+    'Meowstic-Mega': {
+        types: [
+            'Psychic',
+        ],
+        bs: {
+            hp: 74,
+            at: 48,
+            df: 76,
+            sa: 143,
+            sd: 101,
+            sp: 124
+        },
+        weightkg: 10.1,
+        abilities: {
+            '0': 'Psychic Surge'
+        },
+        baseSpecies: 'Meowstic'
+    },
+    'Crabominable-Mega': {
+        types: [
+            'Fighting',
+            'Ice',
+        ],
+        bs: {
+            hp: 97,
+            at: 157,
+            df: 122,
+            sa: 65,
+            sd: 107,
+            sp: 33
+        },
+        weightkg: 252.8,
+        abilities: {
+            '0': 'Iron Fist'
+        },
+        baseSpecies: 'Crabominable'
+    },
+    'Golisopod-Mega': {
+        types: [
+            'Bug',
+            'Steel',
+        ],
+        bs: {
+            hp: 75,
+            at: 150,
+            df: 175,
+            sa: 70,
+            sd: 120,
+            sp: 40
+        },
+        weightkg: 148,
+        abilities: {
+            '0': 'Heatproof'
+        },
+        baseSpecies: 'Golisopod'
+    },
+    'Magearna-Mega': {
+        types: [
+            'Steel',
+            'Fairy',
+        ],
+        bs: {
+            hp: 80,
+            at: 125,
+            df: 115,
+            sa: 170,
+            sd: 115,
+            sp: 95
+        },
+        weightkg: 248.1,
+        abilities: {
+            '0': 'Soul-Heart'
+        },
+        baseSpecies: 'Magearna'
+    },
+    'Zeraora-Mega': {
+        types: [
+            'Electric',
+        ],
+        bs: {
+            hp: 88,
+            at: 157,
+            df: 75,
+            sa: 147,
+            sd: 80,
+            sp: 153
+        },
+        weightkg: 44.5,
+        abilities: {
+            '0': 'Volt Absorb'
+        },
+        baseSpecies: 'Zeraora'
+    },
+    'Scovillain-Mega': {
+        types: [
+            'Grass',
+            'Fire',
+        ],
+        bs: {
+            hp: 65,
+            at: 138,
+            df: 85,
+            sa: 138,
+            sd: 85,
+            sp: 75
+        },
+        weightkg: 22,
+        abilities: {
+            '0': 'Spicy Spray'
+        },
+        baseSpecies: 'Scovillain'
+    },
+    'Glimmora-Mega': {
+        types: [
+            'Rock',
+            'Poison',
+        ],
+        bs: {
+            hp: 83,
+            at: 90,
+            df: 105,
+            sa: 150,
+            sd: 96,
+            sp: 101
+        },
+        weightkg: 77,
+        abilities: {
+            '0': 'Adaptability'
+        },
+        baseSpecies: 'Glimmora'
+    },
+    'Tatsugiri-Mega': {
+        types: [
+            'Dragon',
+            'Water',
+        ],
+        bs: {
+            hp: 68,
+            at: 65,
+            df: 90,
+            sa: 135,
+            sd: 125,
+            sp: 92
+        },
+        weightkg: 24,
+        abilities: {
+            '0': 'Storm Drain'
+        },
+        baseSpecies: 'Tatsugiri'
+    },
+    'Baxcalibur-Mega': {
+        types: [
+            'Ice',
+            'Dragon',
+        ],
+        bs: {
+            hp: 115,
+            at: 175,
+            df: 117,
+            sa: 105,
+            sd: 101,
+            sp: 87
+        },
+        weightkg: 315,
+        abilities: {
+            '0': 'Thermal Exchange'
+        },
+        baseSpecies: 'Baxcalibur'
+    }
+};
+
+const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, ZA_PATCH);
 
 export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SV];
 

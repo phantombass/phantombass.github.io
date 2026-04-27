@@ -42,7 +42,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         return result;
     }
     var breaksProtect = move.breaksProtect || move.isZ || attacker.isDynamaxed ||
-        (attacker.hasAbility('Unseen Fist') && move.flags.contact);
+        (attacker.hasAbility('Unseen Fist', 'Piercing Drill') && move.flags.contact);
     if (field.defenderSide.isProtected && !breaksProtect) {
         desc.isProtected = true;
         return result;
@@ -142,6 +142,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isNormalize = false;
     var isEntymate = false;
     var isStellarize = false;
+    var isDragonize = false;
     var noTypeChange = move.named('Revelation Dance', 'Judgment', 'Nature Power', 'Techno Blast', 'Multi Attack', 'Natural Gift', 'Weather Ball', 'Terrain Pulse') || (move.named('Tera Blast') && attacker.teraType);
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
@@ -166,10 +167,13 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
             type = 'Ice';
         }
+        else if ((isDragonize = attacker.hasAbility('Dragonize') && normal)) {
+            type = 'Dragon';
+        }
         else if ((isNormalize = attacker.hasAbility('Normalize'))) {
             type = 'Normal';
         }
-        if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isEntymate || isStellarize) {
+        if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isEntymate || isStellarize || isDragonize) {
             desc.attackerAbility = attacker.ability;
             hasAteAbilityTypeChange = true;
         }
@@ -627,14 +631,14 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             break;
         case 'Weather Shot':
             basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
-            if (field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') &&
+            if ((field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') || attacker.hasAbility('Mega Sol')) &&
                 attacker.hasItem('Utility Umbrella'))
                 basePower = move.bp;
             desc.moveBP = basePower;
             break;
         case 'Tempest Rage':
             basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
-            if (field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') &&
+            if ((field.hasWeather('Sun', 'Harsh Sunshine', 'Rain', 'Heavy Rain') || attacker.hasAbility('Mega Sol')) &&
                 attacker.hasItem('Utility Umbrella'))
                 basePower = move.bp;
             desc.moveBP = basePower;
