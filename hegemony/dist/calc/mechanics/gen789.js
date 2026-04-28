@@ -108,7 +108,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     else if (move.named('Ivy Cudgel') && attacker.item && attacker.item.includes('Mask')) {
         type = attacker.types[0];
     }
-    else if (move.named('Revelation Dance')) {
+    else if (move.named('Revelation Dance', 'Snap Trap')) {
         type = attacker.types[0];
     }
     else if (move.named('Aura Wheel')) {

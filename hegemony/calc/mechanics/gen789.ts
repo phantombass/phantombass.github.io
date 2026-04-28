@@ -179,7 +179,7 @@ export function calculateSMSSSV(
     desc.moveType = type;
   } else if (move.named('Ivy Cudgel') && attacker.item && attacker.item.includes('Mask')) {
     type = attacker.types[0];
-  } else if (move.named('Revelation Dance')) {
+  } else if (move.named('Revelation Dance','Snap Trap')) {
     type = attacker.types[0];
   } else if (move.named('Aura Wheel')) {
     if (attacker.named('Morpeko')) {
