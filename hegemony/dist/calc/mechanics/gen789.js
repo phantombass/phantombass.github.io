@@ -378,9 +378,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
-            : move.category === 'Special'
-                ? 'spa'
-                : 'atk';
+            : move.named('Terraform')
+                ? 'spd'
+                : move.category === 'Special'
+                    ? 'spa'
+                    : 'atk';
     var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
     var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' || (move.flags.sound && attacker.hasAbility('Vocal Fry')) ||
         (move.named('Shell Side Arm') && (0, util_mech_1.getShellSideArmCategory)(attacker, defender) === 'Physical');
@@ -974,9 +976,11 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
-            : move.category === 'Special'
-                ? 'spa'
-                : 'atk';
+            : move.named('Terraform')
+                ? 'spd'
+                : move.category === 'Special'
+                    ? 'spa'
+                    : 'atk';
     desc.attackEVs =
         move.named('Foul Play')
             ? (0, util_mech_1.getEVDescriptionText)(gen, defender, attackStat, defender.nature)

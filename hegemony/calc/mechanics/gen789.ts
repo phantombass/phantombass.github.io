@@ -526,6 +526,8 @@ export function calculateSMSSSV(
       ? 'atk'
       : move.named('Body Press')
         ? 'def'
+        : move.named('Terraform')
+        ? 'spd'
         : move.category === 'Special'
           ? 'spa'
           : 'atk';
@@ -1263,6 +1265,8 @@ export function calculateAttackSMSSSV(
       ? 'atk'
       : move.named('Body Press')
         ? 'def'
+        : move.named('Terraform')
+        ? 'spd'
         : move.category === 'Special'
           ? 'spa'
           : 'atk';
