@@ -274,7 +274,7 @@ var GSC_PATCH = {
     'Triple Kick': { bp: 10, type: 'Fighting', multihit: [1, 3] },
     Twister: { bp: 40, type: 'Dragon' },
     'Ancient Power': { bp: 60, type: 'Rock' },
-    'Bone Rush': { bp: 25, type: 'Ground', multihit: [2, 5] },
+    'Bone Rush': { bp: 30, type: 'Ground', multihit: [2, 5] },
     Crunch: { bp: 80, type: 'Dark' },
     'Feint Attack': { bp: 60, type: 'Dark' },
     'Giga Drain': { bp: 60, type: 'Grass', isHeal: true, drain: [1, 2] },
@@ -1594,7 +1594,7 @@ var BW_PATCH = {
         secondaries: true
     },
     'Night Daze': {
-        bp: 85,
+        bp: 90,
         type: 'Dark',
         category: 'Special',
         secondaries: true
@@ -2390,7 +2390,7 @@ var SM_PATCH = {
     'Baddy Bad': { bp: 90, type: 'Dark', category: 'Special', zp: 175 },
     'Baneful Bunker': { bp: 0, type: 'Poison', priority: 4 },
     'Beak Blast': {
-        bp: 100,
+        bp: 120,
         type: 'Flying',
         category: 'Physical',
         isBullet: true,
@@ -2652,7 +2652,7 @@ var SM_PATCH = {
         zp: 160
     },
     'Fire Lash': {
-        bp: 80,
+        bp: 90,
         type: 'Fire',
         makesContact: true,
         category: 'Physical',
@@ -2660,7 +2660,7 @@ var SM_PATCH = {
         zp: 160
     },
     'First Impression': {
-        bp: 90,
+        bp: 100,
         type: 'Bug',
         priority: 2,
         makesContact: true,
@@ -2773,7 +2773,7 @@ var SM_PATCH = {
     },
     'Speed Swap': { bp: 0, type: 'Psychic' },
     'Spirit Shackle': {
-        bp: 80,
+        bp: 90,
         type: 'Ghost',
         category: 'Physical',
         secondaries: true,
@@ -2804,7 +2804,7 @@ var SM_PATCH = {
     },
     'Tearful Look': { bp: 0, type: 'Normal' },
     'Trop Kick': {
-        bp: 70,
+        bp: 85,
         type: 'Grass',
         makesContact: true,
         category: 'Physical',
@@ -2830,7 +2830,7 @@ var SM_PATCH = {
 var SM = (0, util_1.extend)(true, {}, XY, SM_PATCH);
 var SS_PATCH = {
     'Apple Acid': {
-        bp: 80,
+        bp: 90,
         type: 'Grass',
         category: 'Special',
         secondaries: true,
@@ -3280,7 +3280,7 @@ var SS_PATCH = {
         maxPower: 120
     },
     'Grav Apple': {
-        bp: 80,
+        bp: 90,
         type: 'Grass',
         category: 'Physical',
         secondaries: true,
@@ -4442,7 +4442,7 @@ var SV_PATCH = {
         makesContact: true
     },
     'Infernal Parade': {
-        bp: 60,
+        bp: 65,
         type: 'Ghost',
         category: 'Special',
         zp: 120,
@@ -4516,7 +4516,7 @@ var SV_PATCH = {
         target: 'allAdjacentFoes'
     },
     'Mountain Gale': {
-        bp: 100,
+        bp: 120,
         type: 'Ice',
         category: 'Physical',
         zp: 180,
@@ -4524,7 +4524,7 @@ var SV_PATCH = {
         secondaries: true
     },
     'Mystical Power': {
-        bp: 70,
+        bp: 85,
         type: 'Psychic',
         category: 'Special',
         zp: 140,
@@ -4572,7 +4572,7 @@ var SV_PATCH = {
         category: 'Status'
     },
     'Psyshield Bash': {
-        bp: 70,
+        bp: 90,
         type: 'Psychic',
         category: 'Physical',
         zp: 140,
@@ -5242,7 +5242,7 @@ var SV_PATCH = {
         isHeal: true
     },
     'Syrup Bomb': {
-        bp: 60,
+        bp: 70,
         type: 'Grass',
         category: 'Special',
         isBullet: true
@@ -5369,8 +5369,8 @@ var SV_PATCH = {
     },
     'Static Surge': { bp: 0, category: 'Status', type: 'Electric' },
     'Deep Freeze': { bp: 0, category: 'Status', type: 'Ice' },
-    'Weather Shot': { bp: 30, type: 'Normal' },
-    'Tempest Rage': { bp: 65, type: 'Normal' },
+    'Weather Shot': { bp: 30, type: 'Normal', category: 'Special' },
+    'Tempest Rage': { bp: 65, type: 'Normal', category: 'Special' },
     Hammerang: {
         bp: 50,
         type: 'Ice',
@@ -5386,6 +5386,19 @@ var SV_PATCH = {
         isBite: true,
         category: 'Physical',
         zp: 160
+    },
+    'Terraform': {
+        bp: 80,
+        type: 'Ground',
+        category: 'Special',
+        overrideOffensiveStat: 'spd',
+        zp: 160,
+        maxPower: 90
+    },
+    'Reign of Terror': {
+        bp: 85,
+        type: 'Cosmic',
+        category: 'Special'
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);

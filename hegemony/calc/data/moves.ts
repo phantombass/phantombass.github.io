@@ -282,7 +282,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Triple Kick': {bp: 10, type: 'Fighting', multihit: [1, 3]},
   Twister: {bp: 40, type: 'Dragon'},
   'Ancient Power': {bp: 60, type: 'Rock'},
-  'Bone Rush': {bp: 25, type: 'Ground', multihit: [2, 5]},
+  'Bone Rush': {bp: 30, type: 'Ground', multihit: [2, 5]},
   Crunch: {bp: 80, type: 'Dark'},
   'Feint Attack': {bp: 60, type: 'Dark'},
   'Giga Drain': {bp: 60, type: 'Grass', isHeal: true, drain:  [1, 2]},
@@ -1608,7 +1608,7 @@ const BW_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
   },
   'Night Daze': {
-    bp: 85,
+    bp: 90,
     type: 'Dark',
     category: 'Special',
     secondaries: true,
@@ -2409,7 +2409,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Baddy Bad': {bp: 90, type: 'Dark', category: 'Special', zp: 175},
   'Baneful Bunker': {bp: 0, type: 'Poison', priority: 4},
   'Beak Blast': {
-    bp: 100,
+    bp: 120,
     type: 'Flying',
     category: 'Physical',
     isBullet: true,
@@ -2671,7 +2671,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 160,
   },
   'Fire Lash': {
-    bp: 80,
+    bp: 90,
     type: 'Fire',
     makesContact: true,
     category: 'Physical',
@@ -2679,7 +2679,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 160,
   },
   'First Impression': {
-    bp: 90,
+    bp: 100,
     type: 'Bug',
     priority: 2,
     makesContact: true,
@@ -2792,7 +2792,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   },
   'Speed Swap': {bp: 0, type: 'Psychic'},
   'Spirit Shackle': {
-    bp: 80,
+    bp: 90,
     type: 'Ghost',
     category: 'Physical',
     secondaries: true,
@@ -2823,7 +2823,7 @@ const SM_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   },
   'Tearful Look': {bp: 0, type: 'Normal'},
   'Trop Kick': {
-    bp: 70,
+    bp: 85,
     type: 'Grass',
     makesContact: true,
     category: 'Physical',
@@ -2851,7 +2851,7 @@ const SM: {[name: string]: MoveData} = extend(true, {}, XY, SM_PATCH);
 
 const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Apple Acid': {
-    bp: 80,
+    bp: 90,
     type: 'Grass',
     category: 'Special',
     secondaries: true,
@@ -3301,7 +3301,7 @@ const SS_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 120,
   },
   'Grav Apple': {
-    bp: 80,
+    bp: 90,
     type: 'Grass',
     category: 'Physical',
     secondaries: true,
@@ -4465,7 +4465,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     makesContact: true,
   },
   'Infernal Parade': {
-    bp: 60,
+    bp: 65,
     type: 'Ghost',
     category: 'Special',
     zp: 120,
@@ -4540,7 +4540,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     target: 'allAdjacentFoes',
   },
   'Mountain Gale': {
-    bp: 100,
+    bp: 120,
     type: 'Ice',
     category: 'Physical',
     zp: 180,
@@ -4548,7 +4548,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     secondaries: true,
   },
   'Mystical Power': {
-    bp: 70,
+    bp: 85,
     type: 'Psychic',
     category: 'Special',
     zp: 140,
@@ -4597,7 +4597,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Status',
   },
   'Psyshield Bash': {
-    bp: 70,
+    bp: 90,
     type: 'Psychic',
     category: 'Physical',
     zp: 140,
@@ -5268,7 +5268,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isHeal: true,
   },
   'Syrup Bomb': {
-    bp: 60,
+    bp: 70,
     type: 'Grass',
     category: 'Special',
     isBullet: true,
@@ -5395,8 +5395,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   },
   'Static Surge': {bp: 0, category: 'Status', type: 'Electric'},
   'Deep Freeze': {bp: 0, category: 'Status', type: 'Ice'},
-  'Weather Shot': {bp: 30, type: 'Normal'},
-  'Tempest Rage': {bp: 65, type: 'Normal'},
+  'Weather Shot': {bp: 30, type: 'Normal',category:'Special'},
+  'Tempest Rage': {bp: 65, type: 'Normal',category:'Special'},
   Hammerang: {
     bp: 50,
     type: 'Ice',
@@ -5412,6 +5412,19 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     isBite: true,
     category: 'Physical',
     zp: 160,
+  },
+  'Terraform': {
+    bp: 80,
+    type: 'Ground',
+    category: 'Special',
+    overrideOffensiveStat: 'spd',
+    zp: 160,
+    maxPower: 90,
+  },
+  'Reign of Terror': {
+    bp: 85,
+    type: 'Cosmic',
+    category: 'Special',
   },
 };
 
